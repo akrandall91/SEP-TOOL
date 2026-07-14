@@ -5,11 +5,8 @@
    is a data-swap, not a rewrite. */
 
 const BASE = "../";
-
-async function loadJson(path) {
-  const res = await fetch(BASE + "data/" + path);
-  return res.json();
-}
+// loadJson(filename, base) is shared — see assets/js/components.js. It prefers a
+// build-time-baked <script type="application/json"> block over fetch().
 
 function fmt(n) { return Math.round(n).toLocaleString(); }
 
@@ -77,9 +74,9 @@ function renderWhiteStreetCallout(wsl, relatedFinding, fundingData) {
 
 async function init() {
   const [departments, baseline, fundingData] = await Promise.all([
-    loadJson("departments.json"),
-    loadJson("baseline-2019.json"),
-    loadJson("funding.json"),
+    loadJson("departments.json", BASE),
+    loadJson("baseline-2019.json", BASE),
+    loadJson("funding.json", BASE),
   ]);
 
   const dept = departments.departments.find((d) => d.id === "water-resources");

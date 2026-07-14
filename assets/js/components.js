@@ -2,6 +2,29 @@
    Depends on citation.js (renderCite) being loaded first. */
 
 /**
+ * Load a data/*.json file, preferring a build-time-baked copy over a runtime fetch.
+ * build.py embeds baked files as <script type="application/json" id="baked-{name}">
+ * for any page with a BUILD:DATA marker listing them — see that script's docstring.
+ * Falls back to fetch() (relative to `base`) if no baked copy is present, so pages
+ * still work even if data/*.json was edited without re-running the build.
+ * @param {string} filename - e.g. "departments.json"
+ * @param {string} base - relative path prefix to the repo root, e.g. "../"
+ */
+async function loadJson(filename, base) {
+  const bakedId = "baked-" + filename.replace(".json", "");
+  const baked = document.getElementById(bakedId);
+  if (baked) {
+    try {
+      return JSON.parse(baked.textContent);
+    } catch (e) {
+      console.warn(`Baked data block #${bakedId} failed to parse, falling back to fetch()`, e);
+    }
+  }
+  const res = await fetch(base + "data/" + filename);
+  return res.json();
+}
+
+/**
  * Determine the goal's status-badge state from its data. This is the canonical
  * mapping used everywhere a goal/strategy status renders — do not re-derive this
  * logic ad hoc on other pages.
