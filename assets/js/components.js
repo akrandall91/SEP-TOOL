@@ -72,8 +72,8 @@ function fundingBadgeHtml(fundingLink) {
   if (!fundingLink.hasActiveFunding) {
     return `<span class="funding-badge funding-badge--no" title="No named grant or contract identified for this goal.">$ No funding identified</span>`;
   }
-  const isExternal = fundingLink.correctedInStep3 || (typeof fundingLink.linkedTo === "string" && false);
-  const cls = isExternal ? "funding-badge--external" : "funding-badge--yes";
+  const isExternal = !!fundingLink.correctedInStep3;
+  const cls = "funding-badge " + (isExternal ? "funding-badge--external" : "funding-badge--yes");
   const label = isExternal ? "$ Externally-verified funding" : "$ Funded";
   return `<span class="${cls}" title="${(fundingLink.note || "").replace(/"/g, '&quot;')}">${label}</span>`;
 }

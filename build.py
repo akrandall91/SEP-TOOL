@@ -34,14 +34,25 @@ PARTIALS = ROOT / "partials"
 DATA_DIR = ROOT / "data"
 
 # path (relative to ROOT), nav id (must match a data-nav-id in partials/header.html)
-PAGES = [
+STATIC_PAGES = [
     ("index.html", "dashboard"),
     ("about.html", "about"),
     ("recommendations.html", "recommendations"),
     ("funding.html", "funding"),
     ("timeline.html", "timeline"),
-    ("departments/water-resources.html", "departments"),
 ]
+
+
+def discover_department_pages():
+    """Every departments/*.html gets nav id 'departments' — auto-discovered so adding a
+    new department page (via generate_departments.py) doesn't require editing this list."""
+    dept_dir = ROOT / "departments"
+    if not dept_dir.exists():
+        return []
+    return [(f"departments/{p.name}", "departments") for p in sorted(dept_dir.glob("*.html"))]
+
+
+PAGES = STATIC_PAGES + discover_department_pages()
 
 HEADER_MARKER = re.compile(r'<!-- BUILD:HEADER.*?-->.*?<!-- /BUILD:HEADER -->', re.DOTALL)
 FOOTER_MARKER = re.compile(r'<!-- BUILD:FOOTER.*?-->.*?<!-- /BUILD:FOOTER -->', re.DOTALL)
