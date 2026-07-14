@@ -1,0 +1,63 @@
+{
+  "$schema": "SEP Tracker data index — see /data/SCHEMA.md for full documentation",
+  "generatedAt": "2026-07-14",
+  "sources": [
+    {
+      "id": "sep2022",
+      "shortName": "SEP 2022",
+      "title": "Strategic Energy Plan: Pathways to 100% Renewable Energy",
+      "publisher": "City of Greensboro",
+      "date": "2022-11",
+      "dateLabel": "Final Draft, November 2022",
+      "sourceFile": "Strategic Energy Plan 2022.pdf",
+      "pages": 76
+    },
+    {
+      "id": "progress2025",
+      "shortName": "2025 Progress Report",
+      "title": "2025 Annual Progress Report & Strategic Energy Plan Implementation Year Three",
+      "publisher": "City of Greensboro, Office of Sustainability and Resilience",
+      "date": "2026-02",
+      "dateLabel": "February 2026",
+      "sourceFile": "publication.pdf",
+      "pages": 16
+    }
+  ],
+  "reportCadence": [
+    { "label": "Resolution 19-0770 adopted", "date": "2019-12-03", "citation": { "source": "sep2022", "page": [68, 70], "note": "Appendix A" } },
+    { "label": "OSR established / first Chief Sustainability Officer hired", "date": "2022-06-01", "citation": { "source": "progress2025", "page": 7, "note": "Recommendation 1" } },
+    { "label": "Strategic Energy Plan (SEP) published", "date": "2022-11", "citation": { "source": "sep2022", "page": 1 }, "note": "Resolution required submission to Council within one year of adoption (~Dec 2020); the SEP was not finalized until Nov 2022, roughly 2 years 11 months after adoption." },
+    { "label": "First Annual Progress Report published", "date": "2024-03", "citation": { "source": "progress2025", "page": 6 } },
+    { "label": "Second Annual Progress Report", "date": null, "note": "Publication date not stated in either source document. This report ('Implementation Year Three') is described as 'the third annual progress report,' implying a second report was published in the 2024-2025 window, but its exact date is not given. Flagged as a data gap, not omitted.", "citation": { "source": "progress2025", "page": 6 } },
+    { "label": "Third Annual Progress Report (2025 Progress Report / Implementation Year Three)", "date": "2026-02", "citation": { "source": "progress2025", "page": 1 } }
+  ],
+  "files": {
+    "resolution": "resolution.json",
+    "baseline2019": "baseline-2019.json",
+    "departments": "departments.json",
+    "recommendations": "recommendations.json",
+    "directives": "directives.json",
+    "prioritizedActions": "prioritized-actions.json",
+    "funding": "funding.json",
+    "fundingLinkage": "funding-linkage.json",
+    "progress2025Misc": "progress-2025-misc.json"
+  },
+  "citationSchema": {
+    "twoDocumentCitation": {
+      "source": "'sep2022' | 'progress2025' — key into sources[] above",
+      "page": "integer, or [start,end] for a range",
+      "table": "optional: table caption as printed in the source document, e.g. 'Table 3'",
+      "note": "optional free-text clarification"
+    },
+    "externalCitation": {
+      "description": "Used for facts sourced independently of the two SEP documents — e.g. Legistar records, City press releases, live City web pages. Structurally and visually distinct from twoDocumentCitation everywhere it's rendered: it did not come from the City's own SEP reporting, so it carries different evidentiary weight and must not be presented as if it did. See SCHEMA.md 'External citations' for the rationale and every UI-rendering rule.",
+      "sourceType": "'external' (literal) — presence of this key, instead of 'source', is what distinguishes an external citation",
+      "publisher": "e.g. 'City of Greensboro / Legistar'",
+      "title": "full title of the record/document/page",
+      "legistarFileId": "optional: Legistar File # (e.g. '15-0607')",
+      "url": "direct link to the record",
+      "retrievedDate": "ISO date this tool's research retrieved/verified the fact",
+      "note": "optional free-text clarification, e.g. why it wasn't in either SEP source"
+    }
+  }
+}

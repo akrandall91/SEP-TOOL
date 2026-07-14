@@ -1,0 +1,133 @@
+{
+  "_notes": "The 2022 SEP prints strategy numbers under each Recommendation as plain 'STRATEGY 1', 'STRATEGY 2', etc. The 2025 Progress Report cross-references them in dotted Recommendation.Strategy form (e.g. '1.1', '1.2'). This file normalizes to the dotted form used for cross-referencing, noting the source's plain form.",
+  "recommendations": [
+    {
+      "number": 1, "id": "REC-1",
+      "title": "The City should establish a Sustainability Office.",
+      "evaluationMethod": "Recommendation implemented.",
+      "citation": { "source": "sep2022", "page": [30, 71] },
+      "strategies": [
+        { "number": "1.1", "text": "Approve and fund creation of a Sustainability Office." },
+        { "number": "1.2", "text": "Establish and fill Chief Sustainability Officer position." },
+        { "number": "1.3", "text": "Develop the Sustainability Office's Year 1 work plan." }
+      ],
+      "status2025": {
+        "status": "Completed",
+        "text": "Dr. S. Shree Dorestant was hired as Chief Sustainability Officer on June 1, 2022, effectively establishing the Office of Sustainability and Resilience (OSR) within the City's Executive Department. On July 1, 2023, OSR was expanded with an internal employee transfer of 10 staff positions from Engineering and Inspections, Field Operations (now Solid Waste & Recycling), Parks and Recreation, and Planning departments.",
+        "citation": { "source": "progress2025", "page": 7 }
+      }
+    },
+    {
+      "number": 2, "id": "REC-2",
+      "title": "Clean energy audit/installation/maintenance contracts will give priority to Historically Underutilized Businesses (HUBs) and Minority and Women Business Enterprises (MWBEs).",
+      "evaluationMethod": "Track applicants and contract awards for energy projects. City energy projects should mimic the process for awarding contracts to HUBs and MWBEs that the City already has in place.",
+      "citation": { "source": "sep2022", "page": [30, 71] },
+      "strategies": [
+        { "number": "2.1", "text": "Energy-focused Requests for Proposals should contain language indicating a preference to work with a HUB or an MWBE." },
+        { "number": "2.2", "text": "The City's MWBE Office will offer workshops on obtaining HUB/MWBE certification." }
+      ],
+      "status2025": {
+        "status": "Realigned",
+        "text": "In 2025, the City's MWBE Office was renamed the Office of Business Opportunity (OBO), shifting its mission from race/gender-based preference criteria to criteria prioritizing small businesses generally. Recommendation 2 and its strategies are being realigned for consistency with this restructuring.",
+        "citation": { "source": "progress2025", "page": 7 }
+      }
+    },
+    {
+      "number": 3, "id": "REC-3",
+      "title": "Ensure energy decisions are made in a way that promotes a just transition to renewable energy for all and prioritizes vulnerable communities.",
+      "evaluationMethod": "Score energy projects using a matrix for vetting energy decisions with respect to environmental justice.",
+      "citation": { "source": "sep2022", "page": [31, 71] },
+      "strategies": [
+        { "number": "3.1", "text": "Establish criteria to identify the most impacted and vulnerable communities in the City.",
+          "status2025": { "status": "Complete", "text": "The Keeping the Green in Greensboro: Tree Canopy and Equity Prioritization Project developed a GIS-based equity prioritization tool identifying and prioritizing Greensboro's most impacted and vulnerable communities. Results were curated into an ArcGIS hub site at canopy.greensboro-nc.gov, launched November 2025. Corresponds to Prioritized Action 4.", "correspondingPrioritizedAction": 4, "citation": { "source": "progress2025", "page": 8 } }
+        },
+        { "number": "3.2", "text": "Identify the most impacted and vulnerable communities." },
+        { "number": "3.3", "text": "Prioritize outreach and assistance to impacted and vulnerable communities to encourage more community participation, determine the impact of energy projects, and educate residents on energy and water conservation.",
+          "status2025": { "status": "Ongoing", "text": "OSR has started using the equity prioritization tool to prioritize outreach and assistance to impacted and vulnerable communities. Corresponds to Prioritized Action 7.", "correspondingPrioritizedAction": 7, "citation": { "source": "progress2025", "page": 8 } }
+        },
+        { "number": "3.4", "text": "Vet energy projects to ensure that negative environmental/equity consequences are not created.",
+          "status2025Note": "The 2025 report cites 'Recommendation 3, Strategy 3.4' as the basis for Prioritized Action 8, but the underlying text describing that update in the 2025 report is combined with Strategy 3.5's content — see Prioritized Action 8 in prioritized-actions.json.",
+          "correspondingPrioritizedAction": 8
+        },
+        { "number": "3.5", "text": "Prioritize vulnerable communities first in rolling out individual parts of the Energy Plan, i.e., building retrofits, new facilities, etc.",
+          "status2025": { "status": "Ongoing", "text": "OSR will prioritize tree plantings, education, and outreach efforts in communities identified as most impacted and vulnerable, and will continue to focus grant applications and energy-related projects in (or to benefit) those communities. Corresponds to Prioritized Action 8.", "correspondingPrioritizedAction": 8, "citation": { "source": "progress2025", "page": 8 } }
+        }
+      ]
+    },
+    {
+      "number": 4, "id": "REC-4",
+      "title": "All new and substantially renovated City-owned buildings will meet green building standards.",
+      "evaluationMethod": "Establish a policy requiring City-owned buildings to meet green building standards for both new construction and substantial renovation.",
+      "citation": { "source": "sep2022", "page": [31, 71] },
+      "strategies": [
+        { "number": "4.1", "text": "Use the ANSI/ASHRAE/USGBC/IES Standard 189.1, Standard for the Design of High-Performance Green Buildings except Low-Rise Residential Buildings (or a comparable standard), for all new and substantially renovated City-owned buildings." },
+        { "number": "4.2", "text": "As appropriate, decommission older buildings that are inefficient and too costly to upgrade; recycle and/or repurpose building materials to the extent feasible." },
+        { "number": "4.3", "text": "Designs for future parking decks should structurally allow for the installation of solar canopies and/or rain gardens on the top level." }
+      ],
+      "status2025": {
+        "status": "Ongoing",
+        "text": "During 2025, OSR staff reviewed Technical Review Committee sketch plans for the Greensboro Science Center Expansion Project and recommended applicable Energy Star and ISO 50000 certifications (or comparable standards). OSR also participated in project scoping for the Mitchell Water Treatment Plant Expansion and Advanced Treatment for Emerging Contaminants project, recommending the same.",
+        "citation": { "source": "progress2025", "page": 9 }
+      }
+    },
+    {
+      "number": 5, "id": "REC-5",
+      "title": "The City fleet should be comprised of zero-emission vehicles by 2040.",
+      "evaluationMethod": "Measure annual increases in zero-emission vehicles to City fleet.",
+      "citation": { "source": "sep2022", "page": [32, 71] },
+      "strategies": [
+        { "number": "5.1", "text": "Create a Sustainable Fleet Policy." }
+      ],
+      "status2025": {
+        "status": "In progress",
+        "text": "OSR received $314,150 in December 2024 from the US DOE's Energy Efficiency Conservation Block Grant program, funding a comprehensive fleet efficiency study and transition plan that began in 2025. A one-year pilot study of 100 City vehicles began in July 2025, installing telematic devices to gather data on frequency/duration of use and other operational characteristics; this will be compared with data from ~300 additional City vehicles with telematics from at least three other manufacturers, to identify a single telematic supplier for the entire fleet. Initial data suggest the study vehicles idled approximately 50% of the time their engines were running.",
+        "citation": { "source": "progress2025", "page": 9 }
+      }
+    },
+    {
+      "number": 6, "id": "REC-6",
+      "title": "Establish a policy to achieve no net loss of the tree canopy throughout the City, for improved air quality, reduced urban heat island effect, and ongoing carbon sequestration.",
+      "evaluationMethod": "(1) Baseline tree canopy survey completed and follow-up survey every five years. (2) 20-year tree canopy strategy developed.",
+      "citation": { "source": "sep2022", "page": [32, 71] },
+      "strategies": [
+        { "number": "6.1", "text": "Collaborate with Greensboro Beautiful, Sierra Club, City Planning Department, City Arborist, Housing & Neighborhood Development, the NeighborWoods Program, and other stakeholders to develop a 20-year strategy to maintain the tree canopy.",
+          "status2025": { "status": "In Progress", "text": "The CSC relaunched its Tree Canopy Taskforce to facilitate collaboration on maintaining the tree canopy. OSR held two community meetings in 2025 to share Tree Canopy Assessment data and begin the public conversation.", "citation": { "source": "progress2025", "page": 10 } }
+        },
+        { "number": "6.2", "text": "Conduct a baseline tree canopy audit, followed by an update every five years.",
+          "status2025": { "status": "Complete", "text": "The Keeping the Green in Greensboro: Tree Canopy and Equity Prioritization Project completed an updated study finding 44% of the City's land area covered by tree canopy, plus a GIS-based equity prioritization tool. Results curated into the ArcGIS hub at canopy.greensboro-nc.gov, launched November 2025.", "citation": { "source": "progress2025", "page": 10 } }
+        },
+        { "number": "6.3", "text": "Focus planting efforts in vulnerable communities, which have limited or no tree canopy.",
+          "status2025": { "status": "Ongoing", "text": "The federal portion of grant funding dedicated to purchasing trees was rescinded; OSR is pursuing other funding. Received $25,000 from the Duke Energy Foundation (August 2025, $15,000 for trees) and $20,000 from the National Environmental Education Foundation (September 2025, for trees + educational programming). Coordinated three tree planting events in 2025 adding 52 trees of native species in areas identified by the equity prioritization tool.", "citation": { "source": "progress2025", "page": 10 } }
+        }
+      ]
+    },
+    {
+      "number": 7, "id": "REC-7",
+      "title": "Develop an Energy and Water Education Program for all City staff.",
+      "evaluationMethod": "Verify ongoing programming for existing staff and new-hires was conducted.",
+      "citation": { "source": "sep2022", "page": [33, 71] },
+      "strategies": [
+        { "number": "7.1", "text": "People & Culture Department development of three courses: Electricity Conservation, Water Conservation, and Eco-Driving." }
+      ],
+      "status2025": {
+        "status": "Initiated",
+        "text": "Staff from Equipment Services Division, People & Culture Department, and OSR are researching and scoping the development of an internal idling-reduction training course. Results from the vehicle telematic pilot study will inform additional efforts to develop this course.",
+        "citation": { "source": "progress2025", "page": 11 }
+      }
+    },
+    {
+      "number": 8, "id": "REC-8",
+      "title": "Review current vehicle and equipment purchase/lease process for potential efficiency improvements.",
+      "evaluationMethod": "Verify that review has been completed and that the findings were presented.",
+      "citation": { "source": "sep2022", "page": [33, 71] },
+      "strategies": [
+        { "number": "8.1", "text": "Evaluate departmental sharing of specialized vehicles and infrequently used equipment." }
+      ],
+      "status2025": {
+        "status": "In Progress",
+        "text": "Staff from OSR and the Equipment Services Division of Financial & Administrative Services discussed closer evaluations of vehicle inventory, equipment purchases, and lease processes. Analysis will be included in the fleet efficiency study and comprehensive fleet management and transition plan, slated to begin in 2026.",
+        "citation": { "source": "progress2025", "page": 11 }
+      }
+    }
+  ]
+}

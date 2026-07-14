@@ -1,0 +1,71 @@
+{
+  "id": "19-0770",
+  "title": "Resolution to Support Establishment of a 20-Year Strategic Energy Plan and Goals to Transition to 100% Renewable Energy for the City of Greensboro",
+  "adoptedBy": "Greensboro City Council",
+  "adoptedDate": "2019-12-03",
+  "citation": { "source": "sep2022", "page": [68, 70], "note": "Appendix A, full resolution text (scanned image pages, transcribed)" },
+  "legistarReferenceUrl": "http://greensboro.legistar.com/gateway.aspx?M=F&ID=2fca2530-5995-4530-a20c-58c4423d6a80.docx",
+  "requiredSepSubmissionWindow": "within one year of adoption (per resolution's further-resolved clause)",
+  "sepActualPublicationDate": "2022-11",
+  "sepSubmissionGapNote": "The resolution directs the City Manager to submit the SEP for Council review 'within one year.' The SEP final draft is dated November 2022 — approximately 2 years 11 months after the December 3, 2019 adoption date.",
+  "mandates": [
+    {
+      "id": "ghg-40x2025",
+      "text": "Specific steps to reduce Scope 1 and Scope 2 greenhouse gas emissions (from City operations) by 40% or more from estimated 2005 levels by 2025.",
+      "deadlineDate": "2025-12-31",
+      "baselineYearAsWritten": 2005,
+      "baselineYearActuallyUsedBySEP": 2007,
+      "baselineYearChangeNote": "The SEP text states: 'Although 2005 is stipulated in the Resolution as the baseline year, the City had an established GHG baseline for 2007; the baseline year for the SEP was adjusted to 2007.'",
+      "citation": { "source": "sep2022", "page": 69, "note": "Appendix A resolved clause" }
+    },
+    {
+      "id": "energy-sqft-40x2025",
+      "text": "Specific steps to reduce overall energy consumption per square foot in all City-owned buildings by 40% or more from estimated 2005 levels by 2025.",
+      "deadlineDate": "2025-12-31",
+      "baselineYearAsWritten": 2005,
+      "citation": { "source": "sep2022", "page": 69 }
+    },
+    {
+      "id": "renewable-100x2040",
+      "text": "Achievable goals for transitioning to 100% renewable energy in City operations by 2040 from any combination of on-site and off-site renewable sources, including but not limited to: solar, wind, hydroelectric, renewable energy certificates (RECs), and green power purchases.",
+      "deadlineDate": "2040-12-31",
+      "citation": { "source": "sep2022", "page": 69 }
+    },
+    {
+      "id": "avoided-cost-tools",
+      "text": "Recommended practices and tools to measure avoided costs and return on investment resulting from implementation of renewable energy projects.",
+      "citation": { "source": "sep2022", "page": 70 }
+    },
+    {
+      "id": "funding-strategies",
+      "text": "Recommended funding strategies for projects that advance established goals for GHG reduction, energy efficiency, and renewable energy use.",
+      "citation": { "source": "sep2022", "page": 70 }
+    },
+    {
+      "id": "community-incentives",
+      "text": "Recommendations for incentivizing Greensboro residents and businesses to achieve similar progress on GHG reduction, energy efficiency, and renewable energy use, address cost burdens to ensure a just transition to renewable energy for all, and prioritize at-risk populations.",
+      "citation": { "source": "sep2022", "page": 70 }
+    },
+    {
+      "id": "public-engagement",
+      "text": "A robust and inclusive program of public engagement, outreach, and education.",
+      "citation": { "source": "sep2022", "page": 70 }
+    },
+    {
+      "id": "ghg-inventory-biennial",
+      "text": "Preparation of an updated GHG inventory every two years.",
+      "cadence": "biennial",
+      "citation": { "source": "sep2022", "page": 70 }
+    },
+    {
+      "id": "annual-progress-report",
+      "text": "Publication of an annual progress report.",
+      "cadence": "annual",
+      "citation": { "source": "sep2022", "page": 70 }
+    }
+  ],
+  "communityPartnershipClause": {
+    "text": "The City Manager, or a designee, shall establish a diverse community partnership comprised of city staff, residents, corporate partners, and other interested stakeholders, to collaborate and provide guidance in developing the Strategic Energy Plan; the Strategic Energy Plan shall be submitted for review and consideration by the City Council, within one year; and officials and staff will consider all municipal decisions in light of whether they will bring the City and its residents, businesses, and institutions closer to achieving the goal of 100% renewable energy.",
+    "citation": { "source": "sep2022", "page": 70 }
+  }
+}

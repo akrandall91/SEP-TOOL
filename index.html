@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SEP Tracker — Greensboro Strategic Energy Plan</title>
+<meta name="description" content="Independent, cited tracker for the City of Greensboro's Strategic Energy Plan and its 2025 progress." />
+<link rel="stylesheet" href="assets/css/tokens.css" />
+<link rel="stylesheet" href="assets/css/site.css" />
+</head>
+<body>
+<!-- BUILD:HEADER nav="dashboard" -->
+<header class="site-header">
+  <div class="site-header__bar">
+    <div class="site-header__brand">
+      <span class="site-header__name">SEP Tracker</span>
+      <span class="site-header__tagline">Independent accountability tracker for Greensboro's Strategic Energy Plan</span>
+    </div>
+  </div>
+  <p class="site-header__disclaimer">
+    Not an official City of Greensboro product. Independently built from publicly available City documents and data by Andrew Randall / ARXI Systems, with no official affiliation. <a href="./about.html">Read more →</a>
+  </p>
+  <nav class="site-nav" aria-label="Primary">
+    <ul>
+      <li><a href="./index.html" data-nav-id="dashboard" aria-current="page">Dashboard</a></li>
+      <li><a href="./departments/water-resources.html" data-nav-id="departments">Departments</a></li>
+      <li><a href="./recommendations.html" data-nav-id="recommendations" class="is-stub">Recommendations &amp; Actions</a></li>
+      <li><a href="./funding.html" data-nav-id="funding" class="is-stub">Funding</a></li>
+      <li><a href="./timeline.html" data-nav-id="timeline" class="is-stub">Timeline</a></li>
+      <li><a href="./about.html" data-nav-id="about">About</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- /BUILD:HEADER -->
+
+<main class="page page--narrow">
+  <h1 style="font-size:var(--font-size-hero);">SEP Tracker</h1>
+  <p style="color:var(--ink-secondary);font-size:var(--font-size-lg);">
+    An independent, cited tracker for the City of Greensboro's Strategic Energy Plan:
+    Pathways to 100% Renewable Energy, and its 2025 progress.
+  </p>
+
+  <div class="card" style="margin:var(--space-5) 0;">
+    <div class="section-title">Build status</div>
+    <p>
+      This dashboard is under construction. The <a href="departments/water-resources.html">Water Resources
+      department page</a> is built as the reference pattern — trend vs. target, 2025 reporting status
+      (including "not reported" and "deprioritized" states), and funding linkage, all with hover/tap citations.
+    </p>
+    <p>
+      Recommendations &amp; Actions, Funding, and Timeline pages, plus this homepage's full rollup dashboard,
+      are not yet built. The underlying data for all of them already exists and is fully cited — see
+      <a href="data/index.json">data/index.json</a> and <a href="data/SCHEMA.md">data/SCHEMA.md</a>.
+    </p>
+    <p style="margin-bottom:0;">
+      <a href="departments/water-resources.html" style="font-weight:700;">→ View the Water Resources page</a>
+    </p>
+  </div>
+</main>
+
+<!-- BUILD:FOOTER -->
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="tier-legend">
+      <div class="tier-legend__title">Citation tiers, used identically on every page</div>
+      <div class="tier-legend__row"><span class="cite cite--tier1"><span class="cite__icon">①</span>SEP '22</span> Cited to the 2022 Strategic Energy Plan itself.</div>
+      <div class="tier-legend__row"><span class="cite cite--tier2"><span class="cite__icon">②</span>Progress '25</span> Cited to the 2025 (Year 3) Annual Progress Report.</div>
+      <div class="tier-legend__row"><span class="cite cite--tier3"><span class="cite__icon">③</span>Verified</span> Independently sourced (Legistar, press, etc.), confirmed against full primary-source text.</div>
+      <div class="tier-legend__row"><span class="cite cite--tier4"><span class="cite__icon">④</span>Unconfirmed</span> Independently sourced but resting on a search-result summary only — primary text could not be fetched. Treat as provisional.</div>
+    </div>
+    <div class="footer-links">
+      <div class="tier-legend__title">Raw data</div>
+      <a href="./data/index.json">data/index.json</a>
+      <a href="./data/departments.json">data/departments.json</a>
+      <a href="./data/funding.json">data/funding.json</a>
+      <a href="./data/funding-linkage.json">data/funding-linkage.json</a>
+      <a href="./data/SCHEMA.md">data/SCHEMA.md (full schema docs)</a>
+      <p class="footer-meta">This tool is fully re-derivable from the linked JSON — every figure traces to a citation, every gap is marked rather than omitted.</p>
+      <p class="footer-meta" id="footer-updated">Data last extracted/updated: 2026-07-14</p>
+    </div>
+  </div>
+</footer>
+
+<!-- /BUILD:FOOTER -->
+</body>
+</html>

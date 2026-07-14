@@ -1,0 +1,94 @@
+{
+  "osrStaffRoster2025": {
+    "citation": { "source": "progress2025", "page": 5 },
+    "members": [
+      { "name": "Dr. S. Shree Dorestant, DM", "title": "Chief Sustainability Officer" },
+      { "name": "Katie Farina", "title": "Environmental Services Analyst" },
+      { "name": "Michelle Gill-Moffat", "title": "Sustainability Analyst" },
+      { "name": "John Hendricks", "title": "Sustainability Analyst (GIS)" },
+      { "name": "Sergey Kobelev", "title": "Energy Manager" },
+      { "name": "Richard Lovett", "title": "Environmental Compliance Support Manager" },
+      { "name": "Sarah Montgomery", "title": "Environmental Compliance Specialist" },
+      { "name": "Eddie Raynard", "title": "Environmental Compliance Coordinator" },
+      { "name": "John Ridge", "title": "Landfill Technician" },
+      { "name": "Jeff Sovich, AICP", "title": "Sustainability Planning Administrator" },
+      { "name": "Michael Szychowicz", "title": "Landfill Specialist" },
+      { "name": "Gregory Williams", "title": "Energy Program Coordinator" }
+    ]
+  },
+  "cscRoster2025": {
+    "citation": { "source": "progress2025", "page": 5 },
+    "note": "2025 Community Sustainability Council",
+    "members": [
+      { "name": "Conor Baker", "role": "Co-Chair" },
+      { "name": "Andrew Randall", "role": "Vice Chair" },
+      { "name": "Melissa Bullins", "role": "Member" },
+      { "name": "Sheeba Dawood", "role": "Member" },
+      { "name": "Nicole Gaines", "role": "Member" },
+      { "name": "Eric Ireland", "role": "Member" },
+      { "name": "Jacques Pierre", "role": "Member" },
+      { "name": "Will Yearns", "role": "Member" }
+    ]
+  },
+  "treeCanopy": {
+    "citation": { "source": "progress2025", "page": [3, 10] },
+    "totalTreesInCity": 6000000,
+    "acresOfCanopy": 39000,
+    "canopyCoveragePct": 44,
+    "treesPlanted2025": 52,
+    "treesPlanted2025Note": "52 trees of native species planted across three OSR-coordinated events in 2025, in areas identified by the equity prioritization tool.",
+    "priorAssessmentYear": 2009,
+    "currentAssessmentYear": 2025,
+    "assessmentNote": "2025 assessment was the first comprehensive tree canopy assessment since 2009. Canopy has been tracked back to 1984 per the hub site.",
+    "hubUrl": "https://canopy.greensboro-nc.gov/",
+    "hubLaunchDate": "2025-11",
+    "leaveTheLeavesCampaign": { "pledgesAsOfDec2025": 391, "approxTreesRepresented": 6500 }
+  },
+  "telematicsPilot": {
+    "citation": { "source": "progress2025", "page": [5, 9] },
+    "partner": "Samsara",
+    "startDate": "2025-07",
+    "durationYears": 1,
+    "expectedCompletion": "2026-summer",
+    "vehiclesInStudy": 100,
+    "departmentsInvolved": 7,
+    "findingsAsOfDec2025": {
+      "totalIdleHours": 5000,
+      "idleTimeAsPctOfOperatingTime": 50,
+      "fuelConsumedByIdlingGal": 3000,
+      "costOfIdlingUsd": 10000
+    },
+    "comparisonContext": "Data will be compared against telematics from ~300 additional City vehicles already fitted with devices from at least three other manufacturers, to select a single telematics supplier fleet-wide.",
+    "correspondingRecommendation": 5,
+    "possibleFollowOnActions": [
+      "Idling reduction training required for all authorized City fleet users",
+      "Identifying initial candidates for replacement with hybrid or electric vehicles",
+      "Developing a strategy to expand telematic deployment to the full City fleet"
+    ]
+  },
+  "osrHighlights2025": {
+    "citation": { "source": "progress2025", "page": [2, 3, 4, 5] },
+    "earthDay2025": { "date": "2025-04", "location": "Keeley Park", "attendance": 1500, "exhibitors": 50 },
+    "sustainableLandscapesProject2025": { "workshops": 5, "participants": 100 },
+    "trashBash2025": { "date": "2025-03", "partner": "Reconsidered Goods", "format": "4 teams of local artists competing to create art installations from repurposed materials" },
+    "communityEngagementTopEvents": [
+      { "event": "Earth Day Celebration", "attendance": 1500 },
+      { "event": "Recycle Rodeo", "attendance": 689 },
+      { "event": "Trash Bash", "attendance": 78 },
+      { "event": "Sustainable Landscapes Project", "attendance": 75 }
+    ],
+    "totalOutreachIndividuals2025": 4046,
+    "heatActionPlanning": {
+      "note": "OSR participated in the state-led Planning for Extreme Heat Cohort (NC Heat Action Plan Toolkit), leading to an interlocal taskforce with Guilford County and the City of High Point that completed a heat action plan and a county-wide extreme temperatures action plan including cold-weather preparedness."
+    },
+    "leedForCities": {
+      "note": "Greensboro was an inaugural city in USGBC's LEED for Cities (L4C) Certification Program (2019), earning LEED for Cities Silver Certification. The 2022-2024 GHG inventory contracted in Dec. 2025 is a component of a recertification effort.",
+      "citation": { "source": "sep2022", "page": 11 }
+    }
+  },
+  "populationAndScaleContextFromSep2022": {
+    "citation": { "source": "sep2022", "page": [12, 26] },
+    "note": "Between 2007 and 2019, the City's population grew ~17%, land area increased, employee count grew, and EV utilization increased — cited context for why a ~1% drop in electricity consumption over that period is treated as meaningful in the SEP's own framing.",
+    "populationGrowth20072019Pct": 17
+  }
+}

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>About — SEP Tracker</title>
+<link rel="stylesheet" href="assets/css/tokens.css" />
+<link rel="stylesheet" href="assets/css/site.css" />
+</head>
+<body>
+<!-- BUILD:HEADER nav="about" -->
+<header class="site-header">
+  <div class="site-header__bar">
+    <div class="site-header__brand">
+      <span class="site-header__name">SEP Tracker</span>
+      <span class="site-header__tagline">Independent accountability tracker for Greensboro's Strategic Energy Plan</span>
+    </div>
+  </div>
+  <p class="site-header__disclaimer">
+    Not an official City of Greensboro product. Independently built from publicly available City documents and data by Andrew Randall / ARXI Systems, with no official affiliation. <a href="./about.html">Read more →</a>
+  </p>
+  <nav class="site-nav" aria-label="Primary">
+    <ul>
+      <li><a href="./index.html" data-nav-id="dashboard">Dashboard</a></li>
+      <li><a href="./departments/water-resources.html" data-nav-id="departments">Departments</a></li>
+      <li><a href="./recommendations.html" data-nav-id="recommendations" class="is-stub">Recommendations &amp; Actions</a></li>
+      <li><a href="./funding.html" data-nav-id="funding" class="is-stub">Funding</a></li>
+      <li><a href="./timeline.html" data-nav-id="timeline" class="is-stub">Timeline</a></li>
+      <li><a href="./about.html" data-nav-id="about" aria-current="page">About</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- /BUILD:HEADER -->
+
+<main class="page page--narrow">
+  <h1>About this tool</h1>
+
+  <p><strong>SEP Tracker is not an official City of Greensboro product.</strong> It is an independently
+  built civic transparency tool, built by Andrew Randall / ARXI Systems from publicly available City
+  documents and data, with no official affiliation with the City of Greensboro, the Office of
+  Sustainability and Resilience, or the Community Sustainability Council.</p>
+
+  <p>It exists to put the City's Strategic Energy Plan (2022) and its Annual Progress Reports side by
+  side with independently verified public-record facts (Legistar, press releases, live City data), so
+  residents, journalists, City Council, and CSC members can see a claim's evidentiary weight at a glance
+  rather than take every number on faith.</p>
+
+  <h2>How to read a citation</h2>
+  <p>Every figure and status badge on this site carries a small colored tag you can hover or tap:</p>
+  <ul>
+    <li><span class="cite cite--tier1"><span class="cite__icon">①</span>SEP '22</span> — stated in the 2022 Strategic Energy Plan itself.</li>
+    <li><span class="cite cite--tier2"><span class="cite__icon">②</span>Progress '25</span> — stated in the City's own 2025 Annual Progress Report.</li>
+    <li><span class="cite cite--tier3"><span class="cite__icon">③</span>Verified</span> — found independently (Legistar, press coverage, etc.) and confirmed against full primary-source text.</li>
+    <li><span class="cite cite--tier4"><span class="cite__icon">④</span>Unconfirmed</span> — found independently, but resting only on a search-result summary because the primary document couldn't be fetched. Treat as provisional.</li>
+  </ul>
+  <p>Tiers 1–2 are the City's own reporting. Tiers 3–4 are this tool's own research, layered on top —
+  and deliberately never rendered to look like the City said them.</p>
+
+  <h2>Why independent research is in scope</h2>
+  <p>The City's own two reports are not a complete record of its renewable-energy activity — they're
+  what OSR chose to compile and publish. This tool surfaces true, independently-verified facts the
+  City's own reporting omitted (a federal transit grant explicitly credited to this plan; a City-owned
+  solar array never mentioned in either progress report) because that's part of an accountability tool's
+  job, not scope creep. It's held to a higher bar for doing so: Tier 3/4 badges, explicit
+  "single-source-unconfirmed" flags, and documented correction notes where earlier research turned out to
+  be wrong (see <a href="data/SCHEMA.md">data/SCHEMA.md</a>).</p>
+
+  <h2>Data gaps are shown, not hidden</h2>
+  <p>Where the City's own reports don't address something — a goal with no 2025 status update, a figure
+  the report itself says was unavailable — this tool shows that gap explicitly rather than omitting the
+  row. A distinction is drawn between an unexplained silence ("Not Reported") and a documented
+  deprioritization the SEP itself explains ("Deprioritized") — they are not the same finding and
+  shouldn't read the same.</p>
+
+  <h2>Source documents</h2>
+  <ul>
+    <li>Strategic Energy Plan: Pathways to 100% Renewable Energy — City of Greensboro, November 2022</li>
+    <li>2025 Annual Progress Report &amp; Strategic Energy Plan Implementation Year Three — City of Greensboro OSR, February 2026</li>
+  </ul>
+  <p>All extracted data, with full citations, is public: <a href="data/index.json">data/index.json</a>.</p>
+</main>
+
+<!-- BUILD:FOOTER -->
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="tier-legend">
+      <div class="tier-legend__title">Citation tiers, used identically on every page</div>
+      <div class="tier-legend__row"><span class="cite cite--tier1"><span class="cite__icon">①</span>SEP '22</span> Cited to the 2022 Strategic Energy Plan itself.</div>
+      <div class="tier-legend__row"><span class="cite cite--tier2"><span class="cite__icon">②</span>Progress '25</span> Cited to the 2025 (Year 3) Annual Progress Report.</div>
+      <div class="tier-legend__row"><span class="cite cite--tier3"><span class="cite__icon">③</span>Verified</span> Independently sourced (Legistar, press, etc.), confirmed against full primary-source text.</div>
+      <div class="tier-legend__row"><span class="cite cite--tier4"><span class="cite__icon">④</span>Unconfirmed</span> Independently sourced but resting on a search-result summary only — primary text could not be fetched. Treat as provisional.</div>
+    </div>
+    <div class="footer-links">
+      <div class="tier-legend__title">Raw data</div>
+      <a href="./data/index.json">data/index.json</a>
+      <a href="./data/departments.json">data/departments.json</a>
+      <a href="./data/funding.json">data/funding.json</a>
+      <a href="./data/funding-linkage.json">data/funding-linkage.json</a>
+      <a href="./data/SCHEMA.md">data/SCHEMA.md (full schema docs)</a>
+      <p class="footer-meta">This tool is fully re-derivable from the linked JSON — every figure traces to a citation, every gap is marked rather than omitted.</p>
+      <p class="footer-meta" id="footer-updated">Data last extracted/updated: 2026-07-14</p>
+    </div>
+  </div>
+</footer>
+
+<!-- /BUILD:FOOTER -->
+</body>
+</html>

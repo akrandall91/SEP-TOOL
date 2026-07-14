@@ -1,0 +1,129 @@
+/* SEP Tracker — design tokens
+   Palette source: dataviz skill reference palette (validated categorical/status/sequential ramps).
+   Two independent color systems share this file but are never visually conflated:
+     1. --status-*   goal/recommendation progress state (Complete, Ongoing, ...)
+     2. --tier-*      citation evidentiary weight (SEP'22, Progress'25, external-verified, external-unconfirmed)
+   Status uses fill color; citation tiers use border/fill *density* + icon, deliberately not the same hues,
+   so a reader never confuses "this is off track" with "this claim is weakly sourced". */
+
+:root {
+  color-scheme: light dark;
+
+  /* chart/page surfaces */
+  --surface-1: #fcfcfb;
+  --page-plane: #f9f9f7;
+  --surface-raised: #ffffff;
+
+  /* ink */
+  --ink-primary: #0b0b0b;
+  --ink-secondary: #52514e;
+  --ink-muted: #898781;
+  --gridline: #e1e0d9;
+  --axis: #c3c2b7;
+  --border-hairline: rgba(11, 11, 11, 0.10);
+
+  /* categorical (site accents, chart series identity — NOT status) */
+  --cat-blue: #2a78d6;
+  --cat-aqua: #1baf7a;
+  --cat-yellow: #eda100;
+  --cat-green: #008300;
+  --cat-violet: #4a3aa7;
+  --cat-red: #e34948;
+  --cat-magenta: #e87ba4;
+  --cat-orange: #eb6834;
+
+  /* sequential blue ramp (magnitude / target lines) */
+  --seq-blue-150: #b7d3f6;
+  --seq-blue-300: #6da7ec;
+  --seq-blue-450: #2a78d6;
+  --seq-blue-600: #184f95;
+
+  /* ---- status palette: goal / recommendation progress state ----
+     Fixed roles, reused identically everywhere in the site. Always paired with an
+     icon + text label — never color alone (three of these sit under 3:1 contrast
+     by the palette's own design; label pairing is the accessibility mitigation). */
+  --status-good: #0ca30c;       /* Complete */
+  --status-info: #2a78d6;       /* Ongoing, In Progress — active, expected, not alarming */
+  --status-warning: #d99a00;    /* Initiated — early-stage, notable */
+  --status-serious: #ec835a;    /* Realigned — plan changed, worth attention */
+  --status-critical: #d03b3b;   /* Not Reported (no stated reason) — the real accountability gap */
+  --status-muted: #898781;      /* Deprioritized (dataGap + documented reason) — intentionally NOT alarming */
+  --status-neutral: #52514e;    /* Reported, no status label given in source */
+
+  /* ---- citation tiers: evidentiary weight, distinct visual language from status ----
+     Tier is communicated by border style + fill density + icon, not by these hues alone,
+     so it can never be mistaken for a status badge even by a colorblind reader. */
+  --tier-1-sep: #184f95;         /* SEP 2022 — solid fill, primary source */
+  --tier-2-progress: #1baf7a;    /* Progress Report 2025 — solid fill, primary source */
+  --tier-3-external: #4a3aa7;    /* External, primary-source-verified — outlined */
+  --tier-4-unconfirmed: #898781; /* External, single-source-unconfirmed — dashed outline, muted */
+
+  /* type */
+  --font-sans: system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-size-hero: 2.75rem;
+  --font-size-xl: 1.5rem;
+  --font-size-lg: 1.125rem;
+  --font-size-base: 1rem;
+  --font-size-sm: 0.875rem;
+  --font-size-xs: 0.75rem;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --surface-1: #1a1a19;
+    --page-plane: #0d0d0d;
+    --surface-raised: #232322;
+
+    --ink-primary: #ffffff;
+    --ink-secondary: #c3c2b7;
+    --ink-muted: #898781;
+    --gridline: #2c2c2a;
+    --axis: #383835;
+    --border-hairline: rgba(255, 255, 255, 0.10);
+
+    --cat-blue: #3987e5;
+    --cat-aqua: #199e70;
+    --cat-yellow: #c98500;
+    --cat-green: #008300;
+    --cat-violet: #9085e9;
+    --cat-red: #e66767;
+    --cat-magenta: #d55181;
+    --cat-orange: #d95926;
+
+    --seq-blue-150: #184f95;
+    --seq-blue-300: #256abf;
+    --seq-blue-450: #3987e5;
+    --seq-blue-600: #86b6ef;
+
+    --status-good: #0ca30c;
+    --status-info: #3987e5;
+    --status-warning: #c98500;
+    --status-serious: #ec835a;
+    --status-critical: #e66767;
+    --status-muted: #898781;
+    --status-neutral: #c3c2b7;
+
+    --tier-1-sep: #3987e5;
+    --tier-2-progress: #199e70;
+    --tier-3-external: #9085e9;
+    --tier-4-unconfirmed: #898781;
+  }
+}
+
+/* explicit override hooks for a manual theme toggle, if one is added later */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+}
+:root[data-theme="light"] {
+  color-scheme: light;
+}

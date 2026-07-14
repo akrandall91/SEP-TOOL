@@ -1,0 +1,3414 @@
+
+
+===== PAGE 1 =====
+
+Final Draft
+November 2022
+City of Greensboro
+Strategic Energy Plan:
+Pathways to 100% Renewable Energy
+
+===== PAGE 2 =====
+
+Acknowledgments
+Greensboro Community Sustainability
+Council (CSC)
+A. Nicole Gaines, Chair, At-Large
+Veda Howell, District 1
+Greensboro City Council
+Jacques Pierre, District 2
+Nancy Vaughan, Mayor
+Jerald Leimenstoll, District 3
+Yvonne Johnson, Mayor Pro Tem
+Dr. Vicki Foust, District 4
+Sharon Hightower, District 1
+Carol Carter, District 5
+Goldie Wells, District 2
+Dr. Marcia Hale, At-Large
+Zack Matheny, District 3
+Andrew Randall, At-Large
+Justin Outling, (Former) District 3
+Jailah White, At-Large
+Nancy Hoffmann, District 4
+Will Yearns (Advisor to the CSC)
+Tammi Thurm, District 5
+Dr. Susan Phillips (Former) At-Large
+Marikay Abuzuaiter, At-Large (CSC City Council Liaison)
+Sophia Dubrovsky, (Former) District 5
+Hugh Holston, At-Large
+Michelle Kennedy, (Former) At-Large
+City Manager’s Office
+Taiwo Jaiyeoba, City Manager
+Chris Wilson, Deputy City Manager
+Nasha McCray, Assistant City Manager
+Dr. Kimberly Sowell, (Former) Assistant City Manager
+Dr. S. Shree Dorestant, Chief Sustainability Officer
+City of Greensboro Leadership Team Information Technology
+Rodney Roberts, Chief Information Officer
+Budget & Evaluation
+Sara Hancock, Analyst Libraries & Museum
+Karen Kixmiller, Analyst Melanie Buckingham, Environmental Education Librarian
+Coliseum Parks & Recreation
+Mike Perdue, Maintenance and Production Manager Elizabeth Jernigan, Planner
+Communications Planning
+Jake Keys, Communications Manager Jeff Sovich, Senior Planner
+Elizabeth Link, Urban Designer
+Engineering and Inspections
+Judson Clinton, Arborist
+Kenney McDowell, Director
+Sergey Kobelev, Energy Management Engineer Transportation
+Hanna Cockburn, Director
+Field Operations
+Gray Johnston, Transportation Planner
+Chris Marriott, Deputy Director
+Lydia McIntyre, Transportation Planner
+Richard Lovett, Environmental Compliance & Support Manager
+Kym Smith, Street Lighting Specialist
+Tori Carle, Solid Waste Supervisor
+Stephen Carter, Business and Parking Manager
+Mike Mabe, Street Maintenance Manager
+Chris Spencer, Transportation Engineering Manager
+Financial and Administrative Services
+Bruce Adams, Public Transportation Division Manager
+Jerry Gunter, Fleet Procurement Manager
+Water Resources
+Guilford Metro 9-1-1
+Mike Borchers, Director
+Melanie Neal, Director
+Zachary Peterson, GIS Analyst
+Housing and Neighborhood Development
+Russ Behn, Housing Rehabilitation Inspector
+Human Rights
+Dr. Love Jones, Director
+Allen Hunt, Primary Complaint Officer
+Jody Stanley, Education & Outreach Coordinator
+
+===== PAGE 3 =====
+
+Community Partnership Renu Energy Solutions
+Matthew Culley
+A Simple Gesture – RePurpose: Food Recovery
+Laura Oxner Ruth’s Hospitality Group
+Anthony Hensley
+Climate Reality Project: Guilford County Chapter
+Shad Smith Solar Power Now Coalition
+Margaret Rowlett
+Cone Health Healing Gardens
+Jean Pudlo
+Gerry Alfano
+Bill McNeil
+Duke Energy
+David Gilbert
+Davis Montgomery (former)
+Total Wholeness Ministries
+Hank Henning
+Dr. Michelle Lucas
+Earth Quakers
+Triad Local First
+Mary Luckhaus
+Tracy Furman
+Emerging Ecology
+UNC Greensboro
+Nelson Stover
+Sean MacInnes, Office of Sustainability
+GIA Link, Inc.
+Etsuko Kinefuchi, Communications Studies Department
+Skip Yeakel
+UNC Kenan Flagler School of Business
+Golder Associates
+John Macaree
+Mark Taylor
+Unitarian Universalist Church of Greensboro
+Greensboro Beautiful
+Sharin Francis
+Randal Romie
+US Department of Housing & Urban Development
+James Allred
+Erin Reis
+Greensboro Neighborhood Congress
+Volvo Trucks, North America
+Michael Pendergraft
+Carmen Honeycomb
+Guilford Urban Farming Initiative (GUFI)
+Paula Sieber
+Guilford Anti-Racism Alliance
+Greensboro Residents
+Lawrence Morse
+Steve Drew
+Crystal Dixon
+Jennifer Feather
+Lewis Pitts
+Eric Kelly
+National Association for the Advancement of
+Stephen McCollum
+Colored People, Greensboro Branch
+Gerard Moses
+Omarius Jones
+Trent Rogers
+Greensboro Day School Raleigh Stout
+David Smith
+Happy Earth Composting
+Lindsey Beane CSC Environmental Justice Task Force
+High Point University Doug Bender, Chair, Greensboro Human Rights Commission
+Adam Graham-Squire A. Nicole Gaines
+Dr. Marcia Hale
+Keller Williams Realty
+Veda Howell
+Michelle Robbins
+Taylor Jones-Curtis
+League of Women Voters of the Piedmont Triad
+Gary Kenton
+Marlene Pratto
+Lime Energy
+Jeffrey Page
+Jami Barnhill
+Piedmont Authority for Regional Transportation
+Kyle Laird Strategic Energy Plan Development
+Energy and Sustainability Solutions, LLC
+Piedmont Triad Regional Council
+www.EnergyandSustainabilitySolutions.com
+Grace Messinger
+336-402-5471
+Quaintance Weaver Hospitality Group
+Angie Kenny
+Raymond James Financial
+Erin Marken
+
+===== PAGE 4 =====
+
+Table of Contents
+Acknowledgments ....................................................................................................................................................2
+Table of Contents ......................................................................................................................................................4
+Executive Summary 6
+Executive Summary ..................................................................................................................................................7
+Background and Introduction 10
+Background and Introduction .............................................................................................................................11
+Scope of the Plan .......................................................................................................................................................13
+Methodology ..............................................................................................................................................................14
+Energy Plan Guide .................................................................................................................................................14
+Greenhouse Gas Inventory .................................................................................................................................14
+SEP Leadership Team ...............................................................................................................................................17
+Community Partnership .........................................................................................................................................17
+Energy Vision ...............................................................................................................................................................18
+Energy Outlook 19
+2019 Energy Profile ...................................................................................................................................................20
+Electricity and Natural Gas Totals from City Operations ..........................................................................20
+Electricity Profile .................................................................................................................................................20
+Natural Gas Profile .............................................................................................................................................22
+Vehicle and Equipment Fuel Totals for City Operations...........................................................................22
+Gasoline Profile ...................................................................................................................................................22
+Diesel Profile ........................................................................................................................................................22
+Compressed Natural Gas .................................................................................................................................23
+E85 ...........................................................................................................................................................................23
+Greenhouse Gas Profile .......................................................................................................................................24
+GHG Emissions Summary ................................................................................................................................24
+Goals and Recommendations 28
+SEP Goals, Strategies and Recommendations ................................................................................................29
+Organization-Wide Recommendations for City of Greensboro ..............................................................30
+4
+
+===== PAGE 5 =====
+
+Energy Goals, Strategies and Actions ...............................................................................................................34
+Electricity Reduction .........................................................................................................................................35
+Natural Gas Reduction .....................................................................................................................................44
+Gasoline Reduction ...........................................................................................................................................46
+Diesel Reduction ................................................................................................................................................50
+Community Incentives .....................................................................................................................................52
+City's Roadmap 54
+Prioritize Actions ........................................................................................................................................................55
+Funding 57
+Putting Together a Financing Strategy ..............................................................................................................58
+Energy Efficiency and Energy Conservation Financing ...........................................................................58
+Energy Savings Performance Contracting ................................................................................................58
+City Funded ..........................................................................................................................................................58
+Solar Installation Financing ................................................................................................................................59
+Solar Power Purchase Agreement (SPPA) ..................................................................................................59
+Duke Energy Solar Rebate ..............................................................................................................................60
+Energy Project Financing ....................................................................................................................................60
+North Carolina Clean Energy Fund ..............................................................................................................60
+Grants .....................................................................................................................................................................60
+GHG Emissions Reduction Strategies .............................................................................................................60
+Renewable Energy Certificates (RECs) ........................................................................................................60
+Offsets ....................................................................................................................................................................60
+Acronyms, Glossary & References 62
+List of Acronyms and Glossary ..............................................................................................................................63
+References ....................................................................................................................................................................65
+Appendix 67
+Appendix A: Resolution – 19-0770 ..................................................................................................................68
+Appendix B: Evaluation Plan ..............................................................................................................................71
+Appendix C: Strategic Energy Plan Annual Progress Report Template ..............................................75
+5
+
+===== PAGE 6 =====
+
+EXECUTIVE SUMMARY
+
+===== PAGE 7 =====
+
+Executive Summary
+The City of Greensboro is an advocate for sustainable emissions were also calculated for each source. Totals
+living, which involves balancing the current were then calculated by departments to identify the
+environmental, economic, and societal needs in primary users of each energy source. The 2019 energy
+order to safeguard the future. The City will continue profile provided insight for prioritization of goals and
+its commitment to sustainability through a diverse, development of department-specific strategies to
+systemic approach including the implementation reduce consumption and integrate renewable energy.
+of the Strategic Energy Plan (SEP): Pathways to 100%
+Goals, strategies, and actions were developed for
+Renewable Energy. The SEP was developed in response
+each department. Recommended actions the City
+to the Resolution (Refer to Appendix A) to Support the
+can take to accelerate the implementation of the SEP
+Establishment of a 20-Year Strategic Energy Plan and
+were developed as well, with significant input from
+Goals to Transition to 100% Renewable Energy for the
+the Community Partnership. A prioritization of actions
+City of Greensboro1 adopted unanimously by the
+was determined, a financing strategy was outlined,
+Greensboro City Council in 2019.
+and an evaluation plan recommended.
+The SEP is a 20-year pathway for transitioning the
+2019 Energy and Emissions Breakdown
+City’s municipal operations to renewable energy.
+The increase in energy efficiency and renewable The table below shows energy consumed by source,
+energy adoption resulting from the implementation the amount of CO emitted from each source, and the
+2e
+of the SEP will allow the City to contribute to the percentage of emissions produced by each source.
+greenhouse gas (GHG) reduction goals set by the Electricity use accounts for 60 percent of the City’s
+United Nations Intergovernmental Panel on Climate emissions. Diesel emissions account for 19 percent;
+Change (IPCC) and fulfill the vision of the SEP to gasoline, 14 percent; and natural gas, 7 percent.
+achieve 100 percent renewable energy for City
+Energy Source (Unit) 2019 Consumed MT CO GHG Emissions
+2e
+operations by 2040.
+Electricity Use (MWh) 139,414 47,254 60%
+The SEP was developed through a series of meetings
+Diesel (Gal) 1,478,395 15,022 19%
+held with both City staff and the community
+Gasoline (Gal) 1,181,995 10,552 14%
+throughout the process. The information, input, and
+Natural Gas (MMBTU) 94,872 5,320 7%
+strategies proposed from these meetings all informed
+the plan. Goals and strategies, and later, actions Table 1. Energy Consumption and Emissions
+were developed to reduce energy consumption and
+Key Findings
+shift to renewables. The Resolution calls for the SEP
+to address cost burdens to ensure a just transition Electricity
+to renewable energy for all and to prioritize at-risk
+Three departments make up 80 percent of electricity
+populations. Strategies and actions can be found
+consumption:
+throughout the SEP to support this part of the
+• Water Resources, 49 percent
+resolution. The final goals, strategies, and actions
+• Transportation, 18 percent
+found in this plan are the result of many meetings
+• Coliseum Complex, 12 percent
+with the SEP Leadership Team and the Community
+Pathway to 100 percent renewable energy:
+Partnership.
+• Reduce the consumption in buildings and
+The development process included an analysis of
+equipment through energy efficiency measures.
+2019 energy use by source (electricity, natural gas,
+» Water Resources Department, Central Library,
+gasoline, and diesel) for City operations, to determine
+The J. Douglas Galyon Depot, and the Coliseum
+the City’s usage of these energy sources. GHG
+measures are identified as high impact.
+1City of Greensboro. Resolution to Support the Establishment of a 20-Year Strategic Energy Plan and Goals to Transition to 100% Renewable Energy for the City of
+Greensboro. Community Sustainability Council. Accessed October 15, 2021. https://www.greensboro-nc.gov/departments/planning/boards-commissions-
+7
+meetings/community-sustainability-council-csc
+
+===== PAGE 8 =====
+
+• Integrate on-site renewable energy. broadly diverse and inclusive. An environmental
+» One MW ground array (project formerly justice matrix will be developed and used to
+listed in the CIP) and Central Library rooftop examine and vet SEP projects to ensure a just
+(proposed project). transition. Criteria will be developed to identify
+» As a hypothetical example, using ground- the most impacted and vulnerable communities,
+mounted arrays to meet the City’s current to encourage more community participation
+electricity demand is estimated to require 87 in the process of preparing and implementing
+MW of solar at a cost of $131 million and the energy projects that could affect the community.
+utilization of 410 acres of City-owned land.
+• Solar Installation - Ground-mounted solar and
+Diesel rooftop arrays have been identified to increase
+the amount of renewable energy used to meet
+Two departments make up 80 percent of diesel
+annual energy demand. One proposed early
+consumption:
+project would install a 1-MW ground-mounted
+• Field Operations, 47 percent
+array at the T.Z. Osborne facility. A second
+• Transportation, 33 percent
+proposed project would install a rooftop array on
+Pathway to 100 percent renewable energy:
+the Central Library.
+• Reduce diesel consumption through integration
+• Sustainable Fleet - Reducing/eliminating
+of hybrid and electric vehicles into both fleet
+gasoline and diesel consumption can be
+vehicle replacement and equipment replacement
+achieved through the integration of hybrid
+as comparable vehicles/equipment become
+and electric vehicles into the fleet. The Police
+available.
+Department accounts for 49 percent of gasoline
+Gasoline
+emissions and Field Operations accounts for
+Two departments make up 80 percent of gasoline 47 percent of diesel emissions. The Ford Hybrid
+consumption: Interceptor is identified to replace the current
+• Police, 49 percent Interceptors and other patrol vehicles. Hybrid
+• Transportation, 31 percent and EV options are available for some vehicles
+and equipment used by Field Operations. A
+Pathway to 100 percent renewable energy:
+commitment to hybrid and EV integration of all
+• Reduce gasoline consumption through
+applicable vehicles and equipment according to
+integration of hybrid and electric vehicles into
+the current replacement schedules is estimated
+the fleet.
+to drop-fuel consumption by six percent per year
+» Police patrol vehicle conversion has been
+from the 2019 baseline.
+identified for high prioritization (high use/
+mileage). • Energy efficiency measures on City-owned
+buildings in order of inefficiency and impact -
+Natural Gas
+Buildings account for 32 percent of the electricity
+• Natural gas accounts for seven percent of
+footprint. Efficiency measures will reduce
+emissions. Goals and strategies are in place
+the amount of electricity needed, which will
+to address natural gas but are not considered
+reduce emissions, as well as electricity costs.
+priorities due to its low contribution to overall
+Performance contracts are an option to finance
+City emissions.
+these measures. A 25 percent reduction in
+Pathways to 2040 Goals
+building electricity use will drop total electricity
+use eight percent.
+The strategies outlined below are identified to
+provide a pathway to 100 percent Renewable Energy • Other renewable opportunities - Several
+by 2040. smaller renewable energy projects have been
+identified to produce electricity. Feasibility
+• Ensure a just transition - The transition to
+studies and cost/benefit analysis will determine
+a 100 percent renewable energy goal must
+if these projects will be chosen and advanced for
+ensure that any environmental burdens created
+funding.
+are not placed on the City’s most impacted
+and vulnerable communities, that benefits are • Purchase Renewable Energy Certificates/
+distributed equitably, and that the process is Offsets - Purchasing renewable energy
+8
+
+===== PAGE 9 =====
+
+certificates (RECs) or offsets can be effective goal. It will be achievable through a long-term
+options for meeting emissions and renewable commitment to implementing the recommended
+energy goals that cannot be met through other strategies and actions established in the SEP.
+paths. Using these options supports the increase
+The SEP establishes an energy baseline by energy
+of renewable energy on the grid, as well as
+source for City operations and identifies usage by
+projects which offset carbon emissions.
+Department. This information was presented to the
+• Advocate for renewable energy on the grid - SEP Leadership Team and Community Partnership
+Changes to the grid generation mix can have and through a series of meetings produced the
+the biggest impact on the City reaching its pathways to 100 percent renewable energy found
+renewable energy goal. Increasing the amount of within this document. The suggested pathways
+renewable energy on the grid means electricity include a just transition to renewable energy and
+purchased will generate lower GHG emissions a sustainable fleet, a consistent integration of solar
+and enable the City to meet its goal faster. City and other renewables, an increase in the efficiency
+staff and CSC members have been participating of buildings, the use of RECs and carbon offsets, and
+in the Cities Initiative convened by the North overall support for renewable energy.
+Carolina Chapter of the Environmental Defense
+The SEP will require the City to become more
+Fund, in part to advocate for renewable energy
+efficient, to rethink current practices and systems,
+on the grid. Greensboro Mayor Nancy Vaughan
+to consider new factors in decision-making, and to
+joined the highest elected office holders from
+invest public resources differently. It will require the
+12 other large local governments in the state
+City to “consider all municipal decisions in light of
+in signing joint comments on Duke Energy’s
+whether they will bring the City and its residents,
+proposed biennial Integrated Resource Plan (IRP).
+businesses, and institutions closer to achieving the
+In response to these comments and many others,
+goal of 100 percent renewable energy.”2 Through
+the North Carolina Utilities Commission required
+careful, data-informed decisions and taking
+modifications to the IRP prior to its approval.
+consistent and deliberate steps forward, Greensboro
+Conclusions can achieve 100 percent renewable energy in City
+operations by 2040.
+The City of Greensboro’s Resolution to achieve 100
+percent renewable energy by 2040 is an ambitious
+2City of Greensboro. Resolution to Support the Establishment of a 20-Year Strategic Energy Plan and Goals to Transition to 100% Renewable Energy for the City of
+Greensboro. Greensboro City Council. Accessed October 15, 2021. http://greensboro.legistar.com/gateway.aspx?M=F&ID=2fca2530-5995-4530-a20c-58c4423d6a80.
+docx 9
+
+===== PAGE 10 =====
+
+BACKGROUND AND INTRODUC TION
+
+===== PAGE 11 =====
+
+Background and Introduction
+The City of Greensboro has been demonstrating its support for the development of the SEP by the
+commitment to sustainability for many years. The community, City staff, and City Council. In 2019, the
+City Council voted to support the US same year the Resolution called for the development
+Conference of Mayors Climate Protection of the SEP, Greensboro applied for and was awarded
+Agreement3 in 2007, and established a grant as an inaugural city in the US Green Building
+the Community Sustainability Council Council’s LEED for Cities (L4C) Certification Program.
+(CSC) in 2008.4 In 2009, using funding from the Greensboro ultimately earned LEED for Cities Silver
+American Recovery and Reinvestment Act, the City Certification. The L4C assessment provided the City
+developed its first Greenhouse Gas (GHG) Inventory.5 with a stronger understanding of strengths
+The GHG inventory was updated in 2015 and and weaknesses regarding sustainability of
+included emissions for both City operations and the City operations and will be used to inform
+community.6 From 2009 to 2010, the CSC developed the future focus of sustainability actions.
+a Sustainability Action Plan, which was presented to
+In 2020, the City published its GSO2040
+the City Council on January 11, 2011. In 2017, Mayor
+Comprehensive Plan, which presents a strong
+Nancy Vaughan joined the Mayor’s National Climate
+sustainability focus. The plan was the product of two
+Action Agenda, with a commitment to City actions to
+years of outreach and feedback from the community.
+reduce GHG emissions.7 The City began participating
+Two of the six Big Ideas in the plan are “Prioritizing
+in the Carbon Disclosure Project
+Sustainability and Becoming Car Optional.” Both of the
+Cities Program, a climate and
+“Ideas” have connectivity to the SEP.
+sustainability reporting and
+The SEP is the result of a detailed collaborative
+measurement
+process, which included an internal leadership team
+platform in 2017.8 The North Carolina
+representing every City department. The team met
+Forest Service and Arbor Day
+numerous times as both a collective group and
+Foundation has recognized Greensboro
+departmentally. These meetings included, but were
+as a Tree City since 1991.9
+not limited to reviewing data, strategizing various
+The City of Greensboro Strategic Energy Plan (SEP):
+proposals, and ensuring transparency throughout
+Pathways to 100% Renewable Energy was developed
+the process. A diverse and dedicated community
+in response to the Resolution (see Appendix A) to
+partnership was formed which included business,
+Support the Establishment of a 20-Year Strategic Energy
+academic, civic, and faith sectors who actively
+Plan and Goals to Transition to 100% Renewable
+participated in SEP meetings, as well as at Community
+Energy for the City of Greensboro10 was adopted by
+Sustainability Council (CSC) meetings where updates
+the Greensboro City Council in 2019. The SEP is a
+to the SEP Plan were provided.
+20-year pathway for transitioning the operations in
+The Resolution calls for the SEP to address cost
+the City to renewable energy. This Resolution had
+burdens to ensure a just transition to renewable
+strong support from the community and was passed
+energy for all and prioritize at-risk populations.
+unanimously by City Council. There was also strong
+3The United States Conference of Mayors. Mayors Climate Protection Agreement. The United States Conference of Mayors. 2021. https://www.usmayors.org/tag/
+mayors-climate-protection-agreement/
+4City of Greensboro. Community Sustainability Council. City of Greensboro. Accessed October 15, 2021. https://www.greensboro-nc.gov/departments/planning/
+boards-commissions-meetings/community-sustainability-council-csc
+5Ibid.
+6Ibid.
+7Ibid.
+8Ibid.
+9City of Greensboro. City Receives its 28th Tree City Award. City of Greensboro News. https://www.greensboro-nc.gov/Home/Components/News/News/14492/
+10City of Greensboro. Resolution to Support the Establishment of a 20-Year Strategic Energy Plan and Goals to Transition to 100% Renewable Energy for the City of
+Greensboro. Greensboro City Council. Accessed October 15, 2021. http://greensboro.legistar.com/gateway.aspx?M=F&ID=2fca2530-5995-4530-a20c-58c4423d6a80.
+docx 11
+
+===== PAGE 12 =====
+
+This was a consistent theme at the Community Potential funding strategies are identified for
+Partnership meetings, and one voiced across all implementing actions outlined in the plan. While the
+sectors. The input received during these meetings implementation section of the plan prioritizes the
+evolved into goals, strategies, and actions for this actions required, the evaluation section explains how
+plan. A task force was assembled to review the SEP progress toward goals will be measured.
+through an environmental justice “lens.” This review
+Climate Change
+produced a framework for identifying and engaging
+with vulnerable communities and gave priority A transition to 100 percent renewable energy in
+to energy projects in vulnerable neighborhoods City operations by 2040 will allow Greensboro
+that would provide positive benefits. Strategies to be in alignment with the United Nations
+and actions to support this priority can be found Intergovernmental Panel on Climate Change (IPCC)
+throughout the SEP. pathway for reducing greenhouse gas emissions.
+The IPCC is an intergovernmental body of the United
+At-risk populations are defined in the SEP as the
+Nations mandated to provide objective scientific
+vulnerable communities, which traditionally have
+information relevant to understanding human-
+suffered a disproportionately greater number and
+induced climate change, its natural, political, and
+intensity of impacts from negative environmental
+economic impacts and risks, and possible response
+conditions in the city. A just transition is defined in
+options. According to the IPCC anthropogenic
+the SEP as one that increases environmental benefits
+(human created), GHG emissions are trapping heat
+while decreasing the environmental burdens of the
+in the atmosphere which is causing the planet to
+city’s most impacted and vulnerable communities.
+warm and the climate to change.11 The IPCC pathway
+Throughout the SEP, goals and strategies are woven
+calls for a 45 percent reduction in GHG emissions
+in to address cost burdens ensuring a just transition
+globally by 2040, and net zero emissions by 2050.12
+to renewable energy for everyone and to focus
+Greensboro’s 2040 energy goal of 100 percent
+on providing environmental benefits to the most
+renewable energy, if met, will exceed the GHG
+impacted and vulnerable communities.
+reduction goals of the IPCC.
+The SEP provides a baseline of 2019 energy
+consumption (electricity, natural gas, gasoline, and
+diesel) and costs are broken down by department.
+This information was used to determine where
+strategies should be focused to provide the City with
+the greatest energy reduction and renewable energy
+potential. The energy data was also used to calculate
+Greensboro’s 2019 Greenhouse Gas (GHG) emissions
+CO
+and compare to the 2007 GHG emissions, which were
+previously calculated. Presentations of the data were 2
+given at meetings with the Leadership Team and the
+Community Partnership. Initial goals and strategies
+began to emerge at these meetings.
+Goals and strategies were developed for reducing
+consumption of each of the energy sources and
+shifting to more renewable options. The highest
+departmental users of electricity, natural gas,
+gasoline, and diesel were identified. Then goals
+and strategies, and later, actions were developed to
+reduce consumption and shift to renewables. The
+final goals, strategies, and actions found in this plan
+are the result of many meetings with the Leadership
+Team and Community Partnership.
+11IPCC. About the IPCC. Intergovernmental Panel on Climate Change. 2021. https://www.ipcc.ch/about/
+12 12IPCC. Special Report Global Warming of 1.5oC Summary for Policymakers. Intergovernmental Panel on Climate Change. 2018. https://www.ipcc.ch/sr15/
+
+===== PAGE 13 =====
+
+Scope of the Plan
+The 20-year Strategic Energy Plan is for the City
+of Greensboro’s municipal operations. The scope
+aligns directly with the direction in the Resolution to
+Support the Establishment of a 20-Year Strategic Energy
+Plan and Goals to Transition to 100 Percent Renewable
+Energy for the City of Greensboro.13
+Although 2005 is stipulated in the Resolution as
+the baseline year, the City had an established GHG
+baseline for 2007; the baseline year for the SEP
+was adjusted to 2007. This will provide a solid GHG
+baseline to use for evaluation of the SEP progress.
+SEP REQUIREMENTS
+The SEP contains the following requirements as directed in the Resolution:
+• Specific steps to reduce Scope 1 and Scope 2 greenhouse gas emissions (from City operations) by 40
+percent or more from estimated 2007 levels by 2025.
+• Specific steps to reduce overall energy consumption per square foot in all City-owned buildings by 40
+percent or more from estimated 2007 levels by 2025.
+• Achievable goals for transitioning to 100 percent renewable energy in City operations by 2040 from
+any combination of on-site and off-site renewable sources, including but not limited to: solar, wind,
+hydroelectric, renewable energy certificates (RECs), and green power purchases.
+• Recommend practices and tools to measure avoided costs and return on investment resulting from
+implementation of renewable energy projects.
+• Recommend funding strategies for projects that advance established goals for GHG reduction, energy
+efficiency, and renewable energy use.
+• Recommendations for incentivizing Greensboro residents and businesses to achieve similar progress
+on GHG reduction, energy efficiency, and renewable energy use, address cost burdens to ensure a just
+transition to renewable energy for all, and prioritize at-risk populations.
+• A robust and inclusive program of public engagement, outreach, and education.
+• Preparation of an updated GHG inventory every two years.
+• Publication of an annual progress report.
+13City of Greensboro. Resolution to Support the Establishment of a 20-Year Strategic Energy Plan and Goals to Transition to 100% Renewable Energy for the City of
+Greensboro. Community Sustainability Council. Accessed October 15, 2021. https://www.greensboro-nc.gov/departments/planning/boards-commissions-
+meetings/community-sustainability-council-csc 13
+
+===== PAGE 14 =====
+
+Methodology
+The SEP was developed using the U.S. Department Emissions Scope
+of Energy’s Guide to Community Energy Planning14
+Emissions are calculated according to “Scope” as
+as a blueprint. SEP meetings were regularly held
+depicted in Figure 1. Scope 1 represents emissions
+with both the Leadership Team and the Community
+that are under direct control of the City such as City-
+Partnership Team. Input from those meetings were
+owned vehicles. Scope 2 represents emissions for
+incorporated in the development of the various
+purchased electricity for which the City has indirect
+drafts of the plan, which were then published for
+control. Scope 3 represents emissions that are not
+further review.
+under direct control, but indirectly resulting from
+GHG emissions for Greensboro were calculated using municipal operations such as staff driving to work.
+the Global Protocol for Community-Scale Greenhouse The 2019 GHG inventory for the SEP includes an
+Gas Emissions Inventories15 tool developed jointly by accounting of Scope 1 and Scope 2 emissions. Scope
+the World Resources Institute (WRI), C40 Cities, and 3 emissions are not included.
+Local Governments for Sustainability (ICLEI).
+Quantifying Emissions
+Energy Plan Guide Emissions are calculated by accounting for the
+quantity of each emissions source and then
+The City of Greensboro utilized the 10-step16 process
+multiplying it by an emissions factor to determine
+found in the guide and began work on the plan in
+the metric tons of carbon dioxide equivalent (MT
+late January 2021.
+CO ) for each source and in aggregate. Carbon
+1. Form leadership team. 2e
+dioxide equivalent (CO ) is used to provide a
+2. Identify and engage stakeholders. 2e
+common measurement for the combination of
+3. Develop an energy vision.
+greenhouse gases that are contributing to increasing
+4. Assess the current energy profile.
+the temperature of the planet. These greenhouse
+5. Develop energy goals and strategies.
+gases are comprised of carbon dioxide (CO ),
+6. Identify and prioritize actions. 2
+methane (CH ), nitrous oxide (N O), and Ozone
+7. Put together a financing strategy. 4 2
+(O ), along with several synthesized gases used in
+8. Develop a blueprint for implementation. 3
+refrigeration and industrial processes. Carbon dioxide
+9. Develop an evaluation plan.
+is the most prevalent of the GHGs and is causing the
+10. Adopt plan and publicize.
+greatest total impact.18
+Greenhouse Gas Inventory
+The SEP includes Scope 1 and Scope 2 greenhouse
+gas emissions totals by energy source for 2007
+and 2019. A comparison of 2007 emissions to 2019
+emissions was made to determine reduction in
+emissions. The resolution called for specific steps
+to reduce Scope 1 and Scope 2 greenhouse gas
+emissions (from City operations) by 40 percent or
+more from estimated 2007 levels by 2025.17
+14Department of Energy. Guide to Community Energy Strategic Planning. 2021. https://www.energy.gov/eere/slsc/guide-community-energy-strategic-planning
+15World Resources Council. Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories. 2014. Greenhouse Gas Protocol. https://ghgprotocol.org/
+greenhouse-gas-protocol-accounting-reporting-standard-cities
+16Department of Energy. Guide to Community Energy Strategic Planning. 2021. https://www.energy.gov/eere/slsc/guide-community-energy- strategic-planning
+17City of Greensboro. Resolution to Support the Establishment of a 20-Year Strategic Energy Plan and Goals to Transition to 100% Renewable Energy for the City of
+Greensboro. Community Sustainability Council. Accessed October 15, 2021. https://www.greensboro-nc.gov/departments/planning/boards-commissions-
+meetings/community-sustainability-council-csc
+14 18EPA. Overview of Greenhouse Gases. 2021. https://www.epa.gov/ghgemissions/overview-greenhouse-gases
+
+===== PAGE 15 =====
+
+Figure 1. Depiction of greenhouse gas emissions by scope (Source: EPA.gov)
+Global Warming Potential
+Common Name GHG GWP
+CO is calculated by using the Global Warming Carbon dioxide CO 1
+2e 2
+Potential (GWP) for each of the GHGs as shown Methane CH 28
+4
+in Table 2.19 GWP is the ratio of radiative forcing
+Nitrous oxide NO 265
+2
+(degree of warming in the atmosphere) that would
+Fluorinated gases CFC 4,500 – 14,000
+result from the emission of one unit of a given GHG
+compared to one unit of carbon dioxide over a 100 Table 2. Global Warming Potential (GWP) for Major
+year time horizon.20 This means that one unit of Greenhouse Gases
+methane is equivalent to 28 units of carbon dioxide,
+and one unit of Nitrous Oxide is equivalent to 265
+units of carbon dioxide over a 100 year time horizon.
+19IPCC. Special Report Global Warming of 1.5oC Summary for Policymakers. 2018. https://www.ipcc.ch/sr15/
+20Ibid 15
+
+===== PAGE 16 =====
+
+Global Emissions
+A breakdown of national-level emissions by specific greenhouse gas as calculated by the Environmental
+Protection Agency (EPA) is shown in Figure 2.21 Carbon dioxide is by far the largest contributor of GHG emissions
+at 79 percent. This is followed by methane at 11 percent. Methane emissions have risen with the increase in use of
+natural gas.
+Figure 2. National-level U.S. Greenhouse Gas Inventory (EPA, 2022)
+21EPA. Fast Facts 1990 - 2020 National-level U.S. Greenhouse Gas Inventory. https://www.epa.gov/system/files/documents/2022-04/fastfacts-1990-2020.pdf
+16
+
+===== PAGE 17 =====
+
+Community Partnership
+A Community Partnership of stakeholders was formed of
+SEP LEADERSHIP TEAM
+environmental and social equity advocacy groups, higher
+education faculty and staff, faith organization leaders, members
+of several Greensboro commissions and councils, utility provider
+The SEP Leadership Team (Refer to
+representatives, and other interested community members. An initial
+Appendix B) was formed with staff
+meeting was held on January 27, 2021, where the 10-step process to
+members representing almost
+develop the SEP was presented. Stakeholders were given extensive
+every City department. This
+opportunity to ask questions and provide initial recommendations.
+team first met in January 2021
+to review the 10-step process Follow-up presentations of the plan in each stage were presented at
+that would be used to develop Community Partnership meetings held May 6, July 14, and September
+the plan. Follow-up meetings 22, 2021 and at CSC Official Meetings held March 8, May 10, July 12,
+were held at key points in the and September 27, 2021. Due to COVID-19 restrictions, the meetings
+process. Meetings with individual were all held virtually via Zoom and were broadcasted live over the
+department representatives were Planning Department’s Facebook page. A large audience attended
+held to review the energy data these meetings and many valuable recommendations were shared.
+and discuss appropriate strategies
+for reducing the energy demand
+for that department. Drafts of the
+SEP were shared with the team
+and feedback informed revisions.
+Jeff Sovich, a senior planner, was
+instrumental in scheduling these
+meetings, as well as meetings
+with the City Manager’s Office
+to provide milestone reports.
+Dr. Vicki Foust with Energy and
+Sustainability Solutions provided
+project management for the
+development of the SEP.
+17
+
+===== PAGE 18 =====
+
+Energy Vision
+ENERGY VISION
+City Council stated the intent for the development
+of a 20-year SEP to recommend goals, strategies, The City of Greensboro
+and actions to the City to reduce its use of non-
+renewable energy and the resulting greenhouse Operations will use
+gas emissions. The overall goal is to increase the
+100% renewable energy
+use of renewable sources in City operations to 100
+percent by 2040. To achieve this goal, the resolution by 2040.
+states “officials and staff will consider all municipal
+decisions in light of whether they will bring the City
+and its residents, businesses, and institutions closer
+to achieving the goal of 100 percent renewable
+energy.” As the development of the SEP progressed,
+it became clear that the overarching goal could form
+the basis of the City’s Energy Vision.
+18
+
+===== PAGE 19 =====
+
+The City of Greensboro
+Operations will use
+100% renewable energy
+by 2040.
+ENERGY OUTLOOK
+
+===== PAGE 20 =====
+
+Source Percentage of Emissions
+Natural Gas/Fuel Oil 39%
+2019 Energy ProfiNulcleear 37%
+Coal 22%
+Hydro and Renewable 2%
+Energy data from January 1 through December 31,
+2019 was used to establish an energy profile of City
+operations. The energy profile identified how each
+City department consumes electricity, natural gas, 39% Natural Gas and Fuel Oil
+and vehicle and equipment fuels such as diesel, 37% Nuclear
+22% Coal
+gasoline, compressed natural gas (CNG) and E85. The
+2% Hydro and Renewable
+profile will serve as a baseline from which to measure
+progress toward goal achievement and inform
+decisions regarding conversion to renewable energy.
+This profile examines energy use by department,
+Figure 3. Duke Energy grid mix in North Carolina
+Percentage of emissions
+by type of use, and by quantity and cost of each
+energy source: electricity, natural gas, and vehicle “roadmap that identifies potential plans for a utility
+and equipment fuels (diesel, gasoline, E85, CNG) for to meet future energy and demand requirements
+2019. The profile also reveals the 2019 GHG emissions while considering the associated risks and benefits
+from City operations. A comparison of the 2007 and to customers.”23 Future changes to Duke Energy’s
+2019 GHG inventories, as well as a comparison of the electricity generation mix will impact the City’s Scope
+2019 GHG inventory using the Assessment Report 2 2 greenhouse gas emissions goals as will be shown
+and Assessment Report 5 GWP emissions factors are later in the SEP.
+also included in the profile. Unless otherwise noted,
+Electricity and Natural Gas Totals from City
+all annual figures in the SEP refer to the ordinary
+Operations
+calendar year.
+Table 3 shows the energy profile for electricity
+The City’s GHG emissions are a result of its
+and natural gas use in City operations during
+consumption of non-renewable energy sources.
+2019. Electricity usage is shown in kilowatt-hours
+Electricity makes up 60 percent of Greensboro’s
+(kWh) and natural gas is shown in terms for each
+energy consumption and is the largest contributor
+City department. These are standard units of
+to the City’s greenhouse gas emissions. The high
+measurement for each of these energy sources. The
+emissions from electricity are due to the generation
+table also provides the yearly total cost for each of the
+mix of the electricity supplier.
+energy sources for each City department.
+Duke Energy
+Electricity Profile
+Duke Energy is a major supplier of electricity in North
+Electricity consumption in kWh and cost is broken
+Carolina, including the City of Greensboro. As shown
+down to determine the level of usage by department.
+in Figure 4, Duke Energy’s 2019-generation output
+Figure 4 shows total electricity use by department
+was comprised of 39 percent natural gas, 37 percent
+as a percentage of the total electricity usage in 2019
+nuclear, 22 percent coal, and 2 percent renewables
+for City operations. The Water Resources Department
+(including hydro).22 More than half, 61 percent, of the
+used 49 percent of the electricity purchased by the
+output is from two fossil fuels (coal and natural gas)
+City, which makes the department by far the largest
+which contribute significantly to the GHG emissions
+user of electricity. The Transportation Department
+for the City of Greensboro.
+used 18 percent of the electricity purchased, making
+In North Carolina, Duke Energy is required to submit it the second largest user. The Coliseum used 12
+an Integrated Resource Plan (IRP) to the State percent of the electricity purchased, while the Parks
+Utilities Commission every two years. An IRP is a and Recreation Department used five percent. All
+22Duke Energy. Electric Utilities and Infrastructure. 2021. https://sustainabilityreport.duke-energy.com/introduction/duke-energy-at-a-glance/
+20 23Duke Energy. Integrated Resource Plan. 2021. https://www.duke-energy.com/Our-Company/About-Us/IRP
+
+===== PAGE 21 =====
+
+Department Electricity (kWh) Total Electricity Cost Natural Gas (Therms) Natural Gas Cost Total Energy Cost
+Coliseum 16,805,791 $1,219,528 319,313 $257,552 $1,477,079
+Engineering & Inspections 266,700 $24,794 3,958 $3,676 $28,469
+Executive 1,462,392 $106,746 27,624 $23,314 $130,061
+Field Operations 1,727,683 $163,033 37,278 $31,990 $195,025
+Financial & Administrative Services 344,817 $31,487 11,470 $10,288 $41,775
+Fire 3,036,774 $254,462 73,255 $68,173 $322,636
+General 5,011,283 $326,503 25,870 $22,691 $349,194
+Guilford Metro 9-1-1 966,436 $62,737 7,432 $6,991 $69,728
+Human Resources 40,883 $5,366 1,350 $1,700 $7,067
+Information Technology 14,575 $2,096 0 $0 $2,096
+Libraries 5,376,169 $381,188 56,439 $48,127 $429,314
+Parks & Recreation 6,674,015 $783,687 134,773 $124,987 $908,675
+Planning 47,400 $5,549 0 $0 $5,549
+Police 3,731,547 $290,876 95,922 $81,422 $372,297
+Transportation 25,411,039 $3,231,710 111,309 $93,651 $3,325,360
+Water Resources 68,496,885 $4,425,601 42,726 $38,950 $4,464,551
+Total 139,414,389 $11,315,363 948,719 $813,512 $12,128,876
+Table 3. Electricity and natural gas totals from City operations (2019)
+and pumping was the largest use type at 48 percent,
+with buildings at 32 percent, and streetlamps at 14
+percent. All other use types consumed a total of six
+49% Water Resources
+percent.
+18% Transportation
+12% Coliseum
+5% Parks & Recreation All Other Departments
+16% All Other Departments Fire
+Police
+General
+Libraries
+Figure 4. Electricity use by department - percentage of
+Parks & Recreation
+Electricity kwh
+total kWh Coliseum
+All Other Departments
+Transportation
+other departments combined used just 16 percent of
+Water Resources
+total electricity.
+0 5000 10000 15000 20000 25000
+Figure 5 shows the percentage of electricity used by
+Figure 6. Electricity CO emissions (MT) by department
+2e
+use type for 2019. Water and wastewater treatment
+Electricity emissions
+All Other DepartmeFnitgsure 6 shows CO 2e emissions in metric tons (MT) by
+department for electricity usage in 2019. The largest
+departmental emitters are Water Resources at 23,240
+MT, followed by the Transportation at 8,622 MT, the
+48% Water & Wastewater
+Coliseum at 5,702 MT, Parks and Recreation at 2,264
+Treatment & Pumping
+Natural Gas Therms by Department
+32% Building MT, Libraries at 1,824 MT, General (shared among
+14% Street Lights several departments) at 1,700 MT, Police at 1,266 MT,
+6% All Other Uses and Fire at 1,030 MT. All other departments emitted
+less than 1,642 MT of CO collectively in 2019.
+2e
+Figure 5. Electricity use by use type – percent of total kWh
+Electricity by Use Type 21
+All Other Departments
+Field Operations
+Water Resources
+Libraries
+Fire
+Police
+Transportation
+Parks & Recreation
+Coliseum
+0 500 1000 1500 2000
+Natural Gas emissions
+
+===== PAGE 22 =====
+
+Natural Gas Profile Gasoline Profile
+Natural gas as a percentage of the total usage for Gasoline by percentage of usage by department is
+each department is shown in Figure 7. The Coliseum shown in Figure 9. The Police Department accounted
+was the largest user of natural gas at 34 percent. for 49 percent of all gasoline usage, followed by
+Parks and Recreation was the second largest user at Transportation at 31 percent. These two departments
+14 percent, followed by Transportation at 12 percent, account for 80 percent of the gasoline used by
+Police at 10 percent, Fire at eight percent, Libraries at the City. Water Resources and Engineering and
+six percent, and Water Resources at five percent. All Inspections each used five percent. The combined
+other departments combined used 11 percent. usage for all remaining departments was 10 percent.
+Electricity kwh
+All Other Departments
+34% Coliseum 49% Police
+14% Parks & Recreation 31% Transportation
+12% Transportation 5% Water Resources
+10% Police 5% Engineering & Inspections
+8% Fire 10% All Other Departments
+6% Libraries
+5% Water Resources
+11% All Other Departments
+All Other Departments
+Figure 7. Natural gas use by department – percent of total Figure 9. Gasoline usage percentage by department
+Th N e a r t m ur s al Gas Therms by Department Gasoline by department
+Gasoline CO emissions in metric tons (MT) by
+2
+Figure 8 shows CO emissions in metric tons (MT) department is shown in Figure 10. The Police
+2e
+by department for natural gas usage in 2019. Department was the largest emitter with 5,121 MT.
+The highest emitting departments by MT are This was followed by Transportation 3,303 MT, Water
+the Coliseum at 1,738 MT, followed by Parks and Resources 535 MT, Engineering & Inspections 534 MT,
+Recreation at 734 MT, Transportation at 606 MT, and All Other Departments combined is 1,041 MT
+Police at 522 MT, Fire at 399 MT, Library at 307 MT, CO .
+2e
+Field Operations at 203 MT. All other departments
+All Other Departments
+emitted at total of 423 MT in 2019.
+Electricity by Use Type
+Engineering & Inspections
+All Other Departments
+Field Operations Water Resources
+Diesel by Department
+Water Resources
+Transportation
+Libraries
+Fire
+Police
+Police
+Transportation 0 1000 2000 3000 4000 5000 6000
+Parks & Recreation
+Coliseum Figure 10. Gasoline CO emissions by department
+2e
+0 500 1000 1500 2000 Gasoline emissions
+Diesel Profile
+Figure 8. Natural gas CO2e emissions (MT) by department
+Natural Gas emissions
+Figure 11 shows the percentage of diesel usage
+Vehicle and Equipment Fuel Totals for City by department for 2019. Field Operations had the
+Operations highest percentage with 47 percent, followed by
+Transportation at 33 percent, Water Resources at
+Table 4 shows the vehicle and equipment fuels
+nine percent, Fire at eight percent, and all other
+profile for diesel, gasoline, compressed natural gas
+departments combined at three percent.
+(CNG) and E85 for City Operations in 2019. Usage is
+shown in gallons for each City department. The table Figure 12 shows CO emissions from diesel by
+2
+also provides the yearly cost of the fuels for each City department in metric tons (MT) of CO emissions.
+2
+department. Field Operations had the highest rate of emissions
+22
+
+===== PAGE 23 =====
+
+Gallons of Fuel Fuel Cost
+Department Diesel UNL CNG E85 Total Diesel UNL CNG E85 Total
+Coliseum 834 1,997 — — 2,831 $1,741 $3,599 — — $5,340
+Engineering & Inspections 1,788 60,050 0 0 61,837 $3,740 $109,617 — — $113,357
+Executive 0 372 0 0 372 — $669 — — $669
+Field Operations 698,569 48,611 12,210 0 759,391 $1,458,121 $88,130 $24,064 — $1,570,314
+Financial & Administrative
+5,667 9,256 0 0 14,922 $11,802 $16,761 — — $28,563
+Services
+Fire 121,755 37,039 0 15 158,810 $295,649 $71,074 — $37 $366,759
+Information Technology 123 531 0 0 654 $270 $965 — — $1,235
+Legislative 0 108 0 0 108 — $196 — — $196
+Libraries 0 2,042 0 0 2,042 — $3,680 — — $3,680
+Metro 9-1-1 0 2,288 0 0 2,288 — $4,137 — — $4,137
+Housing & Neighborhood
+0 1,314 0 0 1,314 $40 $2,380 — — $2,380
+Development
+Parks & Recreation 31,147 13,159 0 0 44,307 $66,606 $25,743 — — $92,348
+Planning 0 377 0 0 377 — $678 — — $678
+Police 5,163 576,207 0 1,728 583,098 $11,102 $1,295,042 — $3,989 $1,310,133
+Transportation 487,153 371,682 0 0 858,834 $1,013,120 $669,708 — — $1,682,828
+Water Resources 126,196 60,177 0 0 186,373 $263,735 $109,129 — — $372,864
+Total 1,478,3951,185,210 12,210 1,743 2,677,559 $3,125,886 $2,401,507 $24,064 $4,025 $5,555,481
+Table 4. Vehicle and Equipment Data Quantity and Cost by Fuel Type (2019)
+Gasoline by department
+*Gasoline Quantity and Cost includes Unleaded, Super, and Unleaded Plus Gasoline.
+All Other Departments
+47% Field Operations
+33% Transportation Fire
+9% Water Resources
+8% Fire Water Resources
+3% All Other Departments
+Transportation
+Field Ops
+0 5000 10000 15000
+Figure 11. Diesel use by department - percentage of gallons
+Diesel by Department Figure 12. Diesel CO emissions by department
+2e
+discussed further in the baseline assessment of
+with 14,150 MT, followed by Transportation with
+this report. It will also not be included in the GHG
+4,329 MT, Water Resources with 1,122 MT, and
+Inventory.
+Fire with 1,082 MT. All Other Departments were
+responsible for a combined 406 MT of CO emissions E85
+2
+in 2019.
+The City uses only a small amount of E85, which is
+Compressed Natural Gas a gasoline product made with 85 percent ethanol,
+a biofuel. Ethanol is made of organic feedstock
+The City uses only a small amount of compressed
+such as corn and used to replace petroleum-based
+natural gas (CNG) as a transportation fuel. GTA uses
+fuel products. The Police Department used 1,728
+330 gallons equivalent and Solid Waste uses 12,210
+gallons of E85 in 2019 and the Fire Department
+gallons equivalent for a total of 12,540. Since this
+used 15 gallons. Since this is such a small amount of
+is such a small amount of usage, CNG will not be
+usage, E85 usage will not be discussed further in the
+23
+
+===== PAGE 24 =====
+
+baseline assessment of this report. It will also not be factor is a multiplier that equates to the amount of
+included in the GHG Inventory. greenhouse gas created from the consumption of a
+specific unit of the energy source. Emissions factors
+Greenhouse Gas Profile
+are specific to both energy source and specific
+A 2019 GHG inventory was completed for Scope greenhouse gases.
+1 and 2 emissions using the Global Protocol for
+The emissions factors can change for energy sources,
+Greenhouse Gas Emission Inventories developed by
+specifically electricity. Electricity is generated from
+the World Resources Council, ICLEI, and C40 Cities.
+a mixture of sources such as coal or natural gas
+A baseline emissions inventory using 2007 energy
+combustion, hydroelectric, nuclear, solar, wind, and
+data was completed for City operations in 2008 using
+other renewable sources. The changes in generation
+the Clean Air/Cool Planet Carbon Calculator. Since
+will impact the emissions factor.
+the 2007 inventory, there have been changes to the
+The City purchases most of its electricity from Duke
+global warming potential (GWP) and to the emissions
+Energy. Since 2007, Duke Energy’s generation mix has
+factors for electricity. These changes influence the
+changed. A reduction in coal and increase in natural
+results of the comparison. Therefore, a comparison
+gas for generation were major factors, along with a
+using the 2007 GWP and emissions was completed to
+slight increase in renewable energy generation. The
+illustrate the impact of the changes.
+emissions factor change for electricity was significant
+GWP
+as shown in Table 6. The 2007 CO emissions factor
+2
+The global warming potential (GWP) has been was 1,446.50 MWh/lb. of carbon, while in 2019 it was
+updated by the IPCC for greenhouse gases since 743 MWh/lb. of carbon . The emissions factor was
+the 2007 inventory was completed. GWP is the reduced 48.6 percent for carbon (CO ), increased
+2
+ratio of radiative forcing (degree of warming in the 272.2 percent for methane (CH ), and decreased 59.1
+4
+atmosphere) that would result from the emission percent for nitrous oxide (N O).
+2
+of one unit of a given GHG compared to one unit
+2007 Emissions 2019 Emissions Percent Change
+of carbon dioxide over a one-hundred-year time
+Factor Factor in Emissions
+horizon.24 This means that 1 unit of methane is
+GHG (lbs./MWh) (lbs./MWh) Factor
+equivalent to 28 units of carbon dioxide, and 1 unit
+Carbon dioxide
+of Nitrous Oxide is equivalent to 265 units of carbon 1,446.500 743.000 - 48.6%
+(CO)
+2
+dioxide. The newer GWP values reflect increased
+accuracy in the measurement of the global warming Methane (CH 4 ) 0.018 0.067 + 272.2%
+potentials of these gases.
+Nitrous oxide
+0.022 0.009 - 59.1%
+The 2007 City inventory used the GWP from (NO)
+2
+Assessment Report 2 (AR2) published by the IPCC.
+Table 6. Comparison of Emissions Factors 2007 & 2019
+The IPCC has subsequently issued updates to GWP,
+with AR5 being the most recent. A comparison of GHG Emissions Summary
+GWP values for AR2, AR4, and AR5 are shown in
+GHG emissions were calculated for all energy sources
+Table 5.25
+(electricity, natural gas, diesel, and gasoline) in MT
+GWP Values for 100-Year Time Horizon CO and as a percentage of total emissions for both
+2e
+Greenhouse Gas Formula AR2 AR4 AR5 2007 and 2019 as shown in Table 7. A change in
+emissions and percentage change from 2007 are also
+Carbon dioxide CO 2 1 1 1
+shown in Table 7. Emissions of CO from electricity
+Methane CH 4 21 25 28 2e
+decreased 45,978 MT (49 percent), diesel increased
+Nitrous oxide NO 310 298 265
+2 by 2,200 MT (17 percent), gasoline increased by 3,366
+Table 5. Comparison of GWP of IPCC Assessment Reports MT (47 percent), and natural gas increased 852 MT
+(19 percent). Although emissions increased for all
+Emissions Factors
+sources except electricity, there was a 34 percent
+Energy use is multiplied by an emissions factor overall reduction in emissions, mostly attributable to
+to calculate the net CO emissions. The emissions the 49 percent reduction in electricity emissions.
+2
+24IPCC. Special Report Global Warming of 1.5oC Summary for Policymakers. 2018. https://www.ipcc.ch/sr15/
+25Ibid
+24
+
+===== PAGE 25 =====
+
+2007 Emissions 2019 Emissions Change in Emissions
+Emissions Emissions Emissions Change from
+Emission Source (MT CO ) % of Emissions (MT CO ) % of Emissions (MT CO ) 2007
+2e 2e 2e
+Electricity 93,232 79% 47,254 60% - 45,978 - 49%
+Diesel 12,822 11% 15,022 19% + 2,200 + 17%
+Gasoline 7,186 6% 10,552 14% + 3,366 + 47%
+Natural Gas 4,468 4% 5,320 7% + 852 + 19%
+Total 117,708 100% 78,148 100% - 39,560 - 34%
+Table 7. Summary of GHG Emissions for 2007 and 2019
+Estimated 2007 Emissions Estimated 2019 Emissions
+Emissions Emissions
+Electricity Use Factor Emissions Emissions Electricity Use Factor (lbs./ Emissions Emissions
+GHG (MWh) (lbs./MWh) (MT) GWP (MT CO ) (MWh) MWh) (MT) GWP (MT CO )
+2e 2e
+CO 141,392 1,446.50 92,771.00 1 92,771 139,414 743.00 46,985.00 1 46,985
+2
+CH 141,392 0.02 1,154.00 21 24 139,414 0.07 4.24 28 119
+4
+NO 141,392 0.02 1,411.00 310 437 139,414 0.01 0.57 265 151
+2
+Total Electricity Emissions 93,232 Total Electricity Emissions 93,232
+Emissions Emissions
+Natural Gas Factor Emissions Emissions Natural Gas Factor Emissions Emissions
+GHG (MMBTU) (kg/MMBTU) (MT) GWP (MT CO ) (MMBTU) (kg/MMBTU) (MT) GWP (MT CO )
+2e 2e
+CO 79,715 56.00 4,456.00 1 4,456 94,872 56.00 5,304.00 1 5,304
+2
+CH 79,715 0.01 0.42 21 9 94,872 0.01 0.50 28 14
+4
+NO 79,715 0.0001 0.01 310 3 94,872 0.0001 0.01 265 3
+2
+Total Natural Gas Emissions 4,468 Total Natural Gas Emissions 5,320
+Emissions Emissions
+Factor Emissions Emissions Factor Emissions Emissions
+GHG Gasoline (Gal) (kg/Gal (MT) GWP (MT CO ) Gasoline (Gal) (kg/Gal (MT) GWP (MT CO )
+2e 2e
+CO 803,444 8.81 7,078.00 1 7,078 1,181,995 8.81 10,413.00 1 10,413
+2
+CH 803,444 0.02 0.25 21 5 1,181,995 0.02 0.37 28 10
+4
+NO 803,444 0.02 0.00 310 102 1,181,995 0.02 0.00 265 129
+2
+Total Gasoline Emissions 7,186 Total Gasoline Emissions 10,552
+Emissions Emissions
+Factor Emissions Emissions Factor Emissions Emissions
+GHG Diesel (Gal) (kg/Gal (MT) GWP (MT CO ) Diesel (Gal) (kg/Gal (MT) GWP (MT CO )
+2e 2e
+CO 1,261,650 10.15 12,806.00 1 12,806 1,478,395 10.15 15,006.00 1 15,006
+2
+CH 1,261,650 0.01 0.05 21 1 1,478,395 0.01 0.06 28 2
+4
+NO 1,261,650 0.01 0.05 310 15 1,478,395 0.01 0.06 265 15
+2
+Total Diesel Emissions 12,822 Total Diesel Emissions 15,022
+Total Emissions, All Sources 117,708 Total Emissions, All Sources 78,148
+Table 8. Emissions by energy source for 2007 and 2019 for comparison (2007 emissions factors)
+25
+
+===== PAGE 26 =====
+
+Comparison of GHG Emissions by Energy Source Greensboro Emissions Progress
+and Specific GHG
+Although the emissions factor was the main cause of
+A comparison of emissions by energy source for the emissions reduction for the City, there is progress
+2007 and 2019 with a breakdown of the emissions to recognize. Table 10 shows City electricity use
+by specific greenhouse gases is provided in Table 8. decreased by a little over one percent between 2007
+Energy use is multiplied by the emissions factor to and 2019 which resulted in a reduction in emissions
+calculate emissions in MT. The MT are then multiplied of 1,305 MT CO based on the 2019 emissions factor.
+2e
+by the GWP to determine the emissions in MT CO . While this is not a huge reduction, it is notable as it is
+2e
+the only energy source to reduce consumption. That
+As mentioned earlier, the change in emissions factors
+this reduction occurred while the City’s population
+and GWP impacts the comparison in emissions. The
+grew 17 percent, its land area increased, the number
+GWP did change between 2007 and 2019 but did not
+of City employees grew, and the utilization of electric
+result in a significant impact on total emissions.
+vehicles increased, makes this one percent reduction
+As shown in Table 8 total electricity emissions for
+in consumption remarkable, and an indication
+2007 were 93,232 MT CO . Emissions were 47,254 in
+2e that municipal operations have been focused on
+2019. The emissions factor for electricity was 1,446.50
+providing services and facilities to the community
+lbs./MWh in 2007 and was 743 lbs./MWh in 2019. The
+in a more energy efficient manner. However, since
+2019 emissions factor is almost half that of 2007. This
+electricity is the largest source of emissions for the
+means most of the electricity emission reduction
+City, further improvements in managing electricity
+between 2007 and 2019 can be attributed to the
+demand, energy efficiency, and phasing in renewably
+change in emissions factor.
+generated electricity will have the greatest impact on
+Emissions factors for other energy sources remained reducing emissions.
+constant. Diesel emissions increased by 2,200 MT
+Energy 2007 2019 Change %
+CO . Gasoline emissions increased by 3,366 MT
+2e Source (Unit) Consumed Consumed in Use Change
+CO . Natural gas emissions increased by 852 MT
+2e
+Electricity Use
+CO . However, the decrease in electricity emissions 141,392 139,414 - 1,978 - 1%
+2e (MWh)
+of 45,978 MT CO exceeds the increases of all other
+2e
+Natural Gas
+sources. This is mainly a result of the lower 2019 79,715 94,872 + 15,157 + 19%
+(MMBTU)
+emissions factor.
+Gasoline
+803,444 1,181,995 + 378,551 + 47%
+To better explain the consequences of the change (Gal)
+in emissions factors for calculating electricity
+Diesel
+1,261,650 1,478,395 + 216,745 + 17%
+emissions, Table 9 shows emissions in MT CO 2e using (Gal)
+only the 2007 emissions factors for both 2007 and
+Table 10. Change in Energy Consumption 2007-2019
+2019. Instead of a 45,978 MT reduction in electricity
+emissions as shown in Table 9, the reduction in Table 10 shows the change in energy use by energy
+Table 8, using the same emissions factor results source between 2007 and 2019. The City’s natural gas
+in only a 1,298 MT CO reduction. Therefore, only usage increased by 19 percent, gasoline increased
+2e
+a little over one percent of the actual electricity by 47 percent and diesel increased by 17 percent.
+emissions reduction can be attributed to a decrease The significant growth in use for all the energy
+in electricity use by the City. sources except electricity should be reviewed further
+2007 Electricity Emissions (2007 Emissions Factors) 2019 Electricity Emissions (2007 Emissions Factors)
+Emissions Emissions
+Electricity Use Factor Emissions Emissions Electricity Use Factor (lbs./ Emissions Emissions
+GHG (MWh) (lbs./MWh) (MT) GWP (MT CO ) (MWh) MWh) (MT) GWP (MT CO )
+2e 2e
+CO 141,392 1,446.50 92,771 1 92,771 139,414 1,446.50 91504.00 1 91,504
+2
+CH 141,392 0.02 1,154 21 24 139,414 0.02 1.14 21 24
+4
+NO 141,392 0.02 1,411 310 437 139,414 0.02 1.39 310 431
+2
+Total Electricity Emissions 93,232 Total Electricity Emissions 91,959
+Table 9. Comparison of Electricity Emissions using 2007 Emissions Factors
+26
+
+===== PAGE 27 =====
+
+to identify the causes and develop strategies for Green Dividend
+reducing consumption and increasing efficiency.
+Efforts by the City to become more efficient,
+Cost of Carbon sustainable, and resilient can help citizens keep
+more money in their pockets, an effect referred to
+Greenhouse gas emissions impose real economic
+as the “Green Dividend.” If the City makes it more
+costs on businesses, families, and governments in the
+convenient for people to drive less, they will spend
+form of increased health care expenses, destruction
+less on gas, leaving them with more disposable
+of property, increased food and commodities
+income.29 Investing in more energy-efficient City
+prices, and more. Economists have measured this
+facilities and equipment can help Greensboro
+economic harm, known as the ‘social cost of carbon’.27
+provide equal or better service to residents at a
+The current average estimate of the social cost of
+lower cost, creating opportunities for further public
+carbon is $51 per ton.28 With the GHG Inventory for
+enhancements.
+City of Greensboro municipal operations calculated
+at 78,148 MT CO in 2019, this represents a total Tackling climate change and creating a more
+2e
+economic cost of at least $3,985,548 per year. For sustainable community are efforts that have a value
+perspective, this is less than 0.6 percent of the City’s far beyond just the savings from improved efficiency.
+approved $688 million budget from fiscal year 2022- A study by The Global Commission on the Economy
+2023. and Climate (aka The New Climate Economy), found
+that making a worldwide transition to a “low-
+The cost of carbon emissions from City operations
+carbon, sustainable growth path could deliver a
+generally imposes the greatest hardships on the
+direct economic gain of $26 trillion through to 2030
+lowest income households and our most vulnerable
+compared to business-as-usual. And this is likely
+residents (women, children, and persons who
+to be a conservative estimate.”30 While this study
+are disabled, have chronic health conditions, are
+examined the opportunities for economic gain at
+elderly, or are members of racial, ethnic, or linguistic
+the global level, these gains are strongly correlated
+minorities). Reducing the City’s GHG footprint can
+with the level of investment – the nations, cities, and
+lighten this economic burden on our community and
+corporations that make the largest investments will
+promote environmental justice.
+see the greatest increases in GDP or profit.
+27Environmental Defense Fund. The True Cost of Carbon Pollution. 2021. https://www.edf.org/true-cost-carbon-pollution
+28Interagency Working Group on Social Cost of Greenhouse Gases, United States Government. 2021. Technical Support Document: Social Cost of Carbon,
+Methane, (whitehouse.gov)
+29Cortright, Joe. Portland’s Green Dividend. June 6, 2017. City Observatory. https://cityobservatory.org/portlands-green-dividend/
+30New Climate Economy. Unlocking the Inclusive Growth Story of the 21st Century: Accelerating Climate Action in Urgent Times. 2018. https://
+newclimateeconomy.report/2018/wp-content/uploads/sites/6/2018/09/NCE_2018_FULL-REPORT.pdf 27
+
+===== PAGE 28 =====
+
+GOALS AND RECOMMENDATIONS
+
+===== PAGE 29 =====
+
+SEP Goals, Strategies
+and Recommendations
+The SEP includes recommendations, goals, strategies, Following the goals and strategies for City operations,
+and actions for policy and operational processes that is a section containing goals and strategies intended
+will help the City expedite achieving its vision of 100 to incentivize residents and businesses throughout
+percent renewable energy by 2040. Also included the community to achieve similar progress on GHG
+are goals, strategies, and actions for reducing reduction, energy efficiency, and renewable energy
+nonrenewable energy consumption and increasing use, as well as to address disproportionate cost
+the use of renewable energy, organized by energy burdens and ensure a just transition to renewable
+source and then by department. energy for all and prioritize at-risk populations.
+These goals and strategies align with the SEP
+Resolution directives, which state that the SEP should
+include:
+1. Specific steps to reduce Scope 1 and Scope 2
+greenhouse gas emissions from City operations
+by 40 percent or more from estimated 2007
+levels by 2025.
+2. Specific steps to reduce the overall energy
+consumption per square foot in all City-owned
+buildings by 40 percent or more from estimated
+2007 levels by 2025.
+3. Achievable goals for transitioning to 100 percent
+renewable energy in City operations by 2040
+by any combination of on-site and off-site
+renewable sources, including, but not limited
+to: solar, wind, hydroelectric, renewable energy
+certificates (RECs), and green power purchases.
+4. Recommendations for incentivizing Greensboro
+residents and businesses to achieve similar
+progress on GHG reduction, energy efficiency,
+and renewable energy use, address cost burdens
+to ensure a just transition to renewable energy
+for all and prioritize at-risk populations.
+These organization-wide recommendations are
+followed by goals and strategies for reducing
+consumption of each of the primary energy sources:
+electricity, natural gas, gasoline, and diesel. The
+goals and strategies for each energy source are then
+organized by departmental breakdown with the
+highest consumption of each type of energy source.
+31City of Greensboro. Resolution to Support the Establishment of a 20-Year Strategic Energy Plan and Goals to Transition to 100% Renewable Energy for the City of
+Greensboro. Community Sustainability Council. Accessed October 15, 2021. https://www.greensboro-nc.gov/departments/planning/boards-commissions-
+meetings/community-sustainability-council-csc 29
+
+===== PAGE 30 =====
+
+Organization-Wide Recommendations
+for City of Greensboro
+The vision of the SEP is 100 percent renewable energy by 2040. The recommendations that follow emerged from
+the numerous meetings that took place during the SEP planning process. These recommendations will accelerate
+the implementation of the SEP. The adoption of new procedures could be expedited through changes to current
+City operations. These changes would include priority in awarding contracts related to the plan to historically
+underutilized businesses, environmental and social justice sensitivity in decision-making, green building standards
+for new or substantial renovations of City owned assets, commitment to convert to a sustainable fleet, and
+protection of the tree canopy.
+RECOMMENDATION 1 RECOMMENDATION 2
+Clean energy audit/installation/
+The City should establish a
+maintenance contracts will
+Sustainability Office.
+give priority to Historically
+Underutilized Businesses
+STRATEGY 1 Approve and fund creation of a (HUBs) and Minority and
+Sustainability Office.
+Women Business Enterprise
+STRATEGY 2 Establish and fill Chief (MWBE).
+Sustainability Officer position.
+STRATEGY 3 Develop the Sustainability
+Office’s Year 1 work plan.
+STRATEGY 1 Energy focused Requests for
+Proposals should contain language
+The City has made a commitment to 100 percent indicating a preference to work with
+renewable energy of operations by 2040. The a HUB or an MWBE.
+implementation of the SEP will require full-time staff STRATEGY 2 The Minority and Women Business
+dedicated to that purpose. Staff in the newly created Enterprise (MWBE) Office will offer
+Sustainability Office will be responsible for providing workshops on how to obtain HUB/
+leadership, ensuring actions are completed, MWBE Certification.
+measuring progress, and communicating with
+internal and external stakeholders. An additional staff The City has established goals for contracting
+position is recommended to analyze energy usage with both HUB and MWBE firms. The intent of this
+and monitor progress toward meeting the goals recommendation is for the City to be proactive in
+of the SEP. Careful management of energy reduces nurturing connections with local energy businesses
+consumption, and therefore, cost and greenhouse that are qualified for HUB or MWBE status, but not
+gas emissions. yet certified. This rationale is these strategies will
+increase the pool of qualified contractors for the City
+and promote the growth of green energy jobs.
+30
+
+===== PAGE 31 =====
+
+RECOMMENDATION 3 RECOMMENDATION 4
+Ensure energy decisions are
+All New and Substantially
+made in a way that promotes
+Renovated City-Owned
+a just transition to renewable
+Buildings will meet Green
+energy for all and prioritizes
+Building standards.
+vulnerable communities.
+STRATEGY 1 Use the ANSI/ASHRAE/USGBC/
+STRATEGY 1 Establish criteria to identify the IES Standard 189.1, Standard for
+most impacted and vulnerable the Design of High-Performance
+communities in the City. Green Buildings except Low-
+STRATEGY 2 Identify the most impacted and Rise Residential Buildings, or
+vulnerable communities. comparable standard for all new
+and substantially renovated City-
+STRATEGY 3 Prioritize outreach and assistance owned buildings.
+to impacted and vulnerable
+STRATEGY 2 As appropriate, decommission
+communities to encourage
+older buildings that are inefficient
+more community participation
+and too costly to upgrade; recycle
+to determine impacts of energy
+and/or repurpose building
+projects on the community and
+materials to the extent feasible.
+provide education around energy
+STRATEGY 3 Designs for future parking decks
+and water conservation.
+should structurally allow for the
+STRATEGY 4 Vet energy projects to ensure that
+installation of solar canopies and/
+negative environmental/equity
+or rain gardens on the top level.
+consequences are not created.
+STRATEGY 5 Prioritize vulnerable communities
+As the City works to reduce energy consumption,
+first in rolling out individual parts
+the highest priority should be on constructing
+of the Energy Plan, i.e., building
+new City buildings and substantial renovations of
+retrofits, new facilities, etc.
+existing buildings to green building standards. This
+practice will increase building energy efficiency,
+This recommendation is a directive in the resolution. while decreasing energy costs and carbon emissions.
+However, the importance of this directive was When a building reaches the end of its service life,
+emphasized throughout the SEP development or if a cost-benefit assessment determines that
+process and encouraged to be included as a renovations to a green standard would be too
+recommendation. Identification of vulnerable costly, decommissioning, and replacement with new
+communities is seen as a necessary first step, construction may be warranted. New parking decks
+followed by outreach to encourage participation should structurally allow for solar canopies and/or
+and provide education. An important strategy rain gardens, so that this can be considered as an
+is to prioritize vulnerable communities when option for future solar siting.
+implementing actions in the SEP that could positively
+benefit those communities.
+31
+
+===== PAGE 32 =====
+
+RECOMMENDATION 5 RECOMMENDATION 6
+Establish a policy to achieve
+The City fleet should be
+no net loss of the tree canopy
+comprised of zero-emission
+throughout the City, for
+vehicles by 2040.
+improved air quality, reduced
+urban heat island effect, and
+STRATEGY 1 Create a Sustainable Fleet
+ongoing carbon sequestration.
+Policy.
+The City’s vehicle fleet and equipment account for
+20 percent of total emissions. The development STRATEGY 1 Collaborate with Greensboro
+of a sustainable fleet policy will focus the City on Beautiful, Sierra Club, Planning
+reducing emissions and electrifying the fleet. Fleet Department, City Arborist, Housing
+policy recommendations include a transition of & Neighborhood Development,
+Police vehicles to hybrids as quickly as practicable. the NeighborWoods Program, and
+A conversion to the Ford Hybrid Interceptor would other stakeholders to develop a 20-
+reduce gasoline use by 1,276 gallons, save $3,509 in year strategy to maintain the tree
+fuel costs, and eliminate 22,560 lbs. of CO 2e emissions canopy.
+per year per vehicle.32 Conversion of other City
+STRATEGY 2 Conduct a baseline tree canopy
+vehicles to electric vehicles (EVs) should begin as
+audit, followed by an update every
+soon as possible. The shift to EVs will require a plan
+five years.
+for developing the needed charging infrastructure in
+STRATEGY 3 Focus planting efforts in vulnerable
+all areas of the city. Until internal combustion engine
+communities, which have limited/
+(ICE) vehicles are phased out, a fleet-wide policy
+no tree canopy.
+against vehicle idling should be established and
+enforced.
+Greensboro has been designated a Tree City
+USA since 1991. The community cares about
+the City’s trees. Beyond the beauty of the trees,
+they also improve air quality, reduce urban heat
+island effect, provide energy-saving shade, and
+sequester atmospheric carbon. For these reasons,
+it is recommended that the City be intentional
+about maintaining its tree canopy. This strategy
+should include the collaborative development of
+a long-term tree canopy plan. To ensure the City is
+maintaining its tree canopy, a tree canopy audit is
+recommended every five years. Focus planting efforts
+in vulnerable communities that may be impacted by
+limited or no tree canopy.
+32Ford. Responsive to Your Budget. Ford Motor Company. 2021. https://www.ford.com/police-vehicles/police-interceptor/hybrid-utility/calculator/
+32
+
+===== PAGE 33 =====
+
+RECOMMENDATION 7 RECOMMENDATION 8
+Develop an Energy and Water Review current vehicle and
+Education Program for all City equipment purchase/lease
+staff. process for potential efficiency
+improvements.
+STRATEGY 1 Human Resources development
+of three courses: Electricity
+STRATEGY 1 Evaluate departmental sharing
+Conservation, Water
+of specialized vehicles and
+Conservation, and Eco-Driving.
+infrequently used equipment.
+The education program is recommended to increase
+The City currently purchases/leases vehicles based
+conservation awareness to City staff and create a
+on the needs of each department individually. This
+conservation culture. As conservation thinking takes
+approach often results in duplicate purchasing of
+hold it will have ripple effect. The results will include
+identical equipment for different departments.
+reduced energy use and reduced water demand,
+A Fleet Efficiency Study will identify potential
+reduced emissions, and a greater stewardship ethic,
+opportunities to reduce the size of the fleet by
+in which City staff lead the community by example.
+sharing intermittently used vehicles and equipment.
+While this would not decrease emissions, it will
+decrease the amount of money the City spends
+on fleet vehicles and equipment and expedite the
+phase-in of hybrid or electric models.
+33
+
+===== PAGE 34 =====
+
+Energy Goals, Strategies and Actions
+The vision of the SEP is 100 percent renewable Electricity makes up most of the emissions for
+energy by 2040. The goals and strategies that the City so there will be an immediate focus on
+follow emerged from the meetings that took place reducing total electricity use and increasing the use
+during the SEP development process. The goals and of renewable sources, in order to reduce electricity
+strategies are organized broadly by the City’s energy emissions and move toward the goal of 100 percent
+sources: electricity, natural gas, gasoline, and diesel. renewable energy.
+Goals and strategies are grouped at a more detailed
+In 2019, Greensboro’s municipal government had
+level by the departments with the highest usage of
+a larger land area with a larger population using
+each energy source. This allows the departments to
+more vehicles than in 2007. It is no surprise that both
+integrate the goals and strategies into existing and
+gasoline and diesel usage increased significantly
+future plans, budgets, and align annual work plans
+since the 2007 inventory, so there will also be an
+with them.
+immediate focus on reducing the consumption of
+Community incentives are also included in the goals gasoline and diesel through integration of hybrid
+and strategies to encourage residents to follow the and electric vehicle options.
+City’s example and make similar progress in energy
+The goals, strategies, and actions that follow were
+conservation, emissions reduction, and renewable
+developed to enable the City to achieve the goal of
+energy use.
+100 percent renewable energy by 2040.
+Actions to achieve the goals and strategies outlined
+Renewable Energy
+are all important contributions to achieving the
+vision. However, some actions will have more impact; Solar photovoltaic (PV) is a feasible renewable
+especially if completed early in the plan. Actions that source for electricity generation and can be installed
+meet these criteria will be prioritized. on rooftops or as ground arrays. Estimates were
+calculated for meeting electricity demand with
+A breakdown of the 2019 emissions from energy
+rooftop and ground solar.
+usage by energy source for the City is provided
+in Figure 13. It shows that electricity makes up 60 Ground
+percent of the City’s GHG footprint. Diesel is the
+A typical 1 MW ground solar array is estimated
+Source Percentages eofc Eomnissdio nlsargest source at 19 percent of the City’s GHG to generate 1.7 million kWh per year, which is
+Electricity emission6s0%. Gasoline emissions are slightly less at 14
+Diesel 19% approximately 1.3 percent of current annual
+Gasoline percent.1 N4%atural gas is the lowest emitter at seven electricity usage from City operations. The estimate is
+Natural Gas percent. 7%
+calculated by taking 1 million watts and multiplying
+it by the solar insolation for North Carolina, which
+according to the National Renewable Energy
+Laboratory (NREL) is 4-5 hours per day. This daily
+60% Electricity generation is then annualized to 1.7 million kWh.
+CO
+2
+19% Diesel Insolation is the amount of solar energy that hits
+14% Gasoline
+the panel over a 24-hour period, annualized. It is
+7% Natural Gas
+expressed kWh/m2.33 A 1 MW ground solar array is
+estimated to cost $1.6 million and require 5 acres of
+land.34
+For example, to produce enough solar energy to
+Figure 13. Breakdown of 2019 emissions from energy
+offset the City’s 2019 non-renewable electricity
+Percentage of emissions
+usage by source
+consumption would require constructing solar
+33NREL. Solar Resource Map and Data. National Renewable Energy Laboratory. 2021. https://www.nrel.gov/gis/solar-resource-maps.html
+34NREL. (2020). Data and Tools. National Renewable Energy Laboratory. 2020. www.nrel.gov/publications
+34
+
+===== PAGE 35 =====
+
+arrays with a total estimated generation of 87MW. Similarly, 94 percent of the City’s electricity
+Developing this solar generation capacity would cost consumption is attributable to the following use
+approximately $131.2 million and cover 410 acres. types, which will be prioritized for energy efficiency
+This estimate does not address the energy needs and reduction measures:
+associated with the City’s natural gas, gasoline, or
+• Water and Wastewater Treatment & Pumping,
+diesel consumption.
+48 percent
+Rooftop • Buildings, 32 percent
+• Streetlamps, 14 percent
+Rooftop solar costs are estimated at $1.6 thousand
+per kW installed. Approximately 100 square feet are Reducing the demand for electricity and
+needed per kW. To produce enough solar to offset investigating renewable energy projects to address
+the current non-renewable electricity consumption the electricity needs for these three departments
+is estimated to be 8.2 million square feet of solar and usage types will be critical to achieving the
+compatible roof space. The City rooftop surface area goals of the SEP. It is recommended that a reduction
+of all City buildings is a fraction of the needed space in electricity consumption be a priority for early
+and will limit the amount of the City’s electricity implementation. Efficiency measures as a first step to
+needs that can be met through rooftop solar. reduce consumption can be followed by actions to
+increase the use of solar and other clean renewable
+Owned solar generation can help move the City
+sources to reduce emissions and move toward the
+toward the SEP goal, but measures to reduce energy
+City’s 2040 energy vision.
+use and to purchase Renewable Energy Certificates
+(RECs) and other clean renewable energy sources,
+such as hydroelectric, wind, geothermal, etc. will be
+needed to achieve the goal of 100 percent renewable
+energy by 2040. ELECTRICITY
+MEASUREMENTS DEFINED
+Electricity Reduction
+Electricity Current State
+To effectively manage and make
+60 percent of GHG Emissions decisions regarding electricity, it
+30 MW Demand is necessary to understand the
+139,414 MWh Usage units of measurement:
+$11.3 million Cost
+Kilowatt (kW) is a
+Electricity is the City’s largest source of energy measurement of the total
+by both emissions and cost. Therefore, reducing electricity demand for an asset
+electricity use is a priority. There are many such as a building.
+opportunities to reduce electricity consumption
+Megawatt (MW) is one
+through energy efficiency measures, energy
+thousand kilowatts.
+education integration, and adoption of renewable
+Kilowatt Hour (kWh) is a
+energy for electricity needs. Recommended funding
+measurement of the amount
+for projects includes performance contracts and
+of electricity consumed by an
+internal funding mechanisms.
+asset over a specific period.
+CO The following three departments make up roughly
+2
+80 percent of all the City’s electricity use and should
+be considered a priority for reduction:
+• Water Resources, 49 percent
+• Transportation, 18 percent
+• Coliseum Complex, 12 percent
+35
+
+===== PAGE 36 =====
+
+Water Resources The Water Resources Department consumes 49 percent of the electricity
+used by the City. A large amount of energy is needed to pump and treat
+Department water and wastewater, and to incinerate biosolids for a population of
+almost 300,000. Since electricity represents 60 percent of the City’s GHG
+emissions, a focus on reducing electricity consumption by the Water
+Resources Department should be given priority. Reduction in water
+49% Electricity Consumed
+demand and associated electricity consumption will have a significant
+16 Demand (in MW) impact on reducing GHG emissions. The integration of renewable energy
+sources to meet electricity demand will further reduce emissions. See the
+68,496 Usage (in MWh)
+Goals, Strategies, and Actions recommended for reducing the energy and
+$4.4M Expense emissions footprint of Water Resources.
+GOAL 1 GOAL 3
+Reduce water demand by 20% Meet total demand with
+per capita by 2030. renewable energy by 2040.
+STRATEGY 1.1 Water efficiency campaign. STRATEGY 3.1 Install 1 MW ground PV solar project
+at T. Z. Osborne.
+A1.1.1 Audit all City buildings for water
+efficiency opportunities. A3.1.1 Secure funding for project.
+A1.1.2 Audit and fix distribution leaks. A3.1.2 RFP developed/bids secured/contract
+awarded.
+A1.1.3 Educate citizens on the importance of
+water conservation. STRATEGY 3.2 Install additional ground solar.
+A1.1.4 Develop incentives for citizens to A3.2.1 Identify suitable land for array (5 acres
+reduce personal water demand. for a 1 MW array).
+A1.1.5 Establish funding to assist vulnerable A3.2.2 Identify suitable land for smaller
+residents to reduce water demand. arrays (>1MW).
+A1.1.6 Perform a study of other cities’ water A3.2.3 Conduct feasibility study of solar
+pricing structures. installation on existing parking decks.
+STRATEGY 3.3 Inline hydroelectric project.
+GOAL 2
+A3.3.1 Determine cost effectiveness of the
+project.
+Reduce electricity demand by
+40% by 2025 from 2007. A3.3.2 Investigate and resolve previously
+identified federal permitting issues.
+STRATEGY 2.1 Increase equipment efficiency. A3.3.3 If A3.3.1 is positive, RFP developed/
+bids secured/contract awarded.
+A2.1.1 Audit water and wastewater
+equipment. STRATEGY 3.4 Research electricity generation by
+capturing waste heat from bio-solid
+A2.1.2 Implement efficiency measures
+incineration.
+suggested by audit.
+A3.4.1 Feasibility study to determine
+A2.1.3 Monitor equipment to ensure
+compatibility with existing
+efficiency levels are met.
+equipment.
+STRATEGY 2.1 Increase equipment efficiency.
+A3.4.2 Determine cost effectiveness of the
+A2.2.1 Perform an energy audit on J. Edward project if A3.4.1 is positive.
+Kitchen Operations Center.
+A3.4.3 If A3.4.2 is positive, RFP developed/
+A2.2.2 Implement efficiency measures bids secured/contract awarded.
+suggested by audit.
+A2.2.3 Monitor buildings to ensure efficiency
+levels are met.
+36
+
+===== PAGE 37 =====
+
+Water Reduction Renewable
+The Water Resources Department has already made Installation of a proposed one MW PV solar PV array
+progress to reduce water demand by performing at the T.Z. Osborne (TZO) facility, with an estimated
+annual water audits since 2018 to determine non- cost of $1.6 million, had previously been included
+revenue water losses (e.g., system leaks). Equipment in the Capital Improvement Program (CIP). The TZO
+efficiency measures have been completed or are facility is situated on approximately 400 acres, which
+scheduled for most of the Department’s facilities. The could easily accommodate the five acres needed
+Water Resources Department has also participated in for a one MW array. The project could produce
+the Wyland Foundation National Mayor’s Challenge approximately 1,700 MWh per year, which is about
+for Water Conservation. The challenge is designed 2.5 percent of the department’s annual electricity
+to encourage Mayors to challenge their residents to consumption and $88K of its annual electricity
+conserve water, energy, and other natural resources costs. If this project is successful, the goal is to install
+on behalf of the City through a series of informative, additional ground PV solar arrays at TZO and include
+easy-to-use pledges online. Cities with the highest battery storage into these projects.
+percentage of residents who take the challenge,
+Hydroelectric Generation
+win.35
+An in-line hydroelectric generation project has been
+Water reduction strategies include incentives
+previously studied as a renewable energy project.
+for residents to reduce personal water demand
+It would work by installing turbines inside a pipe
+by installing high efficiency toilets, dishwashers,
+running from a water source (reservoir) to a second
+washing machines and showerheads. A strategy
+site. As the water runs through the pipe, it moves
+for assisting vulnerable residents to reduce
+the turbines to generate electricity. The previous
+water demand includes funding for water-saving
+study estimated that this project would have an 87-
+appliances. It also includes a train/work program
+kW generation capacity. The proposed cost for the
+developed with Guilford Technical Community
+project in the 2009 study was $722K with a payback
+College (GTCC) to install the retrofits. It will further
+period of just more than 10 years. It is recommended
+include a Water Conservation Education Program to
+that a cost-benefit analysis of the project be
+be developed and implemented jointly by the City’s
+prepared to determine if it would be cost effective to
+Housing and Neighborhood Development and Water
+implement, and identify the required environmental
+Resources Departments.
+and permitting steps. A concern is the amount of
+Efficiency energy produced for the cost of the project.
+The department has completed or scheduled energy Electricity Generation from Incineration
+efficient improvements at North Buffalo Creek
+The department uses a great deal of electricity to
+Pumping Station, the T.Z. Osborne Water Reclamation
+run two incinerators to burn the bio-solids and then
+Facility, the N.L. Mitchell Water Treatment Plant,
+send the ashes to the landfill. The incinerators must
+the Lake Townsend Water Treatment Plant, and the
+reach high temperatures to burn the bio-solids,
+Reedy Fork Pumping Station. The equipment at all lift
+which produces heat. A process exists to capture
+and pump stations has been audited. There is further
+the waste heat from the incinerator to convert it
+opportunity to improve system controls, install
+to electricity with a generator. A feasibility study is
+energy efficient blowers and diffuser technologies.
+recommended to determine the compatibility with
+Audits of building equipment for increased efficiency
+existing equipment, cost of equipment, amount of
+measures is priority. Opportunities to reduce
+electricity that could be generated, and identify the
+electricity consumption for this department are
+required environmental and permitting steps, in
+specifically important since it represents half of the
+order to determine if this project warrants further
+electricity use.
+consideration.
+35Wyland Foundation. Wyland National Mayor’s Challenge for Water Conservation. Wyland National Mayor’s Challenge. 2022. https://mywaterpledge.com/
+37
+
+===== PAGE 38 =====
+
+Transportation
+Department
+The Transportation Department uses 18 percent of the City’s total
+electricity consumption. Streetlamps account for 78 percent of
+the department’s consumption. The Transportation Department
+18% Electricity Consumed buildings account for 15 percent, while parking decks use four
+percent. See the actions recommended for reducing electricity use
+1.5 Demand (in MW)
+and emissions.
+25,411 Usage (in MWh)
+$3.2M Expense
+GOAL 1 GOAL 3
+Increase LED streetlamp Meet total electricity demand
+conversion by 5% per year. with renewable energy by 2040.
+STRATEGY 1.1 Increase the conversion of street STRATEGY 3.1 Examine the feasibility of rooftop
+lighting to LED. solar on department’s buildings.
+A1.1.1 Work with Duke Energy to ensure A3.1.1 Establish feasibility study project in
+conversion meets the yearly goal. future budget.
+A3.1.2 Prepare and issue RFP, award contract
+GOAL 2 for feasibility study.
+STRATEGY 3.2 Evaluate rooftop canopy for parking
+Reduce electricity demand by
+decks.
+40% by 2025 from 2007.
+A3.2.1 Determine if existing parking decks
+can structurally support solar.
+STRATEGY 2.1 Increase building energy efficiency.
+A3.2.2 Conduct feasibility study of solar
+A2.1.1 Perform an energy audit on
+installation on existing parking decks.
+Transportation buildings.
+A2.1.2 Implement efficiency measures
+suggested by audit.
+A2.1.3 Monitor buildings to ensure efficiency
+levels are met.
+38
+
+===== PAGE 39 =====
+
+Building Efficiency higher tariff (price per kWh) for electricity supplied
+to LED lamps, compared to traditional incandescent
+The J. Douglas Galyon Depot accounts for eight
+lamps, and (2) Duke Energy would charge the City
+percent of the department’s total electricity
+extra to accelerate the conversion of LED lamps.
+usage. It is a historical building with numerous
+It is recommended that a schedule of completion
+efficiency issues. This makes renovations and energy
+be requested from Duke Energy, so that the costs
+conservation measures challenging. A significant
+and benefits of various conversion options can be
+investment has been made in the depot’s historic
+evaluated.
+character and function as the City’s multi-modal
+transportation hub, so increasing the efficiency Renewable Energy
+and sustainability of this building will be a good
+The Transportation Department currently has a
+investment long term. Energy conservation measures
+rooftop solar array above the passenger platforms
+in the building could significantly reduce electricity
+at the depot, which powers the rapid chargers for
+consumption, but the historical nature of the
+GTA’s electric buses. The top levels of the public
+building will make those measures more costly.
+parking decks could be an additional opportunity
+Streetlamps for solar installation. Canopies can be installed on
+the top level to support the panels. Parking would
+The City’s Streetlamps are mainly owned and
+be available under the panels. Feasibility and solar
+maintained by Duke Energy. Duke Energy has begun
+capacity studies are recommended to see if the
+converting the more than 26,000 streetlamps to LED
+decks are viable options for rooftop solar canopy
+fixtures, although it is unknown when this process
+installation.
+will be completed. Two items to note concerning
+the conversion: (1) Duke Energy charges the City a
+39
+
+===== PAGE 40 =====
+
+Greensboro
+Coliseum Complex
+The Coliseum Complex consumes 12 percent of the City’s total
+electricity use. It is comprised of eight assets as shown in Table
+13 including two parking lots. The Greensboro Coliseum uses 56
+percent of the electricity for the complex. Efficiency measures and
+12% Electricity Consumed
+solar feasibility are strategies for reducing non-renewable electricity
+2.4 Demand (in MW)
+consumption. Goals for the Coliseum Complex are to increase
+16,806 Usage (in MWh) building efficiency, evaluate rooftop solar options, and consider
+adding a green fee to parking fees.
+$1.2M Expense
+GOAL 1
+Site kW
+Reduce electricity demand by
+Greensboro Coliseum 1,392
+40% by 2025 from 2007.
+Greensboro Aquatic Center 467
+STRATEGY 1.1 Increase building energy efficiency. Pavilion 187
+Convention & Visitors Center 108
+A1.1.1 Perform an energy audit on Coliseum
+Complex buildings. Tanger Performing Arts Center 84*
+A1.1.2 Implement efficiency measures Lee St Parking Lot B 76
+suggested by audit.
+White Oak Amphitheater 63
+A1.1.3 Monitor buildings to ensure efficiency
+Total 2,377
+levels are met.
+Table 11. Coliseum Complex Buildings by kW Usage
+*under Construction during 2019
+GOAL 2
+Meet total electricity demand
+with renewable energy by 2040.
+STRATEGY 2.1 Evaluate rooftop solar options.
+A2.1.1 Review existing engineering reports/
+contract report.
+A2.1.2 Contract scope development for
+projects.
+A2.1.3 RFP/Proposals.
+STRATEGY 2.2 Add a green fee to parking fees, to
+fund energy efficiency and renewable
+energy projects.
+A2.2.1 Investigate green fee as an option.
+40
+
+===== PAGE 41 =====
+
+Reduce Electricity difficult. It and other buildings in the complex are
+recommended for energy audits and conservation
+The electricity use for the Greensboro Coliseum
+measures to reduce electricity use.
+is over 11,000 MWh and is exceeded only by T.Z.
+Osborne Water Reclamation facility. It is a huge Solar
+building and uses large amounts of electricity for
+To determine the potential for rooftop solar at the
+lighting, heating, and air conditioning. The potential
+complex, the roofs will need to be evaluated for
+electricity reduction and avoided costs for increasing
+structural compatibility and solar potential. The roof
+the energy-efficiency of the coliseum are significant.
+of the Greensboro Coliseum may be an option for
+However, the building is old and presents major
+solar. A review of existing engineering reports is
+challenges for energy-efficiency retrofits. The
+an initial action for determining rooftop feasibility.
+recommended improvements to the Greensboro
+An additional study is recommended to determine
+Coliseum will require considerable planning and are
+solar capacity. Provided the studies indicate that
+recommended during years 6-10 of implementing
+solar is viable on the roof then installation is a
+the SEP.
+recommended action.
+A building energy audit is a recommended action for
+Energy conservation measures and rooftop
+the Greensboro Coliseum. Increasing the efficiency
+solar generation can be showcased in coliseum
+of this building will lower electricity consumption
+promotional materials as a sign of the City’s
+and costs. An investment grade audit to identify
+commitment to reduce emissions and use renewable
+potential energy saving measures is a recommended
+energy sources.
+action. The investment grade audit will allow the
+City to finance the implementation of the efficiency Green Fee
+measures under a performance contract. This will
+To offset the cost of energy projects it is proposed
+allow the City to finance the improvements with
+that a Green Fee be added to parking fees to pay for
+the electricity savings from the improvements
+Renewable Energy Certificates (RECs) or added to
+during years 6-10. The Greensboro Aquatics Center
+a Green Fund for future energy projects. RECs and
+also uses great deal of electricity. The building is
+Green Fund are explained in the Financing Strategy
+large and open, which makes efficiency measures
+section of the SEP.
+41
+
+===== PAGE 42 =====
+
+BUILDINGS MANAGED BY
+Engineering &
+Inspections
+Many of the City’s buildings are managed by the Engineering and
+Inspections Department and represent 32 percent of emissions by usage
+type. The buildings with the highest electricity demand (1st Tier) are listed
+32% Electricity Consumed
+in Table 15 in descending order. Buildings with demand below 90 kW are
+5.35 Demand (in MW) 2nd tier buildings and are not listed. Strategies for reducing electricity
+consumption are to increase building energy efficiency and equipment
+$2.4M Expense
+efficiency.
+GOAL 1
+Site Demand (kW)
+Reduce electricity demand by
+Melvin Municipal Office Building 750
+40% by 2025 from 2007.
+Central Library 562
+STRATEGY 1.1 Increase building energy efficiency Greensboro Cultural Center 432
+(1st Tier buildings). Kitchen Operation Center 412
+A1.1.1 Perform energy audits on buildings. Public Safety Training Facility 310
+A1.1.2 Implement efficiency measures Sportsplex 248
+suggested by audit.
+Police Headquarters 245
+A1.1.3 Monitor equipment to ensure
+Police District 3 200
+efficiency levels are met.
+Greensboro Historical Museum 186
+STRATEGY 1.2 Increase building energy efficiency
+Justice Building 165
+(2nd Tier buildings).
+Service Center Building 1 Generator 157
+A1.2.1 Perform energy audits on buildings.
+Police District 4 106
+A1.2.2 Implement efficiency measures
+suggested by audit. Kathleen Clay Edwards Library 90
+A1.2.3 Monitor equipment to ensure Table 12. Highest Electricity Demand Buildings
+efficiency levels are met.
+(1st Tier) Not including buildings discussed under
+Department Strategies
+GOAL 2
+Meet total demand with
+renewable energy by 2040.
+STRATEGY 2.1 Evaluate solar for Tier 1 roofs.
+A2.1.1 Review existing engineering reports/
+contract report.
+A2.1.2 RFP/Proposals.
+A2.1.3 Evaluate REC and/or Offset purchase
+options.
+STRATEGY 2.2 Purchase Renewable Energy
+Certificates (RECs) and Offsets.
+A2.2.1 Evaluate REC and/or Offset purchase
+options.
+42
+
+===== PAGE 43 =====
+
+Efficiency • The Kathleen Clay Edwards Library is
+recommended for early energy conservation
+To reduce electricity demand, energy efficiency will
+measures. The building uses a large amount
+need to be increased. Energy efficiency measures
+of electricity per square foot of floor
+have been taken, in differing degrees, on many of the
+space. In addition to general holdings, this
+buildings. Increasing building energy efficiency will
+library specializes in nature, gardening, and
+be achieved through auditing and implementation
+environmental resources for children and adults.
+of identified efficiency measures. These actions
+For this reason, increasing the efficiency of this
+will be phased over time, giving highest priority to
+building and integrating educational elements
+the buildings using the most electricity. Some of
+presents an important opportunity to raise
+the auditing and implementation measures can be
+community awareness of energy conservation.
+handled internally. Large, complex buildings that
+are targeted for efficiency improvements will need Renewable Energy
+an investment grade audit if a performance contract
+To increase renewable energy use through rooftop
+is to be utilized for financing. Buildings should be
+solar installation, an evaluation of the solar
+monitored after efficiency measures are taken to
+compatibility and capacity of Tier 1 buildings (Table
+ensure the intended results.
+15) will be conducted. Later, Tier 2 buildings, which
+There will be an early focus on several buildings with have a smaller electricity demand, will be evaluated
+high energy usage shown in Table 15. for solar compatibility. To increase renewable energy
+• The Melvin Municipal Office Building (MMOB) use, land will be identified that is compatible for
+has the highest electricity usage. The building ground-mounted solar will be identified.
+has had past energy conservation measures; The Central Library roof identified as a potential site
+however, opportunities remain for improved for rooftop solar. A preliminary study was conducted
+efficiency. to assess feasibility and solar capacity. This solar
+• The Central Library needs several capital projects project was favored by both the Community
+to improve the building’s efficiency. The roof will Partnership and Leadership Team and was identified
+need to be replaced; a concurrent evaluation of as the highest priority rooftop solar project to
+the roof structure could identify the opportunity complete. This project was viewed as a win since the
+to install a rooftop solar array. Windows solar will offset part of the building’s energy needs
+throughout the building will also need to be with renewable energy. The Central Library is also in
+replaced. the heart of downtown Greensboro and is used by
+many residents, therefore solar panels on the roof
+• The Greensboro Cultural Center building is
+sends a strong message of the City’s commitment to
+another large electricity user. The open design
+100 percent renewable energy.
+of the building is difficult to heat and cool.
+Capital improvements are needed to improve the
+building’s efficiency.
+• The Police Headquarters building was also
+identified for early conservation measures.
+Efficiency improvements in the part of the
+building which are used 24/7 are identified
+as a priority for early completion. Two floors
+of the building are not currently in use. It is
+recommended that these unused floors be
+evaluated for energy losses and corrective
+actions taken to eliminate these losses.
+43
+
+===== PAGE 44 =====
+
+Natural Gas Reduction Greensboro
+Natural gas makes up only four percent of the
+Coliseum Complex
+GHG emissions for the City. The following five
+departments account for roughly 80 percent of the
+City’s natural gas usage and should be considered
+priorities for reduction: Coliseum 34 percent, Parks 319,313 Therms
+and Recreation 14 percent, Transportation 12
+$257K Cost
+percent, Police 10 percent, and Fire eight percent.
+However, natural gas will not be considered an early
+priority action at the City level. GOAL 1
+Goals and strategies for these Departments can
+be found on the following pages. The goals and Reduce natural gas demand by
+strategies for reducing natural gas are similar for 40% by 2030 from 2007.
+these five departments and will not be discussed
+individually as to avoid repetition. STRATEGY 1.1 Increase building energy efficiency.
+Strategies to reduce natural gas include audits and A1.1.1 Perform an energy audit on Coliseum
+efficiency measures, which coincide with electricity Complex buildings.
+reduction strategies, so these strategies will serve a
+A1.1.2 Implement efficiency measures
+dual purpose of reducing both electricity and natural
+suggested by audit.
+gas.
+A1.1.3 Monitor buildings to ensure efficiency
+Natural gas is primarily used to provide heat levels are met.
+to buildings and to heat water. Heating system
+STRATEGY 1.2 Increase heating system efficiency.
+evaluation and efficiency improvement are
+additional strategies to reduce natural gas A1.2.1 Evaluate heating system to determine
+level of efficiency.
+consumption. Natural gas fired heating systems
+can be converted to electric, with the long-term A1.2.2 Implement efficiency measures
+intention of meeting the electricity demand through suggested by evaluation.
+renewable sources. Reducing the demand for natural
+A1.2.3 Monitor equipment to ensure
+gas for heating water could be partially achieved
+efficiency levels are met.
+by investigating the installation of solar thermal
+STRATEGY 1.3 Convert natural gas systems to
+arrays; applicable rooftops should be evaluated
+electric.
+for compatibility. Eleven of the City’s fire stations
+currently have solar thermal arrays. A1.3.1 Replace natural gas equipment with
+electric at end of life.
+44
+
+===== PAGE 45 =====
+
+Parks & Fire
+Recreation Department
+134,773 Therms 73,255 Therms
+$125K Cost $68K Cost
+GOAL 1 GOAL 1
+Reduce natural gas demand by Reduce natural gas demand by
+40% by 2030 from 2007. 40% by 2030 from 2007.
+STRATEGY 1.1 Increase building energy efficiency. STRATEGY 1.1 Increase building energy efficiency.
+A1.1.1 Perform an energy audit on all A1.1.1 Perform an energy audit on all
+buildings. buildings.
+A1.1.2 Implement efficiency measures A1.1.2 Implement efficiency measures
+suggested by audit. suggested by audit.
+A1.1.3 Monitor buildings to ensure efficiency A1.1.3 Monitor buildings to ensure efficiency
+levels are met. levels are met.
+STRATEGY 1.2 Increase heating system efficiency. STRATEGY 1.2 Increase heating system efficiency.
+A1.2.1 Evaluate heating system to determine A1.2.1 Evaluate heating system to determine
+level of efficiency. level of efficiency.
+A1.2.2 Implement efficiency measures A1.2.2 Implement efficiency measures
+suggested by evaluation. suggested by evaluation.
+A1.2.3 Monitor equipment to ensure A1.2.3 Monitor equipment to ensure
+efficiency levels are met. efficiency levels are met.
+STRATEGY 1.3 Convert natural gas systems to STRATEGY 1.3 Convert natural gas systems to
+electric. electric.
+A1.3.1 Replace natural gas equipment with A1.3.1 Replace natural gas equipment with
+electric at end of life. electric at end of life.
+STRATEGY 1.4 Evaluate swimming pool heating. GOAL 2
+A1.4.1 Audit facilities for increased energy
+efficiency measures. Meet water heating demand
+with renewable energy by 2040.
+STRATEGY 2.1 Rooftop thermal solar.
+A2.1.1 Continue installation of solar for hot
+water.
+45
+
+===== PAGE 46 =====
+
+Gasoline and Diesel Reduction Gasoline Reduction
+Gasoline and diesel make up 33 percent of the GHG Gasoline is used to provide fuel for fleet vehicles.
+emissions for the City with diesel accounting for 19 Two departments account for roughly 80 percent
+percent and gasoline accounting for 14 percent. of gasoline emissions for the City and should
+be considered a priority for reduction: Police
+Diesel is used for both on-road fleet and
+Department (49 percent) and Transportation (31
+transportation vehicles as well as off-road vehicles
+percent).
+and equipment. Reducing the amount of diesel
+used will primarily be achieved by investigating Hybrid Conversion
+comparable (cost and performance) electric vehicles
+Converting the patrol fleet to hybrid will reduce
+and equipment. Diesel-electric hybrid vehicles may
+gasoline consumption in two ways: (1) in miles per
+be considered if suitable EV options are not available.
+gallon (mpg), and (2) in gasoline consumed from
+As the City’s population and land area grows, the
+idling. A hybrid vehicle has a higher mpg than an
+number of City personnel also grows, and City
+internal combustion vehicle (ICE). Table 13 provides a
+crews become capable of handling more and larger
+comparison of the Ford Interceptor Hybrid and Ford
+projects internally. Fuel usage and associated GHG
+Interceptor ICE, which shows that over a 100-mile
+emissions increasingly shift from private contractors
+distance the hybrid uses 29 percent less fuel, saving
+to municipal operations.
+1.7 gallons, $5.13 and 33.52 lbs. of CO emissions. A
+2
+Gasoline is used for fleet vehicles and small off-road
+hybrid uses stored energy from its battery when the
+equipment. Reducing the amount of gasoline will
+vehicle is stopped, so it is not consuming gasoline.
+primarily be achieved by converting vehicles to
+comparable (cost and performance) hybrids in the Interceptor Interceptor Savings/
+Comparison Hybrid ICE 100 miles
+short-term, and then converting to comparable
+electric vehicles in the long-term. The conversion 100 Miles 24 mpg = 17 mpg = 1.7
+Compared 4.17 gallons 5.88 gallons gallons
+of the fleet will include pilot testing of vehicles/
+equipment to determine feasibility and workability Emissions 19.6 lbs. 19.6 lbs.
+Formula CO/gallons CO/gallons
+(ability to handle the task as well as current vehicle/ 2 2
+equipment/energy source). Most small gasoline
+CO Emissions 81.73 lbs. 115.25 lbs. 33.52 lbs.
+2
+powered off-road equipment can be readily replaced
+with all-electric models. $3/gallon = $3/gallon =
+Cost $5.13
+$12.51 $17.64
+Table 13. Comparison of hybrid and traditional Ford
+VEHICLE AND EQUIPMENT DEFINITIONS
+Interceptor Police vehicle
+Ford Interceptor Hybrid
+Fuels (gasoline and diesel) are used by the City for
+operating on-road vehicles and equipment. Ford produces the Interceptor Hybrid police vehicle.
+Ford compared it to its non-hybrid Interceptor and
+On-Road Vehicles such as passenger cars, light
+estimates that it saves 1,276 gallons per year per
+and heavy trucks, and buses. State law requires
+vehicle. A savings of $3,509 in gasoline costs and a
+these vehicles to have a valid license plate in order
+reduction in CO emissions of 22,560 lbs. per vehicle
+2
+to be operated on public highways.
+is estimated.36 This vehicle (or other hybrid vehicles
+Equipment stationary equipment such as that meet patrol car standards) is recommended for
+generators and pumps; off-road vehicles all future patrol vehicle replacements/additions to
+such as ATVs, tractors, and front loaders; and the fleet.
+portable equipment such as blowers, mowers,
+Electric Vehicles
+and chainsaws. Off-road vehicles and portable
+equipment are typically transported to a jobsite on Non-patrol vehicles are recommended to be replaced
+truck or trailer and are rarely operated on public with EVs when a comparable option is available
+highways, except in posted construction zones. and a plan for charging stations is in place. Table 14
+36Ford. Responsive to Your Budget. 2021. https://www.ford.com/police-
+vehicles/police-interceptor/hybrid-utility/calculator/
+46
+
+===== PAGE 47 =====
+
+Police
+Department
+49% Emissions
+576,207 Gallons
+$1,295,042 Cost
+GOAL 1
+Reduce gasoline consumption
+by 5% per year.
+STRATEGY 1.1 Fleet conversion to hybrid vehicles.
+A1.1.1 Purchase hybrids for replacement
+patrol cars.
+GOAL 2
+A1.1.2 Purchase hybrids for replacement
+non-patrol vehicles. Right-Size Fleet to ensure all
+A1.1.3 Explore hybrid options for leased vehicles are necessary.
+replacement.
+A1.1.4 Hire fleet technicians with hybrid/EV STRATEGY 2.1 Review and justify all vehicles.
+experience.
+A2.1.1 Conduct a fleet optimization study.
+STRATEGY 1.2 Fleet conversion to electric vehicles.
+A1.2.1 Purchase EVs when cost is
+comparable to hybrid.
+A1.2.2 Explore transition of Prisoner
+Transport, CSI and Evidence vans to
+EVs.
+A1.2.3 Budget for charging stations to meet
+needs of increased EV fleet.
+A1.2.4 Explore cost associated with charging
+stations at Swing Road.
+A1.2.5 Explore potential grant funding
+opportunities.
+A1.2.6 Hire fleet technicians with EV
+experience.
+STRATEGY 1.3 Increase the number of bicycles used
+for patrol.
+A1.3.1 Explore opportunities to increase
+bicycle patrol.
+47
+
+===== PAGE 48 =====
+
+provides a comparison of an EV to a gasoline vehicle. Transportation
+Accounting for the electricity to charge the EV there
+is a savings of $8.35 per 100 miles and 45 lbs. of CO 2 Department
+emissions. It is also worth noting that because EVs
+have no moving parts, they generally incur lower
+yearly maintenance costs. When suitable EV models
+31% Emissions
+are not available, the vehicles may be replaced with
+comparable hybrid models. Non-patrol vehicles 371,682 Gallons
+should only be replaced with new ICE models if
+$669,708 Cost
+suitable EV and hybrid models are not available.
+The Transportation Department has made great
+Electric Gasoline Savings/
+Comparison Vehicle Vehicle 100 miles progress with integrating electric buses into the
+100 Miles 100 miles = 100 miles = Greensboro Transit Authority fleet. Greensboro was the
+Compared 30 kWh 3.45 gallons* first city in the southeastern US to integrate electric
+buses into its transit fleet. To make further progress in
+Emissions 0.743 lbs. 19.6 lbs.
+Formula CO2/kWh CO2/gallons reducing gasoline consumption, goals and strategies
+have been outlined below.
+CO Emissions 22.29 lbs. 67.59 lbs. 45.30 lbs.
+2
+GOAL 1
+$0.08/kWh = $3/gallon =
+Cost $8.35
+$2.40 $10.35
+Reduce gasoline consumption
+Table 14. Comparison of EV and gasoline vehicles
+by 5% per year.
+*Assumes 29 mpg vehicle
+Idling STRATEGY 1.1 Fleet conversion to electric vehicles.
+Idling accounts for approximately 20 percent of A1.1.1 Purchase electric vehicles when cost
+gasoline use per shift in a patrol car. There are is comparable to hybrid.
+several ways to reduce gasoline consumption from A1.1.2 Budget for charging stations to meet
+idling. Hybrid and EV transitions have already been needs of increased EV fleet.
+mentioned. There are also auxiliary battery packs,
+STRATEGY 1.2 Fleet conversion to hybrid vehicles.
+which can be stored in the trunk of a standard ICE
+A1.2.1 Purchase hybrid for replacement
+vehicle to operate the necessary vehicle systems and
+vehicles.
+police equipment when the vehicle is stopped or
+parked.
+Bicycles
+Hybrids and EVs
+The City currently utilizes bicycles for patrol.
+There are opportunities to integrate hybrids and EV
+Opportunities to increase the use of bicycle patrols
+into other areas of the Transportation Department
+is recommended. This strategy also aligns with the
+fleet. Many vans and other smaller vehicles are
+Becoming Car Optional “Big Idea” of the GSO2040
+used for special transportation services, including
+Comprehensive Plan.
+AccessGSO. Electric vehicles are recommended
+Right-Sizing the Fleet when a comparable option is available and a plan
+for charging stations is in place. When suitable EV
+It is recommended that a comprehensive study be
+models are not available, vehicles may be replaced
+conducted to determine if the fleet inventory can be
+with comparable hybrid models. Vehicles should only
+reduced through elimination of rarely used vehicles,
+be replaced with new ICE models if suitable EV and
+vehicles that no longer meet job requirements, and
+hybrid models are not available.
+development of departmental sharing of specialized
+vehicles that are used infrequently. While this goal
+will not directly affect energy or emissions reduction,
+it could potentially reduce the fleet requirements
+and reduce costs.
+48
+
+===== PAGE 49 =====
+
+49
+
+===== PAGE 50 =====
+
+Diesel Reduction
+Diesel is used as a fuel for on-road fleet vehicles, off-road vehicles, and equipment. Two departments account for
+80 percent of diesel emissions for the City and should be considered a priority for reduction: Field Operations (47
+percent), and Transportation (33 percent). Since diesel accounts for 19 percent of the City’s emissions, it will be
+important to take steps early to begin reducing diesel consumption.
+Field Operations
+Hybrids and EVs
+Department
+Strategies to reduce diesel consumption include
+converting to hybrid or EV equivalent models
+for both vehicles and equipment. The most fuel
+47% Emissions inefficient vehicles should be replaced first. However,
+suitable hybrid or EV replacements are not always
+698,569 Gallons
+available for many of these heavy-duty specialized
+$1,458,121 Cost vehicles and equipment. Options that are available
+may not be feasible. Research into hybrid and EV
+The Field Operations Department uses an assortment of options for heavily used vehicles and equipment is
+diesel powered on-road vehicles, off-road vehicles, and recommend as an early action so that integration of
+equipment. To reduce diesel usage, goals, strategies, these options can begin. To ensure these options are
+and actions have been outlined below. suitable, pilot testing of vehicles/equipment will be
+completed to determine feasibility and workability
+GOAL 1
+(ability to handle the task as well as current vehicle/
+equipment/energy source).
+Reduce diesel consumption by
+Right-Sizing the Fleet
+5% per year.
+It is recommended that a comprehensive study be
+STRATEGY 1.1 Right-size fleet/equipment. conducted to determine if the fleet inventory can be
+reduced through elimination of rarely used vehicles,
+A1.1.1 Review inventory of fleet/equipment.
+vehicles that no longer meet job requirements, and
+A1.1.2 Only replace or eliminate if justified. development of departmental sharing of vehicles
+that are used infrequently. While this goal will not
+STRATEGY 1.2 Fleet conversion to hybrid vehicles.
+directly affect energy or emissions reduction, it could
+A1.2.1 Purchase hybrids for replacement
+potentially reduce the fleet requirements and avoid
+vehicles.
+those costs.
+A1.2.2 Focus on replacing the most fuel
+inefficient first.
+STRATEGY 1.3 Fleet conversion to electric vehicles.
+A1.3.1 Replace fleet vehicles with EVs of a
+justifiable cost and performance.
+A1.3.2 Focus on replacing the most fuel
+inefficient first.
+STRATEGY 1.4 Equipment conversion to electric
+equivalent.
+A1.4.1 Replace equipment at retirement
+with electric or hybrid models of a
+justifiable cost and performance.
+A1.4.2 Focus on replacing the most fuel
+inefficient first.
+50
+
+===== PAGE 51 =====
+
+Transportation
+Department
+33% Emissions
+487,153 Gallons
+$1,013,120 Cost
+To reduce diesel use, goals, strategies, and actions have
+been outlined here. There are opportunities to integrate
+hybrids and EVs into the Transportation Department fleet.
+Many vans and other smaller vehicles are used for special
+transportation services, including AccessGSO. Electric GTA Mobility Greensboro 2040 Plan
+vehicles are recommended when a comparable option is
+The GTA Mobility Greensboro 2040 Plan has strategies
+available and a plan for charging stations is in place. When
+to increase ridership and improve efficiency across
+suitable EV models are not available, the Transportation
+the transportation system. The first strategy will
+Department vehicles may be replaced with comparable
+encourage ridership, which may incentivize more
+hybrid models. The Transportation Department vehicles
+residents to utilize public transportation rather than
+should only be replaced with new ICE models if suitable EV
+driving. Improved efficiency of the transit system
+and hybrid models are not available.
+should help to reduce diesel consumption and CO2
+emissions throughout the community but would
+GOAL 1
+not significantly advance the 2040 Energy Vision.
+Ongoing replacement of diesel vehicles with EVs and
+Reduce diesel consumption by
+hybrids should steadily reduce the Transportation
+5% per year.
+Department’s diesel consumption and associated
+CO2 emissions.
+STRATEGY 1.1 Right-size fleet/equipment.
+As part of the commitment to address cost
+A1.1.1 Review inventory of fleet/equipment. burdens and ensure a just transition to renewable
+energy for all and to prioritize at-risk population,
+A1.1.2 Only replace or eliminate if justified.
+it is recommended that electric buses be assigned
+STRATEGY 1.2 Fleet conversion to hybrid vehicles.
+primarily to routes that pass through vulnerable
+A1.2.1 Purchase hybrids for replacement communities identified, until the entire fleet is
+vehicles. completely replaced. This approach will decrease
+the impacts of noise and pollution on these
+A1.2.2 Focus on replacing the most fuel
+communities.
+inefficient first.
+STRATEGY 1.3 Fleet conversion to electric vehicles.
+A1.3.1 Replace fleet vehicles with EVs of a
+justifiable cost and performance.
+A1.3.2 Focus on replacing the most fuel
+inefficient first.
+STRATEGY 1.4 Support implementation of GTA
+Mobility Greensboro 2040 Plan to
+increase ridership throughout the
+City.
+A1.4.1 Identify opportunities to support
+the implementation of the plan to
+increase ridership.
+51
+
+===== PAGE 52 =====
+
+Community Incentives One strategy to incentivize residents is to provide
+citywide educational awareness on energy
+The SEP Resolution included a directive for
+efficiencies. An action to educate is a contest through
+incentivizing residents and businesses to achieve
+the Arts and Cultural program to create a product out
+similar progress on GHG reduction, energy efficiency,
+of a common City waste or byproduct to promote
+and renewable energy use the same as the City. It
+alternative thinking about waste.
+also called for recommendations to address cost
+burdens to ensure a just transition to renewable Another strategy is to remove obstacles to renewable
+energy for all and prioritize at-risk populations. energy installation. The City is currently working
+The goals, strategies, and actions focused on these to obtain a SolSmart designation. To obtain the
+directives are shown here. designation, a thorough review of all policies and
+ordinances is conducted to determine the ease of
+GOAL 1
+Incentivize Greensboro residents and businesses to achieve similar progress
+on GHG reduction, energy efficiency, and renewable energy use as the City.
+STRATEGY 1.1 Energy efficiency educational outreach.
+A1.1.1 Communications & Marketing Department to create energy efficiency
+educational materials and distribute them through City channels.
+A1.1.2 Arts & Culture Program to develop a contest for creating a product out of
+common city waste/byproducts.
+STRATEGY 1.2 Remove obstacles to clean, renewable energy installation, and energy-
+efficiency projects.
+A1.2.1 Review land use ordinances and building permit policies for obstacles.
+A1.2.2 Advocate for homeowner associations to make Bylaw changes to rooftop solar.
+A1.2.3 Obtain SolSmart Designation.
+STRATEGY 1.3 Encourage community solar.
+A1.3.1 Explore opportunities to support community solar demonstration projects.
+GOAL 2
+Address cost burdens to ensure a just transition to renewable energy for all
+and prioritize at-risk populations.
+STRATEGY 2.1 Assist lower-wealth citizens in reducing water and electricity demand.
+A2.1.1 Establish funding to assist citizens in reducing utility demand.
+A2.1.2 Funding to provide high efficiency toilets, showerheads, appliances,
+insulation, etc.
+A2.1.3 Collaborate with GTCC to create a Train/Work program for retrofits.
+A2.1.4 Housing & Neighborhood Development to develop and run education
+program.
+52
+
+===== PAGE 53 =====
+
+obtaining solar permitting. A third strategy is to host • Economic Development & Business Services
+seminars on solar installation to encourage solar in Office (EDBS) - collaborate with the Nussbaum
+the community. Center for Entrepreneurship to incubate new
+local green businesses (i.e., those with a focus on
+To address disparities in utility cost burden, it is
+energy efficiency, renewable energy, and/or GHG
+recommended that funding be established to
+reduction).
+assist low- and moderate-income households
+to reduce their water, electricity, and natural gas • EDBS - offer economic development assistance
+usage. This funding could be used to provide high grants/forgivable loans to green businesses
+efficiency toilets, faucets, and showerheads, energy relocating to, or expanding in Greensboro.
+conservation measures, rooftop solar installation,
+• EDBS - offer grants/forgivable loans to businesses
+energy-efficient appliance purchases, etc.
+that implement energy saving or emissions
+Utility costs are rising and increasing the percentage reducing improvements to their facilities.
+of total income that low- and moderate-income
+• Housing and Neighborhood Development
+residents must pay on their monthly utility bills.
+Department - offer grants/forgivable loans
+Efficiency measures will assist these residents to
+to low and moderate-income homeowners
+lower their monthly utility costs. It is recommended
+and affordable housing property owners who
+to collaborate with GTCC to create a train/
+implement energy saving or emissions reducing
+work program for installing energy-efficiency
+improvements to their properties.
+retrofits to homes in low- and moderate-income
+• Sustainability Office - collaborate with Libraries to
+neighborhoods. It is also recommended that
+organize an annual Neighborhood Sustainability
+the Housing and Neighborhood Development
+Challenge Program to spread awareness among
+Department design and run an energy-efficiency
+residents and increase adoption of energy
+education program to educate and encourage low-
+saving and emissions reducing actions; with a
+and moderate-income residents to improve the
+City-hosted block party, awarding the highest
+efficiency of their homes and reduce utility costs.
+participating neighborhoods from each City
+Additional actions for incentivizing residents and
+Council District.
+businesses to achieve similar progress on GHG
+• Sustainability Office - establish funding and
+reduction, energy efficiency, and renewable energy
+collaborate with CSC to formally launch the
+use could include:
+previously proposed Greensboro Responsible
+Business Awards Program.
+53
+
+===== PAGE 54 =====
+
+CIT Y’S ROADMAP
+A plan or strategy intended to achieve a particular goal
+
+===== PAGE 55 =====
+
+Prioritize Actions
+Immediate Actions (Years 1-5): 15. Install energy conservation measures and new
+roof for Central Library.
+1. Adopt City of Greensboro recommendations.
+16. Install rooftop solar array on Central Library.
+2. Execute performance contract for highest energy
+usage Tier 1 building audits to: 17. Approve Green Revolving Fund, establish initial
+budget, and develop a process for managing the
+A. Address deferred maintenance on buildings
+fund.
+and building equipment.
+18. Include SEP projects in Capital Improvements
+B. Implement energy conservation in buildings
+Program (CIP).
+with highest energy use.
+19. Conduct rooftop study for solar compatibility
+3. Adopt and implement hybrid/EV purchase policy
+and capacity to identify rooftop solar projects.
+for fleet vehicles (specifically police).
+20. Conduct feasibility study to determine
+4. Establish criteria to identify the most impacted
+compatibility of capturing waste heat from bio-
+and vulnerable communities in the City.
+solid incineration.
+5. Conduct HUB and MWBE certification workshops.
+21. Request Duke Energy streetlamp conversion
+6. Housing & Neighborhood Development to schedule.
+develop and provide energy and water efficiency
+22. Research green fee to determine if it is an option
+education.
+for the City.
+7. Establish funding for water and electricity
+23. Evaluate existing parking decks to determine if
+conservation projects to assist lower-wealth
+they can structurally support solar.
+residents in reducing demand.
+24. Create energy and water efficiency educational
+8. Implement water/energy efficiency projects for
+materials and distribute them through City
+lower-wealth residents.
+channels.
+9. Audit all City buildings for water efficiency
+25. Arts and Culture Program to develop a contest
+opportunities.
+for creating a product out of common City waste/
+10. Audit and fix distribution leaks. byproducts.
+11. Perform a study of other cities’ water pricing 26. Review land use ordinances and building
+structures. permit policies for obstacles to community solar
+12. Audit water and wastewater equipment and installation.
+implement efficiency measures suggested by the 27. Evaluate appropriate carbon offsets to achieve
+audit. final emission reduction goals.
+13. Approve and provide funding for one MW 28. Evaluate and report yearly progress towards SEP
+Ground-Solar project at T.Z. Osborne. goals.
+14. Evaluate feasibility of rooftop solar project at
+Central Library.
+55
+
+===== PAGE 56 =====
+
+Actions (Years 6-10): Actions (Years 11-15)
+1. Execute performance contract for Tier 1 building 1. Identify, approve, and budget for additional
+audits not completed in Years 1-5 to: rooftop solar projects.
+A. Address deferred maintenance on buildings 2. Continue to convert remaining gasoline/diesel
+and building equipment. equipment to electric.
+B. Implement energy conservation in buildings 3. Continue to install charging stations to meet
+with highest energy use. demand for City fleet vehicles.
+2. Adopt and implement EV purchases for fleet 4. Purchase RECs and/or offsets.
+vehicles.
+5. Evaluate and report yearly progress towards SEP
+3. Install appropriate EV charging stations to meet goals.
+demand for City fleet vehicles.
+Actions (Years 16-20)
+4. Solarize projects at T.Z. Osborne or another site
+1. Identify, approve, and budget for additional
+(1 MW each).
+rooftop solar projects.
+5. Identify, approve, and budget for identified
+2. Continue to convert remaining gasoline/diesel
+rooftop solar projects.
+equipment to electric.
+6. Perform cost/benefit analysis of in-line
+3. Continue to install charging stations to meet
+hydroelectric project.
+demand for City fleet.
+7. Convert gasoline/diesel equipment to electric.
+4. Purchase Renewable Energy Certificates (RECs) to
+8. Identify energy efficiency renovations for the
+meet remaining emissions reduction goal.
+depot that align with its historic designation and
+5. Evaluate appropriate carbon offsets to achieve
+complete renovations.
+final emission reduction goals.
+9. Perform energy audit on the coliseum and
+6. Evaluate and report yearly progress towards SEP
+complete conservation measures from the audit.
+goals.
+10. Perform energy audit on Cultural Center and
+complete conservation measures from the audit.
+11. Conduct feasibility study of solar installation on
+existing parking decks.
+12. Get next round of SEP projects added to CIP.
+13. Purchase RECs and/or offsets.
+14. Evaluate and report yearly progress towards SEP
+goals.
+56
+
+===== PAGE 57 =====
+
+FUNDING
+
+===== PAGE 58 =====
+
+Putting Together a Financing Strategy
+The SEP Resolution requires a recommendation City Funded
+of funding strategies for projects that advance
+Capital Improvements Program (CIP)
+established goals for GHG emissions reduction,
+energy efficiency, and renewable energy use. The City’s Capital Improvements Program (CIP) is
+updated annually and includes a financing and
+Energy Efficiency and Energy Conservation
+construction/acquisition plan for projects that
+Financing
+require a significant capital investment. The CIP
+Building efficiency, energy conservation, and describes the City’s capital project schedules and
+deferred building maintenance needs will play a priorities over a 10-year period. The CIP specifies
+significant role in reducing electricity consumption the sources of funding, by year, for each project.
+and therefore GHG emissions, since electricity Some CIP projects are funded through annual
+consumption accounts for 60 percent of the City’s operating funds, such as the General Fund and the
+emissions. Financing for these building projects Water Resources Enterprise Fund. In these cases,
+should be given priority since the benefits derived the CIP and the City’s annual adopted budget
+will be long-term, including avoided utility costs, are directly linked. Project funding through debt
+lower emissions, and lower energy demand. financing – typically voter authorized bonds – also
+impact the annual budget through ongoing debt
+Energy Savings Performance Contracting
+service expense. Many CIP projects include funding
+Energy Savings Performance Contracting (ESPC) from sources outside the City’s ordinary revenue
+is a “budget-neutral approach to make building stream, such as federal, state, and private grants.
+improvements that reduce energy and water use and Transportation and housing-related projects often
+increase operational efficiency.”37 A building owner use grant funding.
+contracts with an energy service company (ESCO) The energy usage and GHG emissions impacts of
+to fund and install the improvements. The future proposed projects should be estimated in the CIP
+energy savings from the improvements will pay for development process. Projects which will make a
+the upgrades, which results in the budget-neutral significant advancement toward meeting the SEP
+approach. The savings from the improvements are goals, should be prioritized and scheduled through
+specified in the contract. The owner benefits from the CIP.
+the improvements without using capital funds.
+Green Revolving Fund
+Performance contracts can provide the City with the
+A Green Revolving Fund reuses the money from
+financial means to achieve a reduction in electricity
+energy savings or avoided costs derived from energy
+and emissions without the need for the full up-
+efficiency and renewable energy projects to fund
+front capital investment on the part of the City. The
+further energy projects. Instead of the savings
+downside is that the financial savings realized from
+achieved through reduced energy costs being
+the energy savings will go to pay the debt incurred
+absorbed and diverted to other budget areas, the
+from the projects funded through the Performance
+savings are deposited into the Green Revolving Fund
+Contract. Therefore, it is budget neutral until the City
+account to use for future projects. Any debt incurred
+has fully paid for the project. The City has previously
+from a project will be paid before the savings from
+executed two performance contracts for building
+the project is allocated to the Green Revolving Fund.
+system improvements, efficiency, and conservation
+measures.
+37Department of Energy. Energy Savings Performance Contracting for Federal Agencies. 2021. Department of Energy. https://www.energy.gov/eere/slsc/energy-
+savings-performance-contracting
+58
+
+===== PAGE 59 =====
+
+Green Fee governments is included in the package. The
+allowable uses for local government funding is
+A Green Fee is a small surcharge to certain City
+limited, with one potential use being water and
+services, which would be deposited into the Green
+sewer infrastructure improvements.38
+Revolving Fund.
+The City of Greensboro was allocated $59 million
+Energy or Green Bonds
+from ARPA. Rising energy costs disproportionately
+Green Bonds, or Energy Bonds are a special version
+affect lower-to-moderate income households.
+of ordinary General Obligation Bonds, issued
+Directing a portion of this ARPA allocation to water
+specifically to finance energy efficiency or renewable
+and sewer infrastructure improvements can start
+energy projects. Such bonds levy a specified
+to address the cost burden to these households for
+additional amount on the municipal property tax
+water and sewer service, which is a goal of the SEP.
+rate, in order to repay the principal and interest
+on the debt incurred to carry out the project. This Solar Installation Financing
+mechanism is best used for a package of several Solar Power Purchase Agreement (SPPA)
+large multi-year projects that will achieve major
+A Solar Power Purchase Agreement (SPPA) is a
+energy savings and emissions reductions, which are
+common way for local governments to fund their
+expected to continue long after the debt is retired.
+solar projects. The SPPA approach requires no money
+American Rescue Plan Funds
+out of pocket. A third party will own, operate, and
+The American Rescue Plan Act (ARPA) of 2021 (H.R. maintain the solar project. The City provides the
+1319) is a $1.9 trillion federal funding package site for the project and purchases the generated
+intended to combat the COVID-19 pandemic, electricity from the solar project at a low-cost. The
+including public health and economic impacts. provider receives tax credits and income.39
+A $350 billion allocation to state and local
+38National Association of Counties. American Rescue Plan Act Funding Breakdown. NACO. https://www.naco.org/resources/featured/american-rescue-plan-act-
+funding-breakdown
+59
+39EPA. Solar Purchase Power Agreements. Environmental Protection Agency. 2021. https://www.epa.gov/greenpower/solar-power-purchase-agreements
+
+===== PAGE 60 =====
+
+Duke Energy Solar Rebate GHG Emissions Reduction Strategies
+Duke Energy offers a $0.75 a watt incentive to install Renewable Energy Certificates (RECs)
+solar. There is a $75,000 maximum incentive and a
+A Renewable Energy Certificate (RECs) is a “tradeable,
+100-kW system maximum.40 This rebate program is
+market-based instrument that represents the
+offered yearly until all available rebates have been
+legal property rights to the renewable-ness – or
+claimed. The program offers rebates to residential,
+non-power (environmental, social) attributes - of
+commercial, and nonprofit customers. The rebates
+renewable electricity generation).”42 “A REC is created
+are claimed quickly when Duke Energy releases
+for every megawatt-hour (MWh) of electricity
+them. However, the nonprofit rebates are typically
+generated and delivered to the electricity grid from
+easier to acquire. The City can apply for these rebates
+a renewable energy resource. On a shared grid,
+yearly for any solar installation, provided it does not
+whether from on-site or off-site resources, RECs are
+exceed 100 kW.
+the instrument that electricity consumers must use
+Energy Project Financing to substantiate renewable electricity use claims.”43
+North Carolina Clean Energy Fund The City can purchase RECs to reduce the City’s GHG
+emissions. Purchasing a 1 MW REC is equivalent to
+The North Carolina Clean Energy Fund (NCCEF) is a
+installing a 1 MW solar PV array or reducing energy
+newly formed (but not yet operational) not-for-profit
+use (and associated greenhouse gas emissions) by 1
+financial institution (Green Bank) that invests its
+MW. Pricing of RECs can vary widely and should be
+capital in energy efficiency and renewable energy
+monitored closely to obtain advantageous pricing.
+projects. The NCCEF is particularly interested in
+RECs can be purchased through Duke Energy’s Green
+projects that benefit underserved populations.41
+Source Advantage program.44
+Accordingly, NCCEF funding would be especially
+Offsets
+helpful to use in ensuring a just transition to
+renewable energy for all and prioritizing at-risk An offset is a “specific activity or set of activities
+populations. intended to reduce GHG emissions, increase the
+Grants storage of carbon, or enhance GHG removal from
+the atmosphere.” To qualify as an offset, a project
+Various federal, state, local, and private grants
+must be deemed additional: the resulting emissions
+are routinely made available which could be
+reductions must be real, permanent, and verified;
+used to fund pilots and feasibility studies, service
+and credits (i.e., offsets) issued for verified emissions
+enhancements, technical assistance, and capital
+reductions must be enforceable. The offset may
+projects. Grants can be an effective means of
+be used to address direct and indirect emissions
+supplementing the budget of the Sustainability
+associated with an organization’s operations. The
+Office to carry out optional or lower priority
+reduction in GHG emissions from one place can
+projects. However, grants should generally not be
+be used to “offset” the emissions that take place
+pursed as a primary method of funding essential
+somewhere else. Offsets are often used for meeting
+projects, or as a substitute for an adequate annual
+voluntary commitments to lower GHG emissions
+sustainability budget. Competitive grants frequently
+where it is not feasible to lower an organization’s
+involve completing extensive and time-consuming
+direct or indirect emissions.”45
+applications and developing significant project
+proposals, with no guarantee of receiving funding. The City can reduce one metric ton of its CO 2e
+Grants also often involve extensive monitoring and emissions by purchasing offsets equivalent to one
+follow-up reporting to ensure that awarded funds metric ton of CO 2e reduction.
+are used for eligible purposes and as described in the
+application.
+40Duke Energy. NC Solar Rebate Program. 2021. https://www.duke-energy.com/home/products/renewable-energy/nc-solar-rebates?jur=NC01
+41North Carolina Clean Energy Fund. About. 2022. https://www.nccleanenergyfund.com/
+42EPA. Offsets and RECS: What’s the Difference. 2018. Environmental Protection Agency. https://www.epa.gov/greenpower
+43EPA. Renewable Energy Certificates. Environmental Protection Agency. 2021. https://www.epa.gov/greenpower/renewable-energy-certificates-recs
+44Duke Energy. Renewable Energy Programs. 2021. https://www.duke-energy.com/Business/Products/Renewables/Green-Source-Advantage
+60 45Greenhouse Gas Protocol. GHG Project. 2020. https://www.ghgprotocol.org/standards/project-protocol
+
+===== PAGE 61 =====
+
+Bio-Char Production material in the mulch and compost continues to
+decompose, releasing methane and carbon dioxide
+Bio-char is an emissions offset. The production of
+into the atmosphere. Bio-char production uses
+bio-char sequesters organic carbon, in the form
+very high temperatures to break down organic
+of solid, nearly pure porous carbon. Bio-char has
+molecules into pure carbon, oxygen, and hydrogen,
+excellent moisture retaining properties and is highly
+while releasing only about 10 percent of the
+sought after as a soil amendment.
+carbon into the atmosphere, versus composting or
+The Field Operations Department has proposed
+mulching. Bio-char production is carbon negative
+purchasing a device called an “Air Curtain Burner”
+compared with open pit burning, as it transforms
+(ACB). An ACB is capable of rapidly processing a large
+atmospheric carbon into solid form. The solid bio-
+amount of vegetative material (such as yard waste
+char that remains, when added to soil for agricultural
+currently received by the City at the White Street
+purposes, holds the carbon in place for centuries or
+Landfill) into bio-char. Currently, Field Operations
+longer. Accordingly, bio-char is seen as a potential
+turns this yard waste into mulch or compost and
+revenue source for Field Operations.
+offers it for sale to the public. However, the organic
+61
+
+===== PAGE 62 =====
+
+ACRONYMS, GLOSSARY & REFERENCES
+
+===== PAGE 63 =====
+
+List of Acronyms and Glossary
+ACB Air Curtain Burner
+ARPA American Rescue Plan Act
+Building Automation System - monitors and controls a building’s heating, cooling,
+BAS
+ventilation, and lighting systems, which reduces building energy use
+BTU British Thermal Unit
+Methane - one of the greenhouse gases contributing to the greenhouse effect and climate
+CH4 change. It is both found in nature and created by human activities. Methane is 28 times
+more potent a greenhouse gas as carbon dioxide in a one-hundred-year time span.
+CIP Capital Improvements Program
+CNG Compressed Natural Gas
+Carbon Dioxide - one of the most predominate greenhouse gases contributing to the
+CO greenhouse effect and climate change. Carbon dioxide is created when fossil fuels are
+2
+burned to generate electricity and provide transportation
+Carbon Dioxide equivalent - a calculation which combines the emissions for each
+CO greenhouse gas using the emissions factors for each gas so that each is weighted against
+2e
+carbon dioxide
+CSC Community Sustainability Council
+EDBS Economic Development and Business Services Office
+Energy Efficiency - means to use less energy to get the same job done. Buildings can be
+EE
+inefficient. Increasing efficiency can save energy, money, and reduce GHG emissions
+EPA US Environmental Protection Agency
+ESCO Energy Service Company
+ESPC Energy Savings Performance Contract
+Electric Vehicle - a vehicle which uses a battery and an electric motor instead of a
+EV
+traditional internal combustion engine
+Greenhouse Gas - a gas that contributes to the greenhouse gas effect by absorbing infrared
+GHG
+radiation
+Global Warming Potential - a measure to compare the warming impacts of different gases
+GWP
+relative to carbon dioxide
+HUB Historically Underutilized Business
+63
+
+===== PAGE 64 =====
+
+ICE Internal Combustion Engine - an engine powered by burning gasoline or other fuel
+ICLEI Local Governments for Sustainability
+Intergovernmental Panel on Climate Change - is the United Nations body for assessing the
+IPCC
+science related to climate change
+IRP Integrated Resource Plan
+kW Kilowatt - a measure of 1,000 watts of electrical power
+kWh Kilowatt hour - a measure of electricity equal to 1 kW used for one hour
+L4C LEED for Cities
+LED Light-Emitting Diode
+Leadership in Energy and Environmental Design - a green building system created by
+LEED the United States Green Building Council. LEED provides a framework for highly efficient
+buildings
+Million British Thermal Units - a unit for measuring energy. It is commonly used as a
+MMBTU
+common language when comparing energy sources with differing units
+MT Metric Tons - a unit of weight equal to 1,000 kilograms or 2,205 US pounds
+MT CO Metric Tons of Carbon Dioxide equivalent - the standard measurement for GHG emissions
+2e
+MW Megawatt - a unit of power equal to one million watts
+MWBE Minority-or Women-Owned Business Enterprise
+Nitrous Oxide - a potent greenhouse gas, that is 265 times more powerful than carbon
+N O
+2 dioxide
+NCCEF North Carolina Clean Energy Fund
+O Ozone
+3
+PV Photovoltaic
+Renewable Energy Certificate - a tradeable, market-based instrument that represents the
+REC legal property rights to the “renewable-ness” or all non-power attributes of renewable
+electricity generation
+SEP Strategic Energy Plan
+Therms A unit of heat equivalent to 100,000 BTUs and the standard measurement for natural gas
+WRI World Resources Institute
+64
+
+===== PAGE 65 =====
+
+References
+City of Greensboro. Resolution to Support the Establishment of a 20-Year Strategic Energy Plan and Goals to
+Transition to 100% Renewable Energy for the City of Greensboro. Greensboro City Council. Accessed October 15,
+2021. http://greensboro.legistar.com/gateway.aspx?M=F&ID=2fca2530-5995-4530-a20c-58c4423d6a80.doc
+City of Greensboro. City Receives its 28th Tree City Award. City of Greensboro News. Accessed October 15, 2021.
+https://www.greensboro-nc.gov/Home/Components/News/News/14492/
+City of Greensboro. Community Sustainability Council. City of Greensboro. Accessed October 15, 2021. https://www.
+greensboro-nc.gov/departments/planning/boards-commissions-meetings/community-sustainability-council-csc
+Cortright, Joe. Portland’s Green Dividend. June 6, 2017. City Observatory. Accessed October 15, 2021. https://
+cityobservatory.org/portlands-green-dividend/
+Department of Energy. Energy Savings Performance Contracts for Federal Agencies. 2021. https://www.energy.gov/
+eere/slsc/energy-savings-performance-contracting
+Department of Energy. Guide to Community Energy Strategic Planning. 2021. https://www.energy.gov/eere/slsc/guide-
+community-energy-strategic-planning
+Department of Energy. Property Assessed Clean Energy Programs. 2021. https://www.energy.gov/eere/slsc/property-
+assessed-clean-energy-programs
+Duke Energy. Electric Utilities and Infrastructure. 2021. https://sustainabilityreport.duke-energy.com/introduction/
+duke-energy-at-a-glance/
+Duke Energy. Integrated Resource Plan. 2021. https://www.duke-energy.com/Our-Company/About-Us/IRP
+Duke Energy. Renewable Energy Programs. 2021. https://www.duke-energy.com/Business/Products/Renewables/
+Green-Source-Advantage
+Duke Energy. NC Solar Rebate Program. 2021. https://www.duke-energy.com/home/products/renewable-energy/nc-
+solar-rebates?jur=NC01
+Duke Energy. Park & Plug: Expanding EV Infrastructure in North Carolina. 2021. https://www.duke-energy.com/
+business/products/park-and-plug
+Environmental Defense Fund. The True Cost of Carbon Pollution. 2021. https://www.edf.org/true-cost-carbon-pollution
+EPA. Greenhouse Gas Equivalencies Calculator. Environmental Protection Agency. 2018. https://www.epa.gov/energy/
+greenhouse-gas-equivalencies-calculator
+EPA. Renewable Energy Certificates. Environmental Protection Agency. 2021. https://www.epa.gov/greenpower/
+renewable-energy-certificates-recs
+EPA. Solar Purchase Power Agreements. Environmental Protection Agency. 2021. https://www.epa.gov/greenpower/
+solar-power-purchase-agreements
+EPA. Offsets and RECS: What’s the Difference? 2018. Environmental Protection Agency. https://www.epa.gov/
+greenpower
+EPA. E-Grid Power Profiler. 2021. https://www.epa.gov/egrid/power-profiler#/
+65
+
+===== PAGE 66 =====
+
+EPA. Overview of Greenhouse Gases. 2021. https://www.epa.gov/ghgemissions/overview-greenhouse-gases
+Ford. Responsive to Your Budget. Ford Motor Company. 2021. https://www.ford.com/police-vehicles/police-interceptor/
+hybrid-utility/calculator/
+Greenhouse Gas Protocol. Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories. Greenhouse
+Gas Protocol for Cities. 2021. https://ghgprotocol.org/greenhouse-gas-protocol-accounting-reporting-standard-cities
+IPCC. About the IPCC. 2021. Intergovernmental Panel on Climate Change. https://www.ipcc.ch/about/
+IPCC. Special Report Global Warming of 1.5oC Summary for Policymakers. 2018. https://www.ipcc.ch/sr15/
+National Association of Counties. American Rescue Plan Act Funding Breakdown. https://www.naco.org/resources/
+featured/american-rescue-plan-act-funding-breakdown
+NOAA. The NOAA Annual Greenhouse Gas Index (AGGI). 2021. https://gml.noaa.gov/aggi/aggi.html
+North Carolina Clean Energy Fund. About. 2022. https://www.nccleanenergyfund.com/
+NREL. Data and Tools. National Renewable Energy Laboratory. 2020. www.nrel.gov/publications
+NREL. Solar Resource Map and Data. National Renewable Energy Laboratory. 2021. https://www.nrel.gov/gis/solar-
+resource-maps.html
+The United States Conference of Mayors. Mayors Climate Protection Agreement. The United States Conference of
+Mayors. 2021. https://www.usmayors.org/tag/mayors-climate-protection-agreement/
+Wyland Foundation. Wyland National Mayor’s Challenge for Water Conservation. Wyland National Mayor’s Challenge.
+2022. https://mywaterpledge.com/
+World Resources Institute. Greenhouse Gas Protocol. Global Protocol for Community-Scale Greenhouse Gas Emission
+Inventories. 2014. https://ghgprotocol.org/greenhouse-gas-protocol-accounting-reporting-standard-cities
+World Resources Council. Greenhouse Gas Protocol. 2016. Global Warming Potential. https://www.ghgprotocol.org/
+sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf
+66
+
+===== PAGE 67 =====
+
+APPENDIX
+
+===== PAGE 68 =====
+
+APPENDIX A
+GREENSBORO
+CITY COUNCIL
+RESOLUTION
+68
+
+===== PAGE 69 =====
+
+69
+
+===== PAGE 70 =====
+
+70
+
+===== PAGE 71 =====
+
+APPENDIX B
+Evaluation Plan
+The SEP Resolution requires the following:
+1. Preparation of an updated GHG inventory of City operations every two years.
+2. Publication of an annual progress report.
+Strategic Energy Plan Evaluation Plan for Goals
+City of Greensboro Operations Recommendations
+RECOMMENDATION 1 The City should establish an Office of Sustainability and Resilience.
+Evaluation Method: Recommendation implemented.
+RECOMMENDATION 2 Clean energy audit/installation/maintenance contracts will give priority to Historically
+Underutilized Businesses (HUBs) and Minority and Women Business Enterprise (MWBE).
+Evaluation Method: Track applicants and contract awards for energy projects. City energy projects should mimic the
+process for awarding contracts to HUBs and MWBEs that the City already has in place.
+RECOMMENDATION 3 Ensure energy decisions are made in a way that promotes a just transition to renewable
+energy for all and prioritizes vulnerable communities.
+Evaluation Method: Score energy projects using a matrix for vetting energy decisions with respect to
+environmental justice.
+RECOMMENDATION 4 All City-Owned Buildings will meet Green Building standards (New Construction and
+Substantially Renovated City-Owned).
+Evaluation Method: Establish a policy requiring City-owned buildings to meet green building standards for both
+new construction and substantial renovation.
+RECOMMENDATION 5 The City fleet will be comprised of zero-emission vehicles by 2040.
+Evaluation Method: Measure annual increases in zero-emission vehicles to City fleet.
+RECOMMENDATION 6 Establish a policy to achieve no net loss of the tree canopy throughout the City, for
+improved air quality, reduced urban heat island effect, and carbon sequestration.
+Evaluation Method: (1) Baseline tree canopy survey completed and follow-up survey every five years.
+(2) 20-year tree canopy strategy developed.
+RECOMMENDATION 7 Develop an Energy and Water Education Program for all City staff.
+Evaluation Method: Verify ongoing programming for existing staff and new-hires was conducted.
+RECOMMENDATION 8 Review current purchase/lease process for potential efficiency improvement of vehicle and
+equipment inventory.
+Evaluation Method: Verify that review has been completed and that the findings were presented.
+71
+
+===== PAGE 72 =====
+
+Electricity Reduction
+Water Resources
+GOAL 1 Reduce water demand by 20 percent per capita by 2030.
+Evaluation Method: Track yearly water usage and normalize per capita. Compare to previous year normalized water
+usage for change in usage. Usage per capita should drop by an average of at least 1% yearly.
+GOAL 2 Reduce the department’s electricity demand by 40 percent by 2025 from 2007.
+Evaluation Method: Track and report electricity consumption in kWh at the end of each year and compare to
+previous year for change in usage.
+GOAL 3 Meet the department’s total electricity demand with renewable energy by 2040.
+Evaluation Method: Track and report the amount of electricity generated by renewable sources for Water
+Resources.
+Transportation Department
+GOAL 1 Increase LED Streetlamp conversion to five percent per year.
+Evaluation Method: Track and report the increase in streetlamps converted to LEDs at the end of each year.
+GOAL 2 Reduce the department’s electricity demand by 40 percent by 2025 from 2007.
+Evaluation Method: Track and report electricity consumption in kWh at the end of each year and compare to
+previous year for change in usage.
+GOAL 3 Meet the department’s total electricity demand with renewable energy by 2040.
+Evaluation Method: Track and report the amount of electricity generated by renewable sources for
+Transportation Department.
+Greensboro Coliseum Complex
+GOAL 1 Increase LED Streetlamp conversion to five percent per year.
+Evaluation Method: Track and report the increase in streetlamps converted to LEDs at the end of each year.
+GOAL 2 Reduce the department’s electricity demand by 40 percent by 2025 from 2007.
+Evaluation Method: Track and report electricity consumption in kWh at the end of each year and compare to
+previous year for change in usage.
+GOAL 3 Meet the department’s total electricity demand with renewable energy by 2040.
+Evaluation Method: Track and report the amount of electricity generated by renewable sources for
+Transportation Department.
+Buildings Managed by Engineering and Inspections
+GOAL 1 For all managed buildings, reduce electricity demand by 40 percent by 2025 from 2007.
+Evaluation Method: Track and report electricity consumption in kWh at the end of each year and compare to
+previous year for change in usage.
+GOAL 2 Meet total energy demand for all managed buildings with renewable energy by 2040.
+Evaluation Method: Track and report the amount of electricity generated by renewable sources.
+72
+
+===== PAGE 73 =====
+
+Natural Gas Reduction
+Greensboro Coliseum Complex
+GOAL 1 Reduce department’s natural gas demand by 40 percent by 2030 from 2007.
+Evaluation Method: Track and report energy consumption in therms at the end of each year and compare to
+previous year for change in usage
+Parks and Recreation
+GOAL 1 Reduce department’s natural gas demand by 40 percent by 2030 from 2007.
+Evaluation Method: Track and report energy consumption in therms at the end of each year and compare to
+previous year for change in usage.
+Fire Department
+GOAL 1 Reduce department’s natural gas demand by 40 percent by 2030 from 2007.
+Evaluation Method: Track and report energy consumption in therms at the end of each year and compare to
+previous year for change in usage.
+GOAL 2 Meet department’s water heating demand with renewable energy by 2040.
+Evaluation Method: Track and report the amount of heated water generated by renewable sources.
+Vehicle and Equipment Fuels Reduction:
+Gasoline Reduction
+Police Department
+GOAL 1 Reduce department’s gasoline consumption by an average of five percent per year.
+Evaluation Method: Track and report gasoline consumption in gallons at the end of each year and compare to
+previous year for change in usage.
+GOAL 2 Right-size the on-road and off-road vehicle fleet to ensure all leased vehicles are necessary.
+Evaluation Method: A fleet optimization study is completed.
+Transportation Department
+GOAL 1 Reduce department’s gasoline consumption by an average of five percent per year.
+Evaluation Method: Track and report gasoline consumption in gallons at the end of each year and compare to
+previous year for change in usage.
+73
+
+===== PAGE 74 =====
+
+Vehicle and Equipment Fuels Reduction:
+Diesel Reduction
+Field Operations
+GOAL 1 Reduce department’s diesel consumption by an average of at least five percent per year.
+Evaluation Method: Track and report gasoline consumption in gallons at the end of each year and compare to
+previous year for change in usage.
+Transportation Department
+GOAL 1 Reduce department’s diesel consumption by an average of at least five percent per year.
+Evaluation Method: Track and report gasoline consumption in gallons at the end of each year and compare to
+previous year for change in usage.
+Community Incentives
+GOAL 1 Incentivize Greensboro residents and businesses to achieve similar progress on GHG
+reduction, energy efficiency, and renewable energy use as the City.
+Evaluation Method: Track and report all efforts by the City to incentivize residents to achieve similar progress on GHG
+reduction, energy efficiency, and renewable energy use.
+GOAL 2 Address cost burdens to ensure a just transition to renewable energy for all and prioritize
+at-risk populations.
+Evaluation Method: Track and report all efforts by the City to address cost burdens to ensure a just transition to
+renewable energy for all and prioritize at-risk populations.
+74
+
+===== PAGE 75 =====
+
+APPENDIX C
+Strategic Energy Plan:
+Annual Progress Report Template
+Evaluation Baseline (2019) Current Year
+Goals Method Year Status Status Year to Date
+Electricity Reduction Goals
+Water Resources Department
+Reduce water demand by 20% per capita by 2030. Change
+Reduce electricity demand by 40% by 2025 from 2007. Change
+Meet total demand with renewable energy by 2040. RE%
+Transportation Department
+Increase LED Streetlamp conversion by 5% per year. Change
+Reduce electricity demand by 40% by 2025 from 2007. Change
+Meet total demand with renewable energy by 2040. RE%
+Greensboro Coliseum Complex
+Reduce electricity demand by 40% by 2025 from 2007. Change
+Meet electricity demand with renewable energy by 2040. RE%
+Buildings Managed by Engineering and Inspections
+Reduce electricity demand by 40% by 2025 from 2007. Change
+Meet electricity demand with renewable energy by 2040. RE%
+Natural Gas Reduction Goals
+Greensboro Coliseum Complex
+Reduce natural gas demand by 40% by 2030 from 2007. Change
+Parks and Recreation
+Reduce natural gas demand by 40% by 2030 from 2007. Change
+Fire Department
+Reduce natural gas demand by 40% by 2030 from 2007. Change
+Meet water heating demand with renewable energy by 2040. RE%
+Vehicle and Equipment Fuels Reduction: Gasoline Reduction
+Police Department
+Reduce gasoline consumption 5% per year. Change
+Right-size fleet to ensure all leased vehicles are justified. Change
+Transportation Department
+Reduce gasoline consumption 5% per year. Change
+Vehicle and Equipment Fuels Reduction: Diesel Reduction
+Field Operations
+Reduce diesel consumption 5% per year. Change
+Transportation Department
+Reduce diesel consumption 5% per year. Change
+Community Incentives
+Incentivize Greensboro residents and businesses to achieve similar progress
+Yearly Progress
+on GHG reduction, energy efficiency, and renewable energy use as the City.
+Address cost burdens to ensure a just transition to renewable energy for all
+Yearly Progress
+and prioritize at-risk populations.
+75
+
+===== PAGE 76 =====
+
+www.greensboro-nc.gov/sustainability
+PO Box 3136 • Greensboro, NC 27402-3136

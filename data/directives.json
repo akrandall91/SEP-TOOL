@@ -1,0 +1,32 @@
+{
+  "_notes": "These are the 'SEP Resolution Directives Progress' items called out by number in the 2025 Progress Report. Only Directives 4, 8, and 9 receive a dedicated status update in that report (there is no comprehensive numbered list of all resolution directives in the 2025 report itself — these three map to specific resolution.json mandate ids as noted).",
+  "directives": [
+    {
+      "number": 4,
+      "text": "Recommend practices and tools to measure avoided costs and return on investment resulting from implementation of renewable energy projects.",
+      "correspondingResolutionMandateId": "avoided-cost-tools",
+      "status": "Completed",
+      "statusText": "In September 2025, OSR awarded a contract to the consulting firm Nimble Energy to develop a comprehensive energy management and data analysis platform. Development of the software system is essentially complete, with fine-tuning and customization of the interface in progress. The system will identify energy-efficiency measures, enable significant reductions in energy use, and help identify optimal rates for each of the City's approximately 1,100 electrical service accounts with Duke Energy.",
+      "citation": { "source": "progress2025", "page": 6 }
+    },
+    {
+      "number": 8,
+      "text": "Prepare an updated GHG inventory every two years.",
+      "correspondingResolutionMandateId": "ghg-inventory-biennial",
+      "status": "In Progress",
+      "statusText": "In December 2025, OSR executed a contract with Fresh Coast Climate Solutions to prepare updated Greenhouse Gas inventories for 2022, 2023, and 2024, at both the community-wide and municipal operations levels, using widely accepted GHG reporting/validation protocols. Results will measure progress toward SEP emissions reduction goals and serve as a component of Greensboro's LEED for Cities recertification effort. Expected completion: June 2026. The contractor will also train OSR staff to prepare future inventories in-house.",
+      "targetCompletionDate": "2026-06",
+      "citation": { "source": "progress2025", "page": 6 }
+    },
+    {
+      "number": 9,
+      "text": "Publish an annual progress report.",
+      "correspondingResolutionMandateId": "annual-progress-report",
+      "status": "Ongoing",
+      "statusText": "The first annual progress report was published in March 2024. This document (Implementation Year Three) is the third annual progress report. OSR will continue to publish progress reports annually throughout SEP's implementation.",
+      "correspondingPrioritizedAction": 28,
+      "citation": { "source": "progress2025", "page": 6 }
+    }
+  ],
+  "dataGapNote": "The resolution mandates a biennial GHG inventory. The last confirmed inventory referenced by these documents is the 2019 inventory in the 2022 SEP; the next (covering 2022-2024) is contracted but not due until June 2026 — a multi-year gap between the 2019 data and the next official update, despite the two-year statutory cadence."
+}
