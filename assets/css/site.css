@@ -134,6 +134,22 @@ p { margin: 0 0 var(--space-3); }
 .status-badge--deprioritized .status-badge__dot { background: var(--status-muted); }
 .status-badge--mixed { background: color-mix(in srgb, var(--cat-violet) 14%, transparent); color: var(--cat-violet); }
 .status-badge--mixed .status-badge__dot { background: var(--cat-violet); }
+/* wentSilent (goals) / stalled (recommendations): reported for 2+ years then went quiet, or
+   plateaued at "Initiated" for 2+ years — a distinct finding from not-reported (never mentioned)
+   or deprioritized (SEP itself dropped it). Same critical-red family as not-reported (it is a
+   reporting-gap finding), vertical-stripe pattern (vs. not-reported's diagonal) keeps it
+   visually distinguishable rather than color-coded as a brand-new hue. */
+.status-badge--flagged {
+  background: repeating-linear-gradient(90deg, color-mix(in srgb, var(--status-critical) 16%, transparent), color-mix(in srgb, var(--status-critical) 16%, transparent) 3px, transparent 3px, transparent 9px);
+  color: var(--status-critical); border-color: color-mix(in srgb, var(--status-critical) 45%, transparent);
+}
+.status-badge--flagged .status-badge__dot { background: var(--status-critical); }
+
+/* status-history trajectory chips — compact year-by-year strip shown above a goal/rec's status text */
+.goal__status-history { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-bottom: var(--space-3); font-size: var(--font-size-sm); color: var(--ink-secondary); }
+.status-history__chip { display: inline-flex; align-items: center; gap: 4px; }
+.status-history__chip--gap { color: var(--status-critical); font-weight: 600; }
+.status-history__arrow { color: var(--ink-muted); }
 
 /* funding badge */
 .funding-badge {

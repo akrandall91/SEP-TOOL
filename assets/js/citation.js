@@ -6,13 +6,17 @@
 
 const SEP_SOURCE_META = {
   sep2022: { label: "Strategic Energy Plan: Pathways to 100% Renewable Energy", publisher: "City of Greensboro", date: "November 2022" },
+  progress2023: { label: "2023 Annual Progress Report & SEP Implementation Year One", publisher: "City of Greensboro, Office of Sustainability and Resilience", date: "March 2024" },
+  progress2024: { label: "2024 Annual Progress Report & SEP Implementation Year Two", publisher: "City of Greensboro, Office of Sustainability and Resilience", date: "April 2025" },
   progress2025: { label: "2025 Annual Progress Report & SEP Implementation Year Three", publisher: "City of Greensboro, Office of Sustainability and Resilience", date: "February 2026" },
 };
+
+const PROGRESS_REPORT_SOURCES = ["progress2023", "progress2024", "progress2025"];
 
 function citeTier(citation, verificationStatus) {
   if (!citation) return null;
   if (citation.source === "sep2022") return 1;
-  if (citation.source === "progress2025") return 2;
+  if (PROGRESS_REPORT_SOURCES.includes(citation.source)) return 2;
   if (citation.sourceType === "external") {
     return verificationStatus === "single-source-unconfirmed" ? 4 : 3;
   }
@@ -39,7 +43,13 @@ function renderCite(citation, opts) {
   const tier = citeTier(citation, opts.verificationStatus);
   if (!tier) return "";
   const payload = encodeURIComponent(JSON.stringify({ citation, verificationStatus: opts.verificationStatus || null, tier }));
-  const defaults = { 1: "SEP '22", 2: "Progress '25", 3: "Verified", 4: "Unconfirmed" };
+  const progressYearShort = { progress2023: "'23", progress2024: "'24", progress2025: "'25" }; // calendar year the report COVERS, not its publication year
+  const defaults = {
+    1: "SEP '22",
+    2: tier === 2 && citation && progressYearShort[citation.source] ? "Progress " + progressYearShort[citation.source] : "Progress",
+    3: "Verified",
+    4: "Unconfirmed",
+  };
   const icons = { 1: "①", 2: "②", 3: "③", 4: "④" };
   const label = opts.label || defaults[tier];
   return (
@@ -51,14 +61,15 @@ function renderCite(citation, opts) {
 }
 
 function buildPopoverHtml(citation, tier, verificationStatus) {
-  const tierNames = { 1: "SEP 2022 — primary source", 2: "Progress Report 2025 — primary source", 3: "External — primary-source-verified", 4: "External — single-source-unconfirmed" };
-  let title = "", meta = "", note = "";
+  let title = "", meta = "", note = "", tierName = "";
   if (tier === 1 || tier === 2) {
     const src = SEP_SOURCE_META[citation.source];
+    tierName = tier === 1 ? "SEP 2022 — primary source" : `${src.label.match(/Implementation Year \w+/)?.[0] || "Progress Report"} — primary source`;
     title = src.label;
     meta = `${src.publisher} · ${src.date} · ${pageLabel(citation)}` + (citation.table ? ` · ${citation.table}` : "");
     note = citation.note || "";
   } else {
+    tierName = verificationStatus === "single-source-unconfirmed" ? "External — single-source-unconfirmed" : "External — primary-source-verified";
     title = citation.title || "";
     meta = (citation.publisher || "") + (citation.retrievedDate ? ` · retrieved ${citation.retrievedDate}` : "");
     note = citation.note || "";
@@ -68,7 +79,7 @@ function buildPopoverHtml(citation, tier, verificationStatus) {
   }
   const link = citation.url ? `<a href="${citation.url}" target="_blank" rel="noopener">Open source →</a>` : "";
   return (
-    `<div class="cite-pop__tier">${tierNames[tier]}</div>` +
+    `<div class="cite-pop__tier">${tierName}</div>` +
     `<div class="cite-pop__title">${title}</div>` +
     `<div class="cite-pop__meta">${meta}</div>` +
     (link ? `<div>${link}</div>` : "") +

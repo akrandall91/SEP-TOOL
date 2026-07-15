@@ -61,7 +61,8 @@ function extractPctByYearTarget(dept) {
 }
 
 function renderGoalCard(goal, extraHtml) {
-  const badgesRight = [goalStatusBadgeHtml(goal), fundingBadgeHtml(goal.fundingLink)].join(" ");
+  const badgesRight = [goalStatusBadgeHtml(goal), fundingBadgeHtml(goal.fundingLink), wentSilentBadgeHtml(goal)].join(" ");
+  const historyBlock = statusHistoryHtml(goal);
   let statusBlock = "";
 
   if (goal.dataGap) {
@@ -81,6 +82,8 @@ function renderGoalCard(goal, extraHtml) {
       statusBlock += `<div class="goal__status-text" style="font-style:italic;color:var(--ink-muted);margin-top:6px;">${su.statusNote}</div>`;
     }
   }
+
+  statusBlock = historyBlock + statusBlock;
 
   return `
   <article class="goal" id="${goal.id}">
@@ -123,6 +126,23 @@ function renderWhiteStreetCallout(wsl, relatedFinding, fundingData) {
     </p>
     <p>This project belongs to <strong>${wsl.name}</strong> — <a href="white-street-landfill.html">see the full page →</a></p>
   </div>`;
+}
+
+function renderLedConversionNote(series) {
+  if (!series) return "";
+  const rows = series.series
+    .map((s) => `<span class="status-history__chip">${s.year}: <strong>${s.pctLed}%</strong>${s.ledCount != null ? ` (${s.ledCount.toLocaleString()} lamps)` : ""} ${s.citation ? renderCite(s.citation) : ""}</span>`)
+    .join('<span class="status-history__arrow">→</span>');
+  return `
+  <div class="chart-annotation-box" style="margin-top:var(--space-3);">
+    <strong>LED streetlamp conversion, ${series.unit}:</strong> ${series.note || ""}
+    <div class="goal__status-history" style="margin-top:6px;">${rows}</div>
+  </div>`;
+}
+
+function renderBuildingLogiXNote(note) {
+  if (!note) return "";
+  return `<div class="chart-annotation-box" style="margin-top:var(--space-3);">${note.note} ${renderCite(note.citation)}</div>`;
 }
 
 function renderReorgNote(dept) {
@@ -226,6 +246,12 @@ function renderGoalsSection(dept, wsl, fundingData) {
   const extraHtml = (goal) => {
     if (goal.relatedExternalFinding) {
       return renderWhiteStreetCallout(wsl, goal.relatedExternalFinding, fundingData);
+    }
+    if (goal.ledConversionTimeSeries) {
+      return renderLedConversionNote(goal.ledConversionTimeSeries);
+    }
+    if (goal.buildingLogiX) {
+      return renderBuildingLogiXNote(goal.buildingLogiX);
     }
     return "";
   };

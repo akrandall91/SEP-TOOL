@@ -68,10 +68,19 @@ const STATUS_LABEL = {
   mixed: "Mixed — see strategies",
 };
 
+// Verbatim OSR status-word definitions (2024 Progress Report, p.19) — see directives.json >
+// directiveStatusDefinitionsSource for the source-of-truth copy. Used in place of this project's
+// earlier inferred wording for Ongoing/In Progress/Initiated specifically.
+const OSR_STATUS_DEFINITIONS = {
+  Ongoing: "A program or standard practice that has been established, remains in effect, and continues indefinitely.",
+  "In Progress": "A project or program that has been started and will be completed after a finite period (whether the completion date is known or unknown).",
+  Initiated: "The starting point of a project, task, program, or activity during the reporting period. In most cases, funding has been allocated and projects are pending.",
+};
+
 const STATUS_EXPLAIN = {
   complete: "The 2025 Progress Report marks this complete.",
-  active: "The 2025 Progress Report describes this as ongoing / actively in progress.",
-  initiated: "Work on this has been initiated per the 2025 Progress Report, but is early-stage.",
+  active: `OSR's official definitions (2024 Progress Report, p.19) — "Ongoing": "${OSR_STATUS_DEFINITIONS.Ongoing}" "In Progress": "${OSR_STATUS_DEFINITIONS["In Progress"]}"`,
+  initiated: `OSR's official definition (2024 Progress Report, p.19) — "Initiated": "${OSR_STATUS_DEFINITIONS.Initiated}"`,
   realigned: "The approach changed since the 2022 SEP — see the status text for what changed and why.",
   "reported-plain": "The 2025 Progress Report describes activity here but does not attach one of its usual status words (Complete/Ongoing/etc).",
   "not-reported": "The 2025 Progress Report does not address this goal at all. No reason is given in the source — this is a genuine reporting gap, not a documented deprioritization.",
@@ -81,7 +90,44 @@ const STATUS_EXPLAIN = {
 
 function goalStatusBadgeHtml(goal) {
   const state = goalStatusState(goal);
-  return `<span class="status-badge status-badge--${state}" title="${STATUS_EXPLAIN[state]}"><span class="status-badge__dot"></span>${STATUS_LABEL[state]}</span>`;
+  return `<span class="status-badge status-badge--${state}" title="${STATUS_EXPLAIN[state].replace(/"/g, "&quot;")}"><span class="status-badge__dot"></span>${STATUS_LABEL[state]}</span>`;
+}
+
+/** wentSilent (goals) and stalled (recommendations) share one visual treatment — a distinct
+ * "flagged" badge — but never fold into the dataGap/deprioritized/not-reported states above:
+ * both describe something reported for multiple years that then stopped moving, which is a
+ * different finding than "never reported" or "reported, but SEP itself deprioritized it". */
+function wentSilentBadgeHtml(goal) {
+  const ws = goal.wentSilent;
+  if (!ws || !ws.value) return "";
+  const title = (ws.note || "").replace(/"/g, "&quot;");
+  return `<span class="status-badge status-badge--flagged" title="${title}"><span class="status-badge__dot"></span>⚠ Went silent after ${ws.lastReportedYear}</span>`;
+}
+
+function stalledBadgeHtml(rec) {
+  const st = rec.stalled;
+  if (!st || !st.value) return "";
+  const title = (st.note || "").replace(/"/g, "&quot;");
+  return `<span class="status-badge status-badge--flagged" title="${title}"><span class="status-badge__dot"></span>⚠ Stalled — ${st.years.length} years at "Initiated"</span>`;
+}
+
+/** Renders a compact year-by-year trajectory (statusHistory + the 2025 outcome) for any goal,
+ * recommendation, or action that carries a statusHistory array. Purely additive — goals/recs
+ * without statusHistory render nothing here, same as before this field existed. */
+function statusHistoryHtml(item) {
+  if (!item.statusHistory || !item.statusHistory.length) return "";
+  const yearChips = item.statusHistory.map(
+    (h) => `<span class="status-history__chip">${h.year}: <strong>${h.status}</strong> ${renderCite(h.citation)}</span>`
+  );
+  if (item.dataGap) {
+    yearChips.push(`<span class="status-history__chip status-history__chip--gap">2025: <strong>not reported</strong></span>`);
+  } else {
+    const su = item.statusUpdate2025 || item.status2025;
+    if (su && su.status) {
+      yearChips.push(`<span class="status-history__chip">2025: <strong>${su.status}</strong> ${renderCite(su.citation)}</span>`);
+    }
+  }
+  return `<div class="goal__status-history">${yearChips.join('<span class="status-history__arrow">→</span>')}</div>`;
 }
 
 function fundingBadgeHtml(fundingLink) {

@@ -41,6 +41,39 @@ function daysBetween(a, b) {
   return Math.round((b - a) / 86400000);
 }
 
+function renderCitywideChart(directivesData) {
+  const d1 = directivesData.directives.find((d) => d.number === 1);
+  if (!d1 || !d1.multiYearGhgTotal) return;
+  const series = d1.multiYearGhgTotal.series;
+  const maxY = Math.ceil((Math.max(...series.map((s) => s.totalMtco2e)) * 1.1) / 10000) * 10000;
+  const base2007 = series.find((s) => s.year === 2007).totalMtco2e;
+  const targetValue = base2007 * 0.6; // illustrative 40% reduction line, same convention as department pages
+
+  renderTrendChart(document.getElementById("citywide-chart-mount"), {
+    unit: "MTCO2e",
+    maxY,
+    offTrack: false,
+    targetValue,
+    points: [
+      ...series.map((s) => ({ label: String(s.year), value: s.totalMtco2e, isReal: true, note: `${s.pctChangeFrom2007}% vs. 2007${s.note ? " — " + s.note : ""}`, citation: d1.citation })),
+      { label: "2025 target*", isTarget: true },
+    ],
+  });
+
+  document.getElementById("citywide-chart-legend").innerHTML = `
+    <div class="chart-legend__item"><span class="chart-legend__swatch" style="background:var(--status-good)"></span>Citywide total, self-reported (OSR)</div>
+    <div class="chart-legend__item"><span class="chart-legend__swatch" style="background:repeating-linear-gradient(90deg, var(--ink-muted) 0 6px, transparent 6px 11px);"></span>Illustrative 40% target line*</div>
+  `;
+
+  document.getElementById("citywide-chart-annotation").innerHTML = `
+    <strong>*About this chart:</strong> figures for 2007/2019/2022 come from the 2025 Progress Report's own multi-year
+    table; 2023/2024 are transcribed from the same table as it appears in the 2024 Progress Report
+    ${renderCite(d1.citation)}. This is OSR's own preliminary estimate, not an independently audited inventory — the
+    official GHG inventory update (Directive 8) is due June 2026.
+    ${d1.inconsistencyFlag && d1.inconsistencyFlag.value ? `<div class="chart-annotation-box" style="margin-top:var(--space-3);"><strong>⚠ Inconsistency in the source document:</strong> ${d1.inconsistencyFlag.note} ${renderCite(d1.inconsistencyFlag.citation)}</div>` : ""}
+  `;
+}
+
 async function init() {
   const [departments, linkage, baseline, resolutionData, directivesData, indexData] = await Promise.all([
     loadJson("departments.json", BASE),
@@ -96,7 +129,7 @@ async function init() {
     </div>
     <div class="card">
       <div style="font-weight:700;">Annual progress report (Resolution mandate)</div>
-      <p style="margin-top:6px;">Mandated cadence: annual. Delivered: March 2024 (1st), date unknown (2nd — a data gap, not an omission), February 2026 (3rd) ${renderCite(reportDirective.citation)}.</p>
+      <p style="margin-top:6px;">Mandated cadence: annual. Delivered: March 2024 (1st), April 2025 (2nd), February 2026 (3rd) ${renderCite(reportDirective.citation)}.</p>
       <p style="font-size:var(--font-size-sm);color:var(--ink-muted);">See the <a href="timeline.html">Timeline</a> for the full chronology.</p>
     </div>`;
 
@@ -109,6 +142,9 @@ async function init() {
       <strong>${h.pctOfUnfundedGoalsReported}%</strong> of unfunded goals (${h.totalFundedGoals} funded, ${h.totalUnfundedGoals} unfunded, of 21 total).
       <a href="funding.html">→ Full funding tracker</a></p>
     </div>`;
+
+  // ---- citywide GHG trend chart (2007-2024, citywide total — not department-level) ----
+  renderCitywideChart(directivesData);
 
   // ---- department table ----
   const summaries = deptSummary(departments);

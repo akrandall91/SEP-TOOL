@@ -40,14 +40,18 @@ function statusFilterAttr(state) {
 
 function renderRecCard(rec) {
   const state = recommendationStatusState(rec);
-  let bodyHtml = "";
+  let bodyHtml = statusHistoryHtml(rec);
 
   if (rec.status2025) {
-    bodyHtml = `<div class="goal__status-text">${rec.status2025.text} ${renderCite(rec.status2025.citation)}</div>`;
+    bodyHtml += `<div class="goal__status-text">${rec.status2025.text} ${renderCite(rec.status2025.citation)}</div>`;
   } else if (state === "mixed") {
-    bodyHtml = `<div class="goal__status-text" style="font-style:italic;color:var(--ink-muted);margin-bottom:8px;">No single top-level status — see individual strategies below.</div>`;
+    bodyHtml += `<div class="goal__status-text" style="font-style:italic;color:var(--ink-muted);margin-bottom:8px;">No single top-level status — see individual strategies below.</div>`;
   } else {
-    bodyHtml = `<div class="goal__status-text">No 2025 status update found for this recommendation.</div>`;
+    bodyHtml += `<div class="goal__status-text">No 2025 status update found for this recommendation.</div>`;
+  }
+
+  if (rec.stalled && rec.stalled.value) {
+    bodyHtml += `<div class="chart-annotation-box" style="margin-top:var(--space-3);">${rec.stalled.note}</div>`;
   }
 
   const stratHtml = (rec.strategies || [])
@@ -73,6 +77,7 @@ function renderRecCard(rec) {
       <div class="goal__badges">
         <span class="status-badge status-badge--${state}"><span class="status-badge__dot"></span>${STATUS_LABEL[state]}</span>
         ${rec.fundingLink ? fundingBadgeHtml(rec.fundingLink) : ""}
+        ${stalledBadgeHtml(rec)}
       </div>
     </div>
     <div class="goal__body">
@@ -89,8 +94,26 @@ function directiveStatusState(status) {
   return mapStatusWord(status) || "reported-plain";
 }
 
+function renderGhgSeriesTable(multiYearGhgTotal) {
+  const rows = multiYearGhgTotal.series
+    .map((s) => `<tr><td style="padding:4px 10px;">${s.year}</td><td style="padding:4px 10px;text-align:right;font-variant-numeric:tabular-nums;">${s.totalMtco2e.toLocaleString()}</td><td style="padding:4px 10px;text-align:right;font-variant-numeric:tabular-nums;">${s.pctChangeFrom2007}%</td><td style="padding:4px 10px;font-size:var(--font-size-xs);color:var(--ink-muted);">${s.note || ""}</td></tr>`)
+    .join("");
+  return `
+  <div style="margin-top:var(--space-3);overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;font-size:var(--font-size-sm);">
+      <thead><tr style="border-bottom:1px solid var(--gridline);text-align:left;"><th style="padding:4px 10px;">Year</th><th style="padding:4px 10px;text-align:right;">MTCO2e</th><th style="padding:4px 10px;text-align:right;">Change from 2007</th><th></th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+    <p style="font-size:var(--font-size-xs);color:var(--ink-muted);margin-top:4px;">${multiYearGhgTotal.note}</p>
+  </div>`;
+}
+
 function renderDirectiveCard(d) {
   const state = directiveStatusState(d.status);
+  const inconsistency = d.inconsistencyFlag && d.inconsistencyFlag.value
+    ? `<div class="chart-annotation-box" style="margin-top:var(--space-3);"><strong>⚠ Inconsistency in the source document:</strong> ${d.inconsistencyFlag.note} ${renderCite(d.inconsistencyFlag.citation)}</div>`
+    : "";
+  const ghgTable = d.multiYearGhgTotal ? renderGhgSeriesTable(d.multiYearGhgTotal) : "";
   return `
   <article class="goal" data-status="${statusFilterAttr(state)}">
     <div class="goal__head">
@@ -104,6 +127,8 @@ function renderDirectiveCard(d) {
     </div>
     <div class="goal__body">
       <div class="goal__status-text">${d.statusText} ${renderCite(d.citation)}</div>
+      ${inconsistency}
+      ${ghgTable}
       ${d.targetCompletionDate ? `<div class="goal__status-text" style="margin-top:6px;"><strong>Target completion:</strong> ${d.targetCompletionDate}</div>` : ""}
       ${d.correspondingPrioritizedAction ? `<div class="goal__status-text" style="margin-top:6px;"><a href="#action-${d.correspondingPrioritizedAction}">→ See Prioritized Action ${d.correspondingPrioritizedAction}</a></div>` : ""}
     </div>
@@ -124,6 +149,7 @@ function renderActionRow(action, phaseLabel) {
       <div><strong>Action ${action.number}:</strong> ${action.text}</div>
       ${badge}
     </div>
+    ${statusHistoryHtml(action)}
     <div class="goal__status-text" style="margin-top:6px;">${text}${linked}</div>
   </div>`;
 }

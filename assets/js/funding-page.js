@@ -1,11 +1,12 @@
 /* SEP Tracker — Funding page.
    Every grant/contract/mechanism from funding.json, grouped by purpose where the grouping is
    actually clean. NOTE: a strict dollar-total-by-category rollup was considered and rejected —
-   EECBG ($314,150) alone funds three different purposes (fleet study, water/energy kits, GHG
-   inventory prep) with no per-purpose breakdown given in the source, so splitting it across
-   categories would require inventing a split the data doesn't support. Grouping is used for
-   organization/scanability; totals are shown per-item and per-named-source, not forced into
-   category subtotals that would imply false precision. */
+   EECBG ($314,150) alone funds four different purposes (fleet study, building/energy planning,
+   vehicle inventory analysis, water/energy kits + GHG inventory prep — see funding.json >
+   eecbg-2024 > fundedActivities) with no per-purpose dollar breakdown given in the source, so
+   splitting it across categories would require inventing a split the data doesn't support.
+   Grouping is used for organization/scanability; totals are shown per-item and per-named-source,
+   not forced into category subtotals that would imply false precision. */
 
 const BASE = "./";
 

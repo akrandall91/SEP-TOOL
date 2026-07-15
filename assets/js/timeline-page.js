@@ -70,6 +70,18 @@ async function init() {
       });
     });
 
+  const ghgTargetDirective = directivesData.directives.find((d) => d.number === 1);
+  if (ghgTargetDirective && ghgTargetDirective.multiYearGhgTotal) {
+    const finalYear = ghgTargetDirective.multiYearGhgTotal.series[ghgTargetDirective.multiYearGhgTotal.series.length - 1];
+    entries.push({
+      date: String(finalYear.year),
+      label: `Self-reported 40% GHG reduction target reached (${finalYear.year} estimate, ${finalYear.pctChangeFrom2007}% vs. 2007) — pending official verification`,
+      note: "OSR's own preliminary estimate from the multi-year emissions table, not an independently audited inventory. See Directive 1 on the Recommendations & Actions page for the inconsistency between this table and the report's own prose claim about which year the target was met.",
+      citation: ghgTargetDirective.citation,
+      status: classify(String(finalYear.year), today),
+    });
+  }
+
   const ghgDirective = directivesData.directives.find((d) => d.number === 8);
   if (ghgDirective && ghgDirective.targetCompletionDate) {
     const status = classify(ghgDirective.targetCompletionDate, today);
