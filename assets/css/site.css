@@ -11,7 +11,7 @@ body {
 }
 a { color: var(--cat-blue); text-decoration: none; }
 a:hover { text-decoration: underline; }
-h1, h2, h3, h4 { font-weight: 600; line-height: 1.25; margin: 0 0 var(--space-2); }
+h1, h2, h3, h4 { font-weight: 600; line-height: 1.25; margin: 0 0 var(--space-2); overflow-wrap: break-word; }
 p { margin: 0 0 var(--space-3); }
 .visually-hidden {
   position: absolute; width: 1px; height: 1px; overflow: hidden;

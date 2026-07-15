@@ -41,21 +41,41 @@ function entryHtml(entry) {
 }
 
 async function init() {
-  const [indexData, resolutionData, fundingData, directivesData] = await Promise.all([
+  const [indexData, resolutionData, fundingData, directivesData, legistarData] = await Promise.all([
     loadJson("index.json", BASE),
     loadJson("resolution.json", BASE),
     loadJson("funding.json", BASE),
     loadJson("directives.json", BASE),
+    typeof loadLiveData === "function" ? loadLiveData("legistar-snapshot.json", BASE) : Promise.resolve(null),
   ]);
 
   const today = new Date(indexData.generatedAt);
   document.getElementById("today-note").textContent = `All "occurred / upcoming / overdue" labels below are relative to this dataset's own snapshot date: ${indexData.generatedAt}.`;
 
   const entries = [];
+  const sepMatter = legistarData && legistarData.matters ? legistarData.matters.sep_authorizing_resolution : null;
+  const sepExtensionMatter = legistarData && legistarData.matters ? legistarData.matters.sep_extension_resolution : null;
 
   indexData.reportCadence.forEach((e) => {
-    entries.push({ date: e.date, label: e.label, note: e.note, citation: e.citation, status: e.date ? classify(e.date, today) : "unknown" });
+    let note = e.note;
+    let citeOpts = {};
+    if (sepMatter && /Resolution 19-0770 adopted/.test(e.label) && sepMatter.actions && sepMatter.actions.length) {
+      const action = sepMatter.actions[0];
+      note = `${note ? note + " " : ""}Live Legistar record: "${action.actionText}" Moved by ${action.mover}, seconded by ${action.seconder}. <a href="${sepMatter.legistarUrl}" target="_blank" rel="noopener">View on Legistar →</a>`;
+    }
+    entries.push({ date: e.date, label: e.label, note, citation: e.citation, citeOpts, status: e.date ? classify(e.date, today) : "unknown" });
   });
+
+  if (sepExtensionMatter && sepExtensionMatter.agendaDate) {
+    entries.push({
+      date: sepExtensionMatter.agendaDate.slice(0, 10),
+      label: `Resolution to Extend Time for Development of the Strategic Energy Plan (${sepExtensionMatter.matterFile}) — passed`,
+      note: `Found via live Legistar lookup, not in this dataset's static source PDFs — direct primary-source evidence of the gap this site's own timeline already notes between resolution adoption (Dec 2019) and SEP publication (Nov 2022). <a href="${sepExtensionMatter.legistarUrl}" target="_blank" rel="noopener">View on Legistar →</a>`,
+      citation: { sourceType: "external", publisher: "City of Greensboro / Legistar", title: sepExtensionMatter.title, url: sepExtensionMatter.legistarUrl, retrievedDate: legistarData.citation?.retrievedDate },
+      citeOpts: { verificationStatus: "primary-source-verified" },
+      status: classify(sepExtensionMatter.agendaDate.slice(0, 10), today),
+    });
+  }
 
   resolutionData.mandates
     .filter((m) => m.deadlineDate)

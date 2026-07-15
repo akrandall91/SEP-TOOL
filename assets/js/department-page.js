@@ -341,7 +341,35 @@ async function init() {
     });
   }
 
+  if (deptId === "transportation-diesel") {
+    const mount = document.createElement("div");
+    document.getElementById("goals-section-wrap").appendChild(mount);
+    renderGtfsComparisonWidget(mount, BASE);
+  }
+
   initCitePopovers(document.body);
+}
+
+async function renderGtfsComparisonWidget(mountEl, base) {
+  mountEl.innerHTML = `<div class="card" style="margin-top:var(--space-3);"><div class="section-title">🚌 CrossMax Purple — live GTFS check</div><p style="font-size:var(--font-size-sm);color:var(--ink-muted);">Loading live GTA schedule/vehicle data…</p></div>`;
+  const snapshot = typeof loadLiveData === "function" ? await loadLiveData("gtfs-snapshot.json", base) : null;
+  if (!snapshot || snapshot.weekdayHeadway?.error) {
+    mountEl.innerHTML = `<div class="card" style="margin-top:var(--space-3);"><div class="section-title">🚌 CrossMax Purple — live GTFS check</div><p style="font-size:var(--font-size-sm);color:var(--status-critical);">Live GTFS comparison data unavailable right now.</p></div>`;
+    return;
+  }
+  const hw = snapshot.weekdayHeadway.headwayMinutes || {};
+  const live = snapshot.liveVehiclePositions || {};
+  mountEl.innerHTML = `
+    <div class="card" style="margin-top:var(--space-3);">
+      <div class="section-title">🚌 CrossMax Purple (GTA Route 1) — live GTFS check, last verified against live GTFS ${new Date(snapshot.fetchedAt).toISOString().slice(0, 10)}</div>
+      <p style="font-size:var(--font-size-sm);color:var(--ink-secondary);">${snapshot.comparisonNote}</p>
+      <div style="display:flex;gap:var(--space-4);flex-wrap:wrap;margin-top:var(--space-3);">
+        <div><div class="dept-stat__label">Weekday headway (computed)</div><div style="font-weight:700;">mean ${hw.mean} min · median ${hw.median} min</div></div>
+        <div><div class="dept-stat__label">Vehicles on route right now</div><div style="font-weight:700;">${live.activeVehiclesOnTargetRoute ?? "?"} of ${live.totalActiveVehicles ?? "?"} GTA vehicles system-wide</div></div>
+        <div><div class="dept-stat__label">Weekday trips (one direction)</div><div style="font-weight:700;">${snapshot.weekdayHeadway.tripCountOneDirectionOneWeekday}, ${snapshot.weekdayHeadway.firstDeparture}–${snapshot.weekdayHeadway.lastDeparture}</div></div>
+      </div>
+      <div style="font-size:var(--font-size-xs);color:var(--ink-muted);margin-top:8px;">${renderCite(snapshot.citation)}</div>
+    </div>`;
 }
 
 document.addEventListener("DOMContentLoaded", init);

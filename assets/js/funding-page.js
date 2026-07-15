@@ -35,6 +35,8 @@ function grantCard(g, opts) {
     ${g.quote ? `<div class="callout" style="margin-top:8px;"><div class="callout__title">💬 Direct quote</div><p>"${g.quote.text}" — ${g.quote.speaker}</p></div>` : ""}
     <div style="margin-top:8px;">${renderCite(g.citation, { verificationStatus: g.verificationStatus })}</div>
     ${opts.linkedGoalHref ? `<div style="margin-top:6px;font-size:var(--font-size-sm);"><a href="${opts.linkedGoalHref}">→ ${opts.linkedGoalLabel}</a></div>` : ""}
+    ${g.usaSpendingAwardId ? `<div class="usaspending-mount" data-award-id="${g.usaSpendingAwardId}"></div>` : ""}
+    ${!g.usaSpendingAwardId && g.usaSpendingNote ? `<div style="font-size:var(--font-size-xs);color:var(--ink-muted);margin-top:8px;padding-top:8px;border-top:1px solid var(--gridline);"><strong>USAspending.gov check:</strong> ${g.usaSpendingNote}</div>` : ""}
   </div>`;
 }
 
@@ -58,6 +60,13 @@ async function init() {
   // City-report-sourced grants/contracts
   const cityFunded = [...fundingData.grants, ...fundingData.contracts];
   document.getElementById("city-reported-list").innerHTML = cityFunded.map((g) => grantCard(g)).join("");
+
+  // Live USAspending.gov obligation/outlay lookups — only for grants with a confirmed award ID match
+  if (typeof renderUsaSpendingWidget === "function") {
+    document.querySelectorAll(".usaspending-mount[data-award-id]").forEach((mount) => {
+      renderUsaSpendingWidget(mount, mount.getAttribute("data-award-id"));
+    });
+  }
 
   // Externally-verified GTA funding history
   document.getElementById("external-gta-list").innerHTML = fundingData.externalGrants.grants

@@ -74,6 +74,39 @@ function renderCitywideChart(directivesData) {
   `;
 }
 
+async function renderAqiWidget(base) {
+  const mount = document.getElementById("aqi-mount");
+  if (!mount) return;
+  mount.innerHTML = `<div class="card"><div class="section-title">🌫 Guilford County air quality (EPA AQS, live)</div><p style="font-size:var(--font-size-sm);color:var(--ink-muted);">Loading…</p></div>`;
+  const data = typeof loadLiveData === "function" ? await loadLiveData("aqs-snapshot.json", base) : null;
+
+  if (!data) {
+    mount.innerHTML = `<div class="card"><div class="section-title">🌫 Guilford County air quality (EPA AQS)</div><p style="font-size:var(--font-size-sm);color:var(--status-critical);">Live air-quality data unavailable right now.</p></div>`;
+    return;
+  }
+
+  if (data.status === "pending-api-key") {
+    mount.innerHTML = `<div class="card"><div class="section-title">🌫 Guilford County air quality (EPA AQS)</div><p style="font-size:var(--font-size-sm);color:var(--ink-muted);"><strong>Pending API key.</strong> ${data.note} Last checked ${new Date(data.checkedAt).toISOString().slice(0, 10)}.</p></div>`;
+    return;
+  }
+
+  if (!data.hasData) {
+    mount.innerHTML = `<div class="card"><div class="section-title">🌫 Guilford County air quality (EPA AQS)</div><p style="font-size:var(--font-size-sm);color:var(--ink-muted);">${data.note || "No recent readings available."}</p></div>`;
+    return;
+  }
+
+  const r = data.latestReading;
+  mount.innerHTML = `
+    <div class="card">
+      <div class="section-title">🌫 Guilford County air quality (EPA AQS, live)</div>
+      <div class="dept-stats" style="margin-top:8px;">
+        <div class="dept-stat"><div class="dept-stat__label">Latest ozone reading</div><div class="dept-stat__value">${r.arithmeticMean} ${r.units || ""}</div></div>
+        ${r.aqi != null ? `<div class="dept-stat"><div class="dept-stat__label">AQI</div><div class="dept-stat__value">${r.aqi}</div></div>` : ""}
+      </div>
+      <p style="font-size:var(--font-size-xs);color:var(--ink-muted);margin-top:8px;">${r.siteName || "Guilford County monitor"} · ${r.date} · ${renderCite(data.citation)}</p>
+    </div>`;
+}
+
 async function init() {
   const [departments, linkage, baseline, resolutionData, directivesData, indexData] = await Promise.all([
     loadJson("departments.json", BASE),
@@ -83,6 +116,8 @@ async function init() {
     loadJson("directives.json", BASE),
     loadJson("index.json", BASE),
   ]);
+
+  renderAqiWidget(BASE);
 
   const today = new Date(indexData.generatedAt);
 

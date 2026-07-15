@@ -1,6 +1,6 @@
-# SEP Tracker — data schema (v4)
+# SEP Tracker — data schema (v5)
 
-Step 1: structured, cited JSON extracted from both source PDFs. Step 2: funding-linkage layer added. Step 3: external-citation layer added (facts verified outside both PDFs) plus corrections that layer surfaced. Step 5 (see bottom section): the 2023 and 2024 Annual Progress Reports were merged in as a continuous timeline alongside the original SEP + 2025 report.
+Step 1: structured, cited JSON extracted from both source PDFs. Step 2: funding-linkage layer added. Step 3: external-citation layer added (facts verified outside both PDFs) plus corrections that layer surfaced. Step 5 (see "2023/2024 Progress Report merge" section): the 2023 and 2024 Annual Progress Reports were merged in as a continuous timeline alongside the original SEP + 2025 report. Phase 5 (see bottom section): six live public-data integrations layered on top of the static report data — GTA GTFS/GTFS-RT, Open Gate City (ArcGIS), Census ACS, USAspending.gov, EPA AQS, and Legistar.
 
 ## Files
 
@@ -18,6 +18,12 @@ Step 1: structured, cited JSON extracted from both source PDFs. Step 2: funding-
 | `progress-2025-misc.json` | OSR staff roster, CSC roster, tree canopy figures, telematics pilot, event attendance, LEED for Cities note |
 | `progress-2023-2024-misc.json` | Same shape as `progress-2025-misc.json`, for the 2023/2024 reports: HHW statistics, Food Waste pilot totals, tree canopy/equity-prioritization timeline, the CSC roster cross-check, BuildingLogiX, Leave the Leaves 2023 (Step 5) |
 | `citywide-energy-timeseries.json` | Full transcription of the 2024 report's citywide multi-year table (2007/2019/2022/2023/2024) — original units, MMBtu-converted, and GHG emissions, by fuel type — plus the reconciliation note against `baseline-2019.json` (Step 5) |
+| `live/gtfs-snapshot.json` | GTA GTFS/GTFS-RT snapshot — weekday headway + live vehicle counts (Phase 5, GitHub Action) |
+| `live/legistar-snapshot.json` | Legistar matter + vote history for the SEP-authorizing and SEP-extension resolutions (Phase 5, GitHub Action) |
+| `live/census-acs.json` | Census ACS tract-level poverty/income for Guilford County (Phase 5, GitHub Action — requires `CENSUS_API_KEY`) |
+| `live/aqs-snapshot.json` | EPA AQS Guilford County ozone snapshot (Phase 5, GitHub Action — requires `AQS_EMAIL`/`AQS_KEY`) |
+
+`data/live/*.json` are a distinct category from everything else in this table: they are NOT hand-extracted from the PDFs and NOT baked into pages at `build.py` time. They're regenerated on a schedule by `.github/workflows/refresh-*.yml` and committed as plain files; pages fetch them client-side via `loadLiveData()` (`assets/js/live-data.js`), so a page always reflects whatever the last successful Action run produced, and degrades to an explicit "unavailable" or "pending API key" state if the file is missing, stale-but-still-JSON, or the fetch fails. See "Phase 5" below for the full account of all six live integrations, including the two (Open Gate City, USAspending.gov) that call their APIs directly from the browser instead of going through a snapshot file, since both confirmed open CORS and need no key.
 
 ## Every data point traces to a citation — now one of two types
 
@@ -211,3 +217,138 @@ to be a label/title difference only, not a membership change — logged in
 **Homepage citywide trend chart**: added using Directive 1's `multiYearGhgTotal` series (2007→2024),
 explicitly labeled as a **citywide total**, not a department-level breakdown — neither the 2023 nor
 2024 report provides a department split for those years, so none is fabricated or implied.
+
+## Phase 5: live public-data integrations
+
+Six additional live/external data sources layered on top of the static report data. All six
+endpoints were verified with a real request before any integration code was written — see each
+script's own docstring for the exact verification evidence, not just a route/params review.
+
+| # | Source | Auth | Transport | Status |
+|---|---|---|---|---|
+| 1 | GTA GTFS/GTFS-RT | none | GitHub Action (no CORS) | **Live, verified end-to-end** |
+| 2 | Open Gate City (ArcGIS) | none | Client-side (open CORS) | **Live, verified end-to-end** |
+| 3 | Census ACS | free key | GitHub Action | Endpoint-verified, **pending API key** |
+| 3b | EJScreen / CEJST | — | — | **Confirmed broken/deprecated — not integrated** |
+| 4 | USAspending.gov | none | Client-side (open CORS) | **Live, verified end-to-end** (EECBG match); USDA grant **no match found** |
+| 5 | EPA AQS | emailed key | GitHub Action | Endpoint-verified, **pending API key** (manual signup step) |
+| 6 | Legistar | none | GitHub Action (no CORS) | **Live, verified end-to-end** |
+
+### 1. GTA GTFS/GTFS-RT
+
+Static feed: `https://trackmygta.com/gtfs` (1.19MB zip). Realtime: `.../gtfs-rt/{vehiclepositions,tripupdates,alerts}`
+(protobuf, parsed with the `gtfs-realtime-bindings` pip package). Publisher: GMV Syncromatics, via
+Transitland (`f-greensboro~nc~us`). No API key; no CORS headers (confirmed by direct request), so
+this runs server-side via `.github/workflows/refresh-gtfs.yml` → `scripts/fetch_gtfs_snapshot.py`,
+daily.
+
+Verified with a real run: 5 of 18 GTA vehicles system-wide were active on CrossMax Purple (route_id
+6349, short name "CMP") at fetch time. The 2024 Progress Report's "10,000 riders/week, 15-minute
+service" claim is only partially checkable — GTFS/GTFS-RT carry schedule and vehicle-position data
+only, **no ridership figures exist in either feed**, so the 10,000-riders/week half of the claim is
+not restated as verified anywhere. The 15-minute-service half is checked against the static
+schedule's own weekday departure times: computed mean headway 17.5 min, median 22 min, with a
+bimodal 8-min/22-min pattern rather than a uniform 15-minute clock-face headway — reported as the
+actual nuanced finding on `departments/transportation-diesel.html`, not rounded to a yes/no.
+
+### 2. Open Gate City (ArcGIS REST, data.greensboro-nc.gov)
+
+Confirmed live, `Access-Control-Allow-Origin: *` (open CORS), no key. Searched for Rec 4
+(green-building standards)-relevant datasets; found `BI_Permits` (City of Greensboro building
+permits, 1998–present) at
+`https://gis.greensboro-nc.gov/arcgis/rest/services/OpenGateCity/OpenData_HRES_DS/MapServer/2`.
+**This dataset has no green-building/LEED/Energy-Star compliance field** — it cannot verify Rec 4's
+actual standard, only that permitted construction activity is real. Used for exactly that, scoped
+to three known SEP-related City capital projects (Central Library, Windsor Recreation Center,
+Greensboro Science Center), queried live client-side (`assets/js/opengate-widget.js`, wired into
+Recommendation 4 on `recommendations.html`). Two of the three returned real, previously-undocumented
+figures: a **$1,600,000 Central Library roof-replacement permit** (issued March 2025, matching this
+dataset's existing "new roof installed in 2025" note but with no dollar figure until now) and a
+**$149,900 Windsor Recreation Center demolition permit** (issued April 2025) — neither dollar amount
+exists in either Progress Report PDF.
+
+### 3. Census ACS + EJScreen/CEJST
+
+Census API (`api.census.gov/data/2022/acs/acs5`) requires a free, instant self-serve key
+(`api.census.gov/data/key_signup.html`) — endpoint/params verified live (an unauthenticated request
+returns the expected "Missing Key" response, not a 404), but no key was available in this
+environment, so this is **not verified end-to-end**. `scripts/fetch_census_acs.py` requires
+`CENSUS_API_KEY`; on failure it writes a `{"status":"pending-api-key"}` placeholder (committed) so
+`recommendations.html`'s Recommendation 3 section renders an explicit pending state instead of a
+silent gap. Runs via `.github/workflows/refresh-census-acs.yml`, monthly.
+
+**EJScreen/CEJST is not integrated — confirmed broken, not merely untried.** EPA's official
+`ejscreen.epa.gov` subdomain returns a DNS resolution failure (confirmed by direct request — the
+subdomain does not resolve at all). The Council on Environmental Quality's CEJST was removed from
+official White House hosting in January 2025; the only surviving copy found is an unofficial
+community mirror (Public Environmental Data Partners, GitHub-hosted) with no documented REST API.
+Per the explicit fallback instruction for this integration, Census ACS poverty-rate/median-income
+data is used **alone**, not as a CEJST-equivalent — this is a real reduction in scope (no combined
+environmental+demographic burden score, no official "disadvantaged community" flag), stated as such
+in `data/live/census-acs.json > cejstNote` and on the page itself, not silently substituted.
+
+### 4. USAspending.gov
+
+Confirmed live, open CORS (`access-control-allow-origin: *`), no key. **DOE EECBG grant: exact
+match** — Award ID `DESE0000196` (`generated_unique_award_id: ASST_NON_DESE0000196_089`), recipient
+City of Greensboro, $314,150, matching this dataset's existing figure exactly. Live-queried
+client-side (`assets/js/usaspending-widget.js`, wired into the EECBG grant card on `funding.html`)
+returned `total_obligation: $314,150` and **`total_outlay: $95,757.07`** — real drawdown data that
+exists nowhere in either Progress Report PDF, upgrading the static "grant was received" fact to a
+live "here's what's actually been drawn down" figure.
+
+**USDA Forest Service Tree Canopy grant ($825,000, Sept 2023): no match found**, despite searching
+by recipient text ("City of Greensboro" and broader "Greensboro"), by awarding agency (Department of
+Agriculture, and Forest Service specifically as a sub-tier agency), and across multiple date windows
+from 2022-01 through 2025-06. Most likely explanation: USDA's 2023 Inflation Reduction Act Urban &
+Community Forestry grants were often administered through pass-through intermediaries (state
+forestry agencies, national nonprofits) rather than awarded directly to the municipality, which
+would put this specific award in USAspending's much less complete subaward data — not chased
+further given diminishing returns. Not guessed at; the static $825,000 figure stands on its
+existing citation alone (`funding.json > usda-tree-canopy-2023 > usaSpendingNote`).
+
+### 5. EPA AQS
+
+Confirmed live — an unauthenticated request to `aqs.epa.gov/data/api/dailyData/byCounty` (ozone,
+param 44201, state 37/county 081 = Guilford County) returns a structured "Email and/or key are
+invalid" JSON error (not a 404), confirming the route and all param names are current. **AQS keys
+are issued by email after signup, not instantly** — no key was obtainable synchronously in this
+session, so this is **not verified end-to-end**, distinct from the Census case only in that there is
+no self-serve instant path at all. `scripts/fetch_aqs_snapshot.py` requires `AQS_EMAIL`/`AQS_KEY`;
+on failure it writes the same `{"status":"pending-api-key"}` placeholder pattern as Census, rendered
+on the homepage (no "Climate Resiliency Center" content exists anywhere in this dataset despite the
+Phase 5 brief's framing — resolved as a homepage-level "Guilford County air quality" card instead of
+forcing a nonexistent page tie-in). Runs via `.github/workflows/refresh-aqs.yml`, daily.
+
+### 6. Legistar
+
+Confirmed live, no CORS, no key — `client name "greensboro"` confirmed correct by real 200 responses
+with real Council data (not assumed from convention). **Matter-file format quirk**: Legistar's
+`MatterFile` field is `"ID 19-0770"`, not the bare `"19-0770"` this dataset already uses elsewhere —
+an exact-match filter on the bare number returns zero rows; matched via `MatterTitle` substring
+search instead, then pinned to the resulting `MatterId` for the production script.
+
+Found Resolution 19-0770 itself (`MatterId 6283`) with its actual motion/vote text — "Moved by
+Councilmember Thurm, seconded by Councilmember Wells... Pass" (not an itemized roll-call vote, i.e.
+voice vote/unanimous consent) — now shown live on `timeline.html`'s existing "Resolution 19-0770
+adopted" entry. Also found a **previously undocumented related matter**: Resolution 20-0655 (Sept
+2020), which extended the deadline for developing the SEP — direct primary-source evidence of the
+~2-year-11-month gap this site's timeline already noted between resolution adoption and SEP
+publication, added as a new timeline entry. Keyword searches for the EECBG grant, the Nimble Energy
+and Fresh Coast Climate Solutions contracts, and the USDA Tree Canopy grant found no matching
+Legistar records — most likely administrative/staff-level actions below whatever dollar threshold
+requires Council action, not gaps in the search (`data/live/legistar-snapshot.json > searchNote`).
+Runs via `.github/workflows/refresh-legistar.yml`, weekly.
+
+### Graceful degradation
+
+Every Phase 5 widget follows the same resilience contract as the pre-existing PVWatts widget: a
+missing/failed `data/live/*.json` fetch (via `assets/js/live-data.js`'s `loadLiveData()`, which
+returns `null` on any error) renders an explicit "unavailable right now" message, never a broken
+page or a silent blank space; a `{"status":"pending-api-key"}` file renders an explicit pending
+state distinct from "unavailable"; and the two direct-API client-side widgets (Open Gate City,
+USAspending) each wrap their `fetch()` in a `.catch()` that leaves the rest of the page — including
+the static, PDF-sourced fact the widget was meant to enrich — completely unaffected. All of this was
+tested by actually simulating failure (moving a `data/live/*.json` file aside; pointing a widget's
+API base URL at an unreachable host) and confirming the fallback UI renders correctly with zero
+console errors, not just by code review.

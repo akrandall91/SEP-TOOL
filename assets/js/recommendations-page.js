@@ -54,6 +54,13 @@ function renderRecCard(rec) {
     bodyHtml += `<div class="chart-annotation-box" style="margin-top:var(--space-3);">${rec.stalled.note}</div>`;
   }
 
+  if (rec.number === 3) {
+    bodyHtml += `<div id="census-acs-mount"></div>`;
+  }
+  if (rec.number === 4) {
+    bodyHtml += `<div id="opengate-mount"></div>`;
+  }
+
   const stratHtml = (rec.strategies || [])
     .map((s) => {
       const hasStatus = s.status2025 && s.status2025.status;
@@ -88,6 +95,36 @@ function renderRecCard(rec) {
       </details>
     </div>
   </article>`;
+}
+
+async function renderCensusAcsWidget(mountEl, base) {
+  mountEl.innerHTML = `<div class="chart-annotation-box" style="margin-top:var(--space-3);">Loading live Census ACS vulnerable-communities data…</div>`;
+  const data = typeof loadLiveData === "function" ? await loadLiveData("census-acs.json", base) : null;
+
+  if (!data) {
+    mountEl.innerHTML = `<div class="chart-annotation-box" style="margin-top:var(--space-3);color:var(--status-critical);">Live Census ACS data unavailable right now.</div>`;
+    return;
+  }
+
+  if (data.status === "pending-api-key") {
+    mountEl.innerHTML = `<div class="chart-annotation-box" style="margin-top:var(--space-3);"><strong>📊 Live vulnerable-communities data — pending API key.</strong> ${data.note}</div>`;
+    return;
+  }
+
+  const top = data.highestPovertyTracts || [];
+  const rows = top
+    .slice(0, 5)
+    .map((t) => `<li style="margin-bottom:4px;">${t.tractName} — <strong>${t.povertyRatePct}%</strong> poverty rate${t.medianHouseholdIncomeUsd ? `, $${t.medianHouseholdIncomeUsd.toLocaleString()} median household income` : ""} (pop. ${t.population.toLocaleString()})</li>`)
+    .join("");
+
+  mountEl.innerHTML = `
+    <div class="chart-annotation-box" style="margin-top:var(--space-3);">
+      <strong>📊 Live vulnerable-communities view (Census ACS 5-Year, ${data.tractCount} Guilford County tracts)</strong>
+      <p style="font-size:var(--font-size-sm);margin-top:6px;">${data.cejstNote}</p>
+      <div style="font-size:var(--font-size-sm);margin-top:8px;"><strong>Highest-poverty tracts:</strong></div>
+      <ul style="font-size:var(--font-size-sm);padding-left:20px;margin-top:4px;">${rows}</ul>
+      <div style="font-size:var(--font-size-xs);color:var(--ink-muted);margin-top:6px;">${renderCite(data.citation)}</div>
+    </div>`;
 }
 
 function directiveStatusState(status) {
@@ -163,6 +200,12 @@ async function init() {
 
   document.getElementById("recommendations-list").innerHTML = recData.recommendations.map(renderRecCard).join("");
   document.getElementById("directives-list").innerHTML = directiveData.directives.map(renderDirectiveCard).join("");
+
+  const censusMount = document.getElementById("census-acs-mount");
+  if (censusMount) renderCensusAcsWidget(censusMount, BASE);
+
+  const opengateMount = document.getElementById("opengate-mount");
+  if (opengateMount && typeof renderOpenGateWidget === "function") renderOpenGateWidget(opengateMount);
 
   const phases = [
     { key: "years1to5", label: "Years 1–5", note: "Continuously numbered 1–28; these are the numbers the 2025 Progress Report cross-references." },
