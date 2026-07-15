@@ -1,0 +1,859 @@
+
+
+===== PAGE 1 =====
+
+March 2024
+Office of Sustainability & Resilience
+2023 Annual Progress Report &
+Strategic Energy Plan Implementation Year One
+
+===== PAGE 2 =====
+
+From the Chief Sustainability Officer
+We are excited to provide this inaugural progress report to
+inform the community about the progression of the City of
+Greensboro’s Strategic Energy Plan (SEP) and share highlights of
+the Office of Sustainability and Resilience (OSR) from the 2023
+calendar year. The first year of implementing the SEP and the
+management of the City’s new OSR has been rewarding and
+productive.
+The office has grown in number from one to 11 full-time staff, who were
+transferred from four City departments. We’ve moved at a faster pace since
+this expansion, with robust education and outreach opportunities, effective
+collaborations, and a broader commitment of investing in the delivery of the SEP’s
+goals, strategies, and recommendations. We aspire to be the best mid-sized city in
+the US, renowned for our green spaces, multi-modal transportation options, vast
+energy efficiency measures, and economic growth opportunities.
+From a critical worldview, there is too much at stake. There is global upheaval,
+climate-related catastrophes, energy and food crises, an ongoing pandemic,
+and many other issues that challenge the transformational change needed to
+thrive. This is why the OSR, in partnership with other departments of the City,
+is accelerating our efforts to collaboratively address the gaps within our local
+government operations. We can only hope that our actions will help to further
+transform mindsets of City officials, residents, and local businesses.
+Our ambitions remain high and we will continue to work in solidarity, advancing
+progress with full transparency and hope for a more sustainable and resilient
+future.
+Yours in service,
+Dr. S. Shree Dorestant
+Chief Sustainability Officer
+City of Greensboro
+2
+
+===== PAGE 3 =====
+
+Table of Contents
+From the Chief Sustainability Officer
+Background and Introduction .............................................4-6
+Organization-Wide Recommendations Progress ..........7-14
+Prioritize Actions Progress .....................................................15
+Energy Goals, Strategies and Actions Progress .............16-18
+Community Incentives Progress .........................................19
+List of Acronyms
+ANSI American National Standards Institute
+American Society of Heating, Refrigerating
+ASHRAE
+and Air-Conditioning Engineers
+CSC Community Sustainability Council
+GHG Greenhouse Gas
+HUBs Historically Underutilized Businesses
+HHW Household Hazardous Waste
+IES Illuminating Engineering Society
+ISC Internal Sustainability Committee
+International Organization for
+ISO
+Standardization
+LED Light-Emitting Diode
+One Thousand British Thermal Units,
+MBtu
+often used in natural gas and other industries
+MT CO Metric Tons of Carbon Dioxide Equivalent
+2e
+Minority- or Women-Owned Business
+M/WBE
+Enterprise
+OSR Office of Sustainability and Resilience
+REC Renewable Energy Certificate
+RFP Request for Proposals
+SEP Strategic Energy Plan
+USGBC US Green Building Council
+3
+
+===== PAGE 4 =====
+
+Background and Introduction
+In December 2022, the Greensboro City Council as they carry out projects and establish policies
+approved the Strategic Energy Plan (SEP), which that advance the SEP and beyond. The OSR is also
+addresses the City of Greensboro Resolution 19- responsible for compiling, analyzing, and reporting
+0770, to provide a plan for municipal operations on the many datasets and metrics that describe and
+to transition to 100 percent renewable energy quantify the City’s progress toward achieving the
+by 2040. The SEP includes an extensive array of goals of the SEP.
+goals, recommendations, strategies, and actions to
+About this Report
+accomplish over a long-term period toward an energy
+vision. The OSR began the SEP implementation January
+2023. This report presents the first Annual Progress
+The City’s Office of Sustainability and Resilience (OSR)
+Report as requested by Resolution 19-0770. It depicts
+is an extension of the Executive Department and
+concise descriptions of the activities implemented
+administrator of the SEP, providing sustainability and
+during calendar year 2023, which includes the
+resilience-related services for all City departments
+organization-wide recommendations described
+including policy, program and partnership
+on pages 30 through 56 of the SEP. This report also
+development to advance climate-resilient
+provides a closer look at the expansion of the OSR and
+operations. Therefore, the OSR will be responsible
+many of the highlights experienced during 2023.
+for implementing some of the SEP’s strategies and
+actions and coordinating efforts by City departments
+Parks & Engineering & Field
+Planning
+Recreation Inspections Operations
+1 1 1 7
+Office of Sustainability
+& Resilience
+Chief Sustainability Officer
+S. Shree Dorestant
+Environmental Compliance Sustainability Planning
+Sustainability Analyst Energy Manager
+& Support Manager Administrator
+Michelle Gill-Moffat Sergey Kobelev
+Richard Lovett Jeff Sovich
+Environmental
+Landfill Specialist Sustainability Analyst
+Compliance Coordinator
+Mike Szychowicz John Hendricks
+Eddie Raynard
+Sustainability
+Landfill Technician
+Compliance Specialist
+John Ridge
+Sarah Montgomery
+Environmental
+Compliance Analyst
+Bonnie Ware
+Office of Sustainability & Resilience Organizational Chart
+4
+
+===== PAGE 5 =====
+
+City of Greensboro Resolution 19-0770
+This resolution initiated development of the SEP, and called for the following actions.
+Directive 1 Directive 7
+Specific steps to reduce Scope 1 and Scope 2 A robust and inclusive program of public
+greenhouse gas (GHG) emissions (from City engagement, outreach, and education.
+operations) by 40 percent or more from estimated
+2007 levels by 2025.
+Directive 2 Directive 8
+Specific steps to reduce overall energy consumption Preparation of an updated GHG inventory
+per square foot in all City-owned buildings by 40 every two years.
+percent or more from estimated 2007 levels by
+2025.
+Directive 3 Directive 9
+Achievable goals for transitioning to 100 percent Publication of an annual progress report.
+renewable energy in City operations by 2040 from
+any combination of on-site and off-site renewable
+sources, including but not limited to: solar, wind,
+hydroelectric, renewable energy certificates (RECs),
+and green power purchases.
+Directive 4 Directive 10
+Recommend practices and tools to measure Establish a diverse community partnership
+avoided costs and return on investment resulting comprised of city staff, residents, corporate
+from implementation of renewable energy projects. partners, and other interested stakeholders, to
+collaborate and provide guidance in developing the
+Strategic Energy Plan.
+Directive 5 Directive 11
+Recommend funding strategies for projects that The Strategic Energy Plan shall be submitted for
+advance established goals for GHG reduction, review and consideration by the City Council, within
+energy efficiency, and renewable energy use. one year.
+Directive 6 Directive 12
+Recommendations for incentivizing Greensboro Officials and staff will consider all municipal
+residents and businesses to achieve similar progress decisions in light of whether they will bring the City
+on GHG reduction, energy efficiency, and renewable and its residents, businesses, and institutions closer
+energy use, address cost burdens to ensure a just to achieving the goal of 100% renewable energy.
+transition to renewable energy for all, and prioritize
+at-risk populations.
+5
+
+===== PAGE 6 =====
+
+Building Partnerships SEP Organization-Wide Recommendations
+City staff began to establish diverse community
+Recommendation 1
+partnerships early in the development of the SEP.
+Over time, the OSR staff members have continued
+The City should establish a Sustainability
+to expand this partnership to include a broader
+Office.
+cross-section of stakeholders from throughout the
+community. This Annual Progress Report will be Recommendation 2
+shared directly with members of the partnership to
+update them on SEP implementation, which may Clean energy audit/installation/maintenance
+necessitate additional meetings to discuss details contracts will give priority to Historically
+and sustainable planning for future years. Underutilized Businesses (HUBs) and Minority
+and Women Business Enterprises (MWBEs).
+Recently, the OSR staff convened a group of City
+staff representing each of the 22 departments and
+Recommendation 3
+10 specialized offices. This Internal Sustainability
+Committee (ISC) will serve as a two-way conduit Publication of an annual progress report.
+for the OSR to communicate and collaborate with Ensure energy decision are made in a way
+internal stakeholders throughout the organization that promotes a just transition to renewable
+about the full range of sustainability and resilience- energy for all and prioritizes vulnerable
+related issues. The OSR staff will work with the ISC to communities.
+develop a formal organization-wide policy that can
+Recommendation 4
+be incorporated into decision-making processes.
+All new and substantially renovated City-
+SEP TARGET
+owned buildings will meet Greens Building
+standards.
+Objective:
+Recommendation 5
+100% Renewable Energy
+The City fleet should be comprised of zero-
+by 2040. emission vehicles by 2040.
+Recommendation 6
+A Note about Greenhouse Gases Establish a policy to achieve no net loss
+of tree canopy throughout the City for
+The SEP incorporated a GHG inventory for municipal
+improved air quality, reduced urban
+operations during calendar year 2019, and an
+heat island effect, and ongoing carbon
+examination of how this inventory compared with
+sequestration.
+the 2007 baseline data. Resolution 19-0770 requires
+the preparation of an updated GHG inventory every Recommendation 7
+two years. Accordingly, an updated GHG inventory
+will be prepared in 2024 and included in the second Develop an energy and waste education
+Annual Progress Report. Because updated data on program for all City staff.
+GHG emissions for 2020 through 2022 is not yet
+available, this Annual Progress Report does not
+include an estimate of progress achieved toward the
+Recommendation 8
+GHG emissions goals of the SEP.
+Review current vehicle and equipment
+purchase/lease process for potential
+efficiency improvements
+6
+
+===== PAGE 7 =====
+
+Organization-Wide Recommendations Progress
+RECOMMENDATION 1 information regarding conservation measures, City
+planning, and economic developments. One of the
+main objectives of the OSR is to bring awareness
+The City should establish a about sustainability and resilience efforts in the City
+by educating and engaging the community about
+Sustainability Office.
+the work of protection, management and restoration
+of Earth’s natural resources. Key programs the OSR
+currently manages include Household Hazardous
+Waste (HHW), Food Waste Collection Pilot, and
+STRATEGY 1.1 Approve and fund creation of a
+LiveGreen Awards.
+Sustainability Office.
+Providing educational resources and continued
+STRATEGY 1.2 Establish and fill Chief
+learning opportunities is key to the success of
+Sustainability Officer position.
+any office, which is why the City exercises various
+methods for educating the public such as:
+STATUS: Completed • Paid advertising
+• Informational materials
+Dr. S. Shree Dorestant was hired as Chief • Public signage (e.g., digital kiosks)
+Sustainability Officer on June 1, 2022, effectively • Electronic communication (e.g., website content,
+establishing the Office of Sustainability and social media platforms and video conferencing)
+Resilience (OSR) within the Executive Department. • Collaborative efforts with local stakeholders
+On July 1, 2023, the OSR was expanded with an (e.g., local organizations, collegiate institutions,
+internal employee transfer of 10 staff positions from developers, etc.)
+the Engineering and Inspections, Field Operations, • Environmental stewardship
+Parks and Recreation, and Planning Departments. • HHW hotline and GSO Collects mobile app
+In addition, the OSR was approved for an inaugural
+Programs
+cohort of the NC Climate Action Corps, which
+Household Hazardous Waste Program
+allotted one full-time AmeriCorps member for
+2023-24 (11-month period) to work for the City of Household Hazardous Waste (HHW) is hazardous
+Greensboro in conjunction with Conserving Carolina, material that have already been used or can no
+a North Carolina nonprofit organization. longer be used. The average household in the US
+In November 2023, the OSR team members relocated generates about 30 pounds of HHW per year, which
+from various City facilities, to a group of offices in reduces available landfill capacities. It is the City’s
+the J. Edward Kitchen Operations Center in order to goal to reuse and recycle HHW material brought
+optimize collaboration and effectiveness. to reduce the threat to human health and the
+environment through proper disposal and recycling
+The OSR’s areas of focus include:
+activities.
+• Education and Outreach
+• Energy Management The HHW Program is open to all residents of Guilford
+• Environmental Compliance and Support County and provides a safe and environmentally-
+• Sustainability and Resiliency Planning sound process for properly disposing hazardous
+materials. As an incentive to the residents of Guilford
+Education and Outreach
+County, there is no charge at the site for dropping off
+Prior to the establishment of the OSR, the City had materials.
+implemented numerous education and outreach Another incentive is providing a mobile community
+initiatives informing local residents and others about recycling event also known as "Recycle Rodeo" twice
+7
+
+===== PAGE 8 =====
+
+a year (spring and fall) in various Greensboro districts The initial phase of the pilot program was a
+encouraging local residents to be more mindful about partnership with Triad Compost Service and the
+their waste production and everyday practices. Greensboro Farmers Curb Market. It proved incredibly
+successful. The second phase, a partnership with
+Triad Compost Service and Deep Roots Market in
+downtown Greensboro, began mid-October of 2023.
+The fall phase of the pilot program has had even more
+participation, which caused the City to increase the
+number of collection carts (from one to three) on-site
+and number of pickups per week.
+Recycle Rodeo Fall 2023
+For more information regarding
+proper waste management, call the
+City’s HHW hotline, 336-373-2196
+or use the GSO Collects mobile
+application on your personal mobile
+device or computer to query where
+certain materials should be disposed.
+2023 HHW Statistics
+Calls to HHW Hotline 2,972
+HHW facility visitors 22,847
+Total ton of HHW collected 961
+Total tons of electronics collected 362
+Total tons diverted from landfills 1,323
+Food Waste Collection Pilot Program
+Deep Roots Market -
+The Food Waste Collection Pilot Program is a
+Food Waste Collection Dropoff Location
+public-private partnership. This program is open
+to all residents of Guilford County and provides Greensboro Sustainable Landscapes Project
+a sustainable method for reducing food waste in
+The Greensboro Sustainable Landscapes Project is an
+our local landfills when composting at home is not
+educational initiative led by OSR in partnership with
+feasible.
+other City departments and community partners
+Food Waste Diverted from Landfill to encourage residents to use environmentally-
+April friendly landscaping practices to enhance the
+80 lbs. natural environments in and around their homes and
+May
+businesses. It launched in November 2023 with its first
+240 lbs. Total for 2023
+2.788 tons
+June
+400 lbs.
+Estimated
+July GHG emissions
+440 lbs. avoided:
+August 2.34 MTCO
+2e
+120 lbs.
+October
+75 lbs.
+November
+2,033 lbs.
+December
+2,190 lbs.
+8
+
+===== PAGE 9 =====
+
+campaign, encouraging residents and businesses to participated in or hosted 47 events with more than
+“Leave the Leaves” during leaf season. 3,600 participants.
+More than 200 residents pledged to leave leaves Outreach is the heart of the OSR, and collaboration
+from nearly 2,300 trees on lawns or to mulch them is the magic key to achieving sustainability goals. We
+instead of raking and bagging them. This process have very little time to secure a sustainable future,
+reduces carbon emissions from trucking leaves to which is why we must collaborate to make more
+mulching facilities, creates natural fertilizer for lawns, long-lasting solutions that are visible and tangible.
+and provides food and shelter for small creatures.
+Program participants received a sign to identify their
+yard as a “sustainable landscape.
+Ghoulash in Center City Park
+Inaugural Live Green Awards
+Climate Resiliency Center Grant
+Live Green Awards
+At the beginning of 2023, the OSR was invited
+The Live Green Awards Program was launched
+to collaborate with NC A&T State University on a
+in 2023 as a way to celebrate and recognize the
+proposal to establish a Climate Resiliency Center
+Greensboro businesses, nonprofit organizations, and
+(CRC) in the Piedmont Triad of North Carolina. The
+individuals who apply sustainable practices in their
+proposal was awarded by the Department of Energy
+everyday processes and demonstrate ways to create
+in early fall 2023.
+a more sustainable and resilient future. The Award
+The team’s proposal underscored the importance
+categories are as follows:
+of using GIS and other modeling studies to quantify
+• Energy Wise Award
+the effects of a changing climate on air quality and
+• In Touch with Nature Award
+urban heat, and the subsequent undue burden on
+• Friend of Sustainability Award
+marginalized communities in these cities.
+• Waste Not Award
+• Water Wise Award “We’ll be looking at climate impacts on vulnerable
+• Quality of Life Award communities in the Triad area of North Carolina,
+primarily Greensboro, Winston-Salem and even
+Six individuals and organizations were honored at
+Charlotte,” said principal investigator Dr. Solomon
+the City’s Earth Day 2023 celebration. The City also
+Bililign of NC A&T. “We are also trying to investigate
+recognized three NCA&T students who were winners
+the formation of secondary organic aerosols from the
+of the Food Waste Poster competition.
+interaction of biogenic emissions from plants and
+Community Outreach & Events
+trees in the region with anthropogenic emissions
+Community outreach is an integral part of the (fossil fuel emissions) that can form ground-level
+success of the OSR. We are committed to fostering ozone, which is a pollutant.”
+effective relationships with our stakeholders and Tree Canopy Grant
+collaborators, and connecting our residents to
+In September, the City of Greensboro was granted
+information and resources. During the 2023, the OSR
+$825,000 by the US Department of Agriculture’s
+9
+
+===== PAGE 10 =====
+
+Forest Service for a 5-year project that will conduct Energy Management
+a tree canopy study and engage disadvantaged
+The primary energy management efforts in the City of
+communities of Greensboro. The grant will be overseen
+Greensboro aim to reduce emissions and energy costs
+by the OSR with support from other City departments.
+by improving energy efficiency in City buildings and
+The City’s proposal was submitted late spring 2023 operations. The Energy Management Section identifies,
+and was one of 842 reviewed during the national plans, and monitors implementation of energy
+competition totaling more than $6.4 billion in requests. efficiency measures to achieve the following goals:
+The overall scope of the project is to plant and • Provide sustainable and resilient energy
+maintain trees, combat the effects of extreme heat and consumption figures in City operations;
+climatic weather events, and improve access to nature • Maximize the use of clean energy;
+in US cities. The $1 billion funding is provided by the • Minimize the cost of energy;
+federal Inflation Reduction Act and is considered the • Minimize GHG emissions by optimization of energy
+largest climate investment in history. use;
+• Reduce the environmental impacts;
+• Coordinate planning and development of
+sustainable and resilient city assets and operations
+using the most advanced technologies, materials,
+and approaches;
+• Maximize resiliency and safety of the City’s energy
+infrastructure;
+• Monitor safety and resilience of City assets
+(buildings and structures);
+• Provide quantitative metrics to support the
+sustainability and resilience programmatic
+progress as it relates to the implementation of the
+NC Arbor Day 2023 - Dudley High School SEP, which ultimately provides indicators to the
+basis for energy, environmental, and resilience
+decisions of the City.
+City of Greensboro Highest Total Energy Use (MBtu)
+TZ Osborne Water Reclama(cid:31)on WR
+GDOT - Street Ligh(cid:31)ng Y
+Greensboro Coliseum COL
+Townsend Water Treatment WR
+Greensboro Aqua(cid:31)c Center COL
+Mitchell Filter Plant WR
+Melvin Municipal Office Bldg EF
+North Buffalo Water Reclama(cid:31)on WR
+GTA - J Douglas Galyon Depot EF
+Kitchen Opera(cid:31)on Center EF
+Tanger Performing Arts Center COL
+GTA - Opera(cid:31)ons & Maint Bldg GDOT
+Greensboro Cultural Center EF
+Lake Brandt Sta(cid:31)on WR
+Central Library EF
+Public Safety Training Facility EF
+Police Headquarters EF
+Police District 3 EF
+Mntnc Yrd - ElBus Charger GTA
+Greensboro Historical Museum EF
+Simkins Pavillion @ Barber Park P&R
+Reedy Fork 2 Sanitary Li(cid:30) WR
+Sportsplex EF
+Bledsoe Drive Sanitary Li(cid:30) WR
+Closed - Natural Science Ctr Z
+Jus(cid:31)ce Building EF
+New Garden Rd Booster WR
+US 220N @ Horsepen Creek WR
+White St Phase 2 Blower SWR
+Kathleen Clay Edwards Library EF
+0 20,000 40,000 60,000 80,000 100,000 120,000 140,000
+10
+
+===== PAGE 11 =====
+
+In 2018, Energy Management established an aerial Awards program, which recognized the contributions
+drone inspection service for mapping, inventory and of Greensboro businesses, non-profits, and individuals
+structural condition assessment of City facilities. This in six sustainability focus areas. More recently, the
+project saves resources and improves safety of the CSC and Councilmember Abuzuaiter urged the City
+buildings. to demonstrate, through a clear commitment of
+resources, that sustainability is essential for achieving
+Environmental Compliance and Support
+Greensboro's vision to be a community with endless
+The Environmental Compliance and Support economic opportunities and exceptional quality
+Section acts as an internal resource to assist City of life. As a result of these efforts, the Office of
+departments in identifying, managing, and addressing Sustainability and Resilience expanded in July 2023
+environmental challenges and impacts to reduce and was staffed with a team of 10 City employees
+the City’s potential liability. With a staff having more transferred from several departments.
+than 75 years of environmental experience, the
+division brings professional expertise in Brownfields,
+underground and aboveground storage tanks, solid
+waste management, groundwater, surface water and
+soil remediation, vapor intrusion, air quality, and GIS
+spatial analyses together to provide comprehensive
+expertise to ensure departments best manage City
+resources.
+Sustainability and Resiliency Planning
+The Sustainability and Resiliency Planning Section
+seeks to connect the community with the OSR’s
+roadmap for making Greensboro a more sustainable
+and resilient place to not only live, but thrive. This 2023 CSC
+involves but is not limited to the development of
+plans, green policies, and programming designed for
+Nicole Spivey Gaines, Andrew Randall
+public-facing outreach and engagement encircling
+Co-Chair At-Large
+sustainability and resiliency.
+At-Large
+Jailah White
+Community Sustainability Council (CSC)
+Eric Ireland, Co-Chair At-Large
+The CSC is made up of nine Greensboro residents
+City Council District 1
+appointed by Council. Its mission is to promote Vacant
+citywide sustainability initiatives. The CSC hosts Conor Baker, Vice Chair At-Large
+meetings every second Monday of each month at City Council District 5
+Marikay Abuzuaiter
+4 pm to engage community stakeholders through
+Jacques Pierre City Council Liaison
+education, collaboration, and knowledge-sharing
+City Council District 2
+to propose sustainable policies and encourage Will Yearns
+innovation. Jerry Leimenstoll Real Estate &
+Established in 2008, the Greensboro Community City Council District 3 Construction
+Sustainability Council was instrumental in initiating Industry Advisor
+Dr. Vicki Foust
+the Strategic Energy Plan (SEP) and in guiding
+City Council District 4
+development of the it through adoption in 2022.
+In collaboration with Councilmember Marikay
+Abuzuaiter, CSC's City Council liaison, the CSC
+championed creation of the chief sustainability officer
+position, and applauded the selection of Dorestant to
+fill this role.
+In 2023, the CSC successfully launched the LiveGreen
+11
+
+===== PAGE 12 =====
+
+RECOMMENDATION 2 RECOMMENDATION 3
+Clean energy audit/installation/ Ensure energy decisions are
+maintenance contracts will made in a way that promotes
+give priority to Historically a just transition to renewable
+Underutilized Businesses energy for all and prioritizes
+(HUBs) and Minority and vulnerable communities.
+Women Business Enterprise
+(MWBE).
+STRATEGY 3.1 Establish criteria to identify the
+most impacted and vulnerable
+communities in the City.
+STRATEGY 1.2 Energy focused Requests for
+STRATEGY 3.2 Identify the most impacted and
+Proposals should contain language
+vulnerable communities.
+indicating a preference to work with
+a HUB or an MWBE.
+STATUS: Initiated
+STRATEGY 2.2 The Minority and Women Business
+The OSR staff have gained access to an array of
+Enterprise (MWBE) Office will offer
+datasets and mapping tools which will be used to
+workshops on how to obtain HUB/
+identify impacted and vulnerable communities
+MWBE Certification.
+within Greensboro in order to target education,
+outreach, and assistance efforts. The OSR will aim
+STATUS: Initiated
+to apply principles of the Justice40 Initiative in
+The OSR developed a implementing the SEP.
+Request for Proposals
+(RFP) for contractors to
+provide energy audits
+(!!(
+and recommendations !(
+!( !(
+f m C l T c ( H A s f p o in a A o e t o h f r i i e r a d c t r e r m o m g e C y a - n l a e e c u C e i t e w d s p b r t n e i d o s a n y u r a s l u e o t i i n i l g r s c r n a r r i r e e r d d l e a g , n k g w e d n s s p n R i y c q t i w e i a i n e r i a e l n u S c o l e r f g i n m g o o l i i r w n s s l r n s d i y n e c e e g i e b i c n t i n t s m l s c e m e e l h e h g e t u t o r t c a a a e r d a b y d A n E v t t t t n t o e e e e n i s o S a i a v t n r n u d H g t f s r a a e i g f m e e . i o n R s r n t T o n e i i a d A e h e n t m n a s r E e i s m s d r . s ) !(!( !( !( !(!( !( !( !( !( !( !(!( !( !( !( !( !( !( !(! !( ( !( !( !( !( !( !(!( !( !( !( !( !( !( !( !( !( !( !( !( (!!( !( !(!(!( !( !( !( !( !( !(!(!( (!!( !( !( !(!( !( !( !( !( !( !( !( !( !((!!(!( !( !( !( !(!( !( !( !( !( !( !( !( !( !(!( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( (! !(!( !( !( !( !( !( !( !( !( !( !( !( !(!( !( !( (! !( !( !( ! !(!( ( !( !( !( !( !( !( !( !( !(!( !( !( !( !(!( !( !( !( !( (! !( !( !( !( !( !( !( !(!( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !(!( !( !( !( !( !( (! !( (!!( !( (!!( !( !( !( !( !( (!!( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !(!( !( !( !(!( !( !( !( !( !( ( !( ! !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( (! !( !( !( !( !( !( !( ( ( ! ! !( !( (! ! !( ( !( !( !(!(!( !(! !( ( !( !( !( !( !( !( !( !( !( !( (! !( !( !( !( !( !( (! !( !( ( !( ! !( !( !( !(!( !( !( (! !( !( !( !( !( !( !( !( !( !( !( !( (! !( !( !( !( !( !( !( (! !( !( (! !( !( !( !( !( !( !( !( !( !( !( !( !( (! !( !( !( !( !( !( !( !( (! !( !(!(!( !( !( !( !( !( !( !( !( (! !(!(!( ! !( ( !( !( (!!( (! !( !( (! !( !( !( !( !( !( !( !( !( !( !( !( !( !( !(!( !( !( !( !( !( !( !( !( !( !( !( !( !( !(!((!!(!( !( !( !( (! !( ! !( ( !( !( !( !( !( !(!( (! !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !(!(!( !( !( !( !( (! !( !( !( !( !( !( !( !( (! !( !( !( !( !( !( !( !(!(!( !( !( !( !( !( !( !( !( !(!(!( !( !( !( !( !( !( ! !( ( !( !( !(!( !( !( !( !( !( !(!( (! !( !( (! !( !( !( !(!( !( !( (! !(!( (! !( !( !(!( !( !(!( !( !( !( !(!( !( !( (! ( !( ! !( !( !( !(!( !( !( !( !( !( !( !( !( !( !( !( !( !( !( !( (! !( !( !( !( (! !( !( !( !( !( !(!( !( !( !(!(!( !( !(!( !(!( !(!(!(!(!( !( !( !( !( !( !( !(!( !( !((! !( !( !( !( !( !((! !( !( (! !(!( !(!(!(!( !(!(!( !( !( (! (! !( !(!( !( !( !( !( ! !( !( ( !( !( !(!(!( !(!( !( !(!( ! !( ( !( ( ( ! !!(!( !( !( !((!!( !( !( !(!( (! !( !( !( !(!(!( !( !( !(!(!( !( !( !(! !( (!( !( !( !(!(!( !( !( !(!( !( !( !( (!(!!( (! !( !( !( !( !( !(!( !( !( !( !( !( !(!( !( !( !( !( !( !( (! !( !( !( !( !( !( (!!( !( !( !( !( !( (! !( !( !( !( !( !( !( !( !( !(!( !( !( !( !( !( !( !( !( !( !( !(!( !( !( !( !( (! !( !( (! !( !( !( !( !(!( !( !( !( !( !( !( !( !( !( !( !( !( !( !( (! !( !( !( !( !( !(!( !(!(!( !(!( !( (!!( !( (! !( !( !( !( !( !( !( !( !( !( !( (! !( !(!( !( !( !(!( !(!(!( !( !( !( !(!(!(!(
+the MWBE office to ensure !( !(!( !( !( !( !(!( !( !( !( !( !( !( !( !(!( !(
+an equitable process is
+performed.
+!( !( !(
+City Utility Accounts Natural Gas Electricity/NatGas Electricity
+Major Roads CEJST Districts CITY LIMIT
+12
+
+===== PAGE 13 =====
+
+RECOMMENDATION 4 RECOMMENDATION 5
+All New and Substantially The City fleet should be
+Renovated City-Owned comprised of zero-emission
+Buildings will meet Green vehicles by 2040.
+Building standards.
+STRATEGY 5.1 Create a Sustainable Fleet
+Policy.
+STRATEGY 4.1 Use the ANSI/ASHRAE/USGBC/
+IES Standard 189.1, Standard for
+STATUS: Initiated
+the Design of High-Performance
+Green Buildings except Low- The Greensboro Transit
+Rise Residential Buildings, or Agency developed a zero-
+comparable standard for all new emission fleet transition
+and substantially renovated City- plan for its vehicles.
+owned buildings. Information from this plan,
+any previous assessments,
+STATUS: Ongoing and a fleet efficiency study
+will be used to influence a
+The OSR staff have begun recommending use of
+Sustainable Fleet Policy.
+applicable Energy Star and ISO 50000 certifications
+or other comparable standard in Technical Review
+Committee site plan reviews of new and substantially
+renovated City-owned buildings.
+13
+
+===== PAGE 14 =====
+
+RECOMMENDATION 6 RECOMMENDATION 7
+Establish a policy to achieve
+Develop an Energy and Water
+no net loss of the tree canopy
+Education Program for all City
+throughout the City, for
+staff.
+improved air quality, reduced
+urban heat island effect, and
+STRATEGY 7.1 People & Culture Department
+ongoing carbon sequestration.
+development of three courses:
+Electricity Conservation, Water
+Conservation, and Eco-Driving.
+STRATEGY 6.1 Collaborate with Greensboro
+Beautiful, Sierra Club, Planning STATUS: Initiated
+Department, City Arborist, Housing
+Staff in the Equipment Services Division of the
+& Neighborhood Development,
+Financial & Administrative Services Department,
+the NeighborWoods Program, and
+People & Culture, and the OSR have begun research
+other stakeholders to develop a 20-
+and scoping for development of an internal idling-
+year strategy to maintain the tree
+reduction training course.
+canopy.
+STRATEGY 6.2 Conduct a baseline tree canopy
+audit, followed by an update every
+five years.
+RECOMMENDATION 8
+STATUS: Initiated
+Review current vehicle and
+The OSR applied for and was awarded a grant of
+$825,000 from the US Department of Agriculture equipment purchase/lease
+Forest Service that will be used to prepare an
+process for potential efficiency
+updated tree canopy inventory and management
+improvements.
+plan.
+STRATEGY 8.1 Evaluate departmental sharing
+of specialized vehicles and
+infrequently used equipment.
+STATUS: Initiated
+Staff in the OSR initiated internal discussions
+for closer evaluations of the vehicle inventory,
+equipment purchase and lease processes, and will
+have an update in the 2024 progress report.
+14
+
+===== PAGE 15 =====
+
+Prioritize Actions
+Immediate Actions (Years 1-5)
+Note: Items that do not have significant action to report this year are not ACTION 12 Audit water and wastewater equipment
+included. and implement efficiency measures suggested by
+ACTION 1 Adopt City of Greensboro the audit.
+recommendations.
+STATUS: Ongoing
+STATUS: Initiated The Water Resources Department prepared an
+Implementation has been initiated on Organization- engineering study of its water and wastewater
+Wide Recommendations 1-7. equipment, which was completed in 2021.
+Replacement of equipment is now prioritized based
+on the energy efficiency measurements from the
+ACTION 4 Establish criteria to identify the most study.
+impacted and vulnerable communities in the City.
+STATUS: Ongoing ACTION 26 Review land use ordinances and building
+As applicable, the OSR staff will use an array of permit policies for obstacles to community solar
+datasets, analysis, and mapping tools to identify installation.
+impacted and vulnerable communities within
+STATUS: Ongoing
+Greensboro in order to target education, outreach,
+and assistance efforts. Greensboro was designated SolSmart Bronze in 2021.
+The application process included an extensive review
+of the Land Development Ordinance and permitting
+ACTION 8 Implement water/energy efficiency projects requirements. Additional actions, including policy
+for lower-wealth residents. amendments, are needed to earn Silver or Gold
+designation.
+STATUS: Initiated
+The OSR submitted a proposal for funding through
+the US Department of Energy’s Energy Efficiency
+and Conservation Block Grant program. At least 40
+percent of the benefits of proposed projects will flow
+to disadvantaged communities. Proposed projects
+will be finalized in 2024.
+15
+
+===== PAGE 16 =====
+
+Energy Goals, Strategies and Actions Progress
+Energy Use by Department
+Water Resources Transportation
+Department Department
+GOAL 2 GOAL 1
+Reduce electricity demand by Increase LED streetlamp
+40% from 2007 to 2025. conversion by 5% per year.
+STRATEGY 2.1 Increase equipment efficiency. STRATEGY 1.1 Increase the conversion of street
+lighting to LED.
+A2.1.1 Audit water and wastewater
+equipment. A1.1.1 Work with Duke Energy to ensure
+conversion meets the yearly goal.
+A2.1.2 Implement efficiency measures
+suggested by audit. STATUS: Ongoing
+STATUS: Ongoing The Transportation Department continues to
+coordinate with Duke Energy on LED conversion of
+The Water Resources Department prepared an
+the 27,000+ streetlamps and other public outdoor
+engineering study of its water and wastewater
+lighting owned and managed by Duke. As of October
+equipment in 2021. Replacement of equipment
+2023, 39.6 percent of all lamps used LEDs, up from
+is now prioritized in the Capital Improvements
+15.2 percent in 2019. This represents an average pace
+Program based on the energy efficiency
+of 6.1 percent per year.
+measurements from the study.
+Solar and LED lighting on the Downtown Greenway
+16
+
+===== PAGE 17 =====
+
+BUILDINGS MANAGED BY Police
+Engineering
+Department
+& Inspections
+GOAL 1
+GOAL 1
+Reduce gasoline consumption
+Reduce electricity demand by by 5% per year.
+40% from 2007 to 2025.
+STRATEGY 1.2 Fleet conversion to electric vehicles.
+STRATEGY 1.1 Increase building energy efficiency
+(1st Tier buildings). STATUS: Initiated
+A1.1.1 Perform energy audits on buildings. Staff from the OSR, the Equipment Services Division
+of Financial and Administrative Services Department
+STATUS: Initiated
+and the Transportation Department attended the
+The OSR developed a Request for Proposals (RFP) Electrify the South workshop to learn about strategies
+for contractors to provide energy audits and and resources available to local governments for
+recommendations for energy conservation measures transitioning their fleets to electric vehicles.
+in selected City buildings that are its largest energy
+Staff from the Environmental Compliance and Support
+consumers. The work will be done in compliance with
+Section of the OSR is currently analyzing the fuel
+ASHRAE (American Society of Heating, Refrigerating and
+consumption logs for all City vehicles and plans to
+Air-Conditioning Engineers) standards and state and
+work with Equipment Services Division to provide
+federal requirements. This process will include a team of
+information identifying the least efficient vehicles,
+City representatives including a member from the MWBE
+which will assist with the lease replacement to acquire
+office to ensure an equitable process is performed.
+more fuel-efficient means of transportation.
+17
+
+===== PAGE 18 =====
+
+Transportation Solid Waste & Recycling
+Department Department
+GOAL 1 GOAL 1
+Reduce gasoline consumption Reduce diesel consumption by
+by 5% per year. 5% per year.
+STRATEGY 1.1 Fleet conversion to electric vehicles. STRATEGY 1.3 Fleet conversion to electric vehicles.
+STATUS: Initiated STATUS: Initiated
+Staff from the OSR, the Equipment Services Staff from the OSR, the Equipment Services
+Division of Financial and Administrative Services Division of Financial and Administrative Services
+Department and the Transportation Department Department and the Transportation Department
+attended the Electrify the South workshop to learn attended the Electrify the South workshop to learn
+about strategies and resources available to local about strategies and resources available to local
+governments for transitioning their fleets to electric governments for transitioning their fleets to electric
+vehicles. vehicles.
+Staff from the Environmental Compliance and Staff from the Environmental Compliance and
+Support Section of the OSR is currently analyzing the Support Section of the OSR is currently analyzing the
+fuel consumption logs for all City vehicles and plans fuel consumption logs for all City vehicles and plans
+to work with Equipment Services Division to provide to work with Equipment Services Division to provide
+information identifying the least efficient vehicles, information identifying the least efficient vehicles,
+which will assist with the lease replacement to which will assist with the lease replacement to
+acquire more fuel-efficient means of transportation. acquire more fuel-efficient means of transportation.
+White Street Landfill renewable energy facility
+18
+
+===== PAGE 19 =====
+
+Transportation Community
+Department Incentives Progress
+GOAL 1 GOAL 1
+Reduce diesel consumption by Incentivize Greensboro residents
+5% per year. and businesses to achieve similar
+progress on GHG reduction,
+STRATEGY 1.3 Fleet conversion to electric vehicles. energy efficiency, and renewable
+energy use as the City.
+STATUS: Initiated
+Greensboro Transit Agency, managed by the Transit
+STRATEGY 1.2 Remove obstacles to clean, renewable
+Department, has completed a zero-emissions fleet
+energy installation, and energy-
+transition plan.
+efficiency projects.
+STRATEGY 1.4 Support implementation of GTA STATUS: Initiated
+Mobility Greensboro 2040 Plan to
+The OSR submitted a proposal for funding through
+increase ridership throughout the
+the US Department of Energy’s Energy Efficiency
+City.
+and Conservation Block Grant program. At least
+STATUS: Initiated 40 percent of the benefits of proposed projects
+will flow to disadvantaged communities. Proposed
+The Greensboro Transit Agency is currently
+projects will be finalized in 2024.
+developing a new long range transit plan, GoBORO,
+to help achieve Greensboro's goal of becoming a car- A1.2.1 Review land use ordinances
+optional city by 2045. and building permit policies for
+obstacles.
+A1.2.3 Obtain SolSmart Designation.
+STATUS: Initiated
+Greensboro was designated SolSmart Bronze in
+2021. The application process included an extensive
+review of the Land Development Ordinance and
+permitting requirements. Additional actions,
+including policy amendments are needed to earn
+Silver or Gold designation.
+19
+
+===== PAGE 20 =====
+
+www.greensboro-nc.gov/sustainability
+PO Box 3136 • Greensboro, NC 27402-3136
