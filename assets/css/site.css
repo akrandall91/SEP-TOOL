@@ -132,6 +132,8 @@ p { margin: 0 0 var(--space-3); }
   color: var(--status-muted); border-color: color-mix(in srgb, var(--status-muted) 35%, transparent);
 }
 .status-badge--deprioritized .status-badge__dot { background: var(--status-muted); }
+.status-badge--mixed { background: color-mix(in srgb, var(--cat-violet) 14%, transparent); color: var(--cat-violet); }
+.status-badge--mixed .status-badge__dot { background: var(--cat-violet); }
 
 /* funding badge */
 .funding-badge {
@@ -169,7 +171,11 @@ p { margin: 0 0 var(--space-3); }
 .goal {
   border: 1px solid var(--border-hairline); border-radius: var(--radius-md);
   margin-bottom: var(--space-4); overflow: hidden; background: var(--surface-1);
+  scroll-margin-top: 90px;
 }
+.goal:target { border-color: var(--cat-blue); box-shadow: 0 0 0 2px color-mix(in srgb, var(--cat-blue) 25%, transparent); }
+.rec-card, .action-row { scroll-margin-top: 90px; }
+.rec-card:target { border-color: var(--cat-blue); box-shadow: 0 0 0 2px color-mix(in srgb, var(--cat-blue) 25%, transparent); }
 .goal__head { padding: var(--space-4) var(--space-5); display: flex; flex-wrap: wrap; gap: var(--space-3); justify-content: space-between; align-items: flex-start; }
 .goal__title { font-size: var(--font-size-lg); font-weight: 700; margin-bottom: 4px; }
 .goal__eval { font-size: var(--font-size-sm); color: var(--ink-secondary); }

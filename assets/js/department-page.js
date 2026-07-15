@@ -83,7 +83,7 @@ function renderGoalCard(goal, extraHtml) {
   }
 
   return `
-  <article class="goal">
+  <article class="goal" id="${goal.id}">
     <div class="goal__head">
       <div>
         <div class="goal__title">Goal ${goal.number}: ${goal.text}</div>

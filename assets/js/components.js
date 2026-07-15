@@ -29,17 +29,32 @@ async function loadJson(filename, base) {
  * mapping used everywhere a goal/strategy status renders — do not re-derive this
  * logic ad hoc on other pages.
  */
+function mapStatusWord(status) {
+  if (!status) return null;
+  const s = status.trim().toLowerCase();
+  if (s === "complete" || s === "completed") return "complete";
+  if (s === "ongoing" || s === "in progress") return "active";
+  if (s === "initiated") return "initiated";
+  if (s === "realigned") return "realigned";
+  return "reported-plain";
+}
+
 function goalStatusState(goal) {
   const gapped = goal.dataGap === true;
   const deprioritized = !!(goal.deprioritizedInSource && goal.deprioritizedInSource.value);
   if (gapped && deprioritized) return "deprioritized";
   if (gapped) return "not-reported";
   const status = goal.statusUpdate2025 && goal.statusUpdate2025.status;
-  if (status === "Complete" || status === "Completed") return "complete";
-  if (status === "Ongoing" || status === "In Progress") return "active";
-  if (status === "Initiated") return "initiated";
-  if (status === "Realigned") return "realigned";
-  return "reported-plain"; // reported, but source gave no status word (e.g. WR-G2)
+  return mapStatusWord(status) || "reported-plain"; // reported, but source gave no status word (e.g. WR-G2)
+}
+
+/** Same status vocabulary as goals, plus "mixed" for a recommendation whose strategies
+ * carry different statuses with no single top-level status2025 word (e.g. REC-3). */
+function recommendationStatusState(rec) {
+  if (rec.status2025 && rec.status2025.status) return mapStatusWord(rec.status2025.status);
+  const stratStatuses = (rec.strategies || []).filter((s) => s.status2025 && s.status2025.status);
+  if (stratStatuses.length) return "mixed";
+  return "not-reported";
 }
 
 const STATUS_LABEL = {
@@ -50,6 +65,7 @@ const STATUS_LABEL = {
   "reported-plain": "Reported",
   "not-reported": "Not Reported",
   deprioritized: "Deprioritized",
+  mixed: "Mixed — see strategies",
 };
 
 const STATUS_EXPLAIN = {
@@ -60,6 +76,7 @@ const STATUS_EXPLAIN = {
   "reported-plain": "The 2025 Progress Report describes activity here but does not attach one of its usual status words (Complete/Ongoing/etc).",
   "not-reported": "The 2025 Progress Report does not address this goal at all. No reason is given in the source — this is a genuine reporting gap, not a documented deprioritization.",
   deprioritized: "Not reported in 2025 — but the 2022 SEP itself explicitly deprioritized this. See the quoted source text below. This is a documented choice made visible, not a silent gap.",
+  mixed: "No single top-level status — this recommendation's strategies were individually status-updated with different results. See below.",
 };
 
 function goalStatusBadgeHtml(goal) {

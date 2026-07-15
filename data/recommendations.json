@@ -15,7 +15,8 @@
         "status": "Completed",
         "text": "Dr. S. Shree Dorestant was hired as Chief Sustainability Officer on June 1, 2022, effectively establishing the Office of Sustainability and Resilience (OSR) within the City's Executive Department. On July 1, 2023, OSR was expanded with an internal employee transfer of 10 staff positions from Engineering and Inspections, Field Operations (now Solid Waste & Recycling), Parks and Recreation, and Planning departments.",
         "citation": { "source": "progress2025", "page": 7 }
-      }
+      },
+      "fundingLink": { "hasActiveFunding": false, "note": "Organizational/personnel action — hiring a CSO and standing up an office isn't tied to a named grant or contract." }
     },
     {
       "number": 2, "id": "REC-2",
@@ -30,7 +31,8 @@
         "status": "Realigned",
         "text": "In 2025, the City's MWBE Office was renamed the Office of Business Opportunity (OBO), shifting its mission from race/gender-based preference criteria to criteria prioritizing small businesses generally. Recommendation 2 and its strategies are being realigned for consistency with this restructuring.",
         "citation": { "source": "progress2025", "page": 7 }
-      }
+      },
+      "fundingLink": { "hasActiveFunding": false, "note": "Policy/org restructuring, not a funded initiative." }
     },
     {
       "number": 3, "id": "REC-3",
@@ -39,18 +41,22 @@
       "citation": { "source": "sep2022", "page": [31, 71] },
       "strategies": [
         { "number": "3.1", "text": "Establish criteria to identify the most impacted and vulnerable communities in the City.",
-          "status2025": { "status": "Complete", "text": "The Keeping the Green in Greensboro: Tree Canopy and Equity Prioritization Project developed a GIS-based equity prioritization tool identifying and prioritizing Greensboro's most impacted and vulnerable communities. Results were curated into an ArcGIS hub site at canopy.greensboro-nc.gov, launched November 2025. Corresponds to Prioritized Action 4.", "correspondingPrioritizedAction": 4, "citation": { "source": "progress2025", "page": 8 } }
+          "status2025": { "status": "Complete", "text": "The Keeping the Green in Greensboro: Tree Canopy and Equity Prioritization Project developed a GIS-based equity prioritization tool identifying and prioritizing Greensboro's most impacted and vulnerable communities. Results were curated into an ArcGIS hub site at canopy.greensboro-nc.gov, launched November 2025. Corresponds to Prioritized Action 4.", "correspondingPrioritizedAction": 4, "citation": { "source": "progress2025", "page": 8 } },
+          "fundingLink": { "hasActiveFunding": false, "note": "Developed via 'a specialized consultant' per the report's own intro (p.2), but the consultant is unnamed and no dollar figure is given — not linkable to a funding.json entry with confidence." }
         },
-        { "number": "3.2", "text": "Identify the most impacted and vulnerable communities." },
+        { "number": "3.2", "text": "Identify the most impacted and vulnerable communities.", "fundingLink": { "hasActiveFunding": false } },
         { "number": "3.3", "text": "Prioritize outreach and assistance to impacted and vulnerable communities to encourage more community participation, determine the impact of energy projects, and educate residents on energy and water conservation.",
-          "status2025": { "status": "Ongoing", "text": "OSR has started using the equity prioritization tool to prioritize outreach and assistance to impacted and vulnerable communities. Corresponds to Prioritized Action 7.", "correspondingPrioritizedAction": 7, "citation": { "source": "progress2025", "page": 8 } }
+          "status2025": { "status": "Ongoing", "text": "OSR has started using the equity prioritization tool to prioritize outreach and assistance to impacted and vulnerable communities. Corresponds to Prioritized Action 7.", "correspondingPrioritizedAction": 7, "citation": { "source": "progress2025", "page": 8 } },
+          "fundingLink": { "hasActiveFunding": false }
         },
         { "number": "3.4", "text": "Vet energy projects to ensure that negative environmental/equity consequences are not created.",
           "status2025Note": "The 2025 report cites 'Recommendation 3, Strategy 3.4' as the basis for Prioritized Action 8, but the underlying text describing that update in the 2025 report is combined with Strategy 3.5's content — see Prioritized Action 8 in prioritized-actions.json.",
-          "correspondingPrioritizedAction": 8
+          "correspondingPrioritizedAction": 8,
+          "fundingLink": { "hasActiveFunding": false }
         },
         { "number": "3.5", "text": "Prioritize vulnerable communities first in rolling out individual parts of the Energy Plan, i.e., building retrofits, new facilities, etc.",
-          "status2025": { "status": "Ongoing", "text": "OSR will prioritize tree plantings, education, and outreach efforts in communities identified as most impacted and vulnerable, and will continue to focus grant applications and energy-related projects in (or to benefit) those communities. Corresponds to Prioritized Action 8.", "correspondingPrioritizedAction": 8, "citation": { "source": "progress2025", "page": 8 } }
+          "status2025": { "status": "Ongoing", "text": "OSR will prioritize tree plantings, education, and outreach efforts in communities identified as most impacted and vulnerable, and will continue to focus grant applications and energy-related projects in (or to benefit) those communities. Corresponds to Prioritized Action 8.", "correspondingPrioritizedAction": 8, "citation": { "source": "progress2025", "page": 8 } },
+          "fundingLink": { "hasActiveFunding": false }
         }
       ]
     },
@@ -68,7 +74,8 @@
         "status": "Ongoing",
         "text": "During 2025, OSR staff reviewed Technical Review Committee sketch plans for the Greensboro Science Center Expansion Project and recommended applicable Energy Star and ISO 50000 certifications (or comparable standards). OSR also participated in project scoping for the Mitchell Water Treatment Plant Expansion and Advanced Treatment for Emerging Contaminants project, recommending the same.",
         "citation": { "source": "progress2025", "page": 9 }
-      }
+      },
+      "fundingLink": { "hasActiveFunding": false, "note": "Staff review/advisory activity, not a funded initiative." }
     },
     {
       "number": 5, "id": "REC-5",
@@ -82,7 +89,8 @@
         "status": "In progress",
         "text": "OSR received $314,150 in December 2024 from the US DOE's Energy Efficiency Conservation Block Grant program, funding a comprehensive fleet efficiency study and transition plan that began in 2025. A one-year pilot study of 100 City vehicles began in July 2025, installing telematic devices to gather data on frequency/duration of use and other operational characteristics; this will be compared with data from ~300 additional City vehicles with telematics from at least three other manufacturers, to identify a single telematic supplier for the entire fleet. Initial data suggest the study vehicles idled approximately 50% of the time their engines were running.",
         "citation": { "source": "progress2025", "page": 9 }
-      }
+      },
+      "fundingLink": { "hasActiveFunding": true, "linkedTo": "funding.json > grants > eecbg-2024", "note": "The EECBG grant explicitly funds the fleet efficiency study and telematics pilot described here." }
     },
     {
       "number": 6, "id": "REC-6",
@@ -91,13 +99,16 @@
       "citation": { "source": "sep2022", "page": [32, 71] },
       "strategies": [
         { "number": "6.1", "text": "Collaborate with Greensboro Beautiful, Sierra Club, City Planning Department, City Arborist, Housing & Neighborhood Development, the NeighborWoods Program, and other stakeholders to develop a 20-year strategy to maintain the tree canopy.",
-          "status2025": { "status": "In Progress", "text": "The CSC relaunched its Tree Canopy Taskforce to facilitate collaboration on maintaining the tree canopy. OSR held two community meetings in 2025 to share Tree Canopy Assessment data and begin the public conversation.", "citation": { "source": "progress2025", "page": 10 } }
+          "status2025": { "status": "In Progress", "text": "The CSC relaunched its Tree Canopy Taskforce to facilitate collaboration on maintaining the tree canopy. OSR held two community meetings in 2025 to share Tree Canopy Assessment data and begin the public conversation.", "citation": { "source": "progress2025", "page": 10 } },
+          "fundingLink": { "hasActiveFunding": false }
         },
         { "number": "6.2", "text": "Conduct a baseline tree canopy audit, followed by an update every five years.",
-          "status2025": { "status": "Complete", "text": "The Keeping the Green in Greensboro: Tree Canopy and Equity Prioritization Project completed an updated study finding 44% of the City's land area covered by tree canopy, plus a GIS-based equity prioritization tool. Results curated into the ArcGIS hub at canopy.greensboro-nc.gov, launched November 2025.", "citation": { "source": "progress2025", "page": 10 } }
+          "status2025": { "status": "Complete", "text": "The Keeping the Green in Greensboro: Tree Canopy and Equity Prioritization Project completed an updated study finding 44% of the City's land area covered by tree canopy, plus a GIS-based equity prioritization tool. Results curated into the ArcGIS hub at canopy.greensboro-nc.gov, launched November 2025.", "citation": { "source": "progress2025", "page": 10 } },
+          "fundingLink": { "hasActiveFunding": false, "note": "Same unnamed-consultant caveat as REC-3.1 — no funding.json entry to link with confidence." }
         },
         { "number": "6.3", "text": "Focus planting efforts in vulnerable communities, which have limited or no tree canopy.",
-          "status2025": { "status": "Ongoing", "text": "The federal portion of grant funding dedicated to purchasing trees was rescinded; OSR is pursuing other funding. Received $25,000 from the Duke Energy Foundation (August 2025, $15,000 for trees) and $20,000 from the National Environmental Education Foundation (September 2025, for trees + educational programming). Coordinated three tree planting events in 2025 adding 52 trees of native species in areas identified by the equity prioritization tool.", "citation": { "source": "progress2025", "page": 10 } }
+          "status2025": { "status": "Ongoing", "text": "The federal portion of grant funding dedicated to purchasing trees was rescinded; OSR is pursuing other funding. Received $25,000 from the Duke Energy Foundation (August 2025, $15,000 for trees) and $20,000 from the National Environmental Education Foundation (September 2025, for trees + educational programming). Coordinated three tree planting events in 2025 adding 52 trees of native species in areas identified by the equity prioritization tool.", "citation": { "source": "progress2025", "page": 10 } },
+          "fundingLink": { "hasActiveFunding": true, "linkedTo": ["funding.json > grants > duke-energy-foundation-2025", "funding.json > grants > neef-2025"], "note": "Explicitly named grants fund the tree-planting work described here." }
         }
       ]
     },
@@ -113,7 +124,8 @@
         "status": "Initiated",
         "text": "Staff from Equipment Services Division, People & Culture Department, and OSR are researching and scoping the development of an internal idling-reduction training course. Results from the vehicle telematic pilot study will inform additional efforts to develop this course.",
         "citation": { "source": "progress2025", "page": 11 }
-      }
+      },
+      "fundingLink": { "hasActiveFunding": false, "note": "Internal staff scoping work, not itself a funded initiative (though it draws on data from the EECBG-funded telematics pilot under Recommendation 5)." }
     },
     {
       "number": 8, "id": "REC-8",
@@ -127,7 +139,8 @@
         "status": "In Progress",
         "text": "Staff from OSR and the Equipment Services Division of Financial & Administrative Services discussed closer evaluations of vehicle inventory, equipment purchases, and lease processes. Analysis will be included in the fleet efficiency study and comprehensive fleet management and transition plan, slated to begin in 2026.",
         "citation": { "source": "progress2025", "page": 11 }
-      }
+      },
+      "fundingLink": { "hasActiveFunding": true, "linkedTo": "funding.json > grants > eecbg-2024", "note": "This analysis is explicitly folded into the EECBG-funded fleet efficiency study referenced under Recommendation 5." }
     }
   ]
 }
