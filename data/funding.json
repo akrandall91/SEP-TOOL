@@ -40,7 +40,9 @@
           "linkedTo": "departments.json > water-resources > WR-G2"
         }
       ],
-      "fundedActivitiesNote": "Confirmed across the 2024 and 2025 Progress Reports as funding five distinct activities spanning three recommendations and two department goals from a single $314,150 award — reflected here as a list rather than split into per-activity dollar amounts, since no source document allocates specific dollars to each activity."
+      "fundedActivitiesNote": "Confirmed across the 2024 and 2025 Progress Reports as funding five distinct activities spanning three recommendations and two department goals from a single $314,150 award — reflected here as a list rather than split into per-activity dollar amounts, since no source document allocates specific dollars to each activity.",
+      "usaSpendingAwardId": "ASST_NON_DESE0000196_089",
+      "usaSpendingNote": "Confirmed exact match on USAspending.gov (Award ID DESE0000196, recipient City of Greensboro, Department of Energy, $314,150) — see the live obligation/outlay widget on this card, which pulls current drawdown status directly from USAspending's award API."
     },
     {
       "id": "duke-energy-foundation-2025",
@@ -90,7 +92,8 @@
       "citation": {
         "source": "progress2023",
         "page": 9
-      }
+      },
+      "usaSpendingNote": "Searched USAspending.gov by recipient (City of Greensboro, and broader 'Greensboro' text match), by awarding agency (Department of Agriculture, and Forest Service as a sub-tier agency specifically), and across multiple date windows spanning 2022-01 through 2025-06 — no matching prime award was found. USDA's 2023 Inflation Reduction Act Urban & Community Forestry grants were often administered through intermediary/pass-through organizations (state forestry agencies, national nonprofits) rather than awarded directly to municipalities, which would place this grant in USAspending's subaward data — a much less complete dataset not queried further given diminishing-return effort. Not restated as verified; the static $825,000 figure from the 2023 Progress Report stands on its own citation alone."
     }
   ],
   "externalOtherAllocations": {
