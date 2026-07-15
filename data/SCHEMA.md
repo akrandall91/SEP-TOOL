@@ -1,21 +1,23 @@
-# SEP Tracker — data schema (v3)
+# SEP Tracker — data schema (v4)
 
-Step 1: structured, cited JSON extracted from both source PDFs. Step 2: funding-linkage layer added. Step 3: external-citation layer added (facts verified outside both PDFs) plus corrections that layer surfaced. UI build is starting with a single reference department page (Water Resources) before templating.
+Step 1: structured, cited JSON extracted from both source PDFs. Step 2: funding-linkage layer added. Step 3: external-citation layer added (facts verified outside both PDFs) plus corrections that layer surfaced. Step 5 (see bottom section): the 2023 and 2024 Annual Progress Reports were merged in as a continuous timeline alongside the original SEP + 2025 report.
 
 ## Files
 
 | File | Contents |
 |---|---|
-| `index.json` | Source metadata (both PDFs), report-cadence timeline, citation schema (both citation types), file map |
+| `index.json` | Source metadata (all 4 PDFs), report-cadence timeline, citation schema (both citation types), file map |
 | `resolution.json` | Resolution 19-0770 — every mandated deadline, full text, the SEP-submission timing gap |
 | `baseline-2019.json` | Tables 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 from the 2022 SEP; key findings; Duke Energy grid mix; social cost of carbon; solar potential estimates |
-| `departments.json` | Every Goal → Strategy → Action for every department, grouped by energy source, each with 2025 status (`dataGap: true` where absent) and `fundingLink` (Step 2). Includes one external-research-only entry (White Street Landfill, Step 3) that has no SEP goal structure at all. |
-| `recommendations.json` | All 8 Organization-Wide Recommendations + strategies + 2025 status |
-| `directives.json` | Resolution Directives 4, 8, 9 (the three the 2025 report explicitly status-updates) |
-| `prioritized-actions.json` | All 53 actions across 4 phases (Years 1–5: 28, 6–10: 14, 11–15: 5, 16–20: 6), with 2025 status linked where the report cross-references a number |
-| `funding.json` | Named grants/contracts, both PDF-sourced and external-sourced (Step 3 added 5 externally-verified GTA transit grants + the White Street Landfill solar/gas-to-energy projects) + financing mechanisms cataloged in the 2022 SEP |
+| `departments.json` | Every Goal → Strategy → Action for every department, grouped by energy source, each with 2025 status (`dataGap: true` where absent), `fundingLink` (Step 2), and — where the 2023/2024 reports covered it — a `statusHistory` array and/or a `wentSilent` flag (Step 5). Includes one external-research-only entry (White Street Landfill, Step 3) that has no SEP goal structure at all. |
+| `recommendations.json` | All 8 Organization-Wide Recommendations + strategies + 2025 status, each now with a `statusHistory` array (Step 5); Rec 7 additionally carries a `stalled` flag |
+| `directives.json` | Resolution Directives 1, 4, 8, 9. Directive 1 (the 40% GHG target) was added in Step 5 — it carries an `inconsistencyFlag` and the full `multiYearGhgTotal` series; 4/8/9 are the three the 2025 report explicitly status-updates. Also carries `directiveStatusDefinitionsSource` (Step 5), the verbatim OSR status-word definitions. |
+| `prioritized-actions.json` | All 53 actions across 4 phases (Years 1–5: 28, 6–10: 14, 11–15: 5, 16–20: 6), with 2025 status linked where the report cross-references a number; 6 of these (1, 4, 5, 8, 12, 26) now carry a `statusHistory` array (Step 5) |
+| `funding.json` | Named grants/contracts, both PDF-sourced and external-sourced (Step 3 added 5 externally-verified GTA transit grants + the White Street Landfill solar/gas-to-energy projects; Step 5 added the USDA Forest Service Tree Canopy grant and `fundedActivities` detail on the EECBG grant) + financing mechanisms cataloged in the 2022 SEP |
 | `funding-linkage.json` | Derived rollup: for every department goal, is it funded (and by what) and is it reported — the cross-tab and per-grouping breakdown. Regenerate if `departments.json`'s `fundingLink`/`dataGap` fields change. |
 | `progress-2025-misc.json` | OSR staff roster, CSC roster, tree canopy figures, telematics pilot, event attendance, LEED for Cities note |
+| `progress-2023-2024-misc.json` | Same shape as `progress-2025-misc.json`, for the 2023/2024 reports: HHW statistics, Food Waste pilot totals, tree canopy/equity-prioritization timeline, the CSC roster cross-check, BuildingLogiX, Leave the Leaves 2023 (Step 5) |
+| `citywide-energy-timeseries.json` | Full transcription of the 2024 report's citywide multi-year table (2007/2019/2022/2023/2024) — original units, MMBtu-converted, and GHG emissions, by fuel type — plus the reconciliation note against `baseline-2019.json` (Step 5) |
 
 ## Every data point traces to a citation — now one of two types
 
@@ -55,7 +57,7 @@ Every department goal in `departments.json` carries a `fundingLink` object:
 ```json
 "fundingLink": { "hasActiveFunding": true, "linkedTo": "funding.json > grants > eecbg-2024", "note": "..." }
 ```
-`hasActiveFunding: false` is always written explicitly — never omitted — so absence of funding is as queryable as `dataGap: true`. `funding-linkage.json` is the computed rollup (cross-tab + per-department-grouping breakdown + goal-level detail); see that file's `verdict` field for the current read on whether "funding predicts reporting" actually holds (it does, but asymmetrically — funded goals are always reported, but not all reported goals are funded).
+`hasActiveFunding: false` is always written explicitly — never omitted — so absence of funding is as queryable as `dataGap: true`. `funding-linkage.json` is the computed rollup (cross-tab + per-department-grouping breakdown + goal-level detail); see that file's `verdict` field for the current read on whether "funding predicts reporting" actually holds (it does, strongly but not perfectly — as of the Step 5 merge, 80% of funded goals were reported vs. 12.5% of unfunded goals; see "2023/2024 Progress Report merge" below for the one funded-but-unreported exception).
 
 ## External-research corrections applied (Step 3)
 
@@ -147,3 +149,65 @@ lacks them, which still needs a server).
   checked against EIA's documented v2 API route structure but **not verified end-to-end** — a
   403 (consistent with "route exists, key required") is the strongest confirmation available
   without a key. Verify the first live run's output shape before trusting it in production.
+
+## 2023/2024 Progress Report merge (Step 5)
+
+Two more source documents — the **2023 Annual Progress Report** (`progress2023`, published March
+2024, covers Implementation Year One despite the "2024" filename) and the **2024 Annual Progress
+Report** (`progress2024`, published April 2025, covers Implementation Year Two; PDF text layer is
+fully flattened to graphics, transcribed by direct page-image reading) — were merged into the
+existing SEP 2022 → 2025 Progress Report timeline as one continuous series, not a separate parallel
+dataset. See `scripts/apply_2023_2024_merge.py` for the full one-time migration (kept as historical
+record, same convention as `scripts/fetch_grid_mix.py`).
+
+**Two genuine contradictions in the source material, both resolved by showing both readings rather
+than picking a winner:**
+- **Directive 1 (40% GHG target)**: the 2024 Progress Report's own prose claims the 40% reduction
+  threshold "was reached by 2023," but its own multi-year table shows 2023 at only -39.31% —
+  short of the target. The table's 2024 figure (-42.13%) is the first year that actually crosses
+  -40%. This site follows the table's numbers (`directives.json > directives[0].multiYearGhgTotal`)
+  and flags the prose/table mismatch explicitly via `inconsistencyFlag`, rather than silently
+  adopting either claim.
+- **Natural Gas / Unleaded Gasoline reconciliation**: the 2024 report's citywide multi-year table
+  (`citywide-energy-timeseries.json`) reconciles cleanly against the original SEP's baseline for
+  Electricity and Diesel, but *not* for Natural Gas or Unleaded Gasoline — the same-year figures
+  differ between the two documents. Rather than merge this table into `baseline-2019.json` (which
+  would silently imply agreement that doesn't exist), it's kept as a separate, clearly-labeled
+  "OSR Annual Report series" with its own `reconciliationNote` documenting the mismatch. Since the
+  2025 report drops this table entirely, 2007–2024 is the complete series available anywhere in
+  this dataset.
+
+**New `wentSilent` field** (`departments.json` goals, `recommendations.json` recommendations via
+a `stalled` field with the same visual treatment): distinct from both `dataGap` (never explained)
+and `deprioritizedInSource` (the SEP itself deprioritized it). `wentSilent: { value: true,
+lastReportedYear, lastReportedStatus, note }` marks a goal that had confirmed "Initiated" activity
+in both the 2023 and 2024 reports, then received zero mention in 2025 — real momentum that quietly
+stopped being reported, not a goal that was simply never covered. Three cases confirmed:
+`TR-GAS-G1`, `FO-G1`, and `CI-G1` (Community Incentives). `CI-G1` is the most notable: it is also
+funded (EECBG grant, corrected from an earlier "no funding" read — see below), making it the first
+"funded but still gapped" case in the dataset and the reason `funding-linkage.json`'s headline
+finding moved from a clean 100%-of-funded-goals-reported to 80% (4 of 5). Recommendation 7 gets the
+same treatment via `stalled` (not `wentSilent`, since it *was* reported all three years — just
+plateaued at "Initiated" for three consecutive reports, confirmed against the live 2025 status
+before writing the flag, not assumed).
+
+**Official OSR status-word definitions** (`directives.json > directiveStatusDefinitionsSource`,
+2024 Progress Report p.19) replaced this project's earlier inferred tooltip copy for
+Ongoing/In Progress/Initiated site-wide (`components.js > STATUS_EXPLAIN`).
+
+**Funding additions**: a new USDA Forest Service Tree Canopy grant ($825,000, awarded September
+2023, linked to Recommendation 6) was added to `funding.json` as its own entry — kept distinct
+from the December 2024 EECBG grant rather than merged in. The EECBG grant's existing
+`fundingLink.linkedTo` array pattern (already used for `REC-6.3`) was extended to represent its
+funding across Rec 3, Rec 5, Rec 8, and `CI-G1`, with a new `fundedActivities` list on the grant
+entry itself detailing which activity funds which recommendation/goal.
+
+**Checked, found immaterial**: a CSC roster label variance between the 2024 and 2025 reports
+(Marikay Abuzuaiter listed as a non-counted liaison plus "Conor Baker, Chair" in the 2024 report,
+vs. Baker as "Co-Chair" with no separately listed liaison in the 2025 report) was checked and found
+to be a label/title difference only, not a membership change — logged in
+`progress-2023-2024-misc.json > cscRosterCheck`, no data change made.
+
+**Homepage citywide trend chart**: added using Directive 1's `multiYearGhgTotal` series (2007→2024),
+explicitly labeled as a **citywide total**, not a department-level breakdown — neither the 2023 nor
+2024 report provides a department split for those years, so none is fabricated or implied.

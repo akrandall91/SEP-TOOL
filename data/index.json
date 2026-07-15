@@ -1,6 +1,6 @@
 {
   "$schema": "SEP Tracker data index — see /data/SCHEMA.md for full documentation",
-  "generatedAt": "2026-07-14",
+  "generatedAt": "2026-07-15",
   "sources": [
     {
       "id": "sep2022",
@@ -10,11 +10,34 @@
       "date": "2022-11",
       "dateLabel": "Final Draft, November 2022",
       "sourceFile": "Strategic Energy Plan 2022.pdf",
-      "pages": 76
+      "pages": 76,
+      "note": "Body text states City Council approved the SEP in December 2022; this cover-dated November 2022 draft is the version that went to Council for that approval."
+    },
+    {
+      "id": "progress2023",
+      "shortName": "2023 Progress Report (Year One)",
+      "title": "2023 Annual Progress Report & Strategic Energy Plan Implementation Year One",
+      "publisher": "City of Greensboro, Office of Sustainability and Resilience",
+      "date": "2024-03",
+      "dateLabel": "March 2024",
+      "sourceFile": "OSR Annual Progress Report 2024.pdf",
+      "pages": 20,
+      "note": "Filename says '2024' but the report's own 'About this Report' section states it covers calendar year 2023 activities — the first Annual Progress Report. File contents, not filename, are authoritative."
+    },
+    {
+      "id": "progress2024",
+      "shortName": "2024 Progress Report (Year Two)",
+      "title": "2024 Annual Progress Report & Strategic Energy Plan Implementation Year Two",
+      "publisher": "City of Greensboro, Office of Sustainability and Resilience",
+      "date": "2025-04",
+      "dateLabel": "April 2025",
+      "sourceFile": "Download Version-Office of Sustainability and Resilience 2024 Annual Progress Rep.pdf",
+      "pages": 22,
+      "note": "Text layer is fully flattened to graphics (no extractable text/table content) — transcribed by direct page-image reading, not OCR guesswork, same method used for the SEP's Appendix A."
     },
     {
       "id": "progress2025",
-      "shortName": "2025 Progress Report",
+      "shortName": "2025 Progress Report (Year Three)",
       "title": "2025 Annual Progress Report & Strategic Energy Plan Implementation Year Three",
       "publisher": "City of Greensboro, Office of Sustainability and Resilience",
       "date": "2026-02",
@@ -27,8 +50,8 @@
     { "label": "Resolution 19-0770 adopted", "date": "2019-12-03", "citation": { "source": "sep2022", "page": [68, 70], "note": "Appendix A" } },
     { "label": "OSR established / first Chief Sustainability Officer hired", "date": "2022-06-01", "citation": { "source": "progress2025", "page": 7, "note": "Recommendation 1" } },
     { "label": "Strategic Energy Plan (SEP) published", "date": "2022-11", "citation": { "source": "sep2022", "page": 1 }, "note": "Resolution required submission to Council within one year of adoption (~Dec 2020); the SEP was not finalized until Nov 2022, roughly 2 years 11 months after adoption." },
-    { "label": "First Annual Progress Report published", "date": "2024-03", "citation": { "source": "progress2025", "page": 6 } },
-    { "label": "Second Annual Progress Report", "date": null, "note": "Publication date not stated in either source document. This report ('Implementation Year Three') is described as 'the third annual progress report,' implying a second report was published in the 2024-2025 window, but its exact date is not given. Flagged as a data gap, not omitted.", "citation": { "source": "progress2025", "page": 6 } },
+    { "label": "First Annual Progress Report published (2023 Progress Report, Implementation Year One)", "date": "2024-03", "citation": { "source": "progress2023", "page": 1 } },
+    { "label": "Second Annual Progress Report published (2024 Progress Report, Implementation Year Two)", "date": "2025-04", "citation": { "source": "progress2024", "page": 1 }, "note": "This date was an unresolved gap as of the prior data pass — now confirmed directly from the report's own cover page." },
     { "label": "Third Annual Progress Report (2025 Progress Report / Implementation Year Three)", "date": "2026-02", "citation": { "source": "progress2025", "page": 1 } }
   ],
   "files": {
@@ -40,11 +63,13 @@
     "prioritizedActions": "prioritized-actions.json",
     "funding": "funding.json",
     "fundingLinkage": "funding-linkage.json",
-    "progress2025Misc": "progress-2025-misc.json"
+    "progress2025Misc": "progress-2025-misc.json",
+    "progress2023_2024Misc": "progress-2023-2024-misc.json",
+    "citywideEnergyTimeseries": "citywide-energy-timeseries.json"
   },
   "citationSchema": {
     "twoDocumentCitation": {
-      "source": "'sep2022' | 'progress2025' — key into sources[] above",
+      "source": "'sep2022' | 'progress2023' | 'progress2024' | 'progress2025' — key into sources[] above",
       "page": "integer, or [start,end] for a range",
       "table": "optional: table caption as printed in the source document, e.g. 'Table 3'",
       "note": "optional free-text clarification"

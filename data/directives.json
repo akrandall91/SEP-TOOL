@@ -2,13 +2,71 @@
   "_notes": "These are the 'SEP Resolution Directives Progress' items called out by number in the 2025 Progress Report. Only Directives 4, 8, and 9 receive a dedicated status update in that report (there is no comprehensive numbered list of all resolution directives in the 2025 report itself — these three map to specific resolution.json mandate ids as noted).",
   "directives": [
     {
+      "number": 1,
+      "text": "Specific steps to reduce Scope 1 and Scope 2 greenhouse gas (GHG) emissions (from City operations) by 40 percent or more from estimated 2007 levels by 2025.",
+      "correspondingResolutionMandateId": "ghg-40x2025",
+      "status": "Self-reported as met (2024 estimate) — pending official verification",
+      "statusText": "The 2024 Progress Report's citywide multi-year table shows total municipal GHG emissions down 42.13% from the 2007 baseline by 2024, exceeding the 40% target one year ahead of the 2025 deadline. This is OSR's own preliminary estimate (the report's table footnote states 'data subject to revision'); the official confirmation awaits the updated GHG inventory contracted in December 2025 (Directive 8), due June 2026.",
+      "inconsistencyFlag": {
+        "value": true,
+        "note": "The 2024 Progress Report's own prose states the 40% threshold 'was reached by 2023,' but its own table shows 2023 at only -39.31% — short of 40%. The table's 2024 figure (-42.13%) is the first year that actually crosses -40%. This site follows the table's numbers, not the report's prose claim, and flags the discrepancy explicitly rather than silently adopting either.",
+        "citation": {
+          "source": "progress2024",
+          "page": 6
+        }
+      },
+      "multiYearGhgTotal": {
+        "unit": "MTCO2e, % change from 2007 baseline",
+        "note": "Citywide total across electricity, natural gas, diesel, and unleaded gasoline. See citywide-energy-timeseries.json for the full by-fuel-type breakdown.",
+        "series": [
+          {
+            "year": 2007,
+            "totalMtco2e": 100487.8,
+            "pctChangeFrom2007": 0.0
+          },
+          {
+            "year": 2019,
+            "totalMtco2e": 69711.1,
+            "pctChangeFrom2007": -30.63
+          },
+          {
+            "year": 2022,
+            "totalMtco2e": 62807.2,
+            "pctChangeFrom2007": -37.5
+          },
+          {
+            "year": 2023,
+            "totalMtco2e": 60988.9,
+            "pctChangeFrom2007": -39.31
+          },
+          {
+            "year": 2024,
+            "totalMtco2e": 58152.2,
+            "pctChangeFrom2007": -42.13,
+            "note": "First year the 40% target is actually crossed, per the table's own numbers."
+          }
+        ]
+      },
+      "citation": {
+        "source": "progress2024",
+        "page": 6
+      }
+    },
+    {
       "number": 4,
       "text": "Recommend practices and tools to measure avoided costs and return on investment resulting from implementation of renewable energy projects.",
       "correspondingResolutionMandateId": "avoided-cost-tools",
       "status": "Completed",
       "statusText": "In September 2025, OSR awarded a contract to the consulting firm Nimble Energy to develop a comprehensive energy management and data analysis platform. Development of the software system is essentially complete, with fine-tuning and customization of the interface in progress. The system will identify energy-efficiency measures, enable significant reductions in energy use, and help identify optimal rates for each of the City's approximately 1,100 electrical service accounts with Duke Energy.",
-      "citation": { "source": "progress2025", "page": 6 },
-      "fundingLink": { "hasActiveFunding": true, "linkedTo": "funding.json > contracts > nimble-energy-2025", "note": "The Nimble Energy contract is this directive's entire status update." }
+      "citation": {
+        "source": "progress2025",
+        "page": 6
+      },
+      "fundingLink": {
+        "hasActiveFunding": true,
+        "linkedTo": "funding.json > contracts > nimble-energy-2025",
+        "note": "The Nimble Energy contract is this directive's entire status update."
+      }
     },
     {
       "number": 8,
@@ -17,8 +75,15 @@
       "status": "In Progress",
       "statusText": "In December 2025, OSR executed a contract with Fresh Coast Climate Solutions to prepare updated Greenhouse Gas inventories for 2022, 2023, and 2024, at both the community-wide and municipal operations levels, using widely accepted GHG reporting/validation protocols. Results will measure progress toward SEP emissions reduction goals and serve as a component of Greensboro's LEED for Cities recertification effort. Expected completion: June 2026. The contractor will also train OSR staff to prepare future inventories in-house.",
       "targetCompletionDate": "2026-06",
-      "citation": { "source": "progress2025", "page": 6 },
-      "fundingLink": { "hasActiveFunding": true, "linkedTo": "funding.json > contracts > fresh-coast-2025", "note": "The Fresh Coast Climate Solutions contract is this directive's entire status update." }
+      "citation": {
+        "source": "progress2025",
+        "page": 6
+      },
+      "fundingLink": {
+        "hasActiveFunding": true,
+        "linkedTo": "funding.json > contracts > fresh-coast-2025",
+        "note": "The Fresh Coast Climate Solutions contract is this directive's entire status update."
+      }
     },
     {
       "number": 9,
@@ -27,9 +92,27 @@
       "status": "Ongoing",
       "statusText": "The first annual progress report was published in March 2024. This document (Implementation Year Three) is the third annual progress report. OSR will continue to publish progress reports annually throughout SEP's implementation.",
       "correspondingPrioritizedAction": 28,
-      "citation": { "source": "progress2025", "page": 6 },
-      "fundingLink": { "hasActiveFunding": false, "note": "A recurring reporting obligation, not a funded initiative." }
+      "citation": {
+        "source": "progress2025",
+        "page": 6
+      },
+      "fundingLink": {
+        "hasActiveFunding": false,
+        "note": "A recurring reporting obligation, not a funded initiative."
+      }
     }
   ],
-  "dataGapNote": "The resolution mandates a biennial GHG inventory. The last confirmed inventory referenced by these documents is the 2019 inventory in the 2022 SEP; the next (covering 2022-2024) is contracted but not due until June 2026 — a multi-year gap between the 2019 data and the next official update, despite the two-year statutory cadence."
+  "dataGapNote": "The resolution mandates a biennial GHG inventory. The last confirmed inventory referenced by these documents is the 2019 inventory in the 2022 SEP; the next (covering 2022-2024) is contracted but not due until June 2026 — a multi-year gap between the 2019 data and the next official update, despite the two-year statutory cadence.",
+  "directiveStatusDefinitionsSource": {
+    "note": "OSR's own official status-word definitions, transcribed verbatim from the 2024 Progress Report. Used site-wide for Ongoing/In Progress/Initiated tooltips (see components.js STATUS_EXPLAIN) in place of this project's earlier inferred wording.",
+    "definitions": {
+      "Ongoing": "A program or standard practice that has been established, remains in effect, and continues indefinitely.",
+      "In Progress": "A project or program that has been started and will be completed after a finite period (whether the completion date is known or unknown).",
+      "Initiated": "The starting point of a project, task, program, or activity during the reporting period. In most cases, funding has been allocated and projects are pending."
+    },
+    "citation": {
+      "source": "progress2024",
+      "page": 19
+    }
+  }
 }

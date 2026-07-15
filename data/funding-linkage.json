@@ -1,5 +1,5 @@
 {
-  "_notes": "v2 (Step 3): adds an 'external' funding column alongside 'internal' (cited to sep2022/progress2025) and 'none'. Computed over departments.json's 21 department goals only — the new white-street-landfill entry has no 'goals' array (it's externalOnly) and is excluded from this goal-level rollup by construction. Regenerate this file if departments.json's fundingLink/dataGap fields change.",
+  "_notes": "v3 (2023/2024 merge): CI-G1 flips from unfunded to funded (EECBG grant confirmed by the 2024 Progress Report; see funding.json > eecbg-2024 > fundedActivities), while remaining dataGap:true for the 2025 report — the first 'funded but still gapped' case in this dataset, ending what had been a clean 100%-of-funded-goals-reported pattern. Computed over departments.json's 21 department goals only — the white-street-landfill entry has no 'goals' array (externalOnly) and is excluded by construction. Regenerate this file if departments.json's fundingLink/dataGap fields change.",
   "generatedFrom": "departments.json",
   "unitOfAnalysis": "department goal (21 total across 12 department/energy-source groupings)",
 
@@ -7,37 +7,37 @@
     "columns": ["internal", "external", "none"],
     "rows": ["reported", "gapped"],
     "internal_reported": 3,
-    "internal_gapped": 0,
+    "internal_gapped": 1,
     "external_reported": 1,
     "external_gapped": 0,
     "none_reported": 2,
-    "none_gapped": 15
+    "none_gapped": 14
   },
 
   "crossTabCollapsed": {
-    "_notes": "Same shape as the Step 2 version, for continuity — 'funded' now = internal + external.",
+    "_notes": "Same shape as prior versions, for continuity — 'funded' now = internal + external.",
     "fundedAndReported": 4,
-    "fundedAndGapped": 0,
+    "fundedAndGapped": 1,
     "unfundedAndReported": 2,
-    "unfundedAndGapped": 15
+    "unfundedAndGapped": 14
   },
 
   "headlineStats": {
-    "pctOfFundedGoalsReported": 100.0,
-    "pctOfUnfundedGoalsReported": 11.8,
+    "pctOfFundedGoalsReported": 80.0,
+    "pctOfUnfundedGoalsReported": 12.5,
     "pctOfReportedGoalsThatWereFunded": 66.7,
-    "pctOfGappedGoalsThatWereUnfunded": 100.0,
-    "totalFundedGoals": 4,
-    "totalFundedInternal": 3,
+    "pctOfGappedGoalsThatWereUnfunded": 93.3,
+    "totalFundedGoals": 5,
+    "totalFundedInternal": 4,
     "totalFundedExternal": 1,
-    "totalUnfundedGoals": 17,
+    "totalUnfundedGoals": 16,
     "totalReportedGoals": 6,
     "totalGappedGoals": 15
   },
 
   "verdict": {
-    "holds": "strengthened, still asymmetric",
-    "text": "Adding the externally-verified GTA funding moves one goal (transportation-diesel / TR-D-G1) from 'unfunded-but-reported' to 'funded-and-reported' — the pattern's exception count drops from 3 to 2. The core finding is now stronger: of 4 funded goals, 100% were reported; of 17 unfunded goals, only 12% were reported. The two remaining unfunded-but-reported goals (LED streetlamps, Police hybrid Interceptors) are both Duke-Energy-driven or routine-fleet-budget items — the same explanation as before. Notably, one of the three 'funded' goals owes its funding entirely to sources the City's own reporting never mentions: the GTA bus fleet is real, well-documented, and financially substantial ($22.4M+ across five federal/utility/settlement grants since 2016), and the Transit Director has publicly credited the SEP for the largest of these grants — yet none of it appears in either SEP source document. This means the two Progress Reports understate the SEP's demonstrated funding impact, not just its goal-tracking completeness.",
+    "holds": "still strong, no longer perfect",
+    "text": "Adding the 2023/2024 reports surfaced a fifth funded goal — CI-G1 (Community Incentives), funded by the same December 2024 EECBG grant that also funds Rec 3/5/8 — that was NOT reported on in the 2025 Progress Report, ending what had been a clean 100%-of-funded-goals-reported pattern. The revised finding: 80% of funded goals were reported (4 of 5) vs. 12.5% of unfunded goals (2 of 16) — funding is still by far the strongest predictor of reporting, just not a perfect one anymore. CI-G1 is also a 'wentSilent' case (see departments.json): Initiated in both the 2023 and 2024 reports, then absent from 2025 entirely, despite real grant money behind it. A funded goal going silent is a stronger accountability signal than an unfunded one going silent, and is worth its own visual treatment. Separately, adding the externally-verified GTA funding (TR-D-G1) still moves one goal from 'unfunded-but-reported' to 'funded-and-reported': the GTA bus fleet is real, well-documented, and financially substantial ($22.4M+ across five federal/utility/settlement grants since 2016), and the Transit Director has publicly credited the SEP for the largest of these grants — yet none of it appears in either SEP source document, meaning the Progress Reports understate the SEP's demonstrated funding impact, not just its goal-tracking completeness.",
     "citation": { "sourceType": "external", "publisher": "Gillig / City of Greensboro Transit Department", "title": "Transit Department Awarded $22.4 Million for Battery-Electric Buses, Hybrid Buses and Vehicle Chargers", "url": "https://www.gillig.com/2024/07/10/transit-department-awarded-22-4-million-for-battery-electric-buses-hybrid-buses-and-vehicle-charge/", "retrievedDate": "2026-07-14" }
   },
 
@@ -52,11 +52,11 @@
     { "id": "police-gasoline", "energySource": "gasoline", "goals": 2, "fundedPct": 0.0, "reportedPct": 50.0 },
     { "id": "transportation-gasoline", "energySource": "gasoline", "goals": 1, "fundedPct": 0.0, "reportedPct": 0.0 },
     { "id": "field-operations-diesel", "energySource": "diesel", "goals": 1, "fundedPct": 0.0, "reportedPct": 0.0 },
-    { "id": "transportation-diesel", "energySource": "diesel", "goals": 1, "fundedPct": 100.0, "fundedType": "external", "reportedPct": 100.0, "note": "Updated Step 3: was 0% funded in the Step 2 rollup." },
-    { "id": "community-incentives", "energySource": "communityIncentives", "goals": 2, "fundedPct": 0.0, "reportedPct": 50.0 }
+    { "id": "transportation-diesel", "energySource": "diesel", "goals": 1, "fundedPct": 100.0, "fundedType": "external", "reportedPct": 100.0 },
+    { "id": "community-incentives", "energySource": "communityIncentives", "goals": 2, "fundedPct": 50.0, "reportedPct": 0.0, "note": "Updated in the 2023/2024 merge: CI-G1 is now funded (EECBG) but remains gapped; CI-G2 remains unfunded and gapped. Both goals in this grouping are unreported for 2025, despite one being funded." }
   ],
 
-  "notablePattern": "Natural gas goals (Coliseum, Parks & Rec, Fire — 4 goals total) remain a clean 100% funding/reporting blackout, and are now explicitly flagged `deprioritizedInSource` in departments.json — the 2022 SEP itself deprioritized natural gas, so this gap is a documented choice made visible, not a surprising omission, and should read differently in the UI than the other 15 gapped goals.",
+  "notablePattern": "Natural gas goals (Coliseum, Parks & Rec, Fire — 4 goals total) remain a clean 100% funding/reporting blackout, and are explicitly flagged `deprioritizedInSource` in departments.json — the 2022 SEP itself deprioritized natural gas, so this gap is a documented choice made visible, not a surprising omission, and should read differently in the UI than the other gapped goals. Separately, three goals (TR-GAS-G1, FO-G1, CI-G1) now carry a `wentSilent` flag: confirmed Initiated activity in both the 2023 and 2024 reports, followed by zero mention in 2025. CI-G1 is the most notable of the three since it's also funded — a goal with real grant money behind it that still dropped out of the newest report.",
 
   "goalLevelDetail": [
     { "goalId": "WR-G1",    "dept": "water-resources",             "funded": false, "fundedType": "none",     "reported": false },
@@ -75,10 +75,10 @@
     { "goalId": "FIRE-NG-G2","dept": "fire-natural-gas",           "funded": false, "fundedType": "none",     "reported": false, "deprioritizedInSource": true },
     { "goalId": "POL-G1",   "dept": "police-gasoline",             "funded": false, "fundedType": "none",     "reported": true },
     { "goalId": "POL-G2",   "dept": "police-gasoline",             "funded": false, "fundedType": "none",     "reported": false },
-    { "goalId": "TR-GAS-G1","dept": "transportation-gasoline",     "funded": false, "fundedType": "none",     "reported": false },
-    { "goalId": "FO-G1",    "dept": "field-operations-diesel",     "funded": false, "fundedType": "none",     "reported": false },
+    { "goalId": "TR-GAS-G1","dept": "transportation-gasoline",     "funded": false, "fundedType": "none",     "reported": false, "wentSilent": true },
+    { "goalId": "FO-G1",    "dept": "field-operations-diesel",     "funded": false, "fundedType": "none",     "reported": false, "wentSilent": true },
     { "goalId": "TR-D-G1",  "dept": "transportation-diesel",       "funded": true,  "fundedType": "external", "reported": true,  "fundingSource": "5 external grants, see funding.json > externalGrants" },
-    { "goalId": "CI-G1",    "dept": "community-incentives",        "funded": false, "fundedType": "none",     "reported": false },
+    { "goalId": "CI-G1",    "dept": "community-incentives",        "funded": true,  "fundedType": "internal", "reported": false, "fundingSource": "eecbg-2024", "wentSilent": true, "note": "Funded AND wentSilent — the notable exception to the 'funding predicts reporting' pattern." },
     { "goalId": "CI-G2",    "dept": "community-incentives",        "funded": false, "fundedType": "none",     "reported": false }
   ]
 }

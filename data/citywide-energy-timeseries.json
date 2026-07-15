@@ -1,0 +1,166 @@
+{
+  "_notes": "This is a DISTINCT citywide-total time series from baseline-2019.json's SEP-sourced tables. Prepared by OSR itself (2024 Progress Report, p.6) as an 'estimate' for 2022-2024, using different underlying data sources than the original 2022 SEP (Piedmont Natural Gas direct data, USEPA eGrid Virginia/Carolinas emissions factors) and explicitly marked 'data subject to revision' by its own footnote. Electricity and Diesel figures reconcile closely with the original SEP's Table 1/Table 10 2007/2019 figures; Natural Gas and Unleaded gasoline do NOT (see reconciliationNote below) — flagged rather than silently merged or overwritten. No department-level breakdown exists for 2022-2024 in either report — this is citywide-total only.",
+  "citation": {
+    "source": "progress2024",
+    "page": 6,
+    "table": "Energy Use in City Operations / Estimated GHG Emissions from City Operations"
+  },
+  "reconciliationNote": {
+    "reconciles": [
+      "Electricity (MWh)",
+      "Diesel (gal)"
+    ],
+    "doesNotReconcile": [
+      "Natural Gas",
+      "Unleaded/Gasoline (gal)"
+    ],
+    "detail": "For the same nominal 2019 baseline: this series states Natural Gas as 834,468 therms (~83,427-83,447 MMBtu converted), vs. the original SEP's Table 1/Table 10 figure of 94,872 MMBTU — an ~12% gap. This series states Unleaded as 792,941 gal, vs. the original SEP's Table 1/Table 10 'Gasoline' figure of 1,181,995 gal — a ~33% gap. Electricity (139,414.4 vs. 139,414 MWh) and Diesel (1,478,395.0 vs. 1,478,395 gal) match almost exactly. Not resolved to a single authoritative number — both series are shown, separately labeled."
+  },
+  "energyUseOriginalUnits": {
+    "unit": "Electricity: MWh · Natural Gas: Therms · Diesel/Unleaded/B20 Biodiesel: gal",
+    "series": {
+      "electricityMwh": {
+        "2007": 141392.1,
+        "2019": 139414.4,
+        "2022": 135589.6,
+        "2023": 135920.8,
+        "2024": 121890.9
+      },
+      "naturalGasTherms": {
+        "2007": 797149.0,
+        "2019": 834468.0,
+        "2022": 1003434.0,
+        "2023": 1053035.0,
+        "2024": 1114891.0
+      },
+      "dieselGal": {
+        "2007": 1261650.4,
+        "2019": 1478395.0,
+        "2022": 1285079.6,
+        "2023": 1276295.4,
+        "2024": 1308965.2
+      },
+      "unleadedGal": {
+        "2007": 803444.2,
+        "2019": 792941.0,
+        "2022": 630263.5,
+        "2023": 623315.2,
+        "2024": 652225.3
+      },
+      "b20BiodieselGal": {
+        "2007": 389686.9,
+        "2019": 0.0,
+        "2022": 0.0,
+        "2023": 0.0,
+        "2024": 0.0
+      }
+    }
+  },
+  "energyUseCommonUnitsMmbtu": {
+    "series": {
+      "electricity": {
+        "2007": 482450.1,
+        "2019": 475701.7,
+        "2022": 462650.8,
+        "2023": 463781.2,
+        "2024": 415909.2
+      },
+      "naturalGas": {
+        "2007": 79695.8,
+        "2019": 83426.9,
+        "2022": 100319.4,
+        "2023": 105278.3,
+        "2024": 111462.5
+      },
+      "diesel": {
+        "2007": 173326.8,
+        "2019": 203103.4,
+        "2022": 176545.5,
+        "2023": 175338.7,
+        "2024": 179826.9
+      },
+      "unleaded": {
+        "2007": 96643.1,
+        "2019": 95379.7,
+        "2022": 75811.9,
+        "2023": 74976.1,
+        "2024": 78453.6
+      },
+      "b20Biodiesel": {
+        "2007": 49587.7,
+        "2019": 0.0,
+        "2022": 0.0,
+        "2023": 0.0,
+        "2024": 0.0
+      },
+      "total": {
+        "2007": 881703.5,
+        "2019": 857611.6,
+        "2022": 815327.6,
+        "2023": 819374.4,
+        "2024": 785652.6
+      }
+    },
+    "pctChangeFrom2007": {
+      "2007": 0.0,
+      "2019": -2.73,
+      "2022": -7.53,
+      "2023": -7.07,
+      "2024": -10.89
+    }
+  },
+  "ghgEmissionsMtco2e": {
+    "series": {
+      "electricity": {
+        "2007": 72128.6,
+        "2019": 42948.4,
+        "2022": 38510.3,
+        "2023": 36564.9,
+        "2024": 32790.8
+      },
+      "naturalGas": {
+        "2007": 4468.2,
+        "2019": 4678.4,
+        "2022": 5625.7,
+        "2023": 5603.8,
+        "2024": 6250.0
+      },
+      "diesel": {
+        "2007": 12822.3,
+        "2019": 15023.3,
+        "2022": 13058.8,
+        "2023": 12969.6,
+        "2024": 13301.9
+      },
+      "unleaded": {
+        "2007": 7162.0,
+        "2019": 7061.1,
+        "2022": 5612.5,
+        "2023": 5550.6,
+        "2024": 5809.4
+      },
+      "b20Biodiesel": {
+        "2007": 3906.7,
+        "2019": 0.0,
+        "2022": 0.0,
+        "2023": 0.0,
+        "2024": 0.0
+      },
+      "total": {
+        "2007": 100487.8,
+        "2019": 69711.1,
+        "2022": 62807.2,
+        "2023": 60988.9,
+        "2024": 58152.2
+      }
+    },
+    "pctChangeFrom2007": {
+      "2007": 0.0,
+      "2019": -30.63,
+      "2022": -37.5,
+      "2023": -39.31,
+      "2024": -42.13
+    }
+  },
+  "sourceFootnote": "Electricity use data from Duke Energy; natural gas use data from Piedmont Natural Gas; unleaded, diesel, and biodiesel data from the City of Greensboro; emissions factors from USEPA eGrid Virginia/Carolinas sub-region; global warming potentials from IPCC 4th, 5th, and 6th Assessment Reports. (Data subject to revision.)"
+}

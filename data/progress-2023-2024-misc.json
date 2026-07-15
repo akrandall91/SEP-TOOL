@@ -1,0 +1,90 @@
+{
+  "_notes": "Mirrors progress-2025-misc.json's structure for the 2023 and 2024 reporting years. Kept as a separate file (rather than renaming/restructuring progress-2025-misc.json) per the instruction not to restructure existing files.",
+  "hhwStatistics": {
+    "citation": {
+      "source": "progress2024",
+      "page": 8
+    },
+    "note": "2023 column also independently stated in the 2023 report (progress2023, p.8): calls 2,972, facility visitors 22,847, tons HHW 961, tons electronics 362, tons diverted 1,323 — matches Report B's 2023 column exactly.",
+    "byYear": {
+      "2023": {
+        "callsToHotline": 2972,
+        "facilityVisitors": 22847,
+        "tonsHhwCollected": 961,
+        "tonsElectronicsCollected": 362,
+        "totalTonsDivertedFromLandfills": 1323
+      },
+      "2024": {
+        "callsToHotline": 3361,
+        "facilityVisitors": 23495,
+        "tonsHhwCollected": 876,
+        "tonsElectronicsCollected": 361,
+        "totalTonsDivertedFromLandfills": 1237
+      }
+    }
+  },
+  "foodWasteCollectionPilot": {
+    "citation": {
+      "source": "progress2024",
+      "page": 9
+    },
+    "startDate": "2023-04",
+    "startLocation": "Greensboro Farmers Curb Market",
+    "expansionNote": "Moved to Deep Roots Market (Oct. 2023); second drop-off at Congregational United Church of Christ added March 2024. Cart count tripled and pickup frequency increased due to demand.",
+    "totals2023": {
+      "totalDiverted": "2.788 tons (5,576 lbs)",
+      "estimatedGhgAvoidedMtco2e": 2.34,
+      "citation": {
+        "source": "progress2023",
+        "page": 8
+      }
+    },
+    "totals2024": {
+      "cartloads": 205,
+      "pounds": 50981,
+      "shortTons": 25.49,
+      "ghgEmissionsAvoidedMtco2e": 16.6,
+      "methodNote": "Estimated using the US EPA Waste Reduction Model (WARM).",
+      "citation": {
+        "source": "progress2024",
+        "page": 9
+      }
+    }
+  },
+  "treeCanopyEquityPrioritizationTimeline": {
+    "citation": {
+      "source": "progress2024",
+      "page": 10
+    },
+    "grantAwarded": "2023-09",
+    "grantAmountUsd": 825000,
+    "grantSource": "USDA Forest Service (Inflation Reduction Act)",
+    "studyKickoff": "2024-09",
+    "consultant": "Planning Communities, LLC",
+    "assessmentCompleted": "2024-12",
+    "eptProjectedCompletion": "early 2025 (as stated in the 2024 report)",
+    "eptActualLaunch": "2025-11",
+    "eptTimelineNote": "Timeline refinement, not a contradiction: the 2024 report's 'early 2025' completion projection for the Equity Prioritization Tool slipped to an actual November 2025 hub launch, per the 2025 Progress Report already on this site."
+  },
+  "cscRosterCheck": {
+    "note": "Checked, immaterial: CSC roster is largely stable across the 2024 (this file) and 2025 (progress-2025-misc.json) reports. Report B (2024) lists Marikay Abuzuaiter as a non-counted liaison and 'Conor Baker, Chair'; the 2025 report lists Baker as 'Co-Chair' and doesn't separately list a liaison. Label variance only — no membership change identified.",
+    "citation": {
+      "source": "progress2024",
+      "page": 4
+    }
+  },
+  "buildingLogiX": {
+    "note": "Energy sub-metering system installed October 2024, providing real-time electricity monitoring in the City's 10 largest buildings.",
+    "citation": {
+      "source": "progress2024",
+      "page": 14
+    }
+  },
+  "leaveTheLeaves2023": {
+    "note": "Approx. 200 residents pledged to leave/mulch leaves from ~2,300 trees (2023); grew to ~285 households and ~3,027 trees by 2024 per the 'Greensboro's Prettiest Landscape Contest' coverage.",
+    "citation": {
+      "source": "progress2023",
+      "page": 9
+    }
+  }
+}
