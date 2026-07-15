@@ -1,0 +1,65 @@
+{
+  "source": "GTA (Greensboro Transit Authority) GTFS + GTFS-Realtime, via trackmygta.com (GMV Syncromatics)",
+  "fetchedAt": "2026-07-15T09:14:27.679016+00:00",
+  "targetRoute": {
+    "shortName": "CMP",
+    "longName": "CrossMax Purple"
+  },
+  "weekdayHeadway": {
+    "routeId": "6349",
+    "serviceId": "1",
+    "tripCountOneDirectionOneWeekday": 66,
+    "firstDeparture": "04:57",
+    "lastDeparture": "23:57",
+    "headwayMinutes": {
+      "mean": 17.5,
+      "median": 22,
+      "min": 0,
+      "max": 39,
+      "distribution": {
+        "0": 1,
+        "6": 2,
+        "8": 22,
+        "9": 1,
+        "11": 1,
+        "15": 1,
+        "19": 1,
+        "21": 1,
+        "22": 22,
+        "26": 6,
+        "28": 1,
+        "34": 5,
+        "39": 1
+      }
+    }
+  },
+  "liveVehiclePositions": {
+    "feedTimestampUtc": "2026-07-15T09:14:27+00:00",
+    "totalActiveVehicles": 18,
+    "activeVehiclesByRoute": {
+      "17": 1,
+      "CMP": 5,
+      "6": 2,
+      "Southtown": 1,
+      "3": 1,
+      "5": 1,
+      "11": 1,
+      "12": 1,
+      "4": 1,
+      "2": 1,
+      "9": 1,
+      "14": 1,
+      "13": 1
+    },
+    "activeVehiclesOnTargetRoute": 5,
+    "activeServiceAlerts": 0
+  },
+  "comparisonNote": "The 2024 Progress Report describes CrossMax Purple as '10,000 riders/week, 15-minute service.' GTFS/GTFS-RT carry schedule and live-vehicle data only \u2014 no ridership figures exist in either feed, so the 10,000-riders/week claim cannot be checked here and is not restated as verified. The 15-minute-service claim is checked against the static schedule's own weekday departure times \u2014 see weekdayHeadway.headwayMinutes for the actual computed mean/median/distribution, which may show a non-uniform pattern rather than a flat 15-minute clock-face headway.",
+  "citation": {
+    "sourceType": "external",
+    "publisher": "Greensboro Transit Authority / GMV Syncromatics",
+    "title": "GTA GTFS static feed and GTFS-Realtime vehicle positions/alerts feeds",
+    "url": "https://trackmygta.com/gtfs",
+    "retrievedDate": "2026-07-15"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "source": "Greensboro Legistar Web API (webapi.legistar.com/v1/greensboro)",
+  "fetchedAt": "2026-07-15T09:16:09.427109+00:00",
+  "matters": {
+    "sep_authorizing_resolution": {
+      "matterId": 6283,
+      "matterFile": "ID 19-0770",
+      "title": "Resolution to Support Establishment of a 20-Year Strategic Energy Plan and Goals to Transition to 100% Renewable Energy for The City Of Greensboro",
+      "type": "Resolution",
+      "status": "Passed",
+      "introDate": "2019-11-07T00:00:00",
+      "agendaDate": "2019-12-03T00:00:00",
+      "passedDate": "2019-12-03T00:00:00",
+      "actions": [
+        {
+          "date": "2019-12-03T00:00:00",
+          "action": "adopt",
+          "actionText": "Moved by Councilmember Thurm, seconded by Councilmember Wells, to adopt the resolution. The motion carried on the following roll call vote:",
+          "passed": true,
+          "passedLabel": "Pass",
+          "isRollCallVote": false,
+          "mover": "Tammi Thurm",
+          "seconder": "Goldie F. Wells",
+          "body": "City Council"
+        }
+      ],
+      "legistarUrl": "https://greensboro.legistar.com/LegislationDetail.aspx?ID=BE15F1F9-8955-4FEB-ABCD-89B8632B5E6F"
+    },
+    "sep_extension_resolution": {
+      "matterId": 7002,
+      "matterFile": "ID 20-0655",
+      "title": "Resolution to Extend Time for Development of a 20-Year Strategic Energy Plan and Goals to Transition to 100% Renewable Energy for the City Of Greensboro",
+      "type": "Resolution",
+      "status": "Passed",
+      "introDate": "2020-09-03T00:00:00",
+      "agendaDate": "2020-09-15T00:00:00",
+      "passedDate": "2020-09-15T00:00:00",
+      "actions": [],
+      "legistarUrl": "https://greensboro.legistar.com/LegislationDetail.aspx?ID=CC6FBA11-AC18-40C9-8C71-1614EFEC339E"
+    }
+  },
+  "searchTermsTriedNoMatch": [
+    "EECBG",
+    "Nimble Energy",
+    "Fresh Coast",
+    "Tree Canopy"
+  ],
+  "searchNote": "Keyword searches (substringof on MatterTitle) for the EECBG grant, the Nimble Energy and Fresh Coast Climate Solutions contracts, and the USDA Tree Canopy grant returned no results as of this fetch. Most likely these were administrative/staff-level actions below whatever dollar threshold requires a Council resolution or ordinance, not gaps in this search. Not restated as findings; listed here as terms tried.",
+  "citation": {
+    "sourceType": "external",
+    "publisher": "City of Greensboro / Legistar (Granicus)",
+    "title": "Legistar Web API — matters, matter history/votes",
+    "url": "https://webapi.legistar.com/v1/greensboro",
+    "retrievedDate": "2026-07-15"
+  }
+}

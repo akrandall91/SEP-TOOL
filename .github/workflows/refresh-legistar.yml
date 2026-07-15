@@ -1,0 +1,46 @@
+name: Refresh Legistar snapshot
+
+# Runs server-side because webapi.legistar.com serves no CORS headers (confirmed by direct
+# request), so a browser on a different origin can't fetch it client-side. Writes
+# data/live/legistar-snapshot.json and commits it back, same pattern as refresh-grid-mix.yml.
+# No API key required — this is a public read-only Legistar Web API.
+#
+# VERIFIED END-TO-END: this script was run for real against webapi.legistar.com/v1/greensboro
+# before this workflow was written — see scripts/fetch_legistar_snapshot.py's docstring.
+#
+# Weekly cadence: Council legislative records for a resolution adopted in 2019/2020 change close
+# to never — this just needs to re-confirm the record is still there and catch the rare case of a
+# newly-filed SEP-related matter showing up under one of the tried search terms in the future.
+
+on:
+  schedule:
+    - cron: "0 13 * * 1" # every Monday 13:00 UTC (~9am ET), same slot as the EIA grid-mix refresh
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch Legistar snapshot
+        run: python scripts/fetch_legistar_snapshot.py
+
+      - name: Commit updated data if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- data/live/legistar-snapshot.json; then
+            git add data/live/legistar-snapshot.json
+            git commit -m "chore: refresh Legistar snapshot [automated]"
+            git push
+          else
+            echo "No changes to legistar-snapshot.json — skipping commit."
+          fi

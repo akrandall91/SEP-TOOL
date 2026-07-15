@@ -1,0 +1,53 @@
+name: Refresh EPA AQS air-quality snapshot
+
+# Writes data/live/aqs-snapshot.json and commits it back, same pattern as refresh-grid-mix.yml.
+#
+# SETUP REQUIRED before this workflow will succeed:
+#   1. Request an AQS API key: https://aqs.epa.gov/data/api/signup?email=<your-email>
+#      Unlike the EIA/Census keys, this one is NOT instant — it's emailed after signup, so there is
+#      a manual wait involved before repository secrets can be set.
+#   2. Add AQS_EMAIL (the email you signed up with) and AQS_KEY (the key from that email) as
+#      repository secrets (Settings > Secrets and variables > Actions > New repository secret).
+#
+# Until both secrets exist, this workflow is EXPECTED to fail at the fetch step (by design —
+# scripts/fetch_aqs_snapshot.py exits non-zero after writing a "pending-api-key" placeholder file).
+# That placeholder is committed once as part of this integration's initial commit so the site has
+# something real to read and render a "pending API key" state — this workflow will only start
+# committing live updates once real credentials are added and the fetch step starts succeeding.
+
+on:
+  schedule:
+    - cron: "0 12 * * *" # daily 12:00 UTC — AQS daily-summary data updates roughly daily with a lag
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch AQS ozone data
+        env:
+          AQS_EMAIL: ${{ secrets.AQS_EMAIL }}
+          AQS_KEY: ${{ secrets.AQS_KEY }}
+        run: python scripts/fetch_aqs_snapshot.py
+
+      - name: Commit updated data if changed
+        if: success() # only reached (and only commits) once real credentials make the fetch step succeed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- data/live/aqs-snapshot.json; then
+            git add data/live/aqs-snapshot.json
+            git commit -m "chore: refresh EPA AQS air-quality snapshot [automated]"
+            git push
+          else
+            echo "No changes to aqs-snapshot.json — skipping commit."
+          fi

@@ -1,0 +1,5 @@
+{
+  "status": "pending-api-key",
+  "note": "EPA AQS requires an emailed API key (no synchronous self-serve issuance). This integration is built and endpoint-verified but not yet running with real credentials. See scripts/fetch_aqs_snapshot.py for setup steps.",
+  "checkedAt": "2026-07-15T09:18:30.870266+00:00"
+}

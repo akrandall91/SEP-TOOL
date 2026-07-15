@@ -1,0 +1,52 @@
+name: Refresh Census ACS vulnerable-communities data
+
+# Writes data/live/census-acs.json and commits it back, same pattern as refresh-grid-mix.yml.
+#
+# SETUP REQUIRED before this workflow will succeed:
+#   1. Register a free, instant Census API key: https://api.census.gov/data/key_signup.html
+#   2. Add it as a repository secret named CENSUS_API_KEY
+#      (Settings > Secrets and variables > Actions > New repository secret)
+# Until that secret exists, this workflow will fail at the fetch step — by design
+# (scripts/fetch_census_acs.py exits non-zero rather than writing bad data). The endpoint/params
+# were verified against a live (keyless) request in the session this was written in — see that
+# script's docstring — but a full authenticated run was not completed end-to-end in this
+# environment. Verify the first live run's output shape before trusting it in production.
+#
+# Annual cadence: ACS 5-year estimates only update once a year.
+
+on:
+  schedule:
+    - cron: "0 13 1 * *" # 1st of each month, 13:00 UTC — far more often than the data actually
+      # changes, but cheap and catches a new ACS vintage release promptly
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch Census ACS data
+        env:
+          CENSUS_API_KEY: ${{ secrets.CENSUS_API_KEY }}
+        run: python scripts/fetch_census_acs.py
+
+      - name: Commit updated data if changed
+        if: success() # only reached (and only commits) once the CENSUS_API_KEY secret makes the fetch step succeed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- data/live/census-acs.json; then
+            git add data/live/census-acs.json
+            git commit -m "chore: refresh Census ACS vulnerable-communities data [automated]"
+            git push
+          else
+            echo "No changes to census-acs.json — skipping commit."
+          fi

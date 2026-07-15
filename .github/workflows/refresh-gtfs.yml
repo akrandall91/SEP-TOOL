@@ -1,0 +1,47 @@
+name: Refresh GTA GTFS/GTFS-RT snapshot
+
+# Runs server-side because trackmygta.com serves no CORS headers (confirmed by direct request —
+# see scripts/fetch_gtfs_snapshot.py docstring), so a browser on a different origin can't fetch it
+# client-side. Writes data/live/gtfs-snapshot.json and commits it back, same pattern as
+# refresh-grid-mix.yml. No API key required.
+#
+# VERIFIED END-TO-END: this script was run for real against the live trackmygta.com feeds before
+# this workflow was written — see scripts/fetch_gtfs_snapshot.py's docstring for the actual output.
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # daily 06:00 UTC (~2am ET) — vehicle positions are a point-in-time
+      # snapshot regardless of when it runs; the schedule itself doesn't change often enough to need
+      # more frequent runs
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install GTFS-Realtime protobuf bindings
+        run: pip install gtfs-realtime-bindings
+
+      - name: Fetch GTA GTFS snapshot
+        run: python scripts/fetch_gtfs_snapshot.py
+
+      - name: Commit updated data if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- data/live/gtfs-snapshot.json; then
+            git add data/live/gtfs-snapshot.json
+            git commit -m "chore: refresh GTA GTFS snapshot [automated]"
+            git push
+          else
+            echo "No changes to gtfs-snapshot.json — skipping commit."
+          fi

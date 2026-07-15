@@ -1,0 +1,5 @@
+{
+  "status": "pending-api-key",
+  "note": "Census API requires a free, instant self-serve key that has not yet been added to this repository's secrets. Endpoint/params verified live (unauthenticated request returned the expected 'Missing Key' response) \u2014 see scripts/fetch_census_acs.py.",
+  "checkedAt": "2026-07-15T09:23:40.229162+00:00"
+}
