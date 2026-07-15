@@ -1,0 +1,48 @@
+name: Refresh Duke Energy grid-mix data
+
+# Runs server-side so the EIA_API_KEY never ships to client-side JS. Writes
+# data/live/grid-mix.json and commits it back to the repo, same as any other
+# data/*.json file the site already reads.
+#
+# SETUP REQUIRED before this workflow will succeed:
+#   1. Register a free EIA API key: https://www.eia.gov/opendata/register.php
+#   2. Add it as a repository secret named EIA_API_KEY
+#      (Settings > Secrets and variables > Actions > New repository secret)
+# Until that secret exists, this workflow will fail at the fetch step — by
+# design (scripts/fetch_grid_mix.py exits non-zero rather than writing bad
+# data). Not run/verified end-to-end in the environment this was written in.
+
+on:
+  schedule:
+    - cron: "0 13 * * 1" # every Monday 13:00 UTC (~9am ET)
+  workflow_dispatch: {} # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch grid mix from EIA
+        env:
+          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
+        run: python scripts/fetch_grid_mix.py
+
+      - name: Commit updated data if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- data/live/grid-mix.json; then
+            git add data/live/grid-mix.json
+            git commit -m "chore: refresh Duke Energy grid-mix data [automated]"
+            git push
+          else
+            echo "No changes to grid-mix.json — skipping commit."
+          fi

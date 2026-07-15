@@ -273,7 +273,14 @@ function renderWhiteStreetLandfillPage(wsl, departments, fundingData) {
       <p>${wsl.crossReferencedFrom.note}</p>
       <p><a href="water-resources.html">← See Water Resources Goal ${wrGoal3.number}: ${wrGoal3.text}</a></p>
     </div>
+    <div id="pvwatts-mount"></div>
   `;
+  if (typeof renderPVWattsWidget === "function") {
+    renderPVWattsWidget(document.getElementById("pvwatts-mount"), {
+      lat: 36.0568, lon: -79.7712, systemCapacityKw: 1000,
+      siteName: "White Street Landfill (approximate area — the existing 4.8 MW array already occupies part of this site; this estimates additional/comparable capacity)",
+    });
+  }
 }
 
 async function init() {
@@ -297,6 +304,15 @@ async function init() {
   } else {
     renderHeaderAndChart(dept);
     renderGoalsSection(dept, wsl, fundingData);
+  }
+
+  if (deptId === "buildings-ei" && typeof renderPVWattsWidget === "function") {
+    const mount = document.createElement("div");
+    document.getElementById("goals-section-wrap").appendChild(mount);
+    renderPVWattsWidget(mount, {
+      lat: 36.0693, lon: -79.7936, systemCapacityKw: 50,
+      siteName: "Central Library rooftop (Table 12 — approximate downtown Greensboro location, not a geocoded roof address)",
+    });
   }
 
   initCitePopovers(document.body);

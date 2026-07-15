@@ -79,6 +79,41 @@
     <li>2025 Annual Progress Report &amp; Strategic Energy Plan Implementation Year Three — City of Greensboro OSR, February 2026</li>
   </ul>
   <p>All extracted data, with full citations, is public: <a href="data/index.json">data/index.json</a>.</p>
+
+  <h2>Live external data sources (in progress)</h2>
+  <p>Beyond the two static source documents, this tool is starting to pull live data directly
+  from City systems, verified working rather than assumed:</p>
+  <ul>
+    <li><strong>NREL PVWatts</strong> — a live "estimate solar potential" calculator on the
+      <a href="departments/white-street-landfill.html">White Street Landfill</a> and
+      <a href="departments/buildings-ei.html">Buildings (Engineering &amp; Inspections)</a> pages,
+      calling NREL's PVWatts v8 API directly from your browser. Confirmed working with real output
+      during testing (verified 2026-07). Worth flagging: NREL's developer API migrated domains as
+      of a May 2026 reorganization — the lab is now branded "National Laboratory of the Rockies"
+      (NLR) and the API now lives at <code>developer.nlr.gov</code> rather than the old
+      <code>developer.nrel.gov</code>, which no longer resolves.</li>
+    <li><strong>Canopy Hub</strong> (<code>canopy.greensboro-nc.gov</code>) — the City's Esri Hub
+      site for the tree canopy/equity prioritization project. Its Search API is live and returns
+      real GIS layers, including <code>CEJST_Districts2024</code> (a federal environmental-justice
+      districts layer) and <code>Neighborhoods_Point</code> — both real FeatureServer endpoints,
+      confirmed live below:
+      <div class="card" style="margin-top:8px;font-size:var(--font-size-sm);" id="canopy-hub-demo">Checking live…</div>
+    </li>
+    <li><strong>Open Gate City</strong> (<code>data.greensboro-nc.gov</code>) — confirmed live,
+      79 datasets, including Code Compliance case history, Fire incidents, and Police crime data
+      via the same Esri Hub Search API pattern. Not yet wired into a specific page.</li>
+    <li><strong>Gate City Budget</strong> (<code>budget.greensboro-nc.gov</code>) — checked, but
+      its Search API returned the <em>same</em> generic city-wide catalog as Open Gate City above,
+      not a distinct CIP/budget-line-item dataset. No Capital Improvements Program data was found
+      at this endpoint to cross-reference against the energy-cost figures in
+      <a href="data/baseline-2019.json">baseline-2019.json</a>. Flagged as an open question rather
+      than a working integration — City budget/CIP data may live in a separate system (e.g. a
+      dedicated OpenGov/Socrata budget explorer) not yet identified.</li>
+    <li><strong>EIA grid-mix data</strong> for Duke Energy Carolinas — infrastructure exists
+      (<code>.github/workflows/refresh-grid-mix.yml</code>, a scheduled GitHub Action) but is
+      <strong>not yet running</strong>: it needs a free EIA API key added as a repository secret.
+      Until then, <code>data/live/grid-mix.json</code> does not exist.</li>
+  </ul>
 </main>
 
 <!-- BUILD:FOOTER -->
@@ -105,5 +140,6 @@
 </footer>
 
 <!-- /BUILD:FOOTER -->
+<script src="assets/js/live-data-demo.js"></script>
 </body>
 </html>

@@ -110,6 +110,40 @@ Per the build notes, places where the source itself doesn't have an answer are m
 - Appendix A (Resolution 19-0770) was image-only in the source PDF (no extractable text layer) — rendered to PNG and transcribed by direct reading, not OCR guesswork.
 - `departments.json`'s 21 goals cross-checked programmatically against `funding-linkage.json`'s cross-tab totals (goal counts must sum to 21 in every recomputation).
 
-## Not yet built
+## Build status (final pass)
 
-The comparison engine beyond Water Resources, the homepage rollup, the Recommendations & Actions board, and the live API layer (Open Gate City, Gate City Budget, Canopy Hub, EIA, EPA eGRID, NREL PVWatts, CDC/ATSDR SVI, Guilford County GIS) are not started. The Water Resources department page is the first UI built, as the reference pattern for templating the rest.
+All 13 department pages, the Recommendations & Actions board, Funding tracker, Timeline, and the
+real homepage rollup are built and verified (zero console errors, computed values cross-checked
+against source data, filter/sort interactions tested). `build.py` now bakes both the shell
+(header/footer) and page content data (`BUILD:DATA` markers) into every page at build time, so
+the whole site works over `file://` with no server — except the department pages' JSON data
+specifically requires the baked blocks to exist (they gracefully fall back to `fetch()` if a page
+lacks them, which still needs a server).
+
+## Live/external data layer (Phase 4)
+
+- **NREL PVWatts** — genuinely live, verified end-to-end with a real browser API call (not just
+  code review): a client-side "estimate solar potential" widget on the White Street Landfill and
+  Buildings/E&I pages (`assets/js/pvwatts-widget.js`). Surprising finding from verification: NREL's
+  developer API domain migrated from `developer.nrel.gov` (now returns DNS failure) to
+  `developer.nlr.gov` as of a May 2026 reorganization — the lab is now branded "National
+  Laboratory of the Rockies." Uses the public rate-limited `DEMO_KEY`; swap in a registered key for
+  production traffic. Site coordinates are approximate (Greensboro-area defaults, not geocoded
+  addresses) and adjustable in the widget — flagged in the UI, not presented as precise.
+- **Canopy Hub** (`canopy.greensboro-nc.gov`) — Esri Hub Search API confirmed live
+  (`/api/search/v1/collections/all/items`), 8 items including two real FeatureServer layers
+  (`CEJST_Districts2024`, `Neighborhoods_Point`). A live fetch demo on the About page proves this
+  in the visitor's own browser rather than just claiming it.
+- **Open Gate City** (`data.greensboro-nc.gov`) — same pattern, confirmed live, 79 datasets
+  (Code Compliance, Fire, Police, Finance). Documented; not yet wired into a specific page.
+- **Gate City Budget** (`budget.greensboro-nc.gov`) — checked and found **not distinct**: its
+  Search API returns the same general city-wide catalog as Open Gate City, with no separate
+  CIP/budget-line-item dataset found. The planned cross-reference against `baseline-2019.json`'s
+  energy costs was not built, since there's nothing confirmed to cross-reference — documented as an
+  open question on the About page rather than silently dropped or faked.
+- **EIA grid-mix data** — infrastructure only, not running: `scripts/fetch_grid_mix.py` +
+  `.github/workflows/refresh-grid-mix.yml` (scheduled GitHub Action) exist and are ready, but
+  require a free `EIA_API_KEY` repository secret this environment doesn't have. The script was
+  checked against EIA's documented v2 API route structure but **not verified end-to-end** — a
+  403 (consistent with "route exists, key required") is the strongest confirmation available
+  without a key. Verify the first live run's output shape before trusting it in production.
