@@ -1,5 +1,14 @@
 {
-  "status": "pending-api-key",
-  "note": "EPA AQS requires an emailed API key (no synchronous self-serve issuance). This integration is built and endpoint-verified but not yet running with real credentials. See scripts/fetch_aqs_snapshot.py for setup steps.",
-  "checkedAt": "2026-07-15T09:18:30.870266+00:00"
+  "hasData": false,
+  "note": "No AQS rows returned for the requested date range.",
+  "source": "EPA Air Quality System (AQS) API \u2014 daily ozone, Guilford County NC",
+  "fetchedAt": "2026-07-20T06:04:22.567113+00:00",
+  "status": "live",
+  "citation": {
+    "sourceType": "external",
+    "publisher": "U.S. Environmental Protection Agency",
+    "title": "AQS daily summary data \u2014 Ozone (44201), Guilford County, NC",
+    "url": "https://aqs.epa.gov/aqsweb/documents/data_api.html",
+    "retrievedDate": "2026-07-20"
+  }
 }
