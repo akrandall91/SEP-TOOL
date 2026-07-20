@@ -65,7 +65,9 @@
     "fundingLinkage": "funding-linkage.json",
     "progress2025Misc": "progress-2025-misc.json",
     "progress2023_2024Misc": "progress-2023-2024-misc.json",
-    "citywideEnergyTimeseries": "citywide-energy-timeseries.json"
+    "citywideEnergyTimeseries": "citywide-energy-timeseries.json",
+    "publicRecords": "public-records.json",
+    "federalAwards": "federal-awards.json"
   },
   "citationSchema": {
     "twoDocumentCitation": {

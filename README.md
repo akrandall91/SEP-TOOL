@@ -14,6 +14,9 @@ external verification, derived analysis, contradictions, and missing information
 - `partials/`: authoritative shared header and footer.
 - `build.py`: deterministic shell/data baker for static and `file://` use.
 - `assets/js/accountability.js`: explorer, matrix, source drawer, theme, and downloads.
+- `data/public-records.json`: normalized discovery/freshness state for City and permit records.
+- `data/federal-awards.json`: confirmed USAspending obligations and outlays.
+- `data/raw/public-records/`: dated, immutable source responses retained for reproducibility.
 
 The public information architecture is Overview, Goal Explorer, Reporting Matrix, Funding,
 Equity Map, Sources, Methodology, and Changes. Existing department, recommendation, chart, and
@@ -27,6 +30,21 @@ After editing a partial or authoritative JSON file:
 python build.py
 python scripts/validate_data.py
 ```
+
+Public evidence refreshes are reproducible with:
+
+```text
+python scripts/fetch_public_records.py
+python scripts/fetch_usaspending_snapshot.py
+python scripts/fetch_legistar_snapshot.py
+python build.py
+python scripts/validate_data.py
+```
+
+The scheduled workflow runs weekly. City pages that reject automated retrieval remain registered
+with an explicit error state; their last successful records are never erased. Solar permit
+discovery is privacy-minimized to tract/year aggregates and never publishes resident names,
+street addresses, or exact residential coordinates.
 
 Validation checks unique goal IDs, allowed history years/statuses, citation references, funding
 link coverage, and equivalence between every baked block and source JSON. The machine-readable

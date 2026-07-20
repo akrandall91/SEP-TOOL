@@ -1,6 +1,6 @@
 {
   "source": "Greensboro Legistar Web API (webapi.legistar.com/v1/greensboro)",
-  "fetchedAt": "2026-07-15T09:16:09.427109+00:00",
+  "fetchedAt": "2026-07-20T17:39:27.986844+00:00",
   "matters": {
     "sep_authorizing_resolution": {
       "matterId": 6283,
@@ -39,6 +39,96 @@
       "legistarUrl": "https://greensboro.legistar.com/LegislationDetail.aspx?ID=CC6FBA11-AC18-40C9-8C71-1614EFEC339E"
     }
   },
+  "discoveredMatters": [
+    {
+      "matterId": 7002,
+      "matterFile": "ID 20-0655",
+      "title": "Resolution to Extend Time for Development of a 20-Year Strategic Energy Plan and Goals to Transition to 100% Renewable Energy for the City Of Greensboro",
+      "status": "Passed",
+      "passedDate": "2020-09-15T00:00:00",
+      "term": "renewable"
+    },
+    {
+      "matterId": 6348,
+      "matterFile": "ID 19-0835",
+      "title": "Resolution Granting a Utility Easement to Duke Energy Corporation for Access to the White Street Landfill to Provide Electrical Service for the Solar Park",
+      "status": "Passed",
+      "passedDate": "2019-12-17T00:00:00",
+      "term": "solar"
+    },
+    {
+      "matterId": 6283,
+      "matterFile": "ID 19-0770",
+      "title": "Resolution to Support Establishment of a 20-Year Strategic Energy Plan and Goals to Transition to 100% Renewable Energy for The City Of Greensboro",
+      "status": "Passed",
+      "passedDate": "2019-12-03T00:00:00",
+      "term": "renewable"
+    },
+    {
+      "matterId": 2699,
+      "matterFile": "ID 15-0794",
+      "title": "Resolution Authorizing a Lease Agreement with the Sustainable Energy Community Development Corporation for the T. Z. Osborne Water Reclamation Plant Solar Project",
+      "status": "Agenda Ready",
+      "passedDate": "2015-10-05T00:00:00",
+      "term": "solar"
+    },
+    {
+      "matterId": 2507,
+      "matterFile": "ID 15-0607",
+      "title": "Resolution Authorizing an Amendment to the White Street Landfill Gas Utilization Project Agreement to Include a Solar Facility",
+      "status": "Passed",
+      "passedDate": null,
+      "term": "solar"
+    },
+    {
+      "matterId": 2432,
+      "matterFile": "ID 15-0532",
+      "title": "Presentation on Solar Project at the Landfill",
+      "status": "Agenda Ready",
+      "passedDate": null,
+      "term": "solar"
+    },
+    {
+      "matterId": 2132,
+      "matterFile": "ID 15-0232",
+      "title": "Update by the Community Sustainability Council (Greenhouse Gas Estimates)",
+      "status": "Agenda Ready",
+      "passedDate": null,
+      "term": "greenhouse gas"
+    },
+    {
+      "matterId": 2131,
+      "matterFile": "ID 15-0231",
+      "title": "Growing Solar in Greensboro Presentation",
+      "status": "Agenda Ready",
+      "passedDate": null,
+      "term": "solar"
+    },
+    {
+      "matterId": 1149,
+      "matterFile": "ID 14-0111",
+      "title": "Resolution Approving License Agreement with Brightfield Transportation Solutions for the Installation of an Electric Vehicle Charging Station",
+      "status": "Agenda Ready",
+      "passedDate": null,
+      "term": "electric vehicle"
+    }
+  ],
+  "discoveryTerms": [
+    "Strategic Energy Plan",
+    "renewable",
+    "energy audit",
+    "greenhouse gas",
+    "solar",
+    "electric vehicle",
+    "zero emission",
+    "EECBG",
+    "Fresh Coast",
+    "Nimble Energy",
+    "BuildingLogiX",
+    "fleet transition",
+    "tree canopy"
+  ],
+  "discoveryErrors": [],
   "searchTermsTriedNoMatch": [
     "EECBG",
     "Nimble Energy",
@@ -51,6 +141,6 @@
     "publisher": "City of Greensboro / Legistar (Granicus)",
     "title": "Legistar Web API — matters, matter history/votes",
     "url": "https://webapi.legistar.com/v1/greensboro",
-    "retrievedDate": "2026-07-15"
+    "retrievedDate": "2026-07-20"
   }
 }

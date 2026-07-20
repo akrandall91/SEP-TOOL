@@ -91,6 +91,20 @@ SEARCH_TERMS_TRIED_NO_MATCH = [
     "Tree Canopy",
 ]
 
+DISCOVERY_TERMS = [
+    "Strategic Energy Plan", "renewable", "energy audit", "greenhouse gas", "solar",
+    "electric vehicle", "zero emission", "EECBG", "Fresh Coast", "Nimble Energy",
+    "BuildingLogiX", "fleet transition", "tree canopy",
+]
+
+def discover_matters(term: str) -> list:
+    escaped = term.replace("'", "''")
+    query = urllib.parse.urlencode({"$filter": f"substringof('{escaped}',MatterTitle)", "$top": "50"})
+    rows = fetch_json(f"{BASE}/matters?{query}")
+    return [{"matterId": r.get("MatterId"), "matterFile": r.get("MatterFile"),
+             "title": r.get("MatterTitle"), "status": r.get("MatterStatusName"),
+             "passedDate": r.get("MatterPassedDate"), "term": term} for r in rows]
+
 
 def main():
     matters = {}
@@ -101,10 +115,21 @@ def main():
             print(f"ERROR fetching matter {matter_id} ({key}): {e}", file=sys.stderr)
             matters[key] = {"matterId": matter_id, "error": str(e)}
 
+    discovered = []
+    discovery_errors = []
+    for term in DISCOVERY_TERMS:
+        try:
+            discovered.extend(discover_matters(term))
+        except Exception as e:
+            discovery_errors.append({"term": term, "error": str(e)})
+    unique = {m["matterId"]: m for m in discovered if m.get("matterId")}
     summary = {
         "source": "Greensboro Legistar Web API (webapi.legistar.com/v1/greensboro)",
         "fetchedAt": datetime.now(timezone.utc).isoformat(),
         "matters": matters,
+        "discoveredMatters": sorted(unique.values(), key=lambda x: (x.get("passedDate") or "", x.get("matterId") or 0), reverse=True),
+        "discoveryTerms": DISCOVERY_TERMS,
+        "discoveryErrors": discovery_errors,
         "searchTermsTriedNoMatch": SEARCH_TERMS_TRIED_NO_MATCH,
         "searchNote": (
             "Keyword searches (substringof on MatterTitle) for the EECBG grant, the Nimble Energy "

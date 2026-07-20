@@ -1,0 +1,4446 @@
+{
+  "generatedAt": "2026-07-20T17:49:02.452399+00:00",
+  "rawSnapshotDirectory": "data/raw/public-records/2026-07-20",
+  "methodology": "Discovery only. Records do not change goal status or funding until an analyst approves a source-supported link.",
+  "datasets": [
+    {
+      "id": "sep",
+      "name": "Official SEP and annual reports",
+      "sourceUrl": "https://www.greensboro-nc.gov/departments/office-of-sustainability-and-resilience/strategic-energy-plan",
+      "records": [],
+      "lastAttemptedFetch": "2026-07-20T17:49:02.452399+00:00",
+      "freshnessState": "error",
+      "lastError": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "cip",
+      "name": "Capital Improvements Program",
+      "sourceUrl": "https://www.greensboro-nc.gov/departments/budget-evaluation/capital-improvements-program-cip",
+      "records": [],
+      "lastAttemptedFetch": "2026-07-20T17:49:02.452399+00:00",
+      "freshnessState": "error",
+      "lastError": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "budget",
+      "name": "Adopted budgets",
+      "sourceUrl": "https://www.greensboro-nc.gov/departments/budget-evaluation/learn-about-the-city-budget",
+      "records": [],
+      "lastAttemptedFetch": "2026-07-20T17:49:02.452399+00:00",
+      "freshnessState": "error",
+      "lastError": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "contracts-ei",
+      "name": "Engineering and Inspections contracts",
+      "sourceUrl": "https://www.greensboro-nc.gov/departments/engineering-inspections/developers-contractors/available-contracts",
+      "records": [],
+      "lastAttemptedFetch": "2026-07-20T17:49:02.452399+00:00",
+      "freshnessState": "error",
+      "lastError": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "contracts-water",
+      "name": "Water Resources contracts",
+      "sourceUrl": "https://www.greensboro-nc.gov/departments/water-resources/available-contracts",
+      "records": [],
+      "lastAttemptedFetch": "2026-07-20T17:49:02.452399+00:00",
+      "freshnessState": "error",
+      "lastError": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "csc",
+      "name": "Community Sustainability Council",
+      "sourceUrl": "https://www.greensboro-nc.gov/departments/office-of-sustainability-and-resilience/community-sustainability-council-csc/-folder-1982",
+      "records": [],
+      "lastAttemptedFetch": "2026-07-20T17:49:02.452399+00:00",
+      "freshnessState": "error",
+      "lastError": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "arpa",
+      "name": "American Rescue Plan projects",
+      "sourceUrl": "https://www.greensboro-nc.gov/government/city-council/american-rescue-plan",
+      "records": [],
+      "lastAttemptedFetch": "2026-07-20T17:49:02.452399+00:00",
+      "freshnessState": "error",
+      "lastError": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "solar-permits",
+      "name": "Solar-related building permit candidates",
+      "sourceUrl": "https://gis.greensboro-nc.gov/arcgis/rest/services/EngineeringInspections/BuildingPermits_MS/MapServer/6",
+      "retrievedAt": "2026-07-20T17:49:02.452399+00:00",
+      "lastSuccessfulFetch": "2026-07-20T17:49:02.452399+00:00",
+      "freshnessState": "current",
+      "recordCount": 1418,
+      "aggregateRecordCount": 721,
+      "records": [
+        {
+          "issuedYear": "2011",
+          "censusTract": "126.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2011",
+          "censusTract": "161.01",
+          "finalCO": "P",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2011",
+          "censusTract": "162.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2012",
+          "censusTract": "109.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2012",
+          "censusTract": "112.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2012",
+          "censusTract": "160.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2012",
+          "censusTract": "160.07",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2013",
+          "censusTract": "105.00",
+          "finalCO": "P",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2013",
+          "censusTract": "106.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2013",
+          "censusTract": "125.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2013",
+          "censusTract": "125.11",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2013",
+          "censusTract": "157.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2013",
+          "censusTract": "165.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2014",
+          "censusTract": "104.04",
+          "finalCO": "P",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2014",
+          "censusTract": "104.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2014",
+          "censusTract": "106.01",
+          "finalCO": "P",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2014",
+          "censusTract": "109.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2014",
+          "censusTract": "125.10",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2014",
+          "censusTract": "127.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2014",
+          "censusTract": "157.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2014",
+          "censusTract": "157.07",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2014",
+          "censusTract": "160.08",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2014",
+          "censusTract": "161.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2014",
+          "censusTract": "165.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2015",
+          "censusTract": "105.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2015",
+          "censusTract": "107.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2015",
+          "censusTract": "107.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2015",
+          "censusTract": "108.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2015",
+          "censusTract": "125.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2015",
+          "censusTract": "125.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2015",
+          "censusTract": "125.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2015",
+          "censusTract": "125.09",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2015",
+          "censusTract": "125.10",
+          "finalCO": "P",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2015",
+          "censusTract": "125.10",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2015",
+          "censusTract": "127.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2015",
+          "censusTract": "128.03",
+          "finalCO": "P",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2015",
+          "censusTract": "157.04",
+          "finalCO": "P",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2015",
+          "censusTract": "157.04",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2015",
+          "censusTract": "157.05",
+          "finalCO": "P",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2015",
+          "censusTract": "157.07",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2015",
+          "censusTract": "172.00",
+          "finalCO": "P",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2016",
+          "censusTract": "105.00",
+          "finalCO": "P",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2016",
+          "censusTract": "106.01",
+          "finalCO": "P",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2016",
+          "censusTract": "106.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2016",
+          "censusTract": "108.00",
+          "finalCO": "P",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2016",
+          "censusTract": "109.00",
+          "finalCO": "P",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2016",
+          "censusTract": "112.00",
+          "finalCO": "P",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2016",
+          "censusTract": "119.04",
+          "finalCO": "P",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2016",
+          "censusTract": "125.05",
+          "finalCO": "P",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2016",
+          "censusTract": "125.05",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2016",
+          "censusTract": "125.09",
+          "finalCO": "P",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2016",
+          "censusTract": "125.10",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2016",
+          "censusTract": "126.08",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2016",
+          "censusTract": "128.04",
+          "finalCO": "P",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2016",
+          "censusTract": "153.00",
+          "finalCO": "P",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2016",
+          "censusTract": "157.04",
+          "finalCO": "P",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2016",
+          "censusTract": "157.07",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2016",
+          "censusTract": "160.08",
+          "finalCO": "P",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2016",
+          "censusTract": "160.10",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2016",
+          "censusTract": "165.06",
+          "finalCO": "P",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2016",
+          "censusTract": "165.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2017",
+          "censusTract": "102.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2017",
+          "censusTract": "106.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2017",
+          "censusTract": "106.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2017",
+          "censusTract": "106.02",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2017",
+          "censusTract": "108.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2017",
+          "censusTract": "125.10",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2017",
+          "censusTract": "125.11",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2017",
+          "censusTract": "126.12",
+          "finalCO": "P",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2017",
+          "censusTract": "153.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2017",
+          "censusTract": "157.03",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2017",
+          "censusTract": "157.06",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2017",
+          "censusTract": "157.07",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2017",
+          "censusTract": "160.08",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2017",
+          "censusTract": "160.09",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2017",
+          "censusTract": "161.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2017",
+          "censusTract": "162.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2017",
+          "censusTract": "165.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "104.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "104.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "106.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "108.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "114.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "116.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "119.05",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "125.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "125.08",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "125.08",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "125.09",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "125.10",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "125.11",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "125.11",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "126.09",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "126.10",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "126.11",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "126.17",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "127.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "127.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "128.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "151.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "157.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "157.04",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "157.06",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "160.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "160.07",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "160.07",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "160.08",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "160.11",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "165.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "165.06",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "167.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "167.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2018",
+          "censusTract": "172.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "102.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "106.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "106.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "106.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "106.02",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "107.02",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "108.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "111.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "113.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "114.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "119.04",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "119.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "125.04",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "125.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "125.08",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "125.09",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "125.10",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "125.11",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "125.11",
+          "finalCO": "Y",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "126.09",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "126.10",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "126.11",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "126.12",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "126.17",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "127.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "127.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "128.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 8
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "128.03",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "128.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "128.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "128.05",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "151.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "153.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 7
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "154.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "154.02",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "155.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "155.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "157.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "157.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "157.04",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "157.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "157.06",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "157.07",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "160.06",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "160.07",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "160.07",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "160.08",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "160.08",
+          "finalCO": "Y",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "160.09",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "160.09",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "160.11",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "161.02",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "161.03",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "165.05",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "165.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "167.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 7
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "167.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "168.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2019",
+          "censusTract": "172.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "102.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "103.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "104.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "104.04",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "105.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "106.02",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "107.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "107.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "109.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "109.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "111.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "112.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "119.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "119.05",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "125.03",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "125.04",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "125.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "125.05",
+          "finalCO": "Y",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "125.08",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "125.09",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "125.09",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "125.10",
+          "finalCO": "Y",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "125.11",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "126.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "126.07",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "126.07",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "126.08",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "126.09",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "126.10",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "126.10",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "126.11",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "126.12",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "126.12",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "126.17",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "127.03",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "127.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "127.06",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "127.07",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "128.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "128.03",
+          "finalCO": "Y",
+          "candidatePermitCount": 7
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "128.04",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "128.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "151.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "151.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 9
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "153.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "153.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 8
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "154.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "154.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "154.02",
+          "finalCO": "Y",
+          "candidatePermitCount": 6
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "155.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "155.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 7
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "157.03",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "157.04",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "157.06",
+          "finalCO": "Y",
+          "candidatePermitCount": 7
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "157.07",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "160.06",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "160.07",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "160.07",
+          "finalCO": "Y",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "160.08",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "160.08",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "160.09",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "160.09",
+          "finalCO": "Y",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "160.11",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "161.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "161.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "161.03",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "165.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "165.02",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "165.05",
+          "finalCO": "Y",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "165.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "165.06",
+          "finalCO": "Y",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "167.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "167.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "168.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "171.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2020",
+          "censusTract": "172.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "101.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "102.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "103.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "104.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "104.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "104.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "106.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "106.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "107.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "107.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "111.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "111.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "112.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "112.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "113.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "114.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "115.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "115.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "119.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "119.04",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "119.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 5
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "119.05",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "125.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "125.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "125.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "125.08",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "125.08",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "125.09",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "125.10",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "125.11",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 7
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "126.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "126.07",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "126.09",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "126.09",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "126.10",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "126.12",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "126.17",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "126.21",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "127.03",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "127.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "127.04",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "127.05",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "128.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "128.03",
+          "finalCO": "Y",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "128.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "128.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "128.05",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "151.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 10
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "151.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 14
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "153.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 5
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "153.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 5
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "153.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "153.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "153.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "154.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "154.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "154.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "154.02",
+          "finalCO": "Y",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "155.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "155.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 6
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "157.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "157.03",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "157.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "157.06",
+          "finalCO": "Y",
+          "candidatePermitCount": 6
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "157.07",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "157.07",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "160.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "160.05",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "160.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "160.06",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "160.07",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "160.08",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 5
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "160.08",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "160.09",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "160.10",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "160.11",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "161.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "161.02",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "161.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "161.03",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "165.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "165.05",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "165.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 5
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "165.06",
+          "finalCO": "Y",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "167.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 9
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "168.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "168.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2021",
+          "censusTract": "171.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "101.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "103.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "104.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "104.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "104.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "105.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 6
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "106.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "106.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "107.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "108.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "111.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "111.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "112.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "113.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "113.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "114.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "115.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "115.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "116.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "116.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "116.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "119.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "119.04",
+          "finalCO": "Y",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "119.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "125.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "125.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 7
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "125.08",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "125.10",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "126.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "126.04",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "126.07",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "126.07",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "126.10",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "126.10",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "126.11",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "126.12",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 12
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "126.12",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "126.17",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "126.20",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "126.21",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "127.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "127.03",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "127.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "127.04",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "127.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "127.05",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "127.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "127.07",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "127.07",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "128.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 7
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "128.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 7
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "128.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 8
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "151.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 9
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "151.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 7
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "153.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "153.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "153.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 7
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "153.02",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "154.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "154.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 9
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "154.02",
+          "finalCO": "Y",
+          "candidatePermitCount": 7
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "155.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 5
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "155.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 6
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "157.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "157.03",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "157.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "157.04",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "157.05",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "157.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "157.06",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "157.07",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "157.07",
+          "finalCO": "Y",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "160.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "160.07",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "160.07",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "160.08",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 5
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "160.09",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 8
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "160.09",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "161.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "161.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "165.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "165.05",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "165.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 5
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "165.06",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "167.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "167.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "168.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "171.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2022",
+          "censusTract": "172.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "101.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "102.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "103.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "104.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "105.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "105.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "106.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "106.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "107.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "107.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "110.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "111.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "111.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "111.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "112.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "112.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "113.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "113.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "114.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "114.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "115.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "115.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "116.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "116.02",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "119.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "119.04",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "119.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "119.05",
+          "finalCO": "Y",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "125.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "125.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "125.09",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "125.10",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "125.11",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "126.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "126.04",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "126.07",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "126.10",
+          "finalCO": "Y",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "126.12",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "126.17",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "126.19",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "126.20",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "126.21",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "127.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "127.04",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "127.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "127.05",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "127.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "127.07",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "128.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "128.03",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "128.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "128.04",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "128.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "151.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "151.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 15
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "153.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "153.02",
+          "finalCO": "Y",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "154.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "154.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "154.02",
+          "finalCO": "Y",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "155.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 6
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "157.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "157.04",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "157.06",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "157.07",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "157.07",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "160.03",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "160.06",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "160.07",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "160.07",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "160.08",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 5
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "160.08",
+          "finalCO": "Y",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "160.09",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "160.11",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "161.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "161.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "161.02",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "161.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "161.03",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "165.05",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "165.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "165.06",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "167.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "167.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 5
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "168.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2023",
+          "censusTract": "171.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "102.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "103.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "104.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "104.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "104.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "104.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "105.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "106.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "108.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "110.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "111.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "111.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "111.02",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "112.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "112.02",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "114.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "114.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "115.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "115.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "119.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 5
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "119.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "119.05",
+          "finalCO": "Y",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "125.03",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "125.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "125.05",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "125.09",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "125.11",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "125.11",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "126.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "126.04",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "126.07",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "126.10",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "126.11",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "126.12",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "126.12",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "126.18",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "126.20",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "126.20",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "127.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "127.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "127.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "127.05",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "127.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "127.07",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "128.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "128.03",
+          "finalCO": "Y",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "128.04",
+          "finalCO": "Y",
+          "candidatePermitCount": 5
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "128.05",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "151.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "151.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 6
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "153.02",
+          "finalCO": "Y",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "154.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "154.02",
+          "finalCO": "Y",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "155.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "155.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "157.03",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "157.04",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "157.05",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "157.06",
+          "finalCO": "Y",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "157.07",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "160.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "160.08",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "160.08",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "160.09",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "160.09",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "160.11",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "161.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "162.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "165.02",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "165.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "167.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "168.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "171.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2024",
+          "censusTract": "172.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "102.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "103.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "104.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "105.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "106.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "106.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "111.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "111.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "111.02",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "112.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "112.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "112.02",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "113.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "114.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "114.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "115.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "115.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "116.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "116.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "119.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "119.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 5
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "119.05",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "125.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "125.05",
+          "finalCO": "Y",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "125.08",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 5
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "125.08",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "125.09",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "125.09",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "125.10",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "125.10",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "125.11",
+          "finalCO": "Y",
+          "candidatePermitCount": 6
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "126.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "126.07",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "126.07",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "126.10",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "126.10",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "126.11",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "126.12",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "126.12",
+          "finalCO": "Y",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "126.17",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "126.17",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "126.20",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "126.20",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "126.21",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "127.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "127.03",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "127.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "127.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "127.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "128.03",
+          "finalCO": "Y",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "128.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "128.04",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "128.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "128.05",
+          "finalCO": "Y",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "151.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "153.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "154.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 5
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "154.02",
+          "finalCO": "Y",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "155.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "155.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "157.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "157.03",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "157.04",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "157.05",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "157.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "157.06",
+          "finalCO": "Y",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "157.07",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "157.07",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "160.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "160.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "160.08",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "160.09",
+          "finalCO": "Y",
+          "candidatePermitCount": 4
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "161.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "161.03",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "165.02",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "165.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "165.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "167.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "167.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2025",
+          "censusTract": "172.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2026",
+          "censusTract": "105.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2026",
+          "censusTract": "106.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2026",
+          "censusTract": "107.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2026",
+          "censusTract": "108.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2026",
+          "censusTract": "115.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2026",
+          "censusTract": "125.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2026",
+          "censusTract": "125.08",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2026",
+          "censusTract": "125.09",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2026",
+          "censusTract": "125.09",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2026",
+          "censusTract": "125.10",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2026",
+          "censusTract": "125.11",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2026",
+          "censusTract": "125.11",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2026",
+          "censusTract": "126.10",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2026",
+          "censusTract": "126.21",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2026",
+          "censusTract": "127.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2026",
+          "censusTract": "127.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2026",
+          "censusTract": "127.07",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2026",
+          "censusTract": "151.00",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2026",
+          "censusTract": "153.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2026",
+          "censusTract": "154.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2026",
+          "censusTract": "154.02",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2026",
+          "censusTract": "155.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2026",
+          "censusTract": "157.04",
+          "finalCO": "Y",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2026",
+          "censusTract": "160.09",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2026",
+          "censusTract": "161.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2026",
+          "censusTract": "162.01",
+          "finalCO": "Y",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2026",
+          "censusTract": "162.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "102.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "104.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "111.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "112.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "115.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "116.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "119.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "119.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "125.10",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "125.11",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "126.07",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "126.10",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "126.12",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "126.20",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "126.21",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "127.04",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "127.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "128.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "128.05",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "151.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "154.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 3
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "155.00",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "157.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "157.06",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "157.07",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "160.08",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "160.09",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "161.02",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "Unknown",
+          "censusTract": "162.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 4
+        }
+      ],
+      "privacyNote": "Published data is aggregated by tract/year; owner names, addresses, and exact coordinates are not collected.",
+      "warning": "Keyword candidates only. A permit does not establish completion, ownership, operation, or SEP attribution.",
+      "fieldsSearched": [
+        "ApplicationType",
+        "Description",
+        "TypeConstructionDesc",
+        "OccupancyDesc"
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "id": "sep",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "cip",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "budget",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "contracts-ei",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "contracts-water",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "csc",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "arpa",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ]
+}

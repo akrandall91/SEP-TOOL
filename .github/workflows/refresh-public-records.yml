@@ -1,0 +1,33 @@
+name: Refresh public evidence snapshots
+on:
+  schedule:
+    - cron: "20 13 * * 1"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch public records
+        continue-on-error: true
+        run: python scripts/fetch_public_records.py
+      - name: Fetch confirmed federal awards
+        run: python scripts/fetch_usaspending_snapshot.py
+      - name: Rebuild and validate
+        run: |
+          python build.py
+          python scripts/validate_data.py
+      - name: Commit successful snapshots and freshness states
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- data/public-records.json data/federal-awards.json data/raw sources.html; then
+            git add data/public-records.json data/federal-awards.json data/raw sources.html
+            git commit -m "chore: refresh public evidence snapshots [automated]"
+            git push
+          fi
