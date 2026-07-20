@@ -1,8 +1,16 @@
 {
-  "hasData": false,
-  "note": "No AQS rows returned for the requested date range.",
+  "hasData": true,
+  "latestReading": {
+    "date": "2026-05-31",
+    "siteName": "Mendenhall School",
+    "arithmeticMean": 0.039391,
+    "units": "Parts per million",
+    "aqi": null,
+    "monitorType": null
+  },
+  "readingCount": 164,
   "source": "EPA Air Quality System (AQS) API \u2014 daily ozone, Guilford County NC",
-  "fetchedAt": "2026-07-20T06:04:22.567113+00:00",
+  "fetchedAt": "2026-07-20T06:11:18.626827+00:00",
   "status": "live",
   "citation": {
     "sourceType": "external",
