@@ -40,6 +40,12 @@ STATIC_PAGES = [
     ("recommendations.html", "recommendations"),
     ("funding.html", "funding"),
     ("timeline.html", "timeline"),
+    ("explorer.html", "explorer"),
+    ("matrix.html", "matrix"),
+    ("equity.html", "equity"),
+    ("sources.html", "sources"),
+    ("methodology.html", "methodology"),
+    ("changes.html", "changes"),
 ]
 
 

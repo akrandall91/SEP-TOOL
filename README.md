@@ -1,50 +1,60 @@
-# SEP Tracker
+# SEP Accountability Dashboard
 
-Independent, cited tracker for the City of Greensboro's Strategic Energy Plan. Not an official
-City of Greensboro product — see [about.html](about.html).
+Independent, cited accountability dashboard for Greensboro's Strategic Energy Plan. It is not
+an official City product. The interface distinguishes City commitments, City-reported progress,
+external verification, derived analysis, contradictions, and missing information.
 
-## Running locally
+## Repository and authoritative data
 
-Any static file server works, e.g.:
+- `data/departments.json`: authoritative 21-goal department dataset and annual status history.
+- `data/index.json`: central source index and generated date.
+- `data/funding.json`: funding records with internal/external provenance.
+- `data/funding-linkage.json`: goal-level funding/reporting cross-tab.
+- `data/SCHEMA.md`: complete field dictionary and evidence rules.
+- `partials/`: authoritative shared header and footer.
+- `build.py`: deterministic shell/data baker for static and `file://` use.
+- `assets/js/accountability.js`: explorer, matrix, source drawer, theme, and downloads.
 
+The public information architecture is Overview, Goal Explorer, Reporting Matrix, Funding,
+Equity Map, Sources, Methodology, and Changes. Existing department, recommendation, chart, and
+timeline views remain available.
+
+## Build, validation, and tests
+
+After editing a partial or authoritative JSON file:
+
+```text
+python build.py
+python scripts/validate_data.py
 ```
+
+Validation checks unique goal IDs, allowed history years/statuses, citation references, funding
+link coverage, and equivalence between every baked block and source JSON. The machine-readable
+core schema is `data/schemas/departments.schema.json`.
+
+## Preview and deployment
+
+Core pages and department pages work when opened directly through `file://` after running the
+build. For a realistic local preview:
+
+```text
 python -m http.server 8842
 ```
 
-Then open `http://localhost:8842/index.html`.
+Open `http://localhost:8842/index.html`. Deployment is static: publish the repository contents
+after running the build and validation commands. No application server or framework is required.
 
-You can also open `index.html` directly by double-clicking it (`file://`, no server) — the
-shell (header/nav/footer) is pre-generated into every page, so it works either way. Only the
-department pages' data-driven content (chart, goals, citations) still requires a server; see
-**Known limitation** below.
+## Status and citation definitions
 
-## ⚠ Generated files — don't hand-edit the header/footer
+“Reported” means a goal-specific update appears in that annual report. “Not reported” does not
+mean inactive. “Went silent” means a goal appeared in both 2023 and 2024 reporting and then had
+no goal-specific 2025 update. Funding is linked only when published evidence supports a
+defensible goal-level connection. See `methodology.html` and `data/SCHEMA.md` for citation tiers,
+external-verification rules, contradiction handling, and all other definitions.
 
-The `<header>`/`<footer>` markup inside every page's `<!-- BUILD:HEADER --> ... <!-- /BUILD:HEADER -->`
-and `<!-- BUILD:FOOTER --> ... <!-- /BUILD:FOOTER -->` comment blocks is **generated** —
-edits inside those markers get overwritten the next time the build runs. Edit
-`partials/header.html` / `partials/footer.html` instead (the source of truth), then:
+## Known limitations
 
-```
-python build.py
-```
-
-Everything *outside* the marker blocks in each page is normal hand-edited page content and is
-left untouched by the build script.
-
-## Known limitation: department pages still require a server
-
-`build.py` fixed the header/footer include (previously loaded via `fetch()` at runtime, which
-browsers block under `file://`). Department pages like `departments/water-resources.html` have
-a **second, currently-unfixed instance of the same problem**: they fetch their actual content
-(`data/departments.json`, `data/funding.json`, `data/baseline-2019.json`) at runtime via
-`fetch()`. That still requires a server — opening a department page via `file://` will show the
-header/footer correctly now, but the chart/goals/citations body will fail to load. Fixing this
-would mean baking the JSON data into each page (or a bundled `<script>` data blob) at build time
-too. Not yet done — flagged here rather than left as a silent second gap.
-
-## Data
-
-Everything under `data/*.json` is directly linked from every page's footer and is the full,
-independently-re-derivable source of every figure on the site. Start with
-[data/index.json](data/index.json) and [data/SCHEMA.md](data/SCHEMA.md).
+No reliable coordinates connect goal-level projects to Census tracts, so the equity view does
+not invent project markers. Address geocoding is omitted to preserve offline use. Some funding
+may exist without a defensible published link. Live-refresh utilities require network access,
+but a failed refresh never replaces the last valid baked snapshot.

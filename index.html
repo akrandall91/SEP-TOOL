@@ -6,15 +6,17 @@
 <title>SEP Tracker — Greensboro Strategic Energy Plan</title>
 <meta name="description" content="Independent, cited tracker for the City of Greensboro's Strategic Energy Plan and its 2025 progress." />
 <link rel="stylesheet" href="assets/css/tokens.css" />
-<link rel="stylesheet" href="assets/css/site.css" />
+  <link rel="stylesheet" href="assets/css/site.css" />
+  <link rel="stylesheet" href="assets/css/accountability.css" />
 </head>
 <body>
 <!-- BUILD:HEADER nav="dashboard" -->
+<a class="skip-link" href="#main-content">Skip to main content</a>
 <header class="site-header">
   <div class="site-header__bar">
     <div class="site-header__brand">
-      <span class="site-header__name">SEP Tracker</span>
-      <span class="site-header__tagline">Independent accountability tracker for Greensboro's Strategic Energy Plan</span>
+      <span class="site-header__name">SEP Accountability</span>
+      <span class="site-header__tagline">Tracking Greensboro's Strategic Energy Plan</span>
     </div>
   </div>
   <p class="site-header__disclaimer">
@@ -22,19 +24,22 @@
   </p>
   <nav class="site-nav" aria-label="Primary">
     <ul>
-      <li><a href="./index.html" data-nav-id="dashboard" aria-current="page">Dashboard</a></li>
-      <li><a href="./departments/water-resources.html" data-nav-id="departments">Departments</a></li>
-      <li><a href="./recommendations.html" data-nav-id="recommendations" class="is-stub">Recommendations &amp; Actions</a></li>
-      <li><a href="./funding.html" data-nav-id="funding" class="is-stub">Funding</a></li>
-      <li><a href="./timeline.html" data-nav-id="timeline" class="is-stub">Timeline</a></li>
-      <li><a href="./about.html" data-nav-id="about">About</a></li>
+      <li><a href="./index.html" data-nav-id="dashboard" aria-current="page">Overview</a></li>
+      <li><a href="./explorer.html" data-nav-id="explorer">Goal Explorer</a></li>
+      <li><a href="./matrix.html" data-nav-id="matrix">Reporting Matrix</a></li>
+      <li><a href="./funding.html" data-nav-id="funding">Funding</a></li>
+      <li><a href="./equity.html" data-nav-id="equity">Equity Map</a></li>
+      <li><a href="./sources.html" data-nav-id="sources">Sources</a></li>
+      <li><a href="./methodology.html" data-nav-id="methodology">Methodology</a></li>
+      <li><a href="./changes.html" data-nav-id="changes">Changes</a></li>
     </ul>
   </nav>
+  <div class="header-tools"><a href="./explorer.html">Search goals</a><button type="button" class="theme-toggle" aria-label="Switch color theme">Theme</button><span class="freshness-badge">Data: 2025 report</span></div>
 </header>
 
 <!-- /BUILD:HEADER -->
 
-<main class="page">
+<main class="page" hidden aria-hidden="true">
   <h1 style="font-size:var(--font-size-hero);margin-bottom:var(--space-1);">SEP Tracker</h1>
   <p style="color:var(--ink-secondary);font-size:var(--font-size-lg);max-width:70ch;margin-bottom:var(--space-5);">
     An independent, cited tracker for the City of Greensboro's Strategic Energy Plan:
@@ -116,6 +121,24 @@
   </section>
 </main>
 
+<main class="account-page" id="main-content">
+  <header class="account-hero">
+    <p class="eyebrow">Current reporting period: calendar year 2025 · Updated 2026-07-15</p>
+    <h1>Greensboro made 21 department-level energy commitments. Six appeared in the latest report.</h1>
+    <p class="lede">This independent dashboard tracks what the City committed to, what it reports has happened, what remains unverified, and which goals disappeared from annual reporting.</p>
+    <p>City-reported progress and independently verified findings are kept visibly distinct.</p>
+    <div class="button-row"><a class="button" href="explorer.html">Explore all goals</a><a class="button-secondary" href="methodology.html">How this analysis works</a></div>
+  </header>
+  <section class="section" aria-labelledby="glance-title"><p class="eyebrow">SEP at a glance</p><h2 id="glance-title">The reporting record, generated from source data</h2><div class="metrics" id="account-metrics"></div><p>Most department goals were absent from 2025 reporting; absence is a reporting gap, not proof that work stopped.</p></section>
+  <section class="section"><p class="eyebrow">1 · The commitment</p><h2>A 20-year plan links renewable energy, efficiency, emissions, and equitable transition.</h2><p class="finding">Council’s 2019 resolution called for a Strategic Energy Plan, a 40% operational greenhouse-gas reduction, 100% renewable City operations by 2040, biennial inventories, and annual public progress reports.</p><a href="timeline.html">Read the commitment timeline</a></section>
+  <section class="section"><p class="eyebrow">2 · Latest reported progress</p><h2>Six of 21 department goals received a goal-specific 2025 update.</h2><p class="finding">Reported means the annual report addresses the goal. It does not mean a target was independently verified or completed.</p><a href="explorer.html?reporting=Reported">Inspect reported goals and their evidence</a></section>
+  <section class="section"><p class="eyebrow">3 · Missing or unverifiable</p><h2>Fifteen goals had no goal-specific update in the latest report.</h2><p class="finding">The dashboard says “not reported,” not “inactive.” Where source data cannot support a conclusion, the honest state is unknown.</p><a href="explorer.html?reporting=Not%20reported">See goals absent from reporting</a></section>
+  <section class="section"><p class="eyebrow">4 · Disappeared from reporting</p><h2>Three previously reported goals went silent in 2025.</h2><p class="finding">Transportation gasoline, Field Operations diesel, and Community Incentives appeared in both earlier annual reports and then received no 2025 goal-specific update.</p><a href="explorer.html?reporting=Went%20silent">Trace their year-by-year record</a></section>
+  <section class="section"><p class="eyebrow">5 · Funding and reporting</p><h2>Funded goals were reported more often in this 21-goal dataset.</h2><p class="finding">Four of five funded goals were reported, compared with two of 16 goals without linked active funding. This is an association in a small descriptive dataset; it does not establish that funding caused reporting or progress.</p><a href="funding.html">Explore funding and denominators</a></section>
+  <section class="section"><h2>Reporting matrix preview</h2><p>Compare every goal across 2023, 2024, and 2025, then open any cell’s supporting source.</p><a class="button-secondary" href="matrix.html">Open the full reporting matrix</a></section>
+  <p class="result-count">Dataset generated: <span id="generated-date"></span></p>
+</main>
+
 <!-- BUILD:FOOTER -->
 <footer class="site-footer">
   <div class="site-footer__inner">
@@ -157,5 +180,6 @@
 <script src="assets/js/sparkline-chart.js"></script>
 <script src="assets/js/live-data.js"></script>
 <script src="assets/js/homepage.js"></script>
+<script src="assets/js/accountability.js"></script>
 </body>
 </html>
