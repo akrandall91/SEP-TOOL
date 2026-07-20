@@ -62,6 +62,12 @@ for dataset in public_records.get('datasets',[]):
   elif isinstance(v,list):
    for x in v:privacy_keys(x)
  privacy_keys(dataset.get('records',[]))
+ if dataset.get('id')!='solar-permits':
+  records=dataset.get('records',[]);downloaded=sum(x.get('retrievalState')=='downloaded' for x in records);crossed=sum(x.get('retrievalState')=='cross_referenced' for x in records)
+  if downloaded+crossed!=len(records):errors.append(f'public-records {dataset.get("id")}: every item must be downloaded or cross-referenced')
+  if dataset.get('downloadedCount')!=downloaded or dataset.get('crossReferencedCount')!=crossed:errors.append(f'public-records {dataset.get("id")}: disposition counts do not reconcile')
+  for record in records:
+   if record.get('retrievalState')=='cross_referenced' and not record.get('crossReferenceReason'):errors.append(f'public-records {dataset.get("id")}: cross-reference lacks reason')
 funding_text=json.dumps(funding)
 for award in federal_awards.get('awards',[]):
  if award.get('awardId') not in funding_text:errors.append(f'federal-awards: unreferenced award {award.get("awardId")}')

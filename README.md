@@ -20,6 +20,7 @@ external verification, derived analysis, contradictions, and missing information
 - `data/reviewed-events.json`: reviewed pause, cancellation, supersession, completion, or correction events.
 - `data/review-proposals.json`: non-authoritative OSR/community proposal staging.
 - `data/raw/public-records/`: dated, immutable source responses retained for reproducibility.
+- `data/browser-download-manifest.json`: rendered-page inventory for City pages that block direct collectors.
 
 The public information architecture is Overview, Goal Explorer, Reporting Matrix, Funding,
 Equity Map, Sources, Methodology, and Changes. Existing department, recommendation, chart, and
@@ -45,8 +46,10 @@ python build.py
 python scripts/validate_data.py
 ```
 
-The scheduled workflow runs weekly. City pages that reject automated retrieval remain registered
-with an explicit error state; their last successful records are never erased. Solar permit
+The scheduled workflow runs weekly. City pages that reject direct HTTP retrieval use the checked-in
+rendered browser inventory instead of being treated as empty or erroneous. Every discovered item
+must reconcile as either downloaded and hashed or explicitly cross-referenced with a reason; the
+last successful records are never erased. Solar permit
 discovery is privacy-minimized to tract/year aggregates and never publishes resident names,
 street addresses, or exact residential coordinates.
 

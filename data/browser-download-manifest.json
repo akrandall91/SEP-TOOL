@@ -1,0 +1,974 @@
+{
+  "generatedAt": "2026-07-20T19:29:38.843Z",
+  "method": "Rendered browser inventory",
+  "sources": [
+    {
+      "id": "sep",
+      "name": "Official SEP and annual reports",
+      "url": "https://www.greensboro-nc.gov/departments/office-of-sustainability-and-resilience/strategic-energy-plan",
+      "discoveredAt": "2026-07-20T19:29:36.084Z",
+      "records": [
+        {
+          "title": "Strategic Energy Plan (SEP)",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/54579/638071453666700000"
+        },
+        {
+          "title": "This summary",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/55181/638122508957770000"
+        },
+        {
+          "title": "2025 Annual Progress Report & Strategic Energy Plan Implementation Year Three",
+          "url": "https://user-kcmpnye.cld.bz/Departmental-Annual-Reports/Office-of-Sustainability-Resilience-2025-Annual-Progress-Report"
+        },
+        {
+          "title": "2024 Annual Progress Report & Strategic Energy Plan Implementation Year Two",
+          "url": "https://user-kcmpnye.cld.bz/Office-of-Sustainability-and-Resilience-2024-Annual-Progress"
+        },
+        {
+          "title": "2023 Annual Progress Report & Strategic Energy Plan Implementation Year One",
+          "url": "https://user-kcmpnye.cld.bz/Office-of-Sustainability-and-Resilience-2023-Annual-Progress-Report-and-Strategic-Energy-Plan-Implementation-Year-One"
+        }
+      ]
+    },
+    {
+      "id": "cip",
+      "name": "Capital Improvements Program",
+      "url": "https://www.greensboro-nc.gov/departments/budget-evaluation/capital-improvements-program-cip",
+      "discoveredAt": "2026-07-20T19:29:36.322Z",
+      "records": [
+        {
+          "title": "Budget & Evaluation",
+          "url": "https://www.greensboro-nc.gov/departments/budget-evaluation"
+        },
+        {
+          "title": "FY 27-",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/67396/639195547043730000"
+        },
+        {
+          "title": "Button arrow next to Text: Greensboro Bond Tracker",
+          "url": "http://greensboro.maps.arcgis.com/apps/opsdashboard/index.html#/ef71cf87ef134d969be9e15d32467bda"
+        },
+        {
+          "title": "FY 2026-35 CIP",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/63569/638899779321930000"
+        },
+        {
+          "title": "FY 2025-34 CIP",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/60094/638598477997200000"
+        },
+        {
+          "title": "FY 2024-33 CIP",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/56918/638288963553430000"
+        },
+        {
+          "title": "FY 2023-32 CIP",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/53972/637998931581500000"
+        },
+        {
+          "title": "FY 2022-31 CIP",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/49612/637628912377730000"
+        },
+        {
+          "title": "FY 2021-30 CIP",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/46422/637327508457470000"
+        },
+        {
+          "title": "FY 2020-29 CIP",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/44418/637111506022700000"
+        },
+        {
+          "title": "FY 2019-28 CIP",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/39837/636709610863270000"
+        },
+        {
+          "title": "FY 2018-27 CIP",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/36706/636530103853500000"
+        },
+        {
+          "title": "FY 2017-26 CIP",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/32080/636510647144300000"
+        },
+        {
+          "title": "FY 2016-25 CIP",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/28400/636597282463400000"
+        },
+        {
+          "title": "FY 2015-24 CIP",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/25143/636510647144300000"
+        },
+        {
+          "title": "CIP Map",
+          "url": "https://experience.arcgis.com/experience/ebe9e6601e0341d19353c822b3d6b45a/"
+        }
+      ]
+    },
+    {
+      "id": "budget",
+      "name": "Adopted budgets",
+      "url": "https://www.greensboro-nc.gov/departments/budget-evaluation/learn-about-the-city-budget",
+      "discoveredAt": "2026-07-20T19:29:36.810Z",
+      "records": [
+        {
+          "title": "View the Fiscal Year 2026-27 budget presentation",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/67161/639172458973770000"
+        },
+        {
+          "title": "$913.2 million budget",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66881/639167898896770000"
+        },
+        {
+          "title": "recommended budget presentation",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66987/639156647533730000"
+        },
+        {
+          "title": "FY 2026-27 Budget FAQs",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/67013/639159538283430000"
+        },
+        {
+          "title": "View the questions and responses.",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66479/639123856930030000"
+        },
+        {
+          "title": "greensboro-nc.gov/BudgetQuestions",
+          "url": "http://"
+        },
+        {
+          "title": "Take the Fiscal Year 2027 budget priorities survey",
+          "url": "https://form.jotform.com/240575843584062"
+        },
+        {
+          "title": "FY 2026-27 Adopted Budget",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/67506"
+        }
+      ]
+    },
+    {
+      "id": "contracts-ei",
+      "name": "Engineering and Inspections contracts",
+      "url": "https://www.greensboro-nc.gov/departments/engineering-inspections/developers-contractors/available-contracts",
+      "discoveredAt": "2026-07-20T19:29:37.052Z",
+      "records": [
+        {
+          "title": "Bid on Contracts",
+          "url": "https://www.greensboro-nc.gov/services/look-up-and-access/bid-on-contracts"
+        },
+        {
+          "title": "Budget & Evaluation",
+          "url": "https://www.greensboro-nc.gov/departments/budget-evaluation"
+        },
+        {
+          "title": "Planning/Zoning Agendas, Minutes, Videos",
+          "url": "https://www.greensboro-nc.gov/departments/planning/planning-zoning-agendas-minutes-videos"
+        },
+        {
+          "title": "Water Pressure Zone Conversion Projects",
+          "url": "https://www.greensboro-nc.gov/departments/water-resources/water-pressure-zone-conversion-projects"
+        },
+        {
+          "title": "Current Budget",
+          "url": "https://www.greensboro-nc.gov/government/current-budget"
+        },
+        {
+          "title": "Adopted Budget",
+          "url": "https://www.greensboro-nc.gov/residents/info-center/adopted-budget"
+        },
+        {
+          "title": "Agenda/ Minutes/ Videos",
+          "url": "https://www.greensboro-nc.gov/residents/info-center/agenda-minutes-videos"
+        },
+        {
+          "title": "Contractors - Residential & Commercial",
+          "url": "https://www.greensboro-nc.gov/business/development-services/contractors-residential-commercial"
+        },
+        {
+          "title": "Road Projects",
+          "url": "https://www.greensboro-nc.gov/i-want-to/locate/road-projects"
+        },
+        {
+          "title": "Developers & Contractors",
+          "url": "https://www.greensboro-nc.gov/departments/engineering-inspections/developers-contractors"
+        },
+        {
+          "title": "June 10, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/67103/639166863281870000"
+        },
+        {
+          "title": "July 7, 2026 Revised Advertisement",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/67254/639190209300270000"
+        },
+        {
+          "title": "Questions & Answers",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/67256/639190209783500000"
+        },
+        {
+          "title": "April 28, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66529/639129622014330000"
+        },
+        {
+          "title": "May 12, 2026 Pre-Bid Attendees",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66839/639142606876000000"
+        },
+        {
+          "title": "May 29, 2026 Cancellation Notice",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/67236/639185166305570000"
+        },
+        {
+          "title": "April 26, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66513/639128734491870000"
+        },
+        {
+          "title": "May 12, 2026 Pre-Bid Attendees",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66843/639142699553100000"
+        },
+        {
+          "title": "Pre-Bid Minutes",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66845/639142700093800000"
+        },
+        {
+          "title": "April 2, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66274/639107163985500000"
+        },
+        {
+          "title": "November 13, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64916/639009785001630000"
+        },
+        {
+          "title": "Addendum 1",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64920/638997665678800000"
+        },
+        {
+          "title": "Questions & Answers",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64918/639009764807970000"
+        },
+        {
+          "title": "October 26, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64621/638971550377600000"
+        },
+        {
+          "title": "January 13, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/65414/639039004521730000"
+        },
+        {
+          "title": "October 15, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64491/638961334446430000"
+        },
+        {
+          "title": "October 27,2025 Addendum 1",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64629/638971681330800000"
+        },
+        {
+          "title": "January 12, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/65402/639038133844970000"
+        },
+        {
+          "title": "October 9, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64417/638956128710830000"
+        },
+        {
+          "title": "August 31, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/63949/638923983964070000"
+        },
+        {
+          "title": "January 13, 2026 Cancelation Notice",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/65416/639039004816200000"
+        },
+        {
+          "title": "August 24, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/63915/638917106993870000"
+        },
+        {
+          "title": "November 19, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64876/638991488179670000"
+        },
+        {
+          "title": "August 3, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/63565/638896357533370000"
+        },
+        {
+          "title": "August 7, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/63622/638902427947930000"
+        },
+        {
+          "title": "October 9, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64878/638991488473900000"
+        },
+        {
+          "title": "uly 22, 2025--RFQ Information",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/63489/638887984659770000"
+        },
+        {
+          "title": "October 30, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64872/638990745761530000"
+        },
+        {
+          "title": "July 8, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/63254/638875587027570000"
+        },
+        {
+          "title": "FINAL RFQ -Leachate Collection System June 2025 (003)",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/63256/638875587584730000"
+        },
+        {
+          "title": "March 17, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/62190/638778116861670000"
+        },
+        {
+          "title": "March 24, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/62242/638784097083400000"
+        },
+        {
+          "title": "July 18, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/63473/638884519261430000"
+        },
+        {
+          "title": "September 26, 2024",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/60488/638633762223800000"
+        },
+        {
+          "title": "May 28, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66963/639155543134800000"
+        },
+        {
+          "title": "May 14, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66849/639143452220700000"
+        },
+        {
+          "title": "May 28, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66971/639155658866500000"
+        },
+        {
+          "title": "May 7, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66701/639137437882170000"
+        },
+        {
+          "title": "May 21, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66973/639155776930530000"
+        },
+        {
+          "title": "February 19, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/65808/639070896431670000"
+        },
+        {
+          "title": "March 5, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66012/639083834458100000"
+        },
+        {
+          "title": "April 2, 2026 Cancellation",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66561/639130710988570000"
+        },
+        {
+          "title": "January 8, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/65312/639034670656830000"
+        },
+        {
+          "title": "January 22, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/65552/639046842357270000"
+        },
+        {
+          "title": "May 5, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66975/639155790107070000"
+        },
+        {
+          "title": "December 18, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/65182/639016419683000000"
+        },
+        {
+          "title": "January 8, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/65330/639034725303930000"
+        },
+        {
+          "title": "May 5, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66977/639155790920870000"
+        },
+        {
+          "title": "November 20, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64884/638992226754200000"
+        },
+        {
+          "title": "December 4, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64976/639004472153370000"
+        },
+        {
+          "title": "March 3, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/65924/639081432530870000"
+        },
+        {
+          "title": "October 23, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64591/638968029024330000"
+        },
+        {
+          "title": "November 6, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64733/638980313189000000"
+        },
+        {
+          "title": "March 3, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66036/639087327067970000"
+        },
+        {
+          "title": "September 18, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64177/638938091912030000"
+        },
+        {
+          "title": "October 2, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64341/638950149706070000"
+        },
+        {
+          "title": "November 25, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64906/638997528189200000"
+        },
+        {
+          "title": "August 14, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/63835/638907797113270000"
+        },
+        {
+          "title": "August 28, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/63991/638925128523570000"
+        },
+        {
+          "title": "November 25, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64908/638997528671800000"
+        },
+        {
+          "title": "August 7, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/63591/638901537912770000"
+        },
+        {
+          "title": "October 30, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64673/638974324629930000"
+        },
+        {
+          "title": "June 19, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/63130/638860401344970000"
+        },
+        {
+          "title": "July 10, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/63409/638877479332400000"
+        },
+        {
+          "title": "July 24, 2025 Cancelation Notice",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/63513/638889649667570000"
+        },
+        {
+          "title": "April 24,2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/62520/638810789701430000"
+        },
+        {
+          "title": "May 8, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/62661/638823126510370000"
+        },
+        {
+          "title": "October 29, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64663/638974101316730000"
+        },
+        {
+          "title": "April 3, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/62354/638792696823570000"
+        },
+        {
+          "title": "April 17, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/62504/638804998160370000"
+        },
+        {
+          "title": "October 28, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64661/638974100869300000"
+        },
+        {
+          "title": "February 6, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/61766/638744262031100000"
+        },
+        {
+          "title": "February 25, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/61952/638761668870200000"
+        },
+        {
+          "title": "July 18, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/63491/638888631378370000"
+        },
+        {
+          "title": "February 6, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/61768/638744262459430000"
+        },
+        {
+          "title": "February 25, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/61954/638761673536700000"
+        },
+        {
+          "title": "July 22, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/63493/638888631924100000"
+        },
+        {
+          "title": "December 5, 2024",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/61136/638689820244330000"
+        },
+        {
+          "title": "December 19, 2024",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/61448/638717624035870000"
+        },
+        {
+          "title": "June 24, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/63164/638863800009670000"
+        }
+      ]
+    },
+    {
+      "id": "contracts-water",
+      "name": "Water Resources contracts",
+      "url": "https://www.greensboro-nc.gov/departments/water-resources/available-contracts",
+      "discoveredAt": "2026-07-20T19:29:37.551Z",
+      "records": [
+        {
+          "title": "Bid on Contracts",
+          "url": "https://www.greensboro-nc.gov/services/look-up-and-access/bid-on-contracts"
+        },
+        {
+          "title": "Budget & Evaluation",
+          "url": "https://www.greensboro-nc.gov/departments/budget-evaluation"
+        },
+        {
+          "title": "Planning/Zoning Agendas, Minutes, Videos",
+          "url": "https://www.greensboro-nc.gov/departments/planning/planning-zoning-agendas-minutes-videos"
+        },
+        {
+          "title": "Water Pressure Zone Conversion Projects",
+          "url": "https://www.greensboro-nc.gov/departments/water-resources/water-pressure-zone-conversion-projects"
+        },
+        {
+          "title": "Current Budget",
+          "url": "https://www.greensboro-nc.gov/government/current-budget"
+        },
+        {
+          "title": "Adopted Budget",
+          "url": "https://www.greensboro-nc.gov/residents/info-center/adopted-budget"
+        },
+        {
+          "title": "Agenda/ Minutes/ Videos",
+          "url": "https://www.greensboro-nc.gov/residents/info-center/agenda-minutes-videos"
+        },
+        {
+          "title": "Contractors - Residential & Commercial",
+          "url": "https://www.greensboro-nc.gov/business/development-services/contractors-residential-commercial"
+        },
+        {
+          "title": "Road Projects",
+          "url": "https://www.greensboro-nc.gov/i-want-to/locate/road-projects"
+        },
+        {
+          "title": "June 4, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/67069/639161853688330000"
+        },
+        {
+          "title": "Addendum 1",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/67139/639168578617700000"
+        },
+        {
+          "title": "Addendum 2",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/67173/639173840402770000"
+        },
+        {
+          "title": "Addendum 3",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/67205/639179949088100000"
+        },
+        {
+          "title": "Addendum 4",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/67234/639185159100770000"
+        },
+        {
+          "title": "Addendum 5",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/67400/639196253446890165"
+        },
+        {
+          "title": "May 26, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/67083/639162681570870000"
+        },
+        {
+          "title": "Addendum 1",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/67085/639162681861530000"
+        },
+        {
+          "title": "Outreach Information",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/67087/639162682073700000"
+        },
+        {
+          "title": "April 20, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66463/639125465926970000"
+        },
+        {
+          "title": "Addendum 1",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66487/639125467830200000"
+        },
+        {
+          "title": "Addendum 2",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66489/639125468028600000"
+        },
+        {
+          "title": "Addendum 3",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66491/639125468229400000"
+        },
+        {
+          "title": "Addendum 4",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66493/639126146549070000"
+        },
+        {
+          "title": "Addendum 5",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66519/639129019655330000"
+        },
+        {
+          "title": "Addendum 6",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66557/639130656958000000"
+        },
+        {
+          "title": "April 10, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66364/639129651171570000"
+        },
+        {
+          "title": "Addendum 1",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66396/639117803999130000"
+        },
+        {
+          "title": "Addendum 2",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66531/639129647590770000"
+        },
+        {
+          "title": "April 1, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66268/639106507236170000"
+        },
+        {
+          "title": "Addendum 1",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66503/639126385043100000"
+        },
+        {
+          "title": "March 4, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/65928/639082108386070000"
+        },
+        {
+          "title": "Addendum 1",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66110/639092573059370000"
+        },
+        {
+          "title": "February 23, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/65834/639074327865530000"
+        },
+        {
+          "title": "Addendum 1",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/66026/639086448211400000"
+        },
+        {
+          "title": "February 20, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/65814/639071779731300000"
+        },
+        {
+          "title": "Addendum 1",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/65878/639077081397070000"
+        },
+        {
+          "title": "February 4, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/65686/639058716890900000"
+        },
+        {
+          "title": "Addendum 1",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/65692/639059679587430000"
+        },
+        {
+          "title": "Addended RFP",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/65690/639059678811200000"
+        },
+        {
+          "title": "February 4, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/65656/639058038931300000"
+        },
+        {
+          "title": "January 22, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/65572/639046908721000000"
+        },
+        {
+          "title": "January 13, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/65294/639032897738330000"
+        },
+        {
+          "title": "January 2, 2026",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/65254/639029388926300000"
+        },
+        {
+          "title": "December 9, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64904/638996834462600000"
+        },
+        {
+          "title": "October 20, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64583/638967414453570000"
+        },
+        {
+          "title": "RFQ",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64345/638950823685570000"
+        },
+        {
+          "title": "Technical Memo",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64347/638950824409400000"
+        },
+        {
+          "title": "Addendum 1",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64489/638961240336330000"
+        },
+        {
+          "title": "Addendum 2",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64557/638965720657200000"
+        },
+        {
+          "title": "Addendum 3",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64789/638983561232030000"
+        },
+        {
+          "title": "September 15, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64141/638936031361470000"
+        },
+        {
+          "title": "September 18, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64143/638936116554270000"
+        },
+        {
+          "title": "Outreach Information",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64239/638943947942570000"
+        },
+        {
+          "title": "Addendum 1",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64467/638957098774770000"
+        },
+        {
+          "title": "Attendees",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64595/638968035761570000"
+        },
+        {
+          "title": "October 13, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/64469/638959669350730000"
+        },
+        {
+          "title": "Addendum 1",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/63589/638901513120070000"
+        },
+        {
+          "title": "June 23, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/63132/638862758394570000"
+        },
+        {
+          "title": "Addendum 1",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/63182/638866212500170000"
+        },
+        {
+          "title": "Addendum 2",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/63405/638877301632130000"
+        },
+        {
+          "title": "Addendum 3",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/63457/638884205142630000"
+        },
+        {
+          "title": "January 16, 2025",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/61560/638726232225330000"
+        },
+        {
+          "title": "November 8, 2024",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/60902/638665875910900000"
+        },
+        {
+          "title": "September 17, 2024",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/60424/638621813328600000"
+        },
+        {
+          "title": "Addendum 1",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/60575/638642352189400000"
+        },
+        {
+          "title": "Addendum 2",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/60634/638646685077670000"
+        },
+        {
+          "title": "September 6, 2024",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/60228/638612064203830000"
+        },
+        {
+          "title": "May 22, 2024",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/59163/638519914492670000"
+        },
+        {
+          "title": "Addendum 1",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/59529/638555976585500000"
+        },
+        {
+          "title": "May 17, 2024",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/59129/638515448048400000"
+        },
+        {
+          "title": "Addendum 1",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/59173/638520794177430000"
+        },
+        {
+          "title": "May 17, 2024",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/59127/638515447870130000"
+        },
+        {
+          "title": "Addendum 1",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/59171/638520713380670000"
+        },
+        {
+          "title": "March 22, 2024",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/58622/638467157278700000"
+        },
+        {
+          "title": "Addendum 1",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/58705/638479107606730000"
+        },
+        {
+          "title": "March 22, 2024",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/58620/638467157269530000"
+        },
+        {
+          "title": "Addendum 1",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/58707/638479107613130000"
+        },
+        {
+          "title": "March 12, 2024",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/58550/638458519311570000"
+        },
+        {
+          "title": "January 30, 2024",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/58109/638422223991570000"
+        },
+        {
+          "title": "January 12",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/58029/638406683480630000"
+        },
+        {
+          "title": "Addendum 1",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/58069/638416866063630000"
+        },
+        {
+          "title": "Addendum",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/58159/638427377345170000"
+        },
+        {
+          "title": "Addendum 3",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/58496/638452485796500000"
+        },
+        {
+          "title": "Addendum 4",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/58498/638453132404300000"
+        },
+        {
+          "title": "Addendum 5",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/58618/638467157262570000"
+        },
+        {
+          "title": "Addendum 6",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/58687/638478423078400000"
+        },
+        {
+          "title": "December 20, 2023",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/57802/638386866284270000"
+        },
+        {
+          "title": "December 20, 2023",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/57794/638386647606530000"
+        },
+        {
+          "title": "Addendum 1",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/58055/638411731779970000"
+        },
+        {
+          "title": "Addendum",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/58113/638423105056270000"
+        },
+        {
+          "title": "November 30, 2023",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/57635/638369431495270000"
+        },
+        {
+          "title": "Addendum 1",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/57833/638397819632130000"
+        },
+        {
+          "title": "October 6, 2023",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/57278/638321757818370000"
+        }
+      ]
+    },
+    {
+      "id": "csc",
+      "name": "Community Sustainability Council",
+      "url": "https://www.greensboro-nc.gov/departments/office-of-sustainability-and-resilience/community-sustainability-council-csc/-folder-1982",
+      "discoveredAt": "2026-07-20T19:29:38.223Z",
+      "records": [
+        {
+          "title": "2026 Meeting Schedule",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/65142/639010534093200000"
+        }
+      ]
+    },
+    {
+      "id": "arpa",
+      "name": "American Rescue Plan projects",
+      "url": "https://www.greensboro-nc.gov/government/city-council/american-rescue-plan",
+      "discoveredAt": "2026-07-20T19:29:38.842Z",
+      "records": [
+        {
+          "title": "American Rescue Plan Act Enabled Projects",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/54595/639167738290300000"
+        },
+        {
+          "title": "American Rescue Plan Act Enabled Projects - Spending Update and Progress",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/54597/639167795407570000"
+        },
+        {
+          "title": "Criteria for Selection Matrix",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/50154/637690474591170000"
+        },
+        {
+          "title": "Complete List of Applications",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/52499/638102518545370000"
+        },
+        {
+          "title": "August 12, 2021",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/49838/638663996742530000"
+        },
+        {
+          "title": "May 4, 2021",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/49059/637568675242400000"
+        },
+        {
+          "title": "April 7, 2022",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/52483/637854620503100000"
+        },
+        {
+          "title": "August 11, 2022",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/53636/637964212230770000"
+        },
+        {
+          "title": "November 3, 2022",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/54277/638031530689470000"
+        },
+        {
+          "title": "December 20, 2022",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/54839/638100712817630000"
+        },
+        {
+          "title": "2021 Report",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/49858/637660059774300000"
+        },
+        {
+          "title": "2022 Report",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/53381/637946168972030000"
+        },
+        {
+          "title": "2023 Report",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/56632/638261512713800000"
+        },
+        {
+          "title": "2024 Report",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/59798/638580207940830000"
+        },
+        {
+          "title": "2025 Report",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/63786/638906119649270000"
+        }
+      ]
+    }
+  ]
+}
