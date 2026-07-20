@@ -96,14 +96,23 @@ async function renderAqiWidget(base) {
   }
 
   const r = data.latestReading;
+  const meanLabel = typeof r.arithmeticMean === "number" ? r.arithmeticMean.toFixed(3) : r.arithmeticMean;
+  const unitsLabel = r.units === "Parts per million" ? "ppm" : (r.units || "");
+  const readingDate = new Date(r.date + "T00:00:00Z");
+  const daysOld = Math.round((Date.now() - readingDate.getTime()) / 86400000);
   mount.innerHTML = `
     <div class="card">
       <div class="section-title">🌫 Guilford County air quality (EPA AQS, live)</div>
       <div class="dept-stats" style="margin-top:8px;">
-        <div class="dept-stat"><div class="dept-stat__label">Latest ozone reading</div><div class="dept-stat__value">${r.arithmeticMean} ${r.units || ""}</div></div>
-        ${r.aqi != null ? `<div class="dept-stat"><div class="dept-stat__label">AQI</div><div class="dept-stat__value">${r.aqi}</div></div>` : ""}
+        <div class="dept-stat"><div class="dept-stat__label">Most recent ozone reading</div><div class="dept-stat__value">${meanLabel} ${unitsLabel}</div></div>
+        ${r.aqi != null
+          ? `<div class="dept-stat"><div class="dept-stat__label">AQI</div><div class="dept-stat__value">${r.aqi}</div></div>`
+          : `<div class="dept-stat"><div class="dept-stat__label">AQI</div><div class="dept-stat__value" style="color:var(--ink-muted);font-size:var(--font-size-sm);">Not reported for this reading</div></div>`}
       </div>
-      <p style="font-size:var(--font-size-xs);color:var(--ink-muted);margin-top:8px;">${r.siteName || "Guilford County monitor"} · ${r.date} · ${renderCite(data.citation)}</p>
+      <p style="font-size:var(--font-size-xs);color:var(--ink-muted);margin-top:8px;">
+        ${r.siteName || "Guilford County monitor"} · ${r.date} (${daysOld} days ago — AQS validates monitoring data in batches, so "most recent" here is not necessarily today) ·
+        ${data.readingCount != null ? `${data.readingCount} readings in the queried window · ` : ""}${renderCite(data.citation)}
+      </p>
     </div>`;
 }
 

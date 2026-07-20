@@ -12,11 +12,14 @@ Run manually with:
   AQS_EMAIL=you@example.com AQS_KEY=xxx python scripts/fetch_aqs_snapshot.py
 Run automatically by .github/workflows/refresh-aqs.yml on a schedule.
 
-VERIFIED END-TO-END: a real authenticated run against
-  https://aqs.epa.gov/data/api/dailyData/byCounty?...&state=37&county=081
-succeeded (status="live", not an auth error) but returned zero rows for a 14-day window — Guilford
-County's ozone monitor doesn't report continuously. Widened to 90 days below to improve the odds of
-catching a real reading regardless of season or monitor gaps; re-verify after the next scheduled run.
+VERIFIED END-TO-END with real data (two live runs): a 14-day window returned zero rows; widened to
+90 days and got a real reading — Mendenhall School monitor, ozone 0.039391 ppm, dated ~7 weeks
+before the fetch date (164 rows total in the 90-day window). AQS's own `aqi` field was null on that
+row (not every daily-summary row gets an AQI value computed — treat it as legitimately absent, not
+a parsing bug). The ~7-week lag is far longer than "monitors report on a delay" implies — this is
+EPA's own quality-assurance/validation cycle for regulatory air-monitoring data, not a live feed.
+Because of that lag, refresh-aqs.yml runs weekly rather than daily: a daily re-fetch of a dataset
+that only produces a new "most recent" reading every several weeks wastes CI minutes for no benefit.
 
 Pollutant code 44201 = Ozone (the pollutant both Progress Reports' Climate Resiliency framing
 focuses on). state=37 (NC), county=081 (Guilford County, which contains Greensboro).
@@ -40,11 +43,7 @@ OZONE_PARAM_CODE = "44201"
 
 
 def fetch_ozone(email: str, key: str) -> dict:
-    # AQS daily-summary data typically lags several days behind real time (monitors report on a
-    # delay), and ozone monitors often only report seasonally (roughly April-October) or have gaps
-    # for maintenance/calibration — a 14-day window returned zero rows for Guilford County on the
-    # first live run of this script, so this pulls the last 90 days instead to reliably catch at
-    # least one reading regardless of season or monitor gaps.
+    # 90 days confirmed necessary and sufficient by a real run — see module docstring.
     end = datetime.now(timezone.utc).date()
     start = end - timedelta(days=90)
     params = {

@@ -228,10 +228,10 @@ script's own docstring for the exact verification evidence, not just a route/par
 |---|---|---|---|---|
 | 1 | GTA GTFS/GTFS-RT | none | GitHub Action (no CORS) | **Live, verified end-to-end** |
 | 2 | Open Gate City (ArcGIS) | none | Client-side (open CORS) | **Live, verified end-to-end** |
-| 3 | Census ACS | free key | GitHub Action | Endpoint-verified, **pending API key** |
+| 3 | Census ACS | free key | GitHub Action | **Live, verified end-to-end** (key added post-launch) |
 | 3b | EJScreen / CEJST | — | — | **Confirmed broken/deprecated — not integrated** |
 | 4 | USAspending.gov | none | Client-side (open CORS) | **Live, verified end-to-end** (EECBG match); USDA grant **no match found** |
-| 5 | EPA AQS | emailed key | GitHub Action | Endpoint-verified, **pending API key** (manual signup step) |
+| 5 | EPA AQS | emailed key | GitHub Action | **Live, verified end-to-end** (key added post-launch; 90-day window required) |
 | 6 | Legistar | none | GitHub Action (no CORS) | **Live, verified end-to-end** |
 
 ### 1. GTA GTFS/GTFS-RT
@@ -270,12 +270,13 @@ exists in either Progress Report PDF.
 ### 3. Census ACS + EJScreen/CEJST
 
 Census API (`api.census.gov/data/2022/acs/acs5`) requires a free, instant self-serve key
-(`api.census.gov/data/key_signup.html`) — endpoint/params verified live (an unauthenticated request
-returns the expected "Missing Key" response, not a 404), but no key was available in this
-environment, so this is **not verified end-to-end**. `scripts/fetch_census_acs.py` requires
-`CENSUS_API_KEY`; on failure it writes a `{"status":"pending-api-key"}` placeholder (committed) so
-`recommendations.html`'s Recommendation 3 section renders an explicit pending state instead of a
-silent gap. Runs via `.github/workflows/refresh-census-acs.yml`, monthly.
+(`api.census.gov/data/key_signup.html`). `scripts/fetch_census_acs.py` requires `CENSUS_API_KEY`; on
+failure it writes a `{"status":"pending-api-key"}` placeholder (committed) so `recommendations.html`'s
+Recommendation 3 section renders an explicit pending state instead of a silent gap. **Confirmed live
+end-to-end after the repository owner added a real key**: the first authenticated run returned 125
+real Guilford County tracts; the highest-poverty tract found is Census Tract 114 (56.2% poverty
+rate, $29,032 median household income, population 5,449) — see `data/live/census-acs.json`. Runs via
+`.github/workflows/refresh-census-acs.yml`, monthly.
 
 **EJScreen/CEJST is not integrated — confirmed broken, not merely untried.** EPA's official
 `ejscreen.epa.gov` subdomain returns a DNS resolution failure (confirmed by direct request — the
@@ -309,16 +310,22 @@ existing citation alone (`funding.json > usda-tree-canopy-2023 > usaSpendingNote
 
 ### 5. EPA AQS
 
-Confirmed live — an unauthenticated request to `aqs.epa.gov/data/api/dailyData/byCounty` (ozone,
-param 44201, state 37/county 081 = Guilford County) returns a structured "Email and/or key are
-invalid" JSON error (not a 404), confirming the route and all param names are current. **AQS keys
-are issued by email after signup, not instantly** — no key was obtainable synchronously in this
-session, so this is **not verified end-to-end**, distinct from the Census case only in that there is
-no self-serve instant path at all. `scripts/fetch_aqs_snapshot.py` requires `AQS_EMAIL`/`AQS_KEY`;
-on failure it writes the same `{"status":"pending-api-key"}` placeholder pattern as Census, rendered
-on the homepage (no "Climate Resiliency Center" content exists anywhere in this dataset despite the
-Phase 5 brief's framing — resolved as a homepage-level "Guilford County air quality" card instead of
-forcing a nonexistent page tie-in). Runs via `.github/workflows/refresh-aqs.yml`, daily.
+**AQS keys are issued by email after signup, not instantly.** `scripts/fetch_aqs_snapshot.py`
+requires `AQS_EMAIL`/`AQS_KEY`; on failure it writes a `{"status":"pending-api-key"}` placeholder,
+rendered on the homepage (no "Climate Resiliency Center" content exists anywhere in this dataset
+despite the Phase 5 brief's framing — resolved as a homepage-level "Guilford County air quality"
+card instead of forcing a nonexistent page tie-in).
+
+**Confirmed live end-to-end after the repository owner added real credentials** — with one real
+finding that changed the design: the first authenticated run, querying a 14-day window (the original
+assumption — "monitors report on a delay"), returned **zero rows**. Widening to 90 days found real
+data: 164 readings, most recent from the Mendenhall School monitor, ozone 0.039391 ppm, dated ~7
+weeks before the fetch. That row's own `aqi` field was `null` — AQS doesn't compute an AQI value for
+every daily-summary row, rendered on the homepage as "Not reported for this reading" rather than
+silently dropped. The ~7-week gap is EPA's own data validation/QA cycle for regulatory air-monitoring
+data, not a live feed — `.github/workflows/refresh-aqs.yml` was changed from daily to **weekly**
+after this finding, since a daily cron mostly re-fetches the same "most recent" reading for weeks at
+a time.
 
 ### 6. Legistar
 

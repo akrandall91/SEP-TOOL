@@ -14,10 +14,16 @@ name: Refresh EPA AQS air-quality snapshot
 # That placeholder is committed once as part of this integration's initial commit so the site has
 # something real to read and render a "pending API key" state — this workflow will only start
 # committing live updates once real credentials are added and the fetch step starts succeeding.
+#
+# CONFIRMED LIVE with real credentials: the first authenticated run needed a 90-day lookback window
+# to find any data at all (see scripts/fetch_aqs_snapshot.py) — EPA's own validation/QA cycle for
+# this data runs on the order of weeks, not days. A daily cron therefore mostly re-fetches the same
+# "most recent" reading; weekly is enough to catch a new one without wasting CI minutes.
 
 on:
   schedule:
-    - cron: "0 12 * * *" # daily 12:00 UTC — AQS daily-summary data updates roughly daily with a lag
+    - cron: "0 12 * * 1" # weekly, Monday 12:00 UTC — AQS's own validation cycle runs on the order
+      # of weeks (confirmed by a real run), so daily reruns mostly refetch the same reading
   workflow_dispatch: {}
 
 permissions:

@@ -114,7 +114,12 @@ async function renderCensusAcsWidget(mountEl, base) {
   const top = data.highestPovertyTracts || [];
   const rows = top
     .slice(0, 5)
-    .map((t) => `<li style="margin-bottom:4px;">${t.tractName} — <strong>${t.povertyRatePct}%</strong> poverty rate${t.medianHouseholdIncomeUsd ? `, $${t.medianHouseholdIncomeUsd.toLocaleString()} median household income` : ""} (pop. ${t.population.toLocaleString()})</li>`)
+    .map((t) => {
+      // Census's own NAME field is verbose ("Census Tract 114; Guilford County; North Carolina") —
+      // the county/state are already stated in the section header above, so trim the redundant part.
+      const shortName = (t.tractName || "").split(";")[0].trim() || t.tractName;
+      return `<li style="margin-bottom:4px;">${shortName} — <strong>${t.povertyRatePct}%</strong> poverty rate${t.medianHouseholdIncomeUsd ? `, $${t.medianHouseholdIncomeUsd.toLocaleString()} median household income` : ""} (pop. ${t.population.toLocaleString()})</li>`;
+    })
     .join("");
 
   mountEl.innerHTML = `
