@@ -42,6 +42,7 @@ STATIC_PAGES = [
     ("timeline.html", "timeline"),
     ("explorer.html", "explorer"),
     ("matrix.html", "matrix"),
+    ("progress.html", "progress"),
     ("equity.html", "equity"),
     ("sources.html", "sources"),
     ("methodology.html", "methodology"),

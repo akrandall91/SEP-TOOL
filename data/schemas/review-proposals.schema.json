@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","type":"object","required":["proposals"],"properties":{"proposals":{"type":"array","items":{"type":"object","required":["id","goalId","proposedBy","proposedAt","field","proposedValue","reason","sourceUrl","status"],"properties":{"status":{"enum":["pending","accepted","declined","needs_information"]}}}}}}

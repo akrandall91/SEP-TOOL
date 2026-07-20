@@ -67,7 +67,10 @@
     "progress2023_2024Misc": "progress-2023-2024-misc.json",
     "citywideEnergyTimeseries": "citywide-energy-timeseries.json",
     "publicRecords": "public-records.json",
-    "federalAwards": "federal-awards.json"
+    "federalAwards": "federal-awards.json",
+    "goalTransitions": "goal-transitions.json",
+    "reviewedEvents": "reviewed-events.json",
+    "reviewProposals": "review-proposals.json"
   },
   "citationSchema": {
     "twoDocumentCitation": {

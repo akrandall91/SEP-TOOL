@@ -20,6 +20,7 @@ jobs:
         run: python scripts/fetch_usaspending_snapshot.py
       - name: Rebuild and validate
         run: |
+          python scripts/generate_goal_transitions.py
           python build.py
           python scripts/validate_data.py
       - name: Commit successful snapshots and freshness states

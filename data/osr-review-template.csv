@@ -1,0 +1,2 @@
+goal_id,reviewer_name,reviewer_role,review_date,year,review_area,current_dashboard_value,proposed_value,reason,primary_source_title,primary_source_url,source_page_or_section,event_date,event_type,confidence,permission_to_attribute,follow_up_needed
+EXAMPLE-G1,Example Reviewer,Department reviewer,2026-07-20,2025,milestone,Not reported,Contract awarded,Example only—replace this row,Example primary record,https://example.gov/source,p. 4,2025-09-01,progressed,high,yes,no

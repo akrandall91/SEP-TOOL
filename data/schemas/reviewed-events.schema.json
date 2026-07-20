@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","type":"object","required":["events"],"properties":{"events":{"type":"array","items":{"type":"object","required":["id","goalId","date","eventType","citation","reviewedBy","reviewedAt"],"properties":{"eventType":{"enum":["paused","cancelled","superseded","completed","corrected"]}}}}}}

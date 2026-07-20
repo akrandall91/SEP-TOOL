@@ -1,0 +1,47 @@
+name: OSR evidence or correction review
+description: Propose a sourced milestone, correction, funding link, or status event.
+title: "[Evidence review] "
+labels: ["evidence-review"]
+body:
+  - type: input
+    id: goal
+    attributes: {label: Goal ID, placeholder: "Example: FO-G1"}
+    validations: {required: true}
+  - type: dropdown
+    id: area
+    attributes:
+      label: Review area
+      options: [Annual reporting, Milestone, Funding, Citation, Target, Pause or cancellation, Completion, Contradiction, Other]
+    validations: {required: true}
+  - type: input
+    id: current
+    attributes: {label: Current dashboard value}
+    validations: {required: true}
+  - type: input
+    id: proposed
+    attributes: {label: Proposed value}
+    validations: {required: true}
+  - type: textarea
+    id: reason
+    attributes: {label: Why should it change?}
+    validations: {required: true}
+  - type: input
+    id: source
+    attributes: {label: Primary-source URL or document reference}
+    validations: {required: true}
+  - type: input
+    id: location
+    attributes: {label: Page, section, agenda item, or award ID}
+  - type: dropdown
+    id: attribution
+    attributes:
+      label: Attribution preference
+      options: [Name and role may be published, Role only may be published, Do not attribute publicly]
+    validations: {required: true}
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Evidence confirmation
+      options:
+        - label: I understand this proposal will not change published facts until it is reviewed.
+          required: true

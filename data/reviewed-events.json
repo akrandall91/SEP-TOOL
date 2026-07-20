@@ -1,0 +1,1 @@
+{"$schema":"schemas/reviewed-events.schema.json","events":[],"_notes":"Only analyst-reviewed, primary-source-supported pause, cancellation, supersession, completion, or correction events belong here. Silence is never entered as cancellation."}

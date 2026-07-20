@@ -16,6 +16,9 @@ external verification, derived analysis, contradictions, and missing information
 - `assets/js/accountability.js`: explorer, matrix, source drawer, theme, and downloads.
 - `data/public-records.json`: normalized discovery/freshness state for City and permit records.
 - `data/federal-awards.json`: confirmed USAspending obligations and outlays.
+- `data/goal-transitions.json`: generated annual continuity and transition classifications.
+- `data/reviewed-events.json`: reviewed pause, cancellation, supersession, completion, or correction events.
+- `data/review-proposals.json`: non-authoritative OSR/community proposal staging.
 - `data/raw/public-records/`: dated, immutable source responses retained for reproducibility.
 
 The public information architecture is Overview, Goal Explorer, Reporting Matrix, Funding,
@@ -37,6 +40,7 @@ Public evidence refreshes are reproducible with:
 python scripts/fetch_public_records.py
 python scripts/fetch_usaspending_snapshot.py
 python scripts/fetch_legistar_snapshot.py
+python scripts/generate_goal_transitions.py
 python build.py
 python scripts/validate_data.py
 ```
@@ -45,6 +49,13 @@ The scheduled workflow runs weekly. City pages that reject automated retrieval r
 with an explicit error state; their last successful records are never erased. Solar permit
 discovery is privacy-minimized to tract/year aggregates and never publishes resident names,
 street addresses, or exact residential coordinates.
+
+## OSR Sidequest collaboration
+
+`SIDEQUEST.md` defines a lightweight collaboration model for OSR, department implementers, and
+community reviewers. `data/osr-review-template.csv` provides a review workbook, and the structured
+GitHub issue template accepts sourced corrections. Proposals never change published facts
+automatically; accepted terminal events require a primary citation and reviewer metadata.
 
 Validation checks unique goal IDs, allowed history years/statuses, citation references, funding
 link coverage, and equivalence between every baked block and source JSON. The machine-readable

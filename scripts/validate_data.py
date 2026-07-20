@@ -8,6 +8,7 @@ def load(name):
  except Exception as exc:errors.append(f'data/{name}: invalid JSON: {exc}');return {}
 index=load('index.json');departments=load('departments.json');linkage=load('funding-linkage.json')
 public_records=load('public-records.json');federal_awards=load('federal-awards.json');funding=load('funding.json')
+transitions=load('goal-transitions.json');reviewed_events=load('reviewed-events.json');review_proposals=load('review-proposals.json')
 source_ids={s.get('id') for s in index.get('sources',[])};goal_ids=set();goals=[]
 def citations(value,path='root'):
  if path.startswith('index.citationSchema'):return
@@ -34,6 +35,20 @@ citations(departments,'departments');citations(index,'index')
 linked={x.get('goalId') for x in linkage.get('goalLevelDetail',[])}
 if linked!=goal_ids:errors.append(f'funding-linkage IDs differ: missing={sorted(goal_ids-linked)}, extra={sorted(linked-goal_ids)}')
 if len(goals)!=21:errors.append(f'expected 21 goals, found {len(goals)}')
+transition_ids=[x.get('goalId') for x in transitions.get('goals',[])]
+if set(transition_ids)!=goal_ids:errors.append(f'goal-transitions IDs differ: missing={sorted(goal_ids-set(transition_ids))}, extra={sorted(set(transition_ids)-goal_ids)}')
+if len(transition_ids)!=len(set(transition_ids)):errors.append('goal-transitions: duplicate goal id')
+allowed_transitions={'newly_reported','returned_after_gap','reporting_dropoff','continued_nonreporting','progressed','continued_reporting','status_changed_unclear'}
+for row in transitions.get('goals',[]):
+ if len(row.get('years',[]))!=3 or len(row.get('transitions',[]))!=2:errors.append(f'{row.get("goalId")}: expected 3 years and 2 transitions')
+ for t in row.get('transitions',[]):
+  if t.get('type') not in allowed_transitions:errors.append(f'{row.get("goalId")}: invalid transition {t.get("type")}')
+ if row.get('currentInterpretation')=='cancelled' and not row.get('abandonmentClaimSupported'):errors.append(f'{row.get("goalId")}: cancellation lacks reviewed support')
+for event in reviewed_events.get('events',[]):
+ if event.get('goalId') not in goal_ids:errors.append(f'reviewed event {event.get("id")}: unknown goal')
+ if not event.get('citation'):errors.append(f'reviewed event {event.get("id")}: citation required')
+for proposal in review_proposals.get('proposals',[]):
+ if proposal.get('goalId') not in goal_ids:errors.append(f'review proposal {proposal.get("id")}: unknown goal')
 dataset_ids=[x.get('id') for x in public_records.get('datasets',[])]
 if len(dataset_ids)!=len(set(dataset_ids)):errors.append('public-records: duplicate dataset id')
 for dataset in public_records.get('datasets',[]):
