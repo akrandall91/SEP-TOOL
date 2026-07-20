@@ -12,13 +12,11 @@ Run manually with:
   AQS_EMAIL=you@example.com AQS_KEY=xxx python scripts/fetch_aqs_snapshot.py
 Run automatically by .github/workflows/refresh-aqs.yml on a schedule.
 
-ENDPOINT VERIFIED in this session (not end-to-end — no key was available or obtainable synchronously
-in this environment): a real request to
+VERIFIED END-TO-END: a real authenticated run against
   https://aqs.epa.gov/data/api/dailyData/byCounty?...&state=37&county=081
-with an invalid email/key returned a structured HTTP 400 "Email and/or key are invalid" JSON error
-(not a 404 or malformed-request error), confirming the route and all param names (param, bdate,
-edate, state, county) are current. Verify the first live run's actual JSON output shape before
-trusting this blindly, same caveat as this project's EIA and Census scripts.
+succeeded (status="live", not an auth error) but returned zero rows for a 14-day window — Guilford
+County's ozone monitor doesn't report continuously. Widened to 90 days below to improve the odds of
+catching a real reading regardless of season or monitor gaps; re-verify after the next scheduled run.
 
 Pollutant code 44201 = Ozone (the pollutant both Progress Reports' Climate Resiliency framing
 focuses on). state=37 (NC), county=081 (Guilford County, which contains Greensboro).
@@ -43,9 +41,12 @@ OZONE_PARAM_CODE = "44201"
 
 def fetch_ozone(email: str, key: str) -> dict:
     # AQS daily-summary data typically lags several days behind real time (monitors report on a
-    # delay), so pull the last 14 days rather than "today" to reliably get at least one reading.
+    # delay), and ozone monitors often only report seasonally (roughly April-October) or have gaps
+    # for maintenance/calibration — a 14-day window returned zero rows for Guilford County on the
+    # first live run of this script, so this pulls the last 90 days instead to reliably catch at
+    # least one reading regardless of season or monitor gaps.
     end = datetime.now(timezone.utc).date()
-    start = end - timedelta(days=14)
+    start = end - timedelta(days=90)
     params = {
         "email": email,
         "key": key,
