@@ -126,10 +126,16 @@ async function renderCensusAcsWidget(mountEl, base) {
     <div class="chart-annotation-box" style="margin-top:var(--space-3);">
       <strong>📊 Live vulnerable-communities view (Census ACS 5-Year, ${data.tractCount} Guilford County tracts)</strong>
       <p style="font-size:var(--font-size-sm);margin-top:6px;">${data.cejstNote}</p>
+      <div id="tract-choropleth-mount" style="margin-top:8px;">Loading tract map…</div>
       <div style="font-size:var(--font-size-sm);margin-top:8px;"><strong>Highest-poverty tracts:</strong></div>
       <ul style="font-size:var(--font-size-sm);padding-left:20px;margin-top:4px;">${rows}</ul>
       <div style="font-size:var(--font-size-xs);color:var(--ink-muted);margin-top:6px;">${renderCite(data.citation)}</div>
     </div>`;
+
+  if (typeof renderTractChoropleth === "function" && typeof fetchTractBoundaries === "function") {
+    const mapMount = mountEl.querySelector("#tract-choropleth-mount");
+    fetchTractBoundaries(base).then((geoData) => renderTractChoropleth(mapMount, geoData, data));
+  }
 }
 
 function directiveStatusState(status) {
