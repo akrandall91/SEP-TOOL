@@ -1,5 +1,976 @@
 {
-  "status": "pending-api-key",
-  "note": "Census API requires a free, instant self-serve key that has not yet been added to this repository's secrets. Endpoint/params verified live (unauthenticated request returned the expected 'Missing Key' response) \u2014 see scripts/fetch_census_acs.py.",
-  "checkedAt": "2026-07-15T09:23:40.229162+00:00"
+  "source": "Census ACS 5-Year Estimates 2022, tract-level, Guilford County NC",
+  "fetchedAt": "2026-07-20T06:04:05.211115+00:00",
+  "tractCount": 125,
+  "highestPovertyTracts": [
+    {
+      "tractName": "Census Tract 114; Guilford County; North Carolina",
+      "tractFips": "011400",
+      "population": 5449,
+      "povertyRatePct": 56.2,
+      "medianHouseholdIncomeUsd": 29032
+    },
+    {
+      "tractName": "Census Tract 139; Guilford County; North Carolina",
+      "tractFips": "013900",
+      "population": 3880,
+      "povertyRatePct": 51.9,
+      "medianHouseholdIncomeUsd": 16397
+    },
+    {
+      "tractName": "Census Tract 110; Guilford County; North Carolina",
+      "tractFips": "011000",
+      "population": 5403,
+      "povertyRatePct": 50.9,
+      "medianHouseholdIncomeUsd": 24714
+    },
+    {
+      "tractName": "Census Tract 115; Guilford County; North Carolina",
+      "tractFips": "011500",
+      "population": 2790,
+      "povertyRatePct": 46.4,
+      "medianHouseholdIncomeUsd": 35220
+    },
+    {
+      "tractName": "Census Tract 112.01; Guilford County; North Carolina",
+      "tractFips": "011201",
+      "population": 3200,
+      "povertyRatePct": 43.8,
+      "medianHouseholdIncomeUsd": 37966
+    },
+    {
+      "tractName": "Census Tract 127.06; Guilford County; North Carolina",
+      "tractFips": "012706",
+      "population": 4059,
+      "povertyRatePct": 42.6,
+      "medianHouseholdIncomeUsd": 28481
+    },
+    {
+      "tractName": "Census Tract 126.08; Guilford County; North Carolina",
+      "tractFips": "012608",
+      "population": 2718,
+      "povertyRatePct": 42.5,
+      "medianHouseholdIncomeUsd": 29415
+    },
+    {
+      "tractName": "Census Tract 112.02; Guilford County; North Carolina",
+      "tractFips": "011202",
+      "population": 3045,
+      "povertyRatePct": 41.2,
+      "medianHouseholdIncomeUsd": 29436
+    },
+    {
+      "tractName": "Census Tract 138; Guilford County; North Carolina",
+      "tractFips": "013800",
+      "population": 4519,
+      "povertyRatePct": 38.7,
+      "medianHouseholdIncomeUsd": 37271
+    },
+    {
+      "tractName": "Census Tract 142; Guilford County; North Carolina",
+      "tractFips": "014200",
+      "population": 4432,
+      "povertyRatePct": 37.3,
+      "medianHouseholdIncomeUsd": 44333
+    },
+    {
+      "tractName": "Census Tract 127.07; Guilford County; North Carolina",
+      "tractFips": "012707",
+      "population": 2647,
+      "povertyRatePct": 37.0,
+      "medianHouseholdIncomeUsd": 23750
+    },
+    {
+      "tractName": "Census Tract 127.05; Guilford County; North Carolina",
+      "tractFips": "012705",
+      "population": 4570,
+      "povertyRatePct": 36.8,
+      "medianHouseholdIncomeUsd": 39107
+    }
+  ],
+  "allTracts": [
+    {
+      "tractName": "Census Tract 114; Guilford County; North Carolina",
+      "tractFips": "011400",
+      "population": 5449,
+      "povertyRatePct": 56.2,
+      "medianHouseholdIncomeUsd": 29032
+    },
+    {
+      "tractName": "Census Tract 139; Guilford County; North Carolina",
+      "tractFips": "013900",
+      "population": 3880,
+      "povertyRatePct": 51.9,
+      "medianHouseholdIncomeUsd": 16397
+    },
+    {
+      "tractName": "Census Tract 110; Guilford County; North Carolina",
+      "tractFips": "011000",
+      "population": 5403,
+      "povertyRatePct": 50.9,
+      "medianHouseholdIncomeUsd": 24714
+    },
+    {
+      "tractName": "Census Tract 115; Guilford County; North Carolina",
+      "tractFips": "011500",
+      "population": 2790,
+      "povertyRatePct": 46.4,
+      "medianHouseholdIncomeUsd": 35220
+    },
+    {
+      "tractName": "Census Tract 112.01; Guilford County; North Carolina",
+      "tractFips": "011201",
+      "population": 3200,
+      "povertyRatePct": 43.8,
+      "medianHouseholdIncomeUsd": 37966
+    },
+    {
+      "tractName": "Census Tract 127.06; Guilford County; North Carolina",
+      "tractFips": "012706",
+      "population": 4059,
+      "povertyRatePct": 42.6,
+      "medianHouseholdIncomeUsd": 28481
+    },
+    {
+      "tractName": "Census Tract 126.08; Guilford County; North Carolina",
+      "tractFips": "012608",
+      "population": 2718,
+      "povertyRatePct": 42.5,
+      "medianHouseholdIncomeUsd": 29415
+    },
+    {
+      "tractName": "Census Tract 112.02; Guilford County; North Carolina",
+      "tractFips": "011202",
+      "population": 3045,
+      "povertyRatePct": 41.2,
+      "medianHouseholdIncomeUsd": 29436
+    },
+    {
+      "tractName": "Census Tract 138; Guilford County; North Carolina",
+      "tractFips": "013800",
+      "population": 4519,
+      "povertyRatePct": 38.7,
+      "medianHouseholdIncomeUsd": 37271
+    },
+    {
+      "tractName": "Census Tract 142; Guilford County; North Carolina",
+      "tractFips": "014200",
+      "population": 4432,
+      "povertyRatePct": 37.3,
+      "medianHouseholdIncomeUsd": 44333
+    },
+    {
+      "tractName": "Census Tract 127.07; Guilford County; North Carolina",
+      "tractFips": "012707",
+      "population": 2647,
+      "povertyRatePct": 37.0,
+      "medianHouseholdIncomeUsd": 23750
+    },
+    {
+      "tractName": "Census Tract 127.05; Guilford County; North Carolina",
+      "tractFips": "012705",
+      "population": 4570,
+      "povertyRatePct": 36.8,
+      "medianHouseholdIncomeUsd": 39107
+    },
+    {
+      "tractName": "Census Tract 144.08; Guilford County; North Carolina",
+      "tractFips": "014408",
+      "population": 2909,
+      "povertyRatePct": 36.7,
+      "medianHouseholdIncomeUsd": 32670
+    },
+    {
+      "tractName": "Census Tract 107.02; Guilford County; North Carolina",
+      "tractFips": "010702",
+      "population": 6486,
+      "povertyRatePct": 36.4,
+      "medianHouseholdIncomeUsd": 33370
+    },
+    {
+      "tractName": "Census Tract 145.01; Guilford County; North Carolina",
+      "tractFips": "014501",
+      "population": 1416,
+      "povertyRatePct": 35.4,
+      "medianHouseholdIncomeUsd": 33900
+    },
+    {
+      "tractName": "Census Tract 111.01; Guilford County; North Carolina",
+      "tractFips": "011101",
+      "population": 3921,
+      "povertyRatePct": 34.9,
+      "medianHouseholdIncomeUsd": 32123
+    },
+    {
+      "tractName": "Census Tract 126.18; Guilford County; North Carolina",
+      "tractFips": "012618",
+      "population": 4187,
+      "povertyRatePct": 30.7,
+      "medianHouseholdIncomeUsd": 34562
+    },
+    {
+      "tractName": "Census Tract 126.07; Guilford County; North Carolina",
+      "tractFips": "012607",
+      "population": 2808,
+      "povertyRatePct": 29.0,
+      "medianHouseholdIncomeUsd": 54667
+    },
+    {
+      "tractName": "Census Tract 106.02; Guilford County; North Carolina",
+      "tractFips": "010602",
+      "population": 4320,
+      "povertyRatePct": 28.8,
+      "medianHouseholdIncomeUsd": 58049
+    },
+    {
+      "tractName": "Census Tract 113; Guilford County; North Carolina",
+      "tractFips": "011300",
+      "population": 3424,
+      "povertyRatePct": 28.6,
+      "medianHouseholdIncomeUsd": 48029
+    },
+    {
+      "tractName": "Census Tract 127.04; Guilford County; North Carolina",
+      "tractFips": "012704",
+      "population": 4390,
+      "povertyRatePct": 28.1,
+      "medianHouseholdIncomeUsd": 36189
+    },
+    {
+      "tractName": "Census Tract 145.03; Guilford County; North Carolina",
+      "tractFips": "014503",
+      "population": 3181,
+      "povertyRatePct": 28.0,
+      "medianHouseholdIncomeUsd": 39135
+    },
+    {
+      "tractName": "Census Tract 126.12; Guilford County; North Carolina",
+      "tractFips": "012612",
+      "population": 6071,
+      "povertyRatePct": 27.6,
+      "medianHouseholdIncomeUsd": 49607
+    },
+    {
+      "tractName": "Census Tract 119.05; Guilford County; North Carolina",
+      "tractFips": "011905",
+      "population": 4878,
+      "povertyRatePct": 27.5,
+      "medianHouseholdIncomeUsd": 40604
+    },
+    {
+      "tractName": "Census Tract 125.04; Guilford County; North Carolina",
+      "tractFips": "012504",
+      "population": 3604,
+      "povertyRatePct": 27.5,
+      "medianHouseholdIncomeUsd": 48900
+    },
+    {
+      "tractName": "Census Tract 161.02; Guilford County; North Carolina",
+      "tractFips": "016102",
+      "population": 3890,
+      "povertyRatePct": 27.5,
+      "medianHouseholdIncomeUsd": 39127
+    },
+    {
+      "tractName": "Census Tract 109; Guilford County; North Carolina",
+      "tractFips": "010900",
+      "population": 2066,
+      "povertyRatePct": 27.1,
+      "medianHouseholdIncomeUsd": 42981
+    },
+    {
+      "tractName": "Census Tract 127.03; Guilford County; North Carolina",
+      "tractFips": "012703",
+      "population": 4685,
+      "povertyRatePct": 26.8,
+      "medianHouseholdIncomeUsd": 59185
+    },
+    {
+      "tractName": "Census Tract 103; Guilford County; North Carolina",
+      "tractFips": "010300",
+      "population": 2753,
+      "povertyRatePct": 26.0,
+      "medianHouseholdIncomeUsd": 38395
+    },
+    {
+      "tractName": "Census Tract 136.02; Guilford County; North Carolina",
+      "tractFips": "013602",
+      "population": 3874,
+      "povertyRatePct": 25.9,
+      "medianHouseholdIncomeUsd": 45333
+    },
+    {
+      "tractName": "Census Tract 143; Guilford County; North Carolina",
+      "tractFips": "014300",
+      "population": 2741,
+      "povertyRatePct": 25.1,
+      "medianHouseholdIncomeUsd": 39757
+    },
+    {
+      "tractName": "Census Tract 144.10; Guilford County; North Carolina",
+      "tractFips": "014410",
+      "population": 3640,
+      "povertyRatePct": 24.3,
+      "medianHouseholdIncomeUsd": 47872
+    },
+    {
+      "tractName": "Census Tract 126.04; Guilford County; North Carolina",
+      "tractFips": "012604",
+      "population": 3953,
+      "povertyRatePct": 23.8,
+      "medianHouseholdIncomeUsd": 37390
+    },
+    {
+      "tractName": "Census Tract 101; Guilford County; North Carolina",
+      "tractFips": "010100",
+      "population": 1719,
+      "povertyRatePct": 23.6,
+      "medianHouseholdIncomeUsd": 46833
+    },
+    {
+      "tractName": "Census Tract 136.01; Guilford County; North Carolina",
+      "tractFips": "013601",
+      "population": 3840,
+      "povertyRatePct": 23.2,
+      "medianHouseholdIncomeUsd": 37049
+    },
+    {
+      "tractName": "Census Tract 153.02; Guilford County; North Carolina",
+      "tractFips": "015302",
+      "population": 4302,
+      "povertyRatePct": 23.2,
+      "medianHouseholdIncomeUsd": 49534
+    },
+    {
+      "tractName": "Census Tract 102; Guilford County; North Carolina",
+      "tractFips": "010200",
+      "population": 4470,
+      "povertyRatePct": 22.6,
+      "medianHouseholdIncomeUsd": 40583
+    },
+    {
+      "tractName": "Census Tract 116.02; Guilford County; North Carolina",
+      "tractFips": "011602",
+      "population": 2657,
+      "povertyRatePct": 22.5,
+      "medianHouseholdIncomeUsd": 41755
+    },
+    {
+      "tractName": "Census Tract 116.01; Guilford County; North Carolina",
+      "tractFips": "011601",
+      "population": 3112,
+      "povertyRatePct": 21.1,
+      "medianHouseholdIncomeUsd": 50232
+    },
+    {
+      "tractName": "Census Tract 119.04; Guilford County; North Carolina",
+      "tractFips": "011904",
+      "population": 5358,
+      "povertyRatePct": 20.0,
+      "medianHouseholdIncomeUsd": 42469
+    },
+    {
+      "tractName": "Census Tract 126.19; Guilford County; North Carolina",
+      "tractFips": "012619",
+      "population": 3793,
+      "povertyRatePct": 20.0,
+      "medianHouseholdIncomeUsd": 46899
+    },
+    {
+      "tractName": "Census Tract 106.01; Guilford County; North Carolina",
+      "tractFips": "010601",
+      "population": 2610,
+      "povertyRatePct": 19.6,
+      "medianHouseholdIncomeUsd": 63605
+    },
+    {
+      "tractName": "Census Tract 140; Guilford County; North Carolina",
+      "tractFips": "014000",
+      "population": 3167,
+      "povertyRatePct": 19.4,
+      "medianHouseholdIncomeUsd": 44875
+    },
+    {
+      "tractName": "Census Tract 155; Guilford County; North Carolina",
+      "tractFips": "015500",
+      "population": 7364,
+      "povertyRatePct": 19.0,
+      "medianHouseholdIncomeUsd": 52233
+    },
+    {
+      "tractName": "Census Tract 152.01; Guilford County; North Carolina",
+      "tractFips": "015201",
+      "population": 4769,
+      "povertyRatePct": 18.8,
+      "medianHouseholdIncomeUsd": 69191
+    },
+    {
+      "tractName": "Census Tract 167.02; Guilford County; North Carolina",
+      "tractFips": "016702",
+      "population": 3088,
+      "povertyRatePct": 18.7,
+      "medianHouseholdIncomeUsd": 63203
+    },
+    {
+      "tractName": "Census Tract 108; Guilford County; North Carolina",
+      "tractFips": "010800",
+      "population": 3111,
+      "povertyRatePct": 18.5,
+      "medianHouseholdIncomeUsd": 69479
+    },
+    {
+      "tractName": "Census Tract 168; Guilford County; North Carolina",
+      "tractFips": "016800",
+      "population": 9201,
+      "povertyRatePct": 18.2,
+      "medianHouseholdIncomeUsd": 64678
+    },
+    {
+      "tractName": "Census Tract 126.21; Guilford County; North Carolina",
+      "tractFips": "012621",
+      "population": 4705,
+      "povertyRatePct": 18.0,
+      "medianHouseholdIncomeUsd": 38209
+    },
+    {
+      "tractName": "Census Tract 145.02; Guilford County; North Carolina",
+      "tractFips": "014502",
+      "population": 5312,
+      "povertyRatePct": 17.8,
+      "medianHouseholdIncomeUsd": 46723
+    },
+    {
+      "tractName": "Census Tract 128.05; Guilford County; North Carolina",
+      "tractFips": "012805",
+      "population": 3095,
+      "povertyRatePct": 17.3,
+      "medianHouseholdIncomeUsd": 44351
+    },
+    {
+      "tractName": "Census Tract 166; Guilford County; North Carolina",
+      "tractFips": "016600",
+      "population": 2241,
+      "povertyRatePct": 16.7,
+      "medianHouseholdIncomeUsd": 45375
+    },
+    {
+      "tractName": "Census Tract 144.09; Guilford County; North Carolina",
+      "tractFips": "014409",
+      "population": 2940,
+      "povertyRatePct": 16.2,
+      "medianHouseholdIncomeUsd": 55114
+    },
+    {
+      "tractName": "Census Tract 125.08; Guilford County; North Carolina",
+      "tractFips": "012508",
+      "population": 2873,
+      "povertyRatePct": 15.7,
+      "medianHouseholdIncomeUsd": 68750
+    },
+    {
+      "tractName": "Census Tract 126.20; Guilford County; North Carolina",
+      "tractFips": "012620",
+      "population": 3685,
+      "povertyRatePct": 15.4,
+      "medianHouseholdIncomeUsd": 38816
+    },
+    {
+      "tractName": "Census Tract 164.07; Guilford County; North Carolina",
+      "tractFips": "016407",
+      "population": 4893,
+      "povertyRatePct": 15.2,
+      "medianHouseholdIncomeUsd": 104653
+    },
+    {
+      "tractName": "Census Tract 160.11; Guilford County; North Carolina",
+      "tractFips": "016011",
+      "population": 4707,
+      "povertyRatePct": 14.1,
+      "medianHouseholdIncomeUsd": 42188
+    },
+    {
+      "tractName": "Census Tract 111.02; Guilford County; North Carolina",
+      "tractFips": "011102",
+      "population": 2311,
+      "povertyRatePct": 13.8,
+      "medianHouseholdIncomeUsd": 44300
+    },
+    {
+      "tractName": "Census Tract 128.04; Guilford County; North Carolina",
+      "tractFips": "012804",
+      "population": 4588,
+      "povertyRatePct": 13.7,
+      "medianHouseholdIncomeUsd": 52088
+    },
+    {
+      "tractName": "Census Tract 161.01; Guilford County; North Carolina",
+      "tractFips": "016101",
+      "population": 5162,
+      "povertyRatePct": 13.4,
+      "medianHouseholdIncomeUsd": 57500
+    },
+    {
+      "tractName": "Census Tract 126.17; Guilford County; North Carolina",
+      "tractFips": "012617",
+      "population": 3950,
+      "povertyRatePct": 13.2,
+      "medianHouseholdIncomeUsd": 58985
+    },
+    {
+      "tractName": "Census Tract 107.01; Guilford County; North Carolina",
+      "tractFips": "010701",
+      "population": 1757,
+      "povertyRatePct": 13.1,
+      "medianHouseholdIncomeUsd": 69514
+    },
+    {
+      "tractName": "Census Tract 165.02; Guilford County; North Carolina",
+      "tractFips": "016502",
+      "population": 6833,
+      "povertyRatePct": 13.0,
+      "medianHouseholdIncomeUsd": 84769
+    },
+    {
+      "tractName": "Census Tract 164.05; Guilford County; North Carolina",
+      "tractFips": "016405",
+      "population": 1548,
+      "povertyRatePct": 12.7,
+      "medianHouseholdIncomeUsd": 47571
+    },
+    {
+      "tractName": "Census Tract 104.03; Guilford County; North Carolina",
+      "tractFips": "010403",
+      "population": 1386,
+      "povertyRatePct": 12.4,
+      "medianHouseholdIncomeUsd": 57955
+    },
+    {
+      "tractName": "Census Tract 144.06; Guilford County; North Carolina",
+      "tractFips": "014406",
+      "population": 2899,
+      "povertyRatePct": 12.2,
+      "medianHouseholdIncomeUsd": 72870
+    },
+    {
+      "tractName": "Census Tract 154.02; Guilford County; North Carolina",
+      "tractFips": "015402",
+      "population": 6825,
+      "povertyRatePct": 11.7,
+      "medianHouseholdIncomeUsd": 56261
+    },
+    {
+      "tractName": "Census Tract 163.06; Guilford County; North Carolina",
+      "tractFips": "016306",
+      "population": 5516,
+      "povertyRatePct": 11.6,
+      "medianHouseholdIncomeUsd": 65705
+    },
+    {
+      "tractName": "Census Tract 161.03; Guilford County; North Carolina",
+      "tractFips": "016103",
+      "population": 5553,
+      "povertyRatePct": 11.3,
+      "medianHouseholdIncomeUsd": 53409
+    },
+    {
+      "tractName": "Census Tract 128.03; Guilford County; North Carolina",
+      "tractFips": "012803",
+      "population": 9339,
+      "povertyRatePct": 11.0,
+      "medianHouseholdIncomeUsd": 59245
+    },
+    {
+      "tractName": "Census Tract 126.11; Guilford County; North Carolina",
+      "tractFips": "012611",
+      "population": 3948,
+      "povertyRatePct": 10.9,
+      "medianHouseholdIncomeUsd": 47061
+    },
+    {
+      "tractName": "Census Tract 157.03; Guilford County; North Carolina",
+      "tractFips": "015703",
+      "population": 5690,
+      "povertyRatePct": 10.9,
+      "medianHouseholdIncomeUsd": 71364
+    },
+    {
+      "tractName": "Census Tract 105; Guilford County; North Carolina",
+      "tractFips": "010500",
+      "population": 2267,
+      "povertyRatePct": 10.6,
+      "medianHouseholdIncomeUsd": 70294
+    },
+    {
+      "tractName": "Census Tract 160.05; Guilford County; North Carolina",
+      "tractFips": "016005",
+      "population": 2089,
+      "povertyRatePct": 10.6,
+      "medianHouseholdIncomeUsd": 118105
+    },
+    {
+      "tractName": "Census Tract 158; Guilford County; North Carolina",
+      "tractFips": "015800",
+      "population": 8809,
+      "povertyRatePct": 10.2,
+      "medianHouseholdIncomeUsd": 154099
+    },
+    {
+      "tractName": "Census Tract 172; Guilford County; North Carolina",
+      "tractFips": "017200",
+      "population": 9256,
+      "povertyRatePct": 10.0,
+      "medianHouseholdIncomeUsd": 82571
+    },
+    {
+      "tractName": "Census Tract 157.05; Guilford County; North Carolina",
+      "tractFips": "015705",
+      "population": 2440,
+      "povertyRatePct": 9.6,
+      "medianHouseholdIncomeUsd": 47917
+    },
+    {
+      "tractName": "Census Tract 160.07; Guilford County; North Carolina",
+      "tractFips": "016007",
+      "population": 4620,
+      "povertyRatePct": 9.5,
+      "medianHouseholdIncomeUsd": 67783
+    },
+    {
+      "tractName": "Census Tract 159.01; Guilford County; North Carolina",
+      "tractFips": "015901",
+      "population": 6511,
+      "povertyRatePct": 9.4,
+      "medianHouseholdIncomeUsd": 112841
+    },
+    {
+      "tractName": "Census Tract 126.10; Guilford County; North Carolina",
+      "tractFips": "012610",
+      "population": 3117,
+      "povertyRatePct": 9.3,
+      "medianHouseholdIncomeUsd": 54450
+    },
+    {
+      "tractName": "Census Tract 104.01; Guilford County; North Carolina",
+      "tractFips": "010401",
+      "population": 1446,
+      "povertyRatePct": 9.1,
+      "medianHouseholdIncomeUsd": 70302
+    },
+    {
+      "tractName": "Census Tract 144.12; Guilford County; North Carolina",
+      "tractFips": "014412",
+      "population": 2762,
+      "povertyRatePct": 9.1,
+      "medianHouseholdIncomeUsd": 73958
+    },
+    {
+      "tractName": "Census Tract 157.04; Guilford County; North Carolina",
+      "tractFips": "015704",
+      "population": 6298,
+      "povertyRatePct": 9.1,
+      "medianHouseholdIncomeUsd": 67398
+    },
+    {
+      "tractName": "Census Tract 151; Guilford County; North Carolina",
+      "tractFips": "015100",
+      "population": 5348,
+      "povertyRatePct": 8.6,
+      "medianHouseholdIncomeUsd": 57427
+    },
+    {
+      "tractName": "Census Tract 160.06; Guilford County; North Carolina",
+      "tractFips": "016006",
+      "population": 4484,
+      "povertyRatePct": 8.6,
+      "medianHouseholdIncomeUsd": 88828
+    },
+    {
+      "tractName": "Census Tract 125.03; Guilford County; North Carolina",
+      "tractFips": "012503",
+      "population": 4110,
+      "povertyRatePct": 8.3,
+      "medianHouseholdIncomeUsd": 86406
+    },
+    {
+      "tractName": "Census Tract 154.01; Guilford County; North Carolina",
+      "tractFips": "015401",
+      "population": 6841,
+      "povertyRatePct": 8.1,
+      "medianHouseholdIncomeUsd": 86753
+    },
+    {
+      "tractName": "Census Tract 137; Guilford County; North Carolina",
+      "tractFips": "013700",
+      "population": 3941,
+      "povertyRatePct": 7.8,
+      "medianHouseholdIncomeUsd": 71392
+    },
+    {
+      "tractName": "Census Tract 170; Guilford County; North Carolina",
+      "tractFips": "017000",
+      "population": 4684,
+      "povertyRatePct": 7.8,
+      "medianHouseholdIncomeUsd": 77405
+    },
+    {
+      "tractName": "Census Tract 160.10; Guilford County; North Carolina",
+      "tractFips": "016010",
+      "population": 2370,
+      "povertyRatePct": 7.6,
+      "medianHouseholdIncomeUsd": 51166
+    },
+    {
+      "tractName": "Census Tract 157.07; Guilford County; North Carolina",
+      "tractFips": "015707",
+      "population": 5216,
+      "povertyRatePct": 7.4,
+      "medianHouseholdIncomeUsd": 87356
+    },
+    {
+      "tractName": "Census Tract 165.03; Guilford County; North Carolina",
+      "tractFips": "016503",
+      "population": 6219,
+      "povertyRatePct": 7.3,
+      "medianHouseholdIncomeUsd": 67410
+    },
+    {
+      "tractName": "Census Tract 144.07; Guilford County; North Carolina",
+      "tractFips": "014407",
+      "population": 5650,
+      "povertyRatePct": 6.7,
+      "medianHouseholdIncomeUsd": 68943
+    },
+    {
+      "tractName": "Census Tract 163.05; Guilford County; North Carolina",
+      "tractFips": "016305",
+      "population": 3708,
+      "povertyRatePct": 6.5,
+      "medianHouseholdIncomeUsd": 91850
+    },
+    {
+      "tractName": "Census Tract 169; Guilford County; North Carolina",
+      "tractFips": "016900",
+      "population": 4916,
+      "povertyRatePct": 6.4,
+      "medianHouseholdIncomeUsd": 85619
+    },
+    {
+      "tractName": "Census Tract 144.11; Guilford County; North Carolina",
+      "tractFips": "014411",
+      "population": 5745,
+      "povertyRatePct": 6.2,
+      "medianHouseholdIncomeUsd": 41915
+    },
+    {
+      "tractName": "Census Tract 164.10; Guilford County; North Carolina",
+      "tractFips": "016410",
+      "population": 5241,
+      "povertyRatePct": 6.0,
+      "medianHouseholdIncomeUsd": 77626
+    },
+    {
+      "tractName": "Census Tract 165.05; Guilford County; North Carolina",
+      "tractFips": "016505",
+      "population": 4961,
+      "povertyRatePct": 5.3,
+      "medianHouseholdIncomeUsd": 74456
+    },
+    {
+      "tractName": "Census Tract 167.01; Guilford County; North Carolina",
+      "tractFips": "016701",
+      "population": 6930,
+      "povertyRatePct": 4.8,
+      "medianHouseholdIncomeUsd": 69157
+    },
+    {
+      "tractName": "Census Tract 171.01; Guilford County; North Carolina",
+      "tractFips": "017101",
+      "population": 5468,
+      "povertyRatePct": 4.8,
+      "medianHouseholdIncomeUsd": 110729
+    },
+    {
+      "tractName": "Census Tract 162.01; Guilford County; North Carolina",
+      "tractFips": "016201",
+      "population": 6812,
+      "povertyRatePct": 4.7,
+      "medianHouseholdIncomeUsd": 109619
+    },
+    {
+      "tractName": "Census Tract 125.09; Guilford County; North Carolina",
+      "tractFips": "012509",
+      "population": 2533,
+      "povertyRatePct": 4.5,
+      "medianHouseholdIncomeUsd": 129036
+    },
+    {
+      "tractName": "Census Tract 153.01; Guilford County; North Carolina",
+      "tractFips": "015301",
+      "population": 5339,
+      "povertyRatePct": 4.5,
+      "medianHouseholdIncomeUsd": 100313
+    },
+    {
+      "tractName": "Census Tract 156.02; Guilford County; North Carolina",
+      "tractFips": "015602",
+      "population": 6285,
+      "povertyRatePct": 4.5,
+      "medianHouseholdIncomeUsd": 105945
+    },
+    {
+      "tractName": "Census Tract 159.02; Guilford County; North Carolina",
+      "tractFips": "015902",
+      "population": 4591,
+      "povertyRatePct": 4.5,
+      "medianHouseholdIncomeUsd": 149214
+    },
+    {
+      "tractName": "Census Tract 164.06; Guilford County; North Carolina",
+      "tractFips": "016406",
+      "population": 4353,
+      "povertyRatePct": 4.5,
+      "medianHouseholdIncomeUsd": 78406
+    },
+    {
+      "tractName": "Census Tract 165.06; Guilford County; North Carolina",
+      "tractFips": "016506",
+      "population": 5206,
+      "povertyRatePct": 4.5,
+      "medianHouseholdIncomeUsd": 112843
+    },
+    {
+      "tractName": "Census Tract 163.04; Guilford County; North Carolina",
+      "tractFips": "016304",
+      "population": 4011,
+      "povertyRatePct": 4.0,
+      "medianHouseholdIncomeUsd": 98839
+    },
+    {
+      "tractName": "Census Tract 125.10; Guilford County; North Carolina",
+      "tractFips": "012510",
+      "population": 3508,
+      "povertyRatePct": 3.8,
+      "medianHouseholdIncomeUsd": 125766
+    },
+    {
+      "tractName": "Census Tract 104.04; Guilford County; North Carolina",
+      "tractFips": "010404",
+      "population": 2532,
+      "povertyRatePct": 3.6,
+      "medianHouseholdIncomeUsd": 150129
+    },
+    {
+      "tractName": "Census Tract 160.08; Guilford County; North Carolina",
+      "tractFips": "016008",
+      "population": 7700,
+      "povertyRatePct": 3.5,
+      "medianHouseholdIncomeUsd": 100056
+    },
+    {
+      "tractName": "Census Tract 162.03; Guilford County; North Carolina",
+      "tractFips": "016203",
+      "population": 5966,
+      "povertyRatePct": 3.3,
+      "medianHouseholdIncomeUsd": 94112
+    },
+    {
+      "tractName": "Census Tract 162.04; Guilford County; North Carolina",
+      "tractFips": "016204",
+      "population": 4669,
+      "povertyRatePct": 3.3,
+      "medianHouseholdIncomeUsd": 128203
+    },
+    {
+      "tractName": "Census Tract 163.03; Guilford County; North Carolina",
+      "tractFips": "016303",
+      "population": 3247,
+      "povertyRatePct": 3.1,
+      "medianHouseholdIncomeUsd": 80660
+    },
+    {
+      "tractName": "Census Tract 152.02; Guilford County; North Carolina",
+      "tractFips": "015202",
+      "population": 6210,
+      "povertyRatePct": 3.0,
+      "medianHouseholdIncomeUsd": 90225
+    },
+    {
+      "tractName": "Census Tract 156.01; Guilford County; North Carolina",
+      "tractFips": "015601",
+      "population": 4991,
+      "povertyRatePct": 2.7,
+      "medianHouseholdIncomeUsd": 152788
+    },
+    {
+      "tractName": "Census Tract 157.06; Guilford County; North Carolina",
+      "tractFips": "015706",
+      "population": 7602,
+      "povertyRatePct": 2.7,
+      "medianHouseholdIncomeUsd": 130625
+    },
+    {
+      "tractName": "Census Tract 160.03; Guilford County; North Carolina",
+      "tractFips": "016003",
+      "population": 5140,
+      "povertyRatePct": 2.6,
+      "medianHouseholdIncomeUsd": 127857
+    },
+    {
+      "tractName": "Census Tract 162.05; Guilford County; North Carolina",
+      "tractFips": "016205",
+      "population": 4343,
+      "povertyRatePct": 2.4,
+      "medianHouseholdIncomeUsd": 99600
+    },
+    {
+      "tractName": "Census Tract 125.11; Guilford County; North Carolina",
+      "tractFips": "012511",
+      "population": 4834,
+      "povertyRatePct": 2.2,
+      "medianHouseholdIncomeUsd": 154464
+    },
+    {
+      "tractName": "Census Tract 160.09; Guilford County; North Carolina",
+      "tractFips": "016009",
+      "population": 3718,
+      "povertyRatePct": 2.2,
+      "medianHouseholdIncomeUsd": 106184
+    },
+    {
+      "tractName": "Census Tract 171.02; Guilford County; North Carolina",
+      "tractFips": "017102",
+      "population": 2197,
+      "povertyRatePct": 1.4,
+      "medianHouseholdIncomeUsd": 100375
+    },
+    {
+      "tractName": "Census Tract 164.09; Guilford County; North Carolina",
+      "tractFips": "016409",
+      "population": 2101,
+      "povertyRatePct": 1.1,
+      "medianHouseholdIncomeUsd": 76583
+    },
+    {
+      "tractName": "Census Tract 125.05; Guilford County; North Carolina",
+      "tractFips": "012505",
+      "population": 4067,
+      "povertyRatePct": 1.0,
+      "medianHouseholdIncomeUsd": 129167
+    },
+    {
+      "tractName": "Census Tract 164.08; Guilford County; North Carolina",
+      "tractFips": "016408",
+      "population": 1929,
+      "povertyRatePct": 0.6,
+      "medianHouseholdIncomeUsd": 119900
+    }
+  ],
+  "cejstNote": "This replaces a CEJST-style vulnerable-communities view, not supplements it. EPA's official EJScreen subdomain (ejscreen.epa.gov) does not resolve (DNS failure, confirmed directly). CEJST was removed from official White House hosting in January 2025; the only surviving copy is an unofficial community-run mirror with no documented REST API. This dataset is Census ACS poverty-rate/income data alone \u2014 a real, official, live federal source, but not a combined environmental+demographic burden score and not an official 'disadvantaged community' designation. See data/SCHEMA.md for the full account.",
+  "citation": {
+    "sourceType": "external",
+    "publisher": "U.S. Census Bureau",
+    "title": "American Community Survey 5-Year Estimates, 2022 \u2014 Guilford County, NC tracts",
+    "url": "https://api.census.gov/data/2022/acs/acs5",
+    "retrievedDate": "2026-07-20"
+  }
 }
