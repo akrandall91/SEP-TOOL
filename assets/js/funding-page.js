@@ -40,6 +40,62 @@ function grantCard(g, opts) {
   </div>`;
 }
 
+function renderFundingHeatmap(linkageData) {
+  const mount = document.getElementById("funding-heatmap-mount");
+  if (!mount) return;
+  const ct = linkageData.crossTab;
+
+  // cell -> { count, tone }. tone drives color: "good" (reported), "critical" (funded but
+  // gapped -- the exception), "muted" (unfunded and gapped -- the expected/unsurprising pattern).
+  const cells = [
+    { col: "internal", row: "reported", count: ct.internal_reported, tone: "good" },
+    { col: "external", row: "reported", count: ct.external_reported, tone: "good" },
+    { col: "none", row: "reported", count: ct.none_reported, tone: "neutral" },
+    { col: "internal", row: "gapped", count: ct.internal_gapped, tone: ct.internal_gapped > 0 ? "critical" : "muted" },
+    { col: "external", row: "gapped", count: ct.external_gapped, tone: ct.external_gapped > 0 ? "critical" : "muted" },
+    { col: "none", row: "gapped", count: ct.none_gapped, tone: "muted" },
+  ];
+  const toneColor = {
+    good: "var(--status-good)",
+    critical: "var(--status-critical)",
+    muted: "var(--status-muted)",
+    neutral: "var(--status-neutral)",
+  };
+  const colLabels = { internal: "Internal funding", external: "External (verified)", none: "No funding" };
+  const rowLabels = { reported: "Reported in 2025", gapped: "Not reported (gap)" };
+
+  const cellHtml = (row) => ["internal", "external", "none"]
+    .map((col) => {
+      const cell = cells.find((c) => c.col === col && c.row === row);
+      const color = toneColor[cell.tone];
+      return `
+        <div style="background:color-mix(in srgb, ${color} 14%, transparent);border:1px solid color-mix(in srgb, ${color} 40%, transparent);border-radius:var(--radius-md);padding:var(--space-3);text-align:center;">
+          <div style="font-size:var(--font-size-xl);font-weight:700;color:${color};">${cell.count}</div>
+          <div style="font-size:var(--font-size-xs);color:var(--ink-muted);">goal${cell.count === 1 ? "" : "s"}</div>
+        </div>`;
+    })
+    .join("");
+
+  mount.innerHTML = `
+    <div style="display:grid;grid-template-columns:120px repeat(3, 1fr);gap:6px;align-items:center;">
+      <div></div>
+      <div style="font-size:var(--font-size-xs);font-weight:700;text-align:center;color:var(--ink-muted);text-transform:uppercase;">${colLabels.internal}</div>
+      <div style="font-size:var(--font-size-xs);font-weight:700;text-align:center;color:var(--ink-muted);text-transform:uppercase;">${colLabels.external}</div>
+      <div style="font-size:var(--font-size-xs);font-weight:700;text-align:center;color:var(--ink-muted);text-transform:uppercase;">${colLabels.none}</div>
+
+      <div style="font-size:var(--font-size-xs);font-weight:700;color:var(--ink-muted);">${rowLabels.reported}</div>
+      ${cellHtml("reported")}
+
+      <div style="font-size:var(--font-size-xs);font-weight:700;color:var(--ink-muted);">${rowLabels.gapped}</div>
+      ${cellHtml("gapped")}
+    </div>
+    <div style="display:flex;gap:var(--space-4);flex-wrap:wrap;margin-top:var(--space-3);font-size:var(--font-size-xs);color:var(--ink-muted);">
+      <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:var(--status-good);margin-right:4px;"></span>Funded and reported — the expected-good pattern</span>
+      <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:var(--status-critical);margin-right:4px;"></span>Funded but NOT reported — the exception (CI-G1)</span>
+      <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:var(--status-muted);margin-right:4px;"></span>Unfunded and not reported — the expected-unsurprising pattern</span>
+    </div>`;
+}
+
 async function init() {
   const [fundingData, linkageData] = await Promise.all([
     loadJson("funding.json", BASE),
@@ -56,6 +112,8 @@ async function init() {
       (${h.totalFundedGoals} funded goals, ${h.totalUnfundedGoals} unfunded, out of 21 total.)</p>
       <p style="font-style:italic;color:var(--ink-muted);">${linkageData.verdict.text}</p>
     </div>`;
+
+  renderFundingHeatmap(linkageData);
 
   // City-report-sourced grants/contracts
   const cityFunded = [...fundingData.grants, ...fundingData.contracts];

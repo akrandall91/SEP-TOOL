@@ -74,6 +74,35 @@ function renderCitywideChart(directivesData) {
   `;
 }
 
+function renderFuelMixChart(citywideEnergy) {
+  const mount = document.getElementById("fuel-mix-chart-mount");
+  if (!mount || !citywideEnergy) return;
+  const series = citywideEnergy.ghgEmissionsMtco2e.series;
+  const years = [2007, 2019, 2022, 2023, 2024];
+
+  // Fixed categorical order, validated with scripts/validate_palette.js (dataviz skill) in both
+  // light and dark mode before use — never reorder or reassign these without re-validating.
+  const categories = [
+    { key: "electricity", label: "Electricity", color: "var(--cat-blue)" },
+    { key: "naturalGas", label: "Natural gas", color: "var(--cat-aqua)" },
+    { key: "diesel", label: "Diesel", color: "var(--cat-orange)" },
+    { key: "unleaded", label: "Unleaded gasoline", color: "var(--cat-yellow)" },
+    { key: "b20Biodiesel", label: "B20 biodiesel (legacy, 2007 only)", color: "var(--cat-violet)" },
+  ];
+
+  renderStackedBarChart(mount, {
+    years,
+    categories,
+    seriesByCategory: series,
+    unit: "MTCO2e",
+  });
+
+  const note = document.getElementById("fuel-mix-chart-note");
+  if (note) {
+    note.textContent = `Electricity: ${series.electricity[2007].toLocaleString()} → ${series.electricity[2024].toLocaleString()} MTCO2e (${Math.round(100 * (series.electricity[2024] - series.electricity[2007]) / series.electricity[2007])}%). Natural gas: ${series.naturalGas[2019].toLocaleString()} → ${series.naturalGas[2024].toLocaleString()} MTCO2e since 2019 (+${Math.round(100 * (series.naturalGas[2024] - series.naturalGas[2019]) / series.naturalGas[2019])}%). Same source and citation as the combined chart above.`;
+  }
+}
+
 async function renderAqiWidget(base) {
   const mount = document.getElementById("aqi-mount");
   if (!mount) return;
@@ -113,20 +142,31 @@ async function renderAqiWidget(base) {
         ${r.siteName || "Guilford County monitor"} · ${r.date} (${daysOld} days ago — AQS validates monitoring data in batches, so "most recent" here is not necessarily today) ·
         ${data.readingCount != null ? `${data.readingCount} readings in the queried window · ` : ""}${renderCite(data.citation)}
       </p>
+      ${data.series && data.series.length > 1 ? `<div style="margin-top:var(--space-3);"><div class="dept-stat__label" style="margin-bottom:4px;">Trend over the queried window (${unitsLabel})</div><div id="aqi-sparkline-mount"></div></div>` : ""}
     </div>`;
+
+  if (data.series && data.series.length > 1 && typeof renderSparkline === "function") {
+    renderSparkline(document.getElementById("aqi-sparkline-mount"), {
+      points: data.series,
+      unit: unitsLabel,
+      color: "var(--cat-aqua)",
+    });
+  }
 }
 
 async function init() {
-  const [departments, linkage, baseline, resolutionData, directivesData, indexData] = await Promise.all([
+  const [departments, linkage, baseline, resolutionData, directivesData, indexData, citywideEnergy] = await Promise.all([
     loadJson("departments.json", BASE),
     loadJson("funding-linkage.json", BASE),
     loadJson("baseline-2019.json", BASE),
     loadJson("resolution.json", BASE),
     loadJson("directives.json", BASE),
     loadJson("index.json", BASE),
+    loadJson("citywide-energy-timeseries.json", BASE),
   ]);
 
   renderAqiWidget(BASE);
+  renderFuelMixChart(citywideEnergy);
 
   const today = new Date(indexData.generatedAt);
 

@@ -368,8 +368,25 @@ async function renderGtfsComparisonWidget(mountEl, base) {
         <div><div class="dept-stat__label">Vehicles on route right now</div><div style="font-weight:700;">${live.activeVehiclesOnTargetRoute ?? "?"} of ${live.totalActiveVehicles ?? "?"} GTA vehicles system-wide</div></div>
         <div><div class="dept-stat__label">Weekday trips (one direction)</div><div style="font-weight:700;">${snapshot.weekdayHeadway.tripCountOneDirectionOneWeekday}, ${snapshot.weekdayHeadway.firstDeparture}–${snapshot.weekdayHeadway.lastDeparture}</div></div>
       </div>
+      <div style="margin-top:var(--space-4);">
+        <div style="font-size:var(--font-size-sm);font-weight:600;margin-bottom:4px;">Actual gap between departures (minutes) — why "mean 17.5" isn't the whole story</div>
+        <div id="gtfs-headway-histogram"></div>
+      </div>
       <div style="font-size:var(--font-size-xs);color:var(--ink-muted);margin-top:8px;">${renderCite(snapshot.citation)}</div>
     </div>`;
+
+  if (typeof renderHistogramChart === "function" && hw.distribution) {
+    const bins = Object.keys(hw.distribution)
+      .map(Number)
+      .sort((a, b) => a - b)
+      .map((min) => ({ label: String(min), value: hw.distribution[min] }));
+    renderHistogramChart(document.getElementById("gtfs-headway-histogram"), {
+      bins,
+      unit: "departures",
+      color: "var(--cat-blue)",
+      xAxisLabel: "Minutes between consecutive weekday departures",
+    });
+  }
 }
 
 document.addEventListener("DOMContentLoaded", init);

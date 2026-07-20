@@ -114,20 +114,52 @@ function stalledBadgeHtml(rec) {
 /** Renders a compact year-by-year trajectory (statusHistory + the 2025 outcome) for any goal,
  * recommendation, or action that carries a statusHistory array. Purely additive — goals/recs
  * without statusHistory render nothing here, same as before this field existed. */
+// Status bucket -> the same hue already used for that bucket's status-badge elsewhere on the
+// site (components.js STATUS_LABEL / site.css .status-badge--*), so the strip never introduces a
+// second color meaning for the same word.
+const STATUS_STRIP_COLOR = {
+  complete: "var(--status-good)",
+  active: "var(--status-info)",
+  initiated: "var(--status-warning)",
+  realigned: "var(--status-serious)",
+  "reported-plain": "var(--status-neutral)",
+  "not-reported": "var(--status-critical)",
+  deprioritized: "var(--status-muted)",
+  mixed: "var(--cat-violet)",
+};
+
+/** Compact colored mini-Gantt strip: one segment per year, same color language as the
+ * status badges. Purely additive above the existing text-chip trajectory — screen readers and
+ * anyone who can't distinguish the colors still get the full story from the chips below it. */
+function statusHistoryStripHtml(entries) {
+  if (!entries.length) return "";
+  const segs = entries
+    .map((e) => {
+      const bucket = e.bucket || mapStatusWord(e.status) || "reported-plain";
+      const color = STATUS_STRIP_COLOR[bucket] || "var(--ink-muted)";
+      return `<div title="${e.year}: ${e.status}" style="flex:1;height:8px;background:${color};border-radius:2px;"></div>`;
+    })
+    .join("");
+  return `<div style="display:flex;width:220px;flex-basis:100%;gap:2px;margin-bottom:4px;" aria-hidden="true">${segs}</div>`;
+}
+
 function statusHistoryHtml(item) {
   if (!item.statusHistory || !item.statusHistory.length) return "";
+  const stripEntries = item.statusHistory.map((h) => ({ year: h.year, status: h.status }));
   const yearChips = item.statusHistory.map(
     (h) => `<span class="status-history__chip">${h.year}: <strong>${h.status}</strong> ${renderCite(h.citation)}</span>`
   );
   if (item.dataGap) {
     yearChips.push(`<span class="status-history__chip status-history__chip--gap">2025: <strong>not reported</strong></span>`);
+    stripEntries.push({ year: 2025, status: "Not Reported", bucket: "not-reported" });
   } else {
     const su = item.statusUpdate2025 || item.status2025;
     if (su && su.status) {
       yearChips.push(`<span class="status-history__chip">2025: <strong>${su.status}</strong> ${renderCite(su.citation)}</span>`);
+      stripEntries.push({ year: 2025, status: su.status });
     }
   }
-  return `<div class="goal__status-history">${yearChips.join('<span class="status-history__arrow">→</span>')}</div>`;
+  return `<div class="goal__status-history">${statusHistoryStripHtml(stripEntries)}${yearChips.join('<span class="status-history__arrow">→</span>')}</div>`;
 }
 
 function fundingBadgeHtml(fundingLink) {

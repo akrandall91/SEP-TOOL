@@ -68,6 +68,21 @@ def summarize(raw: dict) -> dict:
 
     rows_sorted = sorted(rows, key=lambda r: r.get("date_local", ""), reverse=True)
     latest = rows_sorted[0]
+
+    # Build the sparkline series from the SAME monitor as the latest reading only -- Guilford
+    # County can have more than one ozone monitor, and mixing sites into one line would splice
+    # together readings that aren't actually comparable/continuous.
+    site_key = (latest.get("site_number"), latest.get("poc"))
+    same_site_rows = [r for r in rows if (r.get("site_number"), r.get("poc")) == site_key]
+    series = sorted(
+        [
+            {"date": r.get("date_local"), "value": r.get("arithmetic_mean")}
+            for r in same_site_rows
+            if r.get("arithmetic_mean") is not None
+        ],
+        key=lambda p: p["date"],
+    )
+
     return {
         "hasData": True,
         "latestReading": {
@@ -79,6 +94,7 @@ def summarize(raw: dict) -> dict:
             "monitorType": latest.get("monitor_type"),
         },
         "readingCount": len(rows),
+        "series": series,
     }
 
 
