@@ -70,7 +70,8 @@
     "federalAwards": "federal-awards.json",
     "goalTransitions": "goal-transitions.json",
     "reviewedEvents": "reviewed-events.json",
-    "reviewProposals": "review-proposals.json"
+    "reviewProposals": "review-proposals.json",
+    "publicRecordImpact": "public-record-impact.json"
   },
   "citationSchema": {
     "twoDocumentCitation": {

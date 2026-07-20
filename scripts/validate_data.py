@@ -9,6 +9,8 @@ def load(name):
 index=load('index.json');departments=load('departments.json');linkage=load('funding-linkage.json')
 public_records=load('public-records.json');federal_awards=load('federal-awards.json');funding=load('funding.json')
 transitions=load('goal-transitions.json');reviewed_events=load('reviewed-events.json');review_proposals=load('review-proposals.json')
+record_impact=load('public-record-impact.json')
+collaborations=load('collaborations.json')
 source_ids={s.get('id') for s in index.get('sources',[])};goal_ids=set();goals=[]
 def citations(value,path='root'):
  if path.startswith('index.citationSchema'):return
@@ -35,6 +37,18 @@ citations(departments,'departments');citations(index,'index')
 linked={x.get('goalId') for x in linkage.get('goalLevelDetail',[])}
 if linked!=goal_ids:errors.append(f'funding-linkage IDs differ: missing={sorted(goal_ids-linked)}, extra={sorted(linked-goal_ids)}')
 if len(goals)!=21:errors.append(f'expected 21 goals, found {len(goals)}')
+initiative_ids=[]
+for initiative in collaborations.get('initiatives',[]):
+ iid=initiative.get('id');initiative_ids.append(iid)
+ if not iid or not initiative.get('title'):errors.append('collaborations: initiative id and title required')
+ if initiative.get('attributionStatus') not in ('documented','mixed','inferred','unresolved'):errors.append(f'collaborations {iid}: invalid attribution status')
+ for gid in initiative.get('linkedGoalIds',[]):
+  if gid not in goal_ids:errors.append(f'collaborations {iid}: unknown goal {gid}')
+ for participant in initiative.get('participants',[]):
+  if not participant.get('name') or not participant.get('role'):errors.append(f'collaborations {iid}: participant name and role required')
+ if not initiative.get('evidence'):errors.append(f'collaborations {iid}: evidence required')
+if len(initiative_ids)!=len(set(initiative_ids)):errors.append('collaborations: duplicate initiative id')
+citations(collaborations,'collaborations')
 transition_ids=[x.get('goalId') for x in transitions.get('goals',[])]
 if set(transition_ids)!=goal_ids:errors.append(f'goal-transitions IDs differ: missing={sorted(goal_ids-set(transition_ids))}, extra={sorted(set(transition_ids)-goal_ids)}')
 if len(transition_ids)!=len(set(transition_ids)):errors.append('goal-transitions: duplicate goal id')
@@ -49,6 +63,12 @@ for event in reviewed_events.get('events',[]):
  if not event.get('citation'):errors.append(f'reviewed event {event.get("id")}: citation required')
 for proposal in review_proposals.get('proposals',[]):
  if proposal.get('goalId') not in goal_ids:errors.append(f'review proposal {proposal.get("id")}: unknown goal')
+impact_ids=[x.get('recordId') for x in record_impact.get('records',[])]
+if len(impact_ids)!=len(set(impact_ids)):errors.append('public-record-impact: duplicate record id')
+for impact in record_impact.get('records',[]):
+ for gid in impact.get('candidateGoalIds',[]):
+  if gid not in goal_ids:errors.append(f'public-record-impact {impact.get("recordId")}: unknown candidate goal {gid}')
+if record_impact.get('summary',{}).get('authoritativeValuesChanged') not in (0,None):errors.append('public-record-impact claims automatic authoritative changes')
 dataset_ids=[x.get('id') for x in public_records.get('datasets',[])]
 if len(dataset_ids)!=len(set(dataset_ids)):errors.append('public-records: duplicate dataset id')
 for dataset in public_records.get('datasets',[]):

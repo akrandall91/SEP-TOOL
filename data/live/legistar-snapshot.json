@@ -1,10 +1,6 @@
 {
   "source": "Greensboro Legistar Web API (webapi.legistar.com/v1/greensboro)",
-<<<<<<< HEAD
-  "fetchedAt": "2026-07-20T17:39:27.986844+00:00",
-=======
-  "fetchedAt": "2026-07-20T15:13:56.323830+00:00",
->>>>>>> 73e70efa5a7a452523dcb60abb597de032394a47
+  "fetchedAt": "2026-07-20T19:41:40.560081+00:00",
   "matters": {
     "sep_authorizing_resolution": {
       "matterId": 6283,

@@ -21,6 +21,7 @@ external verification, derived analysis, contradictions, and missing information
 - `data/review-proposals.json`: non-authoritative OSR/community proposal staging.
 - `data/raw/public-records/`: dated, immutable source responses retained for reproducibility.
 - `data/browser-download-manifest.json`: rendered-page inventory for City pages that block direct collectors.
+- `data/public-record-impact.json`: generated comparison of acquired records against current authoritative data.
 
 The public information architecture is Overview, Goal Explorer, Reporting Matrix, Funding,
 Equity Map, Sources, Methodology, and Changes. Existing department, recommendation, chart, and
@@ -42,6 +43,7 @@ python scripts/fetch_public_records.py
 python scripts/fetch_usaspending_snapshot.py
 python scripts/fetch_legistar_snapshot.py
 python scripts/generate_goal_transitions.py
+python scripts/analyze_public_record_impact.py
 python build.py
 python scripts/validate_data.py
 ```

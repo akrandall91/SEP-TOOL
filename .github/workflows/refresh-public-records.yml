@@ -21,6 +21,7 @@ jobs:
       - name: Rebuild and validate
         run: |
           python scripts/generate_goal_transitions.py
+          python scripts/analyze_public_record_impact.py
           python build.py
           python scripts/validate_data.py
       - name: Commit successful snapshots and freshness states

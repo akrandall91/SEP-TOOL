@@ -64,3 +64,11 @@ goal, year, funding record, or source.
 Start with the three 2025 reporting drop-offs (TR-GAS-G1, FO-G1, and CI-G1) and the four goals
 whose target year has passed without a verified outcome. The question is not “were these
 abandoned?” It is “what is the latest citable milestone, and what should the public understand?”
+
+## Shared-initiative review
+
+The public dashboard's Shared Initiatives view is generated from `data/collaborations.json`.
+For each initiative, reviewers can confirm participant roles, identify a missing contributor,
+provide a primary source, or mark an attribution as unresolved. Collaboration records never
+change a department goal's status automatically and never divide shared funding unless a source
+provides activity-level allocations.

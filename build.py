@@ -43,6 +43,7 @@ STATIC_PAGES = [
     ("explorer.html", "explorer"),
     ("matrix.html", "matrix"),
     ("progress.html", "progress"),
+    ("collaboration.html", "collaboration"),
     ("equity.html", "equity"),
     ("sources.html", "sources"),
     ("methodology.html", "methodology"),
