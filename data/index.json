@@ -71,6 +71,8 @@
     "goalTransitions": "goal-transitions.json",
     "reviewedEvents": "reviewed-events.json",
     "reviewProposals": "review-proposals.json",
+    "collaborations": "collaborations.json",
+    "canopyAssessment": "canopy-assessment.json",
     "publicRecordImpact": "public-record-impact.json"
   },
   "citationSchema": {

@@ -65,16 +65,16 @@
       "title": "Tree canopy planning and community delivery",
       "category": "Interdepartmental and community coalition",
       "attributionStatus": "documented",
-      "years": [2023, 2024, 2025],
+      "years": [2012, 2022, 2023, 2024, 2025],
       "summary": "Grant administration, canopy planning, community engagement, and planting involve City departments, advisory bodies, nonprofits, and residents.",
       "participants": [{"name": "Office of Sustainability and Resilience", "role": "Grant oversight and community meetings"}, {"name": "Planning Department", "role": "Planning collaboration"}, {"name": "City Arborist", "role": "Technical tree expertise"}, {"name": "Housing & Neighborhood Development", "role": "Neighborhood implementation partner"}, {"name": "Community Sustainability Council", "role": "Tree Canopy Taskforce"}],
       "externalPartners": ["Greensboro Beautiful", "Sierra Club", "NeighborWoods", "Duke Energy Foundation", "National Environmental Education Foundation", "USDA Forest Service"],
       "linkedGoalIds": [],
       "linkedRecommendationIds": [3],
       "fundingIds": ["usda-tree-canopy-2023"],
-      "milestones": [{"year": 2023, "text": "USDA urban forestry funding was announced."}, {"year": 2025, "text": "OSR held two community meetings and reported three planting events; the taskforce was relaunched."}],
-      "evidence": [{"label": "2025 Annual Progress Report, tree canopy section", "citation": {"source": "progress2025", "page": 17}}],
-      "attributionGap": "Participation is documented, but published records do not quantify each partner's contribution or assign canopy outcomes by organization."
+      "milestones": [{"year": 2012, "text": "The assessment's comparison baseline was captured from NAIP imagery."}, {"year": 2022, "text": "Updated imagery established the ten-year canopy-change endpoint."}, {"year": 2023, "text": "USDA urban forestry funding was announced."}, {"year": 2025, "text": "OSR held two community meetings, reported three planting events, relaunched the taskforce, and published assessment resources."}],
+      "evidence": [{"label": "2025 Annual Progress Report, tree canopy section", "citation": {"source": "progress2025", "page": 17}}, {"label":"Greensboro Canopy assessment resources and public ArcGIS tables","citation":{"sourceType":"external","publisher":"City of Greensboro","title":"Keeping the Green in Greensboro — Resources","url":"https://canopy.greensboro-nc.gov/pages/resources","retrievedDate":"2026-07-20"}}],
+      "attributionGap": "The assessment quantifies citywide and tract canopy conditions and priority areas. It does not assign those observed canopy outcomes to individual departments or partners, so this site shows the documented working relationship without claiming causal credit."
     },
     {
       "id": "community-conservation-delivery",

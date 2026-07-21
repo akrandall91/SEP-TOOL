@@ -22,6 +22,17 @@ external verification, derived analysis, contradictions, and missing information
 - `data/goal-transitions.json`: generated annual continuity and transition classifications.
 - `data/reviewed-events.json`: reviewed pause, cancellation, supersession, completion, or correction events.
 - `data/review-proposals.json`: non-authoritative OSR/community proposal staging.
+
+### Private review console
+
+Run `python admin_server.py` and create a password at the terminal prompt, then open
+`http://127.0.0.1:8766/login`. The console is deliberately localhost-only, is not linked
+from the public site, and only stages evidence proposals in `data/review-proposals.json`.
+It never changes published classifications automatically. For access by people on other
+computers, deploy behind organization-managed authentication rather than exposing this
+development server.
+
+Refresh the downloaded public canopy assessment with `python scripts/fetch_canopy_snapshot.py`.
 - `data/raw/public-records/`: dated, immutable source responses retained for reproducibility.
 - `data/browser-download-manifest.json`: rendered-page inventory for City pages that block direct collectors.
 - `data/public-record-impact.json`: generated comparison of acquired records against current authoritative data.

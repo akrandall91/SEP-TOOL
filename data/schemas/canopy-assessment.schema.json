@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["generatedAt", "sourcePeriod", "summary", "strata", "tractCanopy", "priorityTracts", "sources", "methodologyNotes"],
+  "properties": {
+    "sourcePeriod": {"type": "object", "required": ["historicImageryYear", "currentImageryYear"]},
+    "summary": {"type": "object", "required": ["trees", "canopyAcres", "annualBenefitsUsd", "canopyCoveragePct"]},
+    "strata": {"type": "array"},
+    "tractCanopy": {"type": "array"},
+    "priorityTracts": {"type": "array"},
+    "priorityNeighborhoods": {"type": "array"},
+    "methodologyNotes": {"type": "array", "minItems": 1}
+  }
+}

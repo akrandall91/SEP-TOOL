@@ -17,6 +17,7 @@ Step 1: structured, cited JSON extracted from both source PDFs. Step 2: funding-
 | `funding-linkage.json` | Derived rollup: for every department goal, is it funded (and by what) and is it reported — the cross-tab and per-grouping breakdown. Regenerate if `departments.json`'s `fundingLink`/`dataGap` fields change. |
 | `progress-2025-misc.json` | OSR staff roster, CSC roster, tree canopy figures, telematics pilot, event attendance, LEED for Cities note |
 | `progress-2023-2024-misc.json` | Same shape as `progress-2025-misc.json`, for the 2023/2024 reports: HHW statistics, Food Waste pilot totals, tree canopy/equity-prioritization timeline, the CSC roster cross-check, BuildingLogiX, Leave the Leaves 2023 (Step 5) |
+| `canopy-assessment.json` | Reproducible 2012/2022 canopy assessment, modeled benefits, land-use strata, tract canopy rows, and planting-priority tables downloaded from the public Greensboro Canopy ArcGIS services |
 | `citywide-energy-timeseries.json` | Full transcription of the 2024 report's citywide multi-year table (2007/2019/2022/2023/2024) — original units, MMBtu-converted, and GHG emissions, by fuel type — plus the reconciliation note against `baseline-2019.json` (Step 5) |
 | `live/gtfs-snapshot.json` | GTA GTFS/GTFS-RT snapshot — weekday headway + live vehicle counts (Phase 5, GitHub Action) |
 | `live/legistar-snapshot.json` | Legistar matter + vote history for the SEP-authorizing and SEP-extension resolutions (Phase 5, GitHub Action) |
