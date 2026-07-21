@@ -1,0 +1,19 @@
+(function(){
+  const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.documentElement.classList.add('experience-ready');
+  const header=document.querySelector('.site-header');
+  const nav=header?.querySelector('.site-nav');const bar=header?.querySelector('.site-header__bar');
+  if(nav&&bar){nav.id||='primary-navigation';const menu=document.createElement('button');menu.type='button';menu.className='experience-menu';menu.setAttribute('aria-controls',nav.id);menu.setAttribute('aria-expanded','false');menu.innerHTML='<span aria-hidden="true">☰</span><span>Menu</span>';menu.addEventListener('click',()=>{const open=header.classList.toggle('nav-open');menu.setAttribute('aria-expanded',String(open));menu.querySelector('span:last-child').textContent=open?'Close':'Menu'});bar.append(menu)}
+  const progress=document.createElement('div');progress.className='scroll-progress';progress.setAttribute('aria-hidden','true');document.body.append(progress);
+  const updateScroll=()=>{const y=scrollY;header?.classList.toggle('is-scrolled',y>30);const max=document.documentElement.scrollHeight-innerHeight;document.documentElement.style.setProperty('--scroll-progress',`${max>0?Math.min(100,y/max*100):0}%`)};
+  addEventListener('scroll',updateScroll,{passive:true});updateScroll();
+  const revealTargets=[...document.querySelectorAll('main section,.goal,.goal-card,.initiative,.card:not(.cite-pop),.rec-card')];
+  revealTargets.forEach((el,i)=>{if(!el.closest('.source-drawer'))el.classList.add(i%4===0?'stagger':'reveal')});
+  if(reduced||!('IntersectionObserver'in window)){revealTargets.forEach(el=>el.classList.add('is-visible'))}else{const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('is-visible');observer.unobserve(e.target)}}),{rootMargin:'0px 0px -8% 0px',threshold:.08});revealTargets.forEach(el=>observer.observe(el))}
+  const narrative=[...document.querySelectorAll('.account-page>.section')];
+  const accountHero=document.querySelector('.account-page>.account-hero');
+  if(accountHero&&!accountHero.querySelector('.year-ribbon')){const ribbon=document.createElement('div');ribbon.className='year-ribbon';ribbon.setAttribute('aria-label','Reporting timeline: baseline 2019, annual reports 2023 through 2025');ribbon.innerHTML='<span>2019</span><i aria-hidden="true"></i><span>2023</span><i aria-hidden="true"></i><span>2024</span><i aria-hidden="true"></i><span>2025</span>';accountHero.insertBefore(ribbon,accountHero.querySelector('h1'))}
+  if(narrative.length>=4){const rail=document.createElement('nav');rail.className='scroll-context';rail.setAttribute('aria-label','Page story progress');narrative.forEach((section,i)=>{section.id||=`story-${i+1}`;const b=document.createElement('button');b.className='scroll-context__dot';b.type='button';b.title=section.querySelector('.eyebrow,h2')?.textContent?.trim()||`Section ${i+1}`;b.setAttribute('aria-label',b.title);b.onclick=()=>section.scrollIntoView({behavior:reduced?'auto':'smooth'});rail.append(b)});document.body.append(rail);const dots=[...rail.children];const storyObserver=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){const idx=narrative.indexOf(e.target);dots.forEach((d,j)=>d.classList.toggle('is-active',j===idx))}}),{rootMargin:'-35% 0px -50% 0px'});narrative.forEach(s=>storyObserver.observe(s))}
+  document.querySelectorAll('.metrics,.dept-stats,.collab-summary,.badges').forEach(el=>el.classList.add('stagger'));
+  document.addEventListener('pointermove',e=>{if(reduced)return;const card=e.target.closest('.metric,.initiative,.goal-card');if(!card)return;const r=card.getBoundingClientRect();card.style.setProperty('--pointer-x',`${(e.clientX-r.left)/r.width*100}%`);card.style.setProperty('--pointer-y',`${(e.clientY-r.top)/r.height*100}%`)},{passive:true});
+})();

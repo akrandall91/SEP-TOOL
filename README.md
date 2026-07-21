@@ -14,6 +14,9 @@ external verification, derived analysis, contradictions, and missing information
 - `partials/`: authoritative shared header and footer.
 - `build.py`: deterministic shell/data baker for static and `file://` use.
 - `assets/js/accountability.js`: explorer, matrix, source drawer, theme, and downloads.
+- `assets/css/experience.css`: shared responsive visual system, scroll narrative, hover/focus states, print and reduced-motion fallbacks.
+- `assets/js/experience.js`: progressive scroll reveals, story progress, mobile navigation, and page-level interaction enhancements.
+- `assets/js/collaboration-page.js`: Shared Initiatives filters and keyboard-accessible relationship constellation.
 - `data/public-records.json`: normalized discovery/freshness state for City and permit records.
 - `data/federal-awards.json`: confirmed USAspending obligations and outlays.
 - `data/goal-transitions.json`: generated annual continuity and transition classifications.
@@ -23,9 +26,13 @@ external verification, derived analysis, contradictions, and missing information
 - `data/browser-download-manifest.json`: rendered-page inventory for City pages that block direct collectors.
 - `data/public-record-impact.json`: generated comparison of acquired records against current authoritative data.
 
-The public information architecture is Overview, Goal Explorer, Reporting Matrix, Funding,
+The public information architecture is Overview, Goal Explorer, Reporting Matrix, Progress & Drop-off, Shared Initiatives, Funding,
 Equity Map, Sources, Methodology, and Changes. Existing department, recommendation, chart, and
 timeline views remain available.
+
+The experience layer uses native CSS and small dependency-free JavaScript enhancements. Core
+content remains present without animation, touch interactions do not depend on hover, and
+`prefers-reduced-motion: reduce` removes scroll and transition motion while preserving meaning.
 
 ## Build, validation, and tests
 

@@ -143,6 +143,15 @@ def build():
         base = base_for(page_path)
         src = full_path.read_text(encoding="utf-8")
 
+        # Shared progressive-enhancement layer. Kept outside page-specific bundles so every
+        # generated page receives the same motion, interaction, and responsive behavior.
+        experience_css = f'<link rel="stylesheet" href="{base}assets/css/experience.css">'
+        experience_js = f'<script src="{base}assets/js/experience.js"></script>'
+        if 'assets/css/experience.css' not in src:
+            src = src.replace('</head>', f'{experience_css}</head>', 1)
+        if 'assets/js/experience.js' not in src:
+            src = src.replace('</body>', f'{experience_js}</body>', 1)
+
         rendered_header = render_header(header_tpl, base, nav_id)
         rendered_footer = render_footer(footer_tpl, base, updated_date)
 
