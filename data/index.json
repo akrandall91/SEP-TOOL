@@ -1,5 +1,5 @@
 {
-  "$schema": "SEP Tracker data index — see /data/SCHEMA.md for full documentation",
+  "$schema": "SEP Accountability data index — see /data/SCHEMA.md for full documentation",
   "generatedAt": "2026-07-15",
   "sources": [
     {
@@ -47,12 +47,61 @@
     }
   ],
   "reportCadence": [
-    { "label": "Resolution 19-0770 adopted", "date": "2019-12-03", "citation": { "source": "sep2022", "page": [68, 70], "note": "Appendix A" } },
-    { "label": "OSR established / first Chief Sustainability Officer hired", "date": "2022-06-01", "citation": { "source": "progress2025", "page": 7, "note": "Recommendation 1" } },
-    { "label": "Strategic Energy Plan (SEP) published", "date": "2022-11", "citation": { "source": "sep2022", "page": 1 }, "note": "Resolution required submission to Council within one year of adoption (~Dec 2020); the SEP was not finalized until Nov 2022, roughly 2 years 11 months after adoption." },
-    { "label": "First Annual Progress Report published (2023 Progress Report, Implementation Year One)", "date": "2024-03", "citation": { "source": "progress2023", "page": 1 } },
-    { "label": "Second Annual Progress Report published (2024 Progress Report, Implementation Year Two)", "date": "2025-04", "citation": { "source": "progress2024", "page": 1 }, "note": "This date was an unresolved gap as of the prior data pass — now confirmed directly from the report's own cover page." },
-    { "label": "Third Annual Progress Report (2025 Progress Report / Implementation Year Three)", "date": "2026-02", "citation": { "source": "progress2025", "page": 1 } }
+    {
+      "label": "Resolution 19-0770 adopted",
+      "date": "2019-12-03",
+      "citation": {
+        "source": "sep2022",
+        "page": [
+          68,
+          70
+        ],
+        "note": "Appendix A"
+      }
+    },
+    {
+      "label": "OSR established / first Chief Sustainability Officer hired",
+      "date": "2022-06-01",
+      "citation": {
+        "source": "progress2025",
+        "page": 7,
+        "note": "Recommendation 1"
+      }
+    },
+    {
+      "label": "Strategic Energy Plan (SEP) published",
+      "date": "2022-11",
+      "citation": {
+        "source": "sep2022",
+        "page": 1
+      },
+      "note": "Resolution required submission to Council within one year of adoption (~Dec 2020); the SEP was not finalized until Nov 2022, roughly 2 years 11 months after adoption."
+    },
+    {
+      "label": "First Annual Progress Report published (2023 Progress Report, Implementation Year One)",
+      "date": "2024-03",
+      "citation": {
+        "source": "progress2023",
+        "page": 1
+      }
+    },
+    {
+      "label": "Second Annual Progress Report published (2024 Progress Report, Implementation Year Two)",
+      "date": "2025-04",
+      "citation": {
+        "source": "progress2024",
+        "page": 1
+      },
+      "note": "This date was an unresolved gap as of the prior data pass — now confirmed directly from the report's own cover page."
+    },
+    {
+      "label": "Third Annual Progress Report (2025 Progress Report / Implementation Year Three)",
+      "date": "2026-02",
+      "citation": {
+        "source": "progress2025",
+        "page": 1
+      }
+    }
   ],
   "files": {
     "resolution": "resolution.json",

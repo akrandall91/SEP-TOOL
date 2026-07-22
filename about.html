@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>About — SEP Tracker</title>
+<title>About — SEP Accountability</title>
 <link rel="stylesheet" href="assets/css/tokens.css" />
 <link rel="stylesheet" href="assets/css/site.css" />
 <link rel="stylesheet" href="./assets/css/experience.css"></head>
@@ -30,7 +30,7 @@
       <li><a href="./equity.html" data-nav-id="equity">Place &amp; equity</a></li>
     </ul>
   </nav>
-  <div class="header-tools" aria-label="Evidence and project links"><a href="./matrix.html">Matrix</a><a href="./sources.html">Sources</a><a href="./methodology.html">Method</a><a href="./changes.html">Changes</a><button type="button" class="theme-toggle" aria-label="Switch color theme">Theme</button><span class="freshness-badge">Reports through 2025</span></div>
+  <div class="header-tools" aria-label="Evidence and project links"><a href="./recommendations.html">Recommendations</a><a href="./timeline.html">Timeline</a><a href="./matrix.html">Matrix</a><a href="./sources.html">Sources</a><a href="./methodology.html">Method</a><a href="./changes.html">Changes</a><button type="button" class="theme-toggle" aria-label="Switch color theme">Theme</button><span class="freshness-badge">Reports through 2025</span></div>
 </header>
 
 <!-- /BUILD:HEADER -->
@@ -38,15 +38,18 @@
 <main class="page page--narrow">
   <h1>About this tool</h1>
 
-  <p><strong>SEP Tracker is not an official City of Greensboro product.</strong> It is an independently
+  <p><strong>SEP Accountability is not an official City of Greensboro product.</strong> It is an independently
   built civic transparency tool, built by Andrew Randall / ARXI Systems from publicly available City
   documents and data, with no official affiliation with the City of Greensboro, the Office of
   Sustainability and Resilience, or the Community Sustainability Council.</p>
 
-  <p>It exists to put the City's Strategic Energy Plan (2022) and its Annual Progress Reports side by
-  side with independently verified public-record facts (Legistar, press releases, live City data), so
-  residents, journalists, City Council, and CSC members can see a claim's evidentiary weight at a glance
-  rather than take every number on faith.</p>
+  <p>It exists to put the City's Strategic Energy Plan (2022) and its three Annual Progress Reports
+  (2023, 2024, 2025) side by side with independently verified public-record facts (Legistar, federal
+  award records, live transit and air-quality data), so residents, City Council, and OSR itself can
+  see a claim's evidentiary weight at a glance rather than take every number on faith. A companion
+  <a href="collaboration.html">collaboration process</a> lets OSR staff, Council, and community
+  reviewers propose corrections with a citable source — see <a href="SIDEQUEST.md">the collaboration
+  guide</a> for how that works.</p>
 
   <h2>How to read a citation</h2>
   <p>Every figure and status badge on this site carries a small colored tag you can hover or tap:</p>
@@ -78,44 +81,42 @@
   <h2>Source documents</h2>
   <ul>
     <li>Strategic Energy Plan: Pathways to 100% Renewable Energy — City of Greensboro, November 2022</li>
+    <li>2023 Annual Progress Report &amp; SEP Implementation Year One — City of Greensboro OSR, March 2024</li>
+    <li>2024 Annual Progress Report &amp; SEP Implementation Year Two — City of Greensboro OSR, April 2025</li>
     <li>2025 Annual Progress Report &amp; Strategic Energy Plan Implementation Year Three — City of Greensboro OSR, February 2026</li>
   </ul>
-  <p>All extracted data, with full citations, is public: <a href="data/index.json">data/index.json</a>.</p>
+  <p>All extracted data, with full citations, is public: <a href="data/index.json">data/index.json</a>. The
+  complete field dictionary and every evidence rule this tool follows is in
+  <a href="data/SCHEMA.md">data/SCHEMA.md</a>.</p>
 
-  <h2>Live external data sources (in progress)</h2>
-  <p>Beyond the two static source documents, this tool is starting to pull live data directly
-  from City systems, verified working rather than assumed:</p>
+  <h2>Live external data sources</h2>
+  <p>Beyond the four static source documents above, this tool cross-checks specific claims against live
+  public data systems — each one verified with a real request before being wired in, not assumed to work:</p>
   <ul>
+    <li><strong>Greensboro Transit Authority GTFS/GTFS-RT</strong> — live schedule and vehicle-position
+      data checks the 2024 report's CrossMax Purple "15-minute service" claim against the route's actual
+      published headways. See <a href="departments/transportation-diesel.html">Transportation
+      (Diesel)</a>.</li>
+    <li><strong>Legistar</strong> (City Council's own legislative record system) — pulls the real vote
+      record for Resolution 19-0770 and surfaced a previously undocumented related resolution
+      (20-0655, extending the SEP's development deadline). See the <a href="timeline.html">timeline</a>.</li>
+    <li><strong>Census ACS</strong> — live poverty-rate and income data by Guilford County census tract,
+      used in place of the federal CEJST tool (confirmed offline/removed from official hosting since
+      January 2025 — documented as a real gap, not silently substituted). See
+      <a href="equity.html">Place &amp; equity</a>.</li>
+    <li><strong>USAspending.gov</strong> — live federal-award obligation/outlay data upgrades a static
+      "grant was received" fact into a current drawdown status. See <a href="funding.html">Funding</a>.</li>
+    <li><strong>EPA Air Quality System</strong> — live Guilford County ozone readings.</li>
+    <li><strong>Open Gate City</strong> (the City's own ArcGIS open-data platform) — live building-permit
+      lookups for named City capital projects (e.g. the Central Library roof replacement), confirming
+      permitted activity and its real cost where the source reports only describe it qualitatively.</li>
     <li><strong>NREL PVWatts</strong> — a live "estimate solar potential" calculator on the
       <a href="departments/white-street-landfill.html">White Street Landfill</a> and
-      <a href="departments/buildings-ei.html">Buildings (Engineering &amp; Inspections)</a> pages,
-      calling NREL's PVWatts v8 API directly from your browser. Confirmed working with real output
-      during testing (verified 2026-07). Worth flagging: NREL's developer API migrated domains as
-      of a May 2026 reorganization — the lab is now branded "National Laboratory of the Rockies"
-      (NLR) and the API now lives at <code>developer.nlr.gov</code> rather than the old
-      <code>developer.nrel.gov</code>, which no longer resolves.</li>
-    <li><strong>Canopy Hub</strong> (<code>canopy.greensboro-nc.gov</code>) — the City's Esri Hub
-      site for the tree canopy/equity prioritization project. Its Search API is live and returns
-      real GIS layers, including <code>CEJST_Districts2024</code> (a federal environmental-justice
-      districts layer) and <code>Neighborhoods_Point</code> — both real FeatureServer endpoints,
-      confirmed live below:
-      <div class="card" style="margin-top:8px;font-size:var(--font-size-sm);" id="canopy-hub-demo">Checking live…</div>
-    </li>
-    <li><strong>Open Gate City</strong> (<code>data.greensboro-nc.gov</code>) — confirmed live,
-      79 datasets, including Code Compliance case history, Fire incidents, and Police crime data
-      via the same Esri Hub Search API pattern. Not yet wired into a specific page.</li>
-    <li><strong>Gate City Budget</strong> (<code>budget.greensboro-nc.gov</code>) — checked, but
-      its Search API returned the <em>same</em> generic city-wide catalog as Open Gate City above,
-      not a distinct CIP/budget-line-item dataset. No Capital Improvements Program data was found
-      at this endpoint to cross-reference against the energy-cost figures in
-      <a href="data/baseline-2019.json">baseline-2019.json</a>. Flagged as an open question rather
-      than a working integration — City budget/CIP data may live in a separate system (e.g. a
-      dedicated OpenGov/Socrata budget explorer) not yet identified.</li>
-    <li><strong>EIA grid-mix data</strong> for Duke Energy Carolinas — infrastructure exists
-      (<code>.github/workflows/refresh-grid-mix.yml</code>, a scheduled GitHub Action) but is
-      <strong>not yet running</strong>: it needs a free EIA API key added as a repository secret.
-      Until then, <code>data/live/grid-mix.json</code> does not exist.</li>
+      <a href="departments/buildings-ei.html">Buildings (Engineering &amp; Inspections)</a> pages.</li>
   </ul>
+  <p>Every one of these degrades gracefully if the underlying API is temporarily unavailable — it shows an
+  explicit "unavailable" message rather than a blank page or a stale number presented as current. Full
+  technical detail, refresh cadence, and known limitations for each source: <a href="data/SCHEMA.md">data/SCHEMA.md</a>.</p>
 </main>
 
 <!-- BUILD:FOOTER -->
@@ -144,6 +145,5 @@
 </footer>
 
 <!-- /BUILD:FOOTER -->
-<script src="assets/js/live-data-demo.js"></script>
 <script src="./assets/js/experience.js"></script></body>
 </html>

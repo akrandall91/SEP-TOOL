@@ -21,7 +21,7 @@ TEMPLATE = """<!doctype html>
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>{title} — SEP Tracker</title>
+<title>{title} — SEP Accountability</title>
 <meta name="description" content="{description}" />
 <link rel="stylesheet" href="../assets/css/tokens.css" />
 <link rel="stylesheet" href="../assets/css/site.css" />
