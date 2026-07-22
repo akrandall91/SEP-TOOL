@@ -320,6 +320,17 @@
             "status": "Ongoing",
             "text": "GDOT works with Duke Energy to coordinate LED conversion of the company's more than 27,400 streetlamps and other public outdoor lighting units. LED streetlamp conversion data for 2025 (percent converted) was not available for inclusion in this report. However, total energy consumption by streetlamps dropped from 18,276 MWh in 2022 to 1,952 MWh in 2025 — a reduction of 89.3%.",
             "dataGapNote": "2025 LED conversion percentage explicitly stated as unavailable in the source report — a self-acknowledged gap.",
+            "cscUpdate2026": {
+              "date": "2026-07-13",
+              "text": "At the CSC's July 2026 meeting, OSR staff cited the conversion pace as roughly 5.2% per year for the plan's first two years and said the City is still waiting on Duke Energy for an update covering the past year. The pace figure matches OSR's own previously reported 2019–2024 average (see ledConversionTimeSeries below) — no material change — but confirms the 2025 data-gap flagged in the Progress Report was still unresolved as of mid-2026.",
+              "citation": {
+                "sourceType": "external",
+                "publisher": "City of Greensboro / Community Sustainability Council",
+                "title": "CSC Meeting Minutes, July 13, 2026",
+                "url": "https://www.greensboro-nc.gov/departments/office-of-sustainability-and-resilience/community-sustainability-council-csc",
+                "retrievedDate": "2026-07-22"
+              }
+            },
             "streetlampEnergyMWh2022": 18276,
             "streetlampEnergyMWh2025": 1952,
             "streetlampEnergyChangePct": -89.3,
@@ -382,6 +393,18 @@
               "citation": {
                 "source": "progress2024",
                 "page": 17
+              }
+            },
+            {
+              "year": 2026,
+              "status": "Ongoing",
+              "text": "At the CSC's July 2026 meeting, OSR cited the conversion pace as roughly 5.2%/year for the plan's first two years — matching the 2024 report's own average — and said the City is still waiting on Duke Energy for a 2025 update. Confirms the 2025 data-gap flagged above was still open as of mid-2026.",
+              "citation": {
+                "sourceType": "external",
+                "publisher": "City of Greensboro / Community Sustainability Council",
+                "title": "CSC Meeting Minutes, July 13, 2026",
+                "url": "https://www.greensboro-nc.gov/departments/office-of-sustainability-and-resilience/community-sustainability-council-csc",
+                "retrievedDate": "2026-07-22"
               }
             }
           ]
@@ -662,6 +685,17 @@
             "citation": {
               "source": "progress2025",
               "page": 13
+            },
+            "cscUpdate2026": {
+              "date": "2026-07-13",
+              "text": "OSR's July 2026 CSC presentation described the SCI Level 1 audits on the 10 least-efficient buildings as fully completed, with some resulting upgrades expected to follow shortly — a slightly more advanced status than the 2025 Progress Report's 'OSR is working to carry out these projects and identify needed funding,' consistent with normal progress in the months since that report's February 2026 publication rather than a contradiction.",
+              "citation": {
+                "sourceType": "external",
+                "publisher": "City of Greensboro / Community Sustainability Council",
+                "title": "CSC Meeting Minutes, July 13, 2026",
+                "url": "https://www.greensboro-nc.gov/departments/office-of-sustainability-and-resilience/community-sustainability-council-csc",
+                "retrievedDate": "2026-07-22"
+              }
             }
           },
           "fundingLink": {
@@ -693,6 +727,18 @@
               "citation": {
                 "source": "progress2024",
                 "page": 18
+              }
+            },
+            {
+              "year": 2026,
+              "status": "In Progress",
+              "text": "OSR's July 2026 CSC presentation described the SCI Level 1 audits on the 10 least-efficient buildings as fully completed, with some resulting upgrades expected to follow shortly — a modest advance on the 2025 Progress Report's 'OSR is working to carry out these projects and identify needed funding.'",
+              "citation": {
+                "sourceType": "external",
+                "publisher": "City of Greensboro / Community Sustainability Council",
+                "title": "CSC Meeting Minutes, July 13, 2026",
+                "url": "https://www.greensboro-nc.gov/departments/office-of-sustainability-and-resilience/community-sustainability-council-csc",
+                "retrievedDate": "2026-07-22"
               }
             }
           ]
@@ -1201,6 +1247,18 @@
               "citation": {
                 "source": "progress2024",
                 "page": 18
+              }
+            },
+            {
+              "year": 2026,
+              "status": "In Progress",
+              "text": "At the CSC's July 2026 meeting, OSR staff disclosed that Police Department data did not make it into the City's fleet/telematics study (a 100-vehicle, 7-department pilot with Samsara — see progress-2025-misc.json > telematicsPilot). Police accounts for roughly half of citywide gasoline use, so its absence is a material coverage gap in the study meant to inform fleet reduction goals like this one, not previously stated in either Progress Report.",
+              "citation": {
+                "sourceType": "external",
+                "publisher": "City of Greensboro / Community Sustainability Council",
+                "title": "CSC Meeting Minutes, July 13, 2026",
+                "url": "https://www.greensboro-nc.gov/departments/office-of-sustainability-and-resilience/community-sustainability-council-csc",
+                "retrievedDate": "2026-07-22"
               }
             }
           ]

@@ -32,7 +32,7 @@ for di,d in enumerate(departments.get('departments',[])):
   if gid in goal_ids:errors.append(f'{path}: duplicate goal id {gid}')
   goal_ids.add(gid)
   for h in g.get('statusHistory',[]):
-   if h.get('year') not in (2023,2024):errors.append(f'{gid}: invalid history year {h.get("year")}')
+   if h.get('year') not in (2023,2024,2026):errors.append(f'{gid}: invalid history year {h.get("year")}')
    if h.get('status') not in ('Ongoing','In Progress','Initiated',None):errors.append(f'{gid}: unknown status {h.get("status")}')
 citations(departments,'departments');citations(index,'index')
 linked={x.get('goalId') for x in linkage.get('goalLevelDetail',[])}

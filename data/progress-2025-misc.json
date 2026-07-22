@@ -64,7 +64,18 @@
       "Idling reduction training required for all authorized City fleet users",
       "Identifying initial candidates for replacement with hybrid or electric vehicles",
       "Developing a strategy to expand telematic deployment to the full City fleet"
-    ]
+    ],
+    "cscUpdate2026": {
+      "date": "2026-07-13",
+      "text": "At the CSC's July 2026 meeting, OSR staff disclosed that Police Department data did not make it into this fleet/telematics study — a real coverage gap in the 100-vehicle, 7-department pilot the 2025 Progress Report describes, not previously stated in either document. Police accounts for roughly half of citywide gasoline use (see departments.json > police-gasoline), so its absence is a material gap in the study's scope, not a minor omission.",
+      "citation": {
+        "sourceType": "external",
+        "publisher": "City of Greensboro / Community Sustainability Council",
+        "title": "CSC Meeting Minutes, July 13, 2026",
+        "url": "https://www.greensboro-nc.gov/departments/office-of-sustainability-and-resilience/community-sustainability-council-csc",
+        "retrievedDate": "2026-07-22"
+      }
+    }
   },
   "osrHighlights2025": {
     "citation": { "source": "progress2025", "page": [2, 3, 4, 5] },
@@ -78,8 +89,42 @@
       { "event": "Sustainable Landscapes Project", "attendance": 75 }
     ],
     "totalOutreachIndividuals2025": 4046,
+    "recycleRodeoHhw2025": {
+      "note": "Two 2025 Recycle Rodeo events collected 19,801 lbs of household hazardous waste (HHW), per OSR's July 2026 CSC presentation — a different, narrower figure than the annual facility-wide HHW tonnage series in progress-2023-2024-misc.json (which covers year-round hotline/facility collection, not these two events specifically). Not stated in either Progress Report.",
+      "poundsHhwCollected": 19801,
+      "eventCount": 2,
+      "citation": {
+        "sourceType": "external",
+        "publisher": "City of Greensboro / Community Sustainability Council",
+        "title": "CSC Meeting Minutes, July 13, 2026",
+        "url": "https://www.greensboro-nc.gov/departments/office-of-sustainability-and-resilience/community-sustainability-council-csc",
+        "retrievedDate": "2026-07-22"
+      }
+    },
+    "energySavingsIdentified2025": {
+      "note": "OSR's July 2026 CSC presentation stated roughly $400,000 in energy savings was identified during 2025 (source and methodology not detailed in the meeting). Not stated in either Progress Report and not independently broken down here — treated as a single unconfirmed-provenance figure, not tied to a specific project.",
+      "amountUsdApprox": 400000,
+      "citation": {
+        "sourceType": "external",
+        "publisher": "City of Greensboro / Community Sustainability Council",
+        "title": "CSC Meeting Minutes, July 13, 2026",
+        "url": "https://www.greensboro-nc.gov/departments/office-of-sustainability-and-resilience/community-sustainability-council-csc",
+        "retrievedDate": "2026-07-22"
+      }
+    },
     "heatActionPlanning": {
-      "note": "OSR participated in the state-led Planning for Extreme Heat Cohort (NC Heat Action Plan Toolkit), leading to an interlocal taskforce with Guilford County and the City of High Point that completed a heat action plan and a county-wide extreme temperatures action plan including cold-weather preparedness."
+      "note": "OSR participated in the state-led Planning for Extreme Heat Cohort (NC Heat Action Plan Toolkit), leading to an interlocal taskforce with Guilford County and the City of High Point that completed a heat action plan and a county-wide extreme temperatures action plan including cold-weather preparedness.",
+      "statusInconsistency2026": {
+        "value": true,
+        "note": "The 2025 Progress Report says this taskforce 'completed' the countywide extreme temperatures action plan. OSR's July 2026 CSC presentation instead described 'a draft of the Countywide Extreme Temperature Action Plan' as having been created — draft, not completed. This site flags the discrepancy rather than picking one; it may reflect a real status change (a completed plan later reopened for revision) or imprecise wording in one of the two sources.",
+        "citation": {
+          "sourceType": "external",
+          "publisher": "City of Greensboro / Community Sustainability Council",
+          "title": "CSC Meeting Minutes, July 13, 2026",
+          "url": "https://www.greensboro-nc.gov/departments/office-of-sustainability-and-resilience/community-sustainability-council-csc",
+          "retrievedDate": "2026-07-22"
+        }
+      }
     },
     "leedForCities": {
       "note": "Greensboro was an inaugural city in USGBC's LEED for Cities (L4C) Certification Program (2019), earning LEED for Cities Silver Certification. The 2022-2024 GHG inventory contracted in Dec. 2025 is a component of a recertification effort.",

@@ -145,20 +145,23 @@ function statusHistoryStripHtml(entries) {
 
 function statusHistoryHtml(item) {
   if (!item.statusHistory || !item.statusHistory.length) return "";
-  const stripEntries = item.statusHistory.map((h) => ({ year: h.year, status: h.status }));
-  const yearChips = item.statusHistory.map(
-    (h) => `<span class="status-history__chip">${h.year}: <strong>${h.status}</strong> ${renderCite(h.citation)}</span>`
-  );
+  const entries = item.statusHistory.map((h) => ({ year: h.year, status: h.status, citation: h.citation }));
   if (item.dataGap) {
-    yearChips.push(`<span class="status-history__chip status-history__chip--gap">2025: <strong>not reported</strong></span>`);
-    stripEntries.push({ year: 2025, status: "Not Reported", bucket: "not-reported" });
+    entries.push({ year: 2025, status: "Not Reported", bucket: "not-reported", gap: true });
   } else {
     const su = item.statusUpdate2025 || item.status2025;
-    if (su && su.status) {
-      yearChips.push(`<span class="status-history__chip">2025: <strong>${su.status}</strong> ${renderCite(su.citation)}</span>`);
-      stripEntries.push({ year: 2025, status: su.status });
-    }
+    if (su && su.status) entries.push({ year: 2025, status: su.status, citation: su.citation });
   }
+  // Sort chronologically: statusHistory years are normally already-ordered pre-2025 entries
+  // with the 2025 outcome appended last, but a later addition (e.g. a post-report meeting
+  // update) can carry a year past 2025, so sort defensively rather than assume append-order.
+  entries.sort((a, b) => a.year - b.year);
+  const stripEntries = entries.map((e) => ({ year: e.year, status: e.status, bucket: e.bucket }));
+  const yearChips = entries.map((e) =>
+    e.gap
+      ? `<span class="status-history__chip status-history__chip--gap">${e.year}: <strong>not reported</strong></span>`
+      : `<span class="status-history__chip">${e.year}: <strong>${e.status}</strong> ${renderCite(e.citation)}</span>`
+  );
   return `<div class="goal__status-history">${statusHistoryStripHtml(stripEntries)}${yearChips.join('<span class="status-history__arrow">→</span>')}</div>`;
 }
 

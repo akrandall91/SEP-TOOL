@@ -15,6 +15,17 @@
           "page": 6
         }
       },
+      "followUp2026": {
+        "date": "2026-07-13",
+        "text": "At the Community Sustainability Council's July 2026 monthly meeting, OSR's Sustainability Planning Administrator restated the 40% target as met ('We have reached that goal') in a summary slide, without specifying which year's figure or addressing the report's own prose/table discrepancy above. The presentation also did not reference the Directive 8 GHG inventory update (contracted with Fresh Coast Climate Solutions, targeted for June 2026 completion — see directive 8) as finalized. This site's status for Directive 1 therefore remains unchanged: self-reported, pending official verification — restating the claim in a public meeting is not the same as resolving the underlying ambiguity or the still-awaited independent inventory.",
+        "citation": {
+          "sourceType": "external",
+          "publisher": "City of Greensboro / Community Sustainability Council",
+          "title": "CSC Meeting Minutes, July 13, 2026",
+          "url": "https://www.greensboro-nc.gov/departments/office-of-sustainability-and-resilience/community-sustainability-council-csc",
+          "retrievedDate": "2026-07-22"
+        }
+      },
       "multiYearGhgTotal": {
         "unit": "MTCO2e, % change from 2007 baseline",
         "note": "Citywide total across electricity, natural gas, diesel, and unleaded gasoline. See citywide-energy-timeseries.json for the full by-fuel-type breakdown.",
