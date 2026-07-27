@@ -87,7 +87,7 @@ p { margin: 0 0 var(--space-3); }
 .cite__icon { font-size: 0.9em; }
 
 /* citation popover */
-.cite-pop {
+.cite-pop, .term-pop {
   display: none;
   position: absolute; z-index: 50; top: calc(100% + 6px); left: 0;
   width: max-content; max-width: 320px;
@@ -97,12 +97,36 @@ p { margin: 0 0 var(--space-3); }
   padding: var(--space-3); font-size: var(--font-size-sm); font-weight: 400;
   text-align: left; line-height: 1.4; cursor: auto;
 }
-.cite-pop.is-open { display: block; }
+.cite-pop.is-open, .term-pop.is-open { display: block; }
 .cite-pop__tier { font-weight: 700; font-size: var(--font-size-xs); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: var(--space-1); }
 .cite-pop__title { font-weight: 600; margin-bottom: 2px; }
 .cite-pop__meta { color: var(--ink-secondary); margin-bottom: var(--space-1); }
 .cite-pop__note { color: var(--ink-muted); font-size: var(--font-size-xs); margin-top: var(--space-2); padding-top: var(--space-2); border-top: 1px solid var(--gridline); }
 .cite-pop a { font-size: var(--font-size-xs); }
+
+/* plain-language glossary term */
+.term {
+  position: relative; cursor: help;
+  border-bottom: 1.5px dotted var(--ink-secondary);
+  text-decoration: none;
+}
+.term:hover, .term:focus { border-bottom-color: var(--ink-primary); outline: none; }
+
+/* plain-language page summary — sitewide (not account-page-scoped), so it works on every
+   page including about.html/start-here.html which don't load accountability.css. */
+.plain-summary {
+  border-left: 4px solid var(--cat-aqua);
+  padding: var(--space-4) var(--space-5);
+  margin: var(--space-4) 0 var(--space-5);
+  background: color-mix(in srgb, var(--cat-aqua) 8%, var(--surface-1));
+  max-width: 70ch;
+}
+.plain-summary__label {
+  text-transform: uppercase; letter-spacing: 0.08em;
+  font-size: var(--font-size-xs); font-weight: 800;
+  color: var(--cat-aqua); display: block; margin-bottom: var(--space-2);
+}
+.plain-summary p { margin: 0; line-height: 1.5; }
 
 /* ---------- status badges ---------- */
 .status-badge {

@@ -36,6 +36,7 @@ DATA_DIR = ROOT / "data"
 # path (relative to ROOT), nav id (must match a data-nav-id in partials/header.html)
 STATIC_PAGES = [
     ("index.html", "dashboard"),
+    ("start-here.html", "start-here"),
     ("about.html", "about"),
     ("recommendations.html", "recommendations"),
     ("funding.html", "funding"),
