@@ -1,0 +1,51 @@
+{
+  "$schema": "data/schemas/auto-detected-updates.schema.json",
+  "_notes": "Decision list populated by the /check-for-updates skill (see .claude/skills/check-for-updates/SKILL.md). This never changes authoritative site data automatically — same discipline as public-record-impact.json and review-proposals.json. A finding only becomes real content when a human (the maintainer) reviews it, and only becomes an authoritative fact when promoted through the normal SIDEQUEST.md workflow.",
+  "impactClassVocabulary": {
+    "no_new_content": "Source was checked; nothing has been published since the last check.",
+    "already_covered": "Source had new content, but every fact in it already exists on the site (checked via grep against data/*.json before this classification is used, same as the manual process this file's first entries came from).",
+    "candidate_new_fact": "Genuinely new information with no existing goalId/field it cleanly corrects or extends. Decision-list only — does not get a matching review-proposals.json entry.",
+    "candidate_goal_update": "New information that maps cleanly to a specific existing goalId and field. Also gets a matching pending entry in data/review-proposals.json.",
+    "pending_verification": "A possible lead (most often from the general web-search source) that could not be confirmed against primary-source text in this pass. Treat as provisional, never published as fact."
+  },
+  "generatedAt": "2026-07-22",
+  "methodology": "Detection never changes authoritative classifications automatically. Every finding is cross-checked against the current contents of data/*.json before being recorded, so that a source being read again does not produce a duplicate finding for a fact this site already carries.",
+  "sourcesChecked": {
+    "csc-minutes": {
+      "sourceUrl": "https://www.greensboro-nc.gov/departments/office-of-sustainability-and-resilience/community-sustainability-council-csc",
+      "lastChecked": "2026-07-22",
+      "lastProcessedDocument": "CSC Meeting Minutes, July 13, 2026",
+      "note": "Fully read and cross-checked against site data on 2026-07-22; see changes.html, data/directives.json, data/departments.json, data/progress-2025-misc.json for what was incorporated. Re-confirmed via WebSearch (direct WebFetch to greensboro-nc.gov returns HTTP 403) that no newer minutes are publicly indexed yet, consistent with minutes being approved at the following month's meeting before posting. The next CSC meeting (August 2026) is the next thing this source should look for."
+    },
+    "progress-report": {
+      "lastChecked": "2026-07-22",
+      "note": "Checked via WebSearch (site:greensboro-nc.gov). Confirmed no report newer than the 2025 Annual Progress Report (progress2025, published Feb 2026, see data/index.json > sources) is indexed."
+    },
+    "legistar-matter": {
+      "note": "Not yet checked by this skill. See data/live/legistar-snapshot.json > discoveredMatters and scripts/analyze_public_record_impact.py for the existing weekly-refreshed discovery mechanism this source-check should read from."
+    },
+    "council-agenda": {
+      "note": "Not yet checked by this skill."
+    },
+    "web-search": {
+      "lastChecked": "2026-07-22",
+      "note": "One general search run as a dry-run test (see finding auto-20260722-lga001). Not yet run as a routine recurring check."
+    }
+  },
+  "findings": [
+    {
+      "id": "auto-20260722-lga001",
+      "sourceType": "web-search",
+      "title": "OSR 4th Annual Live Green Awards — nominations open, ceremony January 2027 at Proximity Hotel",
+      "sourceUrl": "https://www.greensboro-nc.gov/LGANominations",
+      "dateFound": "2026-07-22",
+      "citationTier": 3,
+      "impactClass": "candidate_new_fact",
+      "effectOnAuthoritativeData": "none",
+      "candidateGoalIds": [],
+      "finding": "The City's own site confirms/expands the CSC minutes' brief mention that the Live Green Awards return to the Proximity Hotel in January, with nomination details (deadline December 5) and a '4th annual' designation.",
+      "limitation": "An awards/recognition program is not evidence of SEP goal progress, funding, or a reporting gap — it doesn't fit this site's tracked-goal scope, same reasoning that excluded OMRI landfill certification and curbside composting earlier. Recorded here as a documented judgment call, not published to the site.",
+      "status": "dismissed"
+    }
+  ]
+}

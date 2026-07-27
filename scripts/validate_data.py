@@ -9,7 +9,7 @@ def load(name):
 index=load('index.json');departments=load('departments.json');linkage=load('funding-linkage.json')
 public_records=load('public-records.json');federal_awards=load('federal-awards.json');funding=load('funding.json')
 transitions=load('goal-transitions.json');reviewed_events=load('reviewed-events.json');review_proposals=load('review-proposals.json')
-record_impact=load('public-record-impact.json')
+record_impact=load('public-record-impact.json');auto_updates=load('auto-detected-updates.json')
 collaborations=load('collaborations.json')
 canopy=load('canopy-assessment.json')
 source_ids={s.get('id') for s in index.get('sources',[])};goal_ids=set();goals=[]
@@ -81,6 +81,17 @@ for impact in record_impact.get('records',[]):
  for gid in impact.get('candidateGoalIds',[]):
   if gid not in goal_ids:errors.append(f'public-record-impact {impact.get("recordId")}: unknown candidate goal {gid}')
 if record_impact.get('summary',{}).get('authoritativeValuesChanged') not in (0,None):errors.append('public-record-impact claims automatic authoritative changes')
+finding_ids=[x.get('id') for x in auto_updates.get('findings',[])]
+if len(finding_ids)!=len(set(finding_ids)):errors.append('auto-detected-updates: duplicate finding id')
+allowed_source_types={'csc-minutes','progress-report','legistar-matter','council-agenda','web-search'}
+allowed_impact_classes={'no_new_content','already_covered','candidate_new_fact','candidate_goal_update','pending_verification'}
+for finding in auto_updates.get('findings',[]):
+ fid=finding.get('id')
+ if finding.get('sourceType') not in allowed_source_types:errors.append(f'auto-detected-updates {fid}: invalid sourceType {finding.get("sourceType")!r}')
+ if finding.get('impactClass') not in allowed_impact_classes:errors.append(f'auto-detected-updates {fid}: invalid impactClass {finding.get("impactClass")!r}')
+ if finding.get('status') not in ('new','reviewed','dismissed','promoted'):errors.append(f'auto-detected-updates {fid}: invalid status {finding.get("status")!r}')
+ for gid in finding.get('candidateGoalIds',[]):
+  if gid not in goal_ids:errors.append(f'auto-detected-updates {fid}: unknown candidate goal {gid}')
 dataset_ids=[x.get('id') for x in public_records.get('datasets',[])]
 if len(dataset_ids)!=len(set(dataset_ids)):errors.append('public-records: duplicate dataset id')
 for dataset in public_records.get('datasets',[]):

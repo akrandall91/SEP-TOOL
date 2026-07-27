@@ -72,3 +72,19 @@ For each initiative, reviewers can confirm participant roles, identify a missing
 provide a primary source, or mark an attribution as unresolved. Collaboration records never
 change a department goal's status automatically and never divide shared funding unless a source
 provides activity-level allocations.
+
+## A third input channel: automated detection
+
+Alongside human-submitted proposals (above) and the scheduled structured-data refreshes
+(`.github/workflows/refresh-*.yml` — Legistar, USAspending, GTFS, Census, AQS, public records),
+there's an on-demand `/check-for-updates` skill (`.claude/skills/check-for-updates/SKILL.md`)
+that checks five external sources — CSC meeting minutes, new Annual Progress Reports, newly
+discovered Legistar matters, upcoming Council agendas, and general web search — for anything not
+yet reflected on the site.
+
+It writes findings to `data/auto-detected-updates.json`, the same decision-list pattern as
+`data/public-record-impact.json`. Findings that map cleanly to a specific goal and field also get
+a matching `pending` entry in `data/review-proposals.json`, so they surface in the normal
+review-proposal queue and follow the exact same decision states and promotion process described
+above. This channel never publishes anything automatically — same guardrail as everything else in
+this document — and it is on-demand only, run when the maintainer invokes it, not on a schedule.
