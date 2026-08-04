@@ -11,8 +11,10 @@ def main():
  index=load(DATA/'index.json');public=load(DATA/'public-records.json');funding=load(DATA/'funding.json');awards=load(DATA/'federal-awards.json');legistar=load(DATA/'live'/'legistar-snapshot.json')
  authoritative={s.get('sourceFile') for s in index.get('sources',[])};records=[]
  for dataset in public.get('datasets',[]):
-  if dataset.get('id')=='solar-permits':
-   records.append({'recordId':'solar-permits','datasetId':'solar-permits','title':dataset.get('name'),'impactClass':'new_contextual_dataset','effectOnAuthoritativeData':'none','candidateGoalIds':[],'finding':f"Adds {dataset.get('recordCount',0)} keyword-matched permit candidates summarized into {dataset.get('aggregateRecordCount',0)} tract/year/status aggregates.",'limitation':'No municipal ownership or SEP attribution is established; it cannot change a department goal status or establish implementation.'});continue
+  if dataset.get('id','').endswith('-permits'):
+   records.append({'recordId':dataset.get('id'),'datasetId':dataset.get('id'),'title':dataset.get('name'),'sourceUrl':dataset.get('sourceUrl'),'impactClass':'new_contextual_dataset','effectOnAuthoritativeData':'none','candidateGoalIds':dataset.get('candidateGoalIds',[]),'finding':f"Adds {dataset.get('recordCount',0)} keyword-matched permit candidates summarized into {dataset.get('aggregateRecordCount',0)} tract/year/final-CO aggregates.",'limitation':'No municipal ownership, measured energy impact, or SEP attribution is established; permit evidence cannot change a department goal status by itself.'});continue
+  if dataset.get('id')=='arcgis-service-inventory':
+   records.append({'recordId':'arcgis-service-inventory','datasetId':'arcgis-service-inventory','title':dataset.get('name'),'sourceUrl':dataset.get('sourceUrl'),'impactClass':'source_inventory','effectOnAuthoritativeData':'none','candidateGoalIds':[],'finding':f"Inventories {dataset.get('recordCount',0)} services in SEP-relevant City GIS folders for later layer-level review.",'limitation':'A service name is discovery metadata, not evidence of implementation.'});continue
   for i,item in enumerate(dataset.get('records',[])):
    local=item.get('localPath');is_source=bool(local and Path(local).name in authoritative)
    if item.get('retrievalState')=='downloaded' and is_source:

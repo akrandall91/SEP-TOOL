@@ -82,16 +82,24 @@ def inventory_documents(sid,records):
 def previous():
  try:return json.loads(LIVE.read_text(encoding='utf-8'))
  except Exception:return {'datasets':[]}
-def fetch_arcgis():
+def fetch_arcgis_category(category):
  base='https://gis.greensboro-nc.gov/arcgis/rest/services/EngineeringInspections/BuildingPermits_MS/MapServer/6'
  string_fields=['ApplicationType','Description','TypeConstructionDesc','OccupancyDesc']
- clauses=[f"UPPER({f}) LIKE '%SOLAR%'" for f in string_fields]; query=base+'/query?'+urllib.parse.urlencode({'where':' OR '.join(clauses),'outFields':'OBJECTID,PermitNum,IssuedDate,StatusCurrent,ApplicationType,Description,TotalCost,FinalCO,FinalCODate,CensusTract','returnGeometry':'false','f':'geojson','resultRecordCount':'2000'})
+ terms=category['terms'];clauses=[f"UPPER({field}) LIKE '%{term.upper().replace("'","''") }%'" for field in string_fields for term in terms]
+ query=base+'/query?'+urllib.parse.urlencode({'where':' OR '.join(clauses),'outFields':'OBJECTID,PermitNum,IssuedDate,StatusCurrent,ApplicationType,Description,TotalCost,FinalCO,FinalCODate,CensusTract','returnGeometry':'false','f':'geojson','resultRecordCount':'2000','orderByFields':'IssuedDate DESC'})
  qraw,qheaders,qurl=request(query); payload=json.loads(qraw); features=payload.get('features',[])
  aggregates={}
  for feature in features:
   p=feature.get('properties',{});stamp=p.get('IssuedDate');year=datetime.fromtimestamp(stamp/1000,timezone.utc).year if isinstance(stamp,(int,float)) else (str(stamp)[:4] if stamp else 'Unknown');tract=str(p.get('CensusTract') or 'Unknown').strip();key=(str(year),tract,p.get('FinalCO') or 'Unknown');aggregates[key]=aggregates.get(key,0)+1
  records=[{'issuedYear':k[0],'censusTract':k[1],'finalCO':k[2],'candidatePermitCount':v} for k,v in sorted(aggregates.items())]
- return {'id':'solar-permits','name':'Solar-related building permit candidates','sourceUrl':base,'retrievedAt':NOW.isoformat(),'lastSuccessfulFetch':NOW.isoformat(),'freshnessState':'current','recordCount':len(features),'aggregateRecordCount':len(records),'records':records,'privacyNote':'Published data is aggregated by tract/year; owner names, addresses, and exact coordinates are not collected.','warning':'Keyword candidates only. A permit does not establish completion, ownership, operation, or SEP attribution.','fieldsSearched':string_fields}, [('solar-permits.geojson',qraw)]
+ return {'id':category['id'],'name':category['name'],'sourceUrl':base,'retrievedAt':NOW.isoformat(),'lastSuccessfulFetch':NOW.isoformat(),'freshnessState':'current','recordGrain':'privacy_safe_aggregate','recordCount':len(features),'aggregateRecordCount':len(records),'records':records,'candidateGoalIds':category['goalIds'],'privacyNote':'Published data is aggregated by tract/year/final-CO state; owner names, addresses, exact coordinates, and permit-level descriptions are retained only in the dated raw snapshot.','warning':'Keyword candidates only. A permit does not establish City ownership, completion, operation, energy savings, or SEP attribution.','fieldsSearched':string_fields,'keywords':terms}, [(category['id']+'.geojson',qraw)]
+def fetch_arcgis_service_inventory():
+ root='https://gis.greensboro-nc.gov/arcgis/rest/services';folders=['Budget','FieldOps','ParksRec','Sustainability','Transportation','Utilities','WaterResources'];records=[];raws=[]
+ for folder in folders:
+  url=f'{root}/{folder}?f=pjson';raw,headers,final=request(url);raws.append((f'arcgis-services-{folder.lower()}.json',raw));payload=json.loads(raw)
+  for service in payload.get('services',[]):
+   name=service.get('name');stype=service.get('type');records.append({'folder':folder,'name':name,'serviceType':stype,'url':f'{root}/{name}/{stype}','reviewState':'inventory_only'})
+ return {'id':'arcgis-service-inventory','name':'SEP-relevant Greensboro GIS service inventory','sourceUrl':root,'retrievedAt':NOW.isoformat(),'lastSuccessfulFetch':NOW.isoformat(),'freshnessState':'current','recordGrain':'service_metadata','recordCount':len(records),'records':records,'warning':'Service discovery only. Dataset names do not establish a project, outcome, ownership, funding link, or goal status.','foldersSearched':folders},raws
 def main():
  RAW.mkdir(parents=True,exist_ok=True); old={x.get('id'):x for x in previous().get('datasets',[])}; datasets=[]; failures=[]
  manifest={x.get('id'):x for x in json.loads(MANIFEST.read_text(encoding='utf-8')).get('sources',[])} if MANIFEST.exists() else {}
@@ -110,11 +118,24 @@ def main():
    datasets.append({'id':sid,'name':name,'sourceUrl':url,'resolvedUrl':final,'retrievedAt':NOW.isoformat(),'lastSuccessfulFetch':NOW.isoformat(),'freshnessState':'current','accessMethod':access,'contentSha256':hashlib.sha256(raw).hexdigest(),'recordCount':len(found),'downloadedCount':downloaded,'crossReferencedCount':crossed,'records':found,'verificationType':'external-primary','analystReviewed':False,'analysisState':'inventory_complete_analysis_pending'})
   except Exception as exc:
    failures.append({'id':sid,'error':str(exc)}); prior=old.get(sid,{'id':sid,'name':name,'sourceUrl':url,'records':[]}); prior.update({'lastAttemptedFetch':NOW.isoformat(),'freshnessState':'error','lastError':str(exc)});datasets.append(prior)
+ categories=[
+  {'id':'solar-storage-permits','name':'Solar and battery-storage permit candidates','terms':['solar','photovoltaic','battery storage','powerwall'],'goalIds':['WR-G3','TR-E-G3','COL-G2','FIRE-NG-G2','CI-G1']},
+  {'id':'ev-charging-permits','name':'Electric-vehicle charging permit candidates','terms':['ev charger','electric vehicle charger','charging station','vehicle charging'],'goalIds':['POL-G2','TR-GAS-G1','FO-G1','TR-D-G1']},
+  {'id':'hvac-efficiency-permits','name':'HVAC and building-efficiency permit candidates','terms':['hvac','heat pump','chiller','boiler','energy efficiency'],'goalIds':['TR-E-G2','COL-G1','COL-NG-G1','PR-NG-G1','FIRE-NG-G1','EI-G2']},
+  {'id':'lighting-permits','name':'LED and lighting-efficiency permit candidates','terms':['led lighting','lighting retrofit','streetlight','street lamp'],'goalIds':['TR-E-G1','TR-E-G2','COL-G1']},
+  {'id':'water-equipment-permits','name':'Water and wastewater energy-equipment permit candidates','terms':['wastewater','water treatment','pump replacement','motor control','generator replacement'],'goalIds':['WR-G1','WR-G2','WR-G3']},
+ ]
+ for category in categories:
+  try:
+   permit,raws=fetch_arcgis_category(category);datasets.append(permit)
+   for name,raw in raws:(RAW/name).write_bytes(raw)
+  except Exception as exc:
+   sid=category['id'];failures.append({'id':sid,'error':str(exc)});prior=old.get(sid,{'id':sid,'records':[]});prior.update({'lastAttemptedFetch':NOW.isoformat(),'freshnessState':'error','lastError':str(exc)});datasets.append(prior)
  try:
-  permit,raws=fetch_arcgis();datasets.append(permit)
+  inventory,raws=fetch_arcgis_service_inventory();datasets.append(inventory)
   for name,raw in raws:(RAW/name).write_bytes(raw)
  except Exception as exc:
-  failures.append({'id':'solar-permits','error':str(exc)});prior=old.get('solar-permits',{'id':'solar-permits','records':[]});prior.update({'lastAttemptedFetch':NOW.isoformat(),'freshnessState':'error','lastError':str(exc)});datasets.append(prior)
+  sid='arcgis-service-inventory';failures.append({'id':sid,'error':str(exc)});prior=old.get(sid,{'id':sid,'records':[]});prior.update({'lastAttemptedFetch':NOW.isoformat(),'freshnessState':'error','lastError':str(exc)});datasets.append(prior)
  result={'generatedAt':NOW.isoformat(),'rawSnapshotDirectory':str(RAW.relative_to(ROOT)).replace('\\','/'),'methodology':'Discovery only. Records do not change goal status or funding until an analyst approves a source-supported link.','datasets':datasets,'failures':failures}
  LIVE.parent.mkdir(parents=True,exist_ok=True);LIVE.write_text(json.dumps(result,indent=2,ensure_ascii=False),encoding='utf-8');print(f'Wrote {LIVE}: {sum(x.get("recordCount",0) for x in datasets)} discovered records, {len(failures)} failures')
  return 1 if failures else 0

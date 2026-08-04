@@ -106,7 +106,7 @@ for dataset in public_records.get('datasets',[]):
   elif isinstance(v,list):
    for x in v:privacy_keys(x)
  privacy_keys(dataset.get('records',[]))
- if dataset.get('id')!='solar-permits':
+ if dataset.get('recordGrain') not in ('privacy_safe_aggregate','service_metadata') and dataset.get('id')!='solar-permits':
   records=dataset.get('records',[]);downloaded=sum(x.get('retrievalState')=='downloaded' for x in records);crossed=sum(x.get('retrievalState')=='cross_referenced' for x in records)
   if downloaded+crossed!=len(records):errors.append(f'public-records {dataset.get("id")}: every item must be downloaded or cross-referenced')
   if dataset.get('downloadedCount')!=downloaded or dataset.get('crossReferencedCount')!=crossed:errors.append(f'public-records {dataset.get("id")}: disposition counts do not reconcile')
