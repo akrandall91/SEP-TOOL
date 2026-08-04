@@ -74,7 +74,23 @@
           "dataGap": true,
           "fundingLink": {
             "hasActiveFunding": false
-          }
+          },
+          "statusHistory": [
+            {
+              "year": 2026,
+              "status": "2025 measure published",
+              "statusNote": "Official operational measure; not enough information to calculate the SEP's per-capita target.",
+              "text": "Greensboro's official Water Conservation page reports average daily system water demand of 33.7 million gallons per day in 2025. A matching service-population denominator and comparable baseline are still required before per-capita progress can be calculated.",
+              "citation": {
+                "sourceType": "external",
+                "publisher": "City of Greensboro, Water Resources",
+                "title": "Water Conservation",
+                "url": "https://www.greensboro-nc.gov/departments/water-resources/water-conservation",
+                "retrievedDate": "2026-08-04",
+                "note": "Supports the 2025 system-demand observation only; it does not establish per-capita progress or goal completion."
+              }
+            }
+          ]
         },
         {
           "number": 2,
@@ -251,6 +267,23 @@
           "fundingLink": {
             "hasActiveFunding": false
           },
+          "statusHistory": [
+            {
+              "year": 2015,
+              "status": "Authorized",
+              "statusNote": "Pre-SEP authorization milestone; construction or operation has not been established.",
+              "text": "City Council authorized a lease agreement with Sustainable Energy Community Development Corporation for a T.Z. Osborne Water Reclamation Plant solar project (Legistar ID 15-0794; Matter 2699; passed October 5, 2015). The record establishes authorization only; later evidence is still needed to determine whether the project was executed, constructed, cancelled, superseded, or replaced.",
+              "citation": {
+                "sourceType": "external",
+                "publisher": "City of Greensboro / Legistar",
+                "title": "Resolution Authorizing a Lease Agreement with the Sustainable Energy Community Development Corporation for the T. Z. Osborne Water Reclamation Plant Solar Project",
+                "legistarFileId": "15-0794",
+                "url": "https://webapi.legistar.com/v1/greensboro/matters/2699",
+                "retrievedDate": "2026-08-04",
+                "note": "Matter metadata confirms authorization and passed date; it does not confirm project delivery."
+              }
+            }
+          ],
           "relatedExternalFinding": {
             "text": "Neither SEP document mentions it, but a City-owned-land renewable asset roughly 5x larger than this goal's own 1 MW T.Z. Osborne proposal (Strategy 3.1, never built) was actually constructed elsewhere in the City during this same window: a 4.8 MW solar array at the White Street Landfill, operational since October 2020. It's just attributed to a different department (Field Operations / Solid Waste & Recycling), not Water Resources — the SEP's department-siloed accounting has no mechanism to credit it here.",
             "framingNote": "Stated factually, not as an accusation: this is a gap in the reports' own department-based accounting structure, not evidence Water Resources underperformed relative to what it controls.",
@@ -1715,13 +1748,27 @@
                 "source": "progress2024",
                 "page": 20
               }
+            },
+            {
+              "year": 2026,
+              "status": "Active program confirmed",
+              "text": "The City continued offering free household water and energy conservation kits through a collaboration between the Office of Sustainability and Resilience and Water Resources. The kits are funded by the U.S. Department of Energy Energy Efficiency and Conservation Block Grant and distributed through GSO WaterWise while supplies last.",
+              "citation": {
+                "sourceType": "external",
+                "publisher": "City of Greensboro, Office of Sustainability and Resilience",
+                "title": "Water & Energy Conservation",
+                "url": "https://www.greensboro-nc.gov/departments/office-of-sustainability-and-resilience/sustainability-programs/water-energy-conservation",
+                "retrievedDate": "2026-08-04",
+                "note": "Confirms continued program activity in 2026; does not establish participation totals or overall goal completion."
+              }
             }
           ],
           "wentSilent": {
-            "value": true,
-            "note": "This goal showed real activity in both the 2023 and 2024 Annual Progress Reports (status: Initiated in each), then received no update at all in the 2025 report — a confirmed two-year-then-silence pattern, distinct from a goal that was never reported on and distinct from the natural-gas goals the SEP itself deprioritized. Nothing in the source documents says this work stopped or was deprioritized; it simply stopped being mentioned.",
+            "value": false,
+            "note": "The 2025 Annual Progress Report omitted this goal, but a current official City program page confirms in 2026 that the EECBG-funded water and energy conservation kit program remains active. The reporting gap remains historically visible, but the work is no longer classified as silent.",
             "lastReportedYear": 2024,
-            "lastReportedStatus": "Initiated"
+            "lastReportedStatus": "Initiated",
+            "externalActivityConfirmedYear": 2026
           }
         },
         {

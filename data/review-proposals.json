@@ -1,1 +1,51 @@
-{"$schema":"schemas/review-proposals.schema.json","proposals":[],"_notes":"Staging area for OSR/community review proposals. Proposals do not affect published classifications until reviewed and promoted to an authoritative source file."}
+{
+  "$schema": "schemas/review-proposals.schema.json",
+  "proposals": [
+    {
+      "id": "RP-2026-08-04-CI-G1-KITS",
+      "goalId": "CI-G1",
+      "proposalType": "milestone",
+      "proposedBy": "Codex official-source gap audit",
+      "proposedAt": "2026-08-04T00:00:00-04:00",
+      "field": "statusHistory / 2026 milestone",
+      "proposedValue": "The City is continuing to offer free household water and energy conservation kits through a collaboration between the Office of Sustainability and Resilience and Water Resources. The kits are funded through the U.S. Department of Energy Energy Efficiency and Conservation Block Grant and distributed through GSO WaterWise while supplies last.",
+      "reason": "This official current City page confirms that the resident incentive described in earlier progress reporting remained active in 2026. It supports a dated milestone for CI-G1 but does not establish participation totals or goal completion.",
+      "sourceUrl": "https://www.greensboro-nc.gov/departments/office-of-sustainability-and-resilience/sustainability-programs/water-energy-conservation",
+      "status": "accepted",
+      "reviewedAt": "2026-08-04T00:00:00-04:00",
+      "reviewedBy": "Project owner",
+      "reviewNote": "Approved for promotion with the source limitations preserved."
+    },
+    {
+      "id": "RP-2026-08-04-WR-G1-DEMAND",
+      "goalId": "WR-G1",
+      "proposalType": "milestone",
+      "proposedBy": "Codex official-source gap audit",
+      "proposedAt": "2026-08-04T00:00:00-04:00",
+      "field": "statusHistory / 2025 demand observation",
+      "proposedValue": "Greensboro's official Water Conservation page reports average daily system water demand of 33.7 million gallons per day in 2025.",
+      "reason": "This is a current official operational measure relevant to the goal, but WR-G1 is defined per capita. A matching 2025 service-population denominator and a comparable baseline are still required before calculating progress or changing the goal status.",
+      "sourceUrl": "https://www.greensboro-nc.gov/departments/water-resources/water-conservation",
+      "status": "accepted",
+      "reviewedAt": "2026-08-04T00:00:00-04:00",
+      "reviewedBy": "Project owner",
+      "reviewNote": "Approved as an operational observation, not as a per-capita progress calculation."
+    },
+    {
+      "id": "RP-2026-08-04-WR-G3-OSBORNE-LEASE",
+      "goalId": "WR-G3",
+      "proposalType": "milestone",
+      "proposedBy": "Codex official-source gap audit",
+      "proposedAt": "2026-08-04T00:00:00-04:00",
+      "field": "statusHistory / pre-SEP historical milestone",
+      "proposedValue": "City Council records show a 2015 resolution authorizing a lease agreement with Sustainable Energy Community Development Corporation for a T.Z. Osborne Water Reclamation Plant solar project (Legistar ID 15-0794; Matter 2699; passed date October 5, 2015).",
+      "reason": "The record is directly relevant to WR-G3 and predates the SEP. The matter metadata establishes authorization only; attachments or later records are needed to determine whether the project was executed, constructed, cancelled, superseded, or replaced.",
+      "sourceUrl": "https://webapi.legistar.com/v1/greensboro/matters/2699",
+      "status": "accepted",
+      "reviewedAt": "2026-08-04T00:00:00-04:00",
+      "reviewedBy": "Project owner",
+      "reviewNote": "Approved as an authorization milestone, not as evidence of construction or operation."
+    }
+  ],
+  "_notes": "Staging area for OSR/community review proposals. Proposals do not affect published classifications until reviewed and promoted to an authoritative source file."
+}

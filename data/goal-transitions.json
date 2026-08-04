@@ -1,6 +1,6 @@
 {
   "$schema": "schemas/goal-transitions.schema.json",
-  "generatedAt": "2026-07-20",
+  "generatedAt": "2026-08-04",
   "years": [
     2023,
     2024,
@@ -1261,7 +1261,7 @@
         }
       ],
       "silentReportingCycles": 1,
-      "currentInterpretation": "went_silent",
+      "currentInterpretation": "not_reported",
       "explicitEvents": [],
       "abandonmentClaimSupported": false
     },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20",
+  "generatedAt": "2026-08-04",
   "methodology": "Acquisition never changes authoritative classifications automatically. Exact existing source files have no new impact; contextual datasets and title-only matches cannot establish goal progress.",
   "summary": {
     "recordsAssessed": 239,
@@ -2763,7 +2763,7 @@
       "impactClass": "new_contextual_dataset",
       "effectOnAuthoritativeData": "none",
       "candidateGoalIds": [],
-      "finding": "Adds 1418 keyword-matched permit candidates summarized into 721 tract/year/status aggregates.",
+      "finding": "Adds 1423 keyword-matched permit candidates summarized into 722 tract/year/status aggregates.",
       "limitation": "No municipal ownership or SEP attribution is established; it cannot change a department goal status or establish implementation."
     },
     {
