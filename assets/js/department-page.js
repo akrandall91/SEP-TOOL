@@ -242,18 +242,35 @@ function renderHeaderAndChart(dept) {
   ` + renderReorgNote(dept);
 }
 
-function renderGoalsSection(dept, wsl, fundingData) {
+function renderOpenDataEvidence(goal, publicRecords) {
+  if (!publicRecords || publicRecords.analystReview?.status !== "accepted_as_contextual_evidence") return "";
+  const sets = (publicRecords.datasets || []).filter((d) => (d.candidateGoalIds || []).includes(goal.id));
+  if (!sets.length) return "";
+  const rows = sets.map((d) => {
+    const completed = (d.records || []).reduce((sum, r) => sum + (r.finalCO === "Y" ? Number(r.candidatePermitCount || 0) : 0), 0);
+    return `<li><strong>${d.name}:</strong> ${Number(d.recordCount || 0).toLocaleString()} keyword candidates; ${completed.toLocaleString()} carry a final-CO flag. <a href="${d.sourceUrl}" target="_blank" rel="noopener">Official dataset</a></li>`;
+  }).join("");
+  return `<div class="callout" style="margin-top:var(--space-4);border-color:var(--status-info);">
+    <div class="callout__title">Approved Open Data supporting evidence</div>
+    <ul>${rows}</ul>
+    <p style="font-size:var(--font-size-sm);color:var(--ink-muted);">These are privacy-safe permit aggregates mapped to this goal. Approval means they may be retained and displayed as context; they do not prove City ownership, measured savings, SEP causation, or goal completion.</p>
+  </div>`;
+}
+
+function renderGoalsSection(dept, wsl, fundingData, publicRecords) {
   const extraHtml = (goal) => {
+    const blocks = [];
     if (goal.relatedExternalFinding) {
-      return renderWhiteStreetCallout(wsl, goal.relatedExternalFinding, fundingData);
+      blocks.push(renderWhiteStreetCallout(wsl, goal.relatedExternalFinding, fundingData));
     }
     if (goal.ledConversionTimeSeries) {
-      return renderLedConversionNote(goal.ledConversionTimeSeries);
+      blocks.push(renderLedConversionNote(goal.ledConversionTimeSeries));
     }
     if (goal.buildingLogiX) {
-      return renderBuildingLogiXNote(goal.buildingLogiX);
+      blocks.push(renderBuildingLogiXNote(goal.buildingLogiX));
     }
-    return "";
+    blocks.push(renderOpenDataEvidence(goal, publicRecords));
+    return blocks.join("");
   };
   document.getElementById("goals-section").innerHTML = dept.goals.map((g) => renderGoalCard(g, extraHtml(g))).join("");
 
@@ -311,10 +328,11 @@ function renderWhiteStreetLandfillPage(wsl, departments, fundingData) {
 
 async function init() {
   const deptId = window.DEPT_ID;
-  const [departments, baseline, fundingData] = await Promise.all([
+  const [departments, baseline, fundingData, publicRecords] = await Promise.all([
     loadJson("departments.json", BASE),
     loadJson("baseline-2019.json", BASE),
     loadJson("funding.json", BASE),
+    loadJson("public-records.json", BASE),
   ]);
 
   const dept = departments.departments.find((d) => d.id === deptId);
@@ -329,7 +347,7 @@ async function init() {
     renderWhiteStreetLandfillPage(dept, departments, fundingData);
   } else {
     renderHeaderAndChart(dept);
-    renderGoalsSection(dept, wsl, fundingData);
+    renderGoalsSection(dept, wsl, fundingData, publicRecords);
   }
 
   if (deptId === "buildings-ei" && typeof renderPVWattsWidget === "function") {

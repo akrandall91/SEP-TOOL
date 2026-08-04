@@ -1,6 +1,6 @@
 {
   "$schema": "SEP Accountability data index — see /data/SCHEMA.md for full documentation",
-  "generatedAt": "2026-07-15",
+  "generatedAt": "2026-08-04",
   "sources": [
     {
       "id": "sep2022",
