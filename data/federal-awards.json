@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-04T13:48:56.550051+00:00",
+  "generatedAt": "2026-08-10T14:33:47.807723+00:00",
   "methodology": "Only award IDs already confirmed in funding.json are queried; IDs are never guessed. A failed refresh preserves the last successful record.",
   "awards": [
     {
       "awardId": "ASST_NON_DESE0000196_089",
       "fundingPath": "funding.grants[0]",
       "sourceUrl": "https://api.usaspending.gov/api/v2/awards/ASST_NON_DESE0000196_089/",
-      "retrievedAt": "2026-08-04T13:48:56.550051+00:00",
-      "lastSuccessfulFetch": "2026-08-04T13:48:56.550051+00:00",
+      "retrievedAt": "2026-08-10T14:33:47.807723+00:00",
+      "lastSuccessfulFetch": "2026-08-10T14:33:47.807723+00:00",
       "freshnessState": "current",
       "totalObligation": 314150.0,
       "totalOutlay": 95757.07,

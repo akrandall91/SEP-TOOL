@@ -1,0 +1,38 @@
+{
+ "currentVersion": 10.91,
+ "folders": [],
+ "services": [
+  {
+   "name": "Transportation/BIPed_Inventory_MS",
+   "type": "MapServer"
+  },
+  {
+   "name": "Transportation/Collector_Throughfare_Review_2023_MS",
+   "type": "MapServer"
+  },
+  {
+   "name": "Transportation/GDOT_BikeRoutes_MS",
+   "type": "MapServer"
+  },
+  {
+   "name": "Transportation/GDOT_EAMStreetSigns_MS",
+   "type": "MapServer"
+  },
+  {
+   "name": "Transportation/GDOT_Parking_Enforcement_MS",
+   "type": "MapServer"
+  },
+  {
+   "name": "Transportation/GDOT_RoadProjectMappingTool_MS",
+   "type": "MapServer"
+  },
+  {
+   "name": "Transportation/GTA_RouteBuffers_MS",
+   "type": "MapServer"
+  },
+  {
+   "name": "Transportation/NCDOT_Road_Closures_MS",
+   "type": "MapServer"
+  }
+ ]
+}
