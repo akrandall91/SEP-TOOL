@@ -8,120 +8,8 @@
     "aqi": null,
     "monitorType": null
   },
-  "readingCount": 108,
+  "readingCount": 80,
   "series": [
-    {
-      "date": "2026-05-05",
-      "value": 0.056174
-    },
-    {
-      "date": "2026-05-05",
-      "value": 0.055375
-    },
-    {
-      "date": "2026-05-05",
-      "value": 0.055375
-    },
-    {
-      "date": "2026-05-05",
-      "value": 0.058471
-    },
-    {
-      "date": "2026-05-06",
-      "value": 0.043909
-    },
-    {
-      "date": "2026-05-06",
-      "value": 0.0405
-    },
-    {
-      "date": "2026-05-06",
-      "value": 0.0405
-    },
-    {
-      "date": "2026-05-06",
-      "value": 0.038
-    },
-    {
-      "date": "2026-05-07",
-      "value": 0.019087
-    },
-    {
-      "date": "2026-05-07",
-      "value": 0.015708
-    },
-    {
-      "date": "2026-05-07",
-      "value": 0.015708
-    },
-    {
-      "date": "2026-05-07",
-      "value": 0.013529
-    },
-    {
-      "date": "2026-05-08",
-      "value": 0.034043
-    },
-    {
-      "date": "2026-05-08",
-      "value": 0.03625
-    },
-    {
-      "date": "2026-05-08",
-      "value": 0.03625
-    },
-    {
-      "date": "2026-05-08",
-      "value": 0.041529
-    },
-    {
-      "date": "2026-05-09",
-      "value": 0.035826
-    },
-    {
-      "date": "2026-05-09",
-      "value": 0.032167
-    },
-    {
-      "date": "2026-05-09",
-      "value": 0.032167
-    },
-    {
-      "date": "2026-05-09",
-      "value": 0.032471
-    },
-    {
-      "date": "2026-05-10",
-      "value": 0.03687
-    },
-    {
-      "date": "2026-05-10",
-      "value": 0.037667
-    },
-    {
-      "date": "2026-05-10",
-      "value": 0.037667
-    },
-    {
-      "date": "2026-05-10",
-      "value": 0.044118
-    },
-    {
-      "date": "2026-05-11",
-      "value": 0.029174
-    },
-    {
-      "date": "2026-05-11",
-      "value": 0.025958
-    },
-    {
-      "date": "2026-05-11",
-      "value": 0.025958
-    },
-    {
-      "date": "2026-05-11",
-      "value": 0.023529
-    },
     {
       "date": "2026-05-12",
       "value": 0.035043
@@ -444,13 +332,13 @@
     }
   ],
   "source": "EPA Air Quality System (AQS) API \u2014 daily ozone, Guilford County NC",
-  "fetchedAt": "2026-08-03T14:50:54.667024+00:00",
+  "fetchedAt": "2026-08-10T13:19:55.090372+00:00",
   "status": "live",
   "citation": {
     "sourceType": "external",
     "publisher": "U.S. Environmental Protection Agency",
     "title": "AQS daily summary data \u2014 Ozone (44201), Guilford County, NC",
     "url": "https://aqs.epa.gov/aqsweb/documents/data_api.html",
-    "retrievedDate": "2026-08-03"
+    "retrievedDate": "2026-08-10"
   }
 }
