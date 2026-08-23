@@ -1,6 +1,6 @@
 {
   "source": "GTA (Greensboro Transit Authority) GTFS + GTFS-Realtime, via trackmygta.com (GMV Syncromatics)",
-  "fetchedAt": "2026-08-22T06:17:30.013765+00:00",
+  "fetchedAt": "2026-08-23T06:19:20.638637+00:00",
   "targetRoute": {
     "shortName": "CMP",
     "longName": "CrossMax Purple"
@@ -34,10 +34,10 @@
     }
   },
   "liveVehiclePositions": {
-    "feedTimestampUtc": "2026-08-22T06:17:29+00:00",
-    "totalActiveVehicles": 6,
+    "feedTimestampUtc": "2026-08-23T06:19:20+00:00",
+    "totalActiveVehicles": 5,
     "activeVehiclesByRoute": {
-      "HT": 3,
+      "HT": 2,
       "11": 1,
       "15": 1,
       "17": 1
@@ -51,6 +51,6 @@
     "publisher": "Greensboro Transit Authority / GMV Syncromatics",
     "title": "GTA GTFS static feed and GTFS-Realtime vehicle positions/alerts feeds",
     "url": "https://trackmygta.com/gtfs",
-    "retrievedDate": "2026-08-22"
+    "retrievedDate": "2026-08-23"
   }
 }
