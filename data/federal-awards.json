@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-17T13:56:27.770587+00:00",
+  "generatedAt": "2026-08-24T14:08:18.476555+00:00",
   "methodology": "Only award IDs already confirmed in funding.json are queried; IDs are never guessed. A failed refresh preserves the last successful record.",
   "awards": [
     {
       "awardId": "ASST_NON_DESE0000196_089",
       "fundingPath": "funding.grants[0]",
       "sourceUrl": "https://api.usaspending.gov/api/v2/awards/ASST_NON_DESE0000196_089/",
-      "retrievedAt": "2026-08-17T13:56:27.770587+00:00",
-      "lastSuccessfulFetch": "2026-08-17T13:56:27.770587+00:00",
+      "retrievedAt": "2026-08-24T14:08:18.476555+00:00",
+      "lastSuccessfulFetch": "2026-08-24T14:08:18.476555+00:00",
       "freshnessState": "current",
       "totalObligation": 314150.0,
       "totalOutlay": 95757.07,
@@ -54,14 +54,14 @@
             "beneficiary_eligibility": "Individuals and families.",
             "cfda_federal_agency": "ENERGY, DEPARTMENT OF, ENERGY, DEPARTMENT OF",
             "cfda_number": "81.128",
-            "cfda_objectives": "The program provides financial and technical assistance to assist State and local governments create and implement a variety of energy efficiency and conservation projects.   The programâ€™s objectives are:\n* To reduce fossil fuel emissions created as a result of activities within the jurisdictions of eligible entities;\n* To reduce the total energy use of the eligible entities; and\n* To improve energy efficiency in the transportation, building, and other sectors.\n\nThis assistance was originally issued as part of the American Recovery and Reinvestment Act (ARRA) of 2009.  All ARRA funding expired by law on 09/30/2015.  However, this Assistance Listing is being employed again under the Infrastructure Investment and Jobs Act (aka Bipartisan Infrastructure Law [BIL]) of 2021.  Funding was made  available in fiscal year (FY) 2023.",
-            "cfda_obligations": "(Project Grants) FY 23$21,871,476.00; FY 24 est $181,917,850.00; FY 25 est $135,000,000.00; FY 22$0.00; FY 21$0.00; - 16 new awards were issued in FY23 and 274 new awards were issued in FY 24",
-            "cfda_popular_name": "EECBG",
-            "cfda_title": "Energy Efficiency and Conservation Block Grant Program (EECBG)",
-            "cfda_website": "http://www.eere.energy.gov",
+            "cfda_objectives": "The program provided financial and technical assistance to assist State and local governments create and implement a variety of energy efficiency and conservation projects. The program’s objectives were: * To reduce fossil fuel emissions created as a result of activities within the jurisdictions of eligible entities; * To reduce the total energy use of the eligible entities; and * To improve energy efficiency in the transportation, building, and other sectors. This assistance was originally issued as part of the American Recovery and Reinvestment Act (ARRA) of 2009. All ARRA funding expired by law on 09/30/2015. However, this Assistance Listing was employed again under the Infrastructure Investment and Jobs Act of 2021. Funding was last made available for new grants in 2023.",
+            "cfda_obligations": "(Grant) FY 24$181,917,850.00; FY 25$31,080,260.00; FY 26 est $0.00; - 16 new awards were issued in FY23 and 274 new awards were issued in FY 24",
+            "cfda_popular_name": "Energy Efficiency and Conservation Block Grant Program",
+            "cfda_title": "Energy Efficiency and Conservation Block Grant Program (EECBG) ",
+            "cfda_website": "https://www.energy.gov/cmei/scep/office-state-and-community-energy-programs",
             "federal_action_obligation_amount": 314150.0,
             "non_federal_funding_amount": 0.0,
-            "sam_website": "https://sam.gov/fal/4dc9cd34ace94f1790135e14cc31a4bb/view",
+            "sam_website": "https://sam.gov/fal/468ca9a2ae9d4a28b2299e67bf913505/view",
             "total_funding_amount": 314150.0
           }
         ],

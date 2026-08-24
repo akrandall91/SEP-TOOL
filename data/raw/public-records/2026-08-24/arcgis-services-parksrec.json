@@ -1,0 +1,18 @@
+{
+ "currentVersion": 10.91,
+ "folders": [],
+ "services": [
+  {
+   "name": "ParksRec/PD_2_MS",
+   "type": "MapServer"
+  },
+  {
+   "name": "ParksRec/PiedmontDiscovery_MS",
+   "type": "MapServer"
+  },
+  {
+   "name": "ParksRec/TrailGreenways_Trailhead_MS",
+   "type": "MapServer"
+  }
+ ]
+}
