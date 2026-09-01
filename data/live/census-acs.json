@@ -1,6 +1,6 @@
 {
   "source": "Census ACS 5-Year Estimates 2022, tract-level, Guilford County NC",
-  "fetchedAt": "2026-08-01T14:27:14.335750+00:00",
+  "fetchedAt": "2026-09-01T17:11:48.312772+00:00",
   "tractCount": 125,
   "highestPovertyTracts": [
     {
@@ -971,6 +971,6 @@
     "publisher": "U.S. Census Bureau",
     "title": "American Community Survey 5-Year Estimates, 2022 \u2014 Guilford County, NC tracts",
     "url": "https://api.census.gov/data/2022/acs/acs5",
-    "retrievedDate": "2026-08-01"
+    "retrievedDate": "2026-09-01"
   }
 }
