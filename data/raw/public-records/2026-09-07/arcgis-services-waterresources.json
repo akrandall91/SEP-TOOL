@@ -1,0 +1,62 @@
+{
+ "currentVersion": 10.91,
+ "folders": [],
+ "services": [
+  {
+   "name": "WaterResources/AdoptAStream_MS",
+   "type": "MapServer"
+  },
+  {
+   "name": "WaterResources/AMIMeterChangeOutsPublicViewer_MS",
+   "type": "MapServer"
+  },
+  {
+   "name": "WaterResources/DesignatedWatershed_MS",
+   "type": "MapServer"
+  },
+  {
+   "name": "WaterResources/EnquestaServiceLink_MS",
+   "type": "MapServer"
+  },
+  {
+   "name": "WaterResources/GeneralBasemapNoOrthos_MS",
+   "type": "MapServer"
+  },
+  {
+   "name": "WaterResources/HydrantFlowRequests_MS",
+   "type": "MapServer"
+  },
+  {
+   "name": "WaterResources/LeadCopperSurvey_MS",
+   "type": "MapServer"
+  },
+  {
+   "name": "WaterResources/SCMSelfReporting_MS",
+   "type": "MapServer"
+  },
+  {
+   "name": "WaterResources/StormwaterRAIN_MS",
+   "type": "MapServer"
+  },
+  {
+   "name": "WaterResources/UnidirectionalFlushing_MS",
+   "type": "MapServer"
+  },
+  {
+   "name": "WaterResources/WaterDistributionSampling_MS",
+   "type": "FeatureServer"
+  },
+  {
+   "name": "WaterResources/WaterDistributionSampling_MS",
+   "type": "MapServer"
+  },
+  {
+   "name": "WaterResources/WaterSewerRehabPublicViewer_MS",
+   "type": "MapServer"
+  },
+  {
+   "name": "WaterResources/WQIPublicViewer_MS",
+   "type": "MapServer"
+  }
+ ]
+}

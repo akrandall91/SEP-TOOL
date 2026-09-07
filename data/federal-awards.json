@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-08-31T19:32:21.926878+00:00",
+  "generatedAt": "2026-09-07T18:17:49.674656+00:00",
   "methodology": "Only award IDs already confirmed in funding.json are queried; IDs are never guessed. A failed refresh preserves the last successful record.",
   "awards": [
     {
       "awardId": "ASST_NON_DESE0000196_089",
       "fundingPath": "funding.grants[0]",
       "sourceUrl": "https://api.usaspending.gov/api/v2/awards/ASST_NON_DESE0000196_089/",
-      "retrievedAt": "2026-08-31T19:32:21.926878+00:00",
-      "lastSuccessfulFetch": "2026-08-31T19:32:21.926878+00:00",
+      "retrievedAt": "2026-09-07T18:17:49.674656+00:00",
+      "lastSuccessfulFetch": "2026-09-07T18:17:49.674656+00:00",
       "freshnessState": "current",
       "totalObligation": 314150.0,
-      "totalOutlay": 95757.07,
+      "totalOutlay": 164603.07,
       "dateSigned": "2024-12-17",
       "description": "“ENERGY EFFICIENCY AND CONSERVATION BLOCK GRANT (EECBG) PROGRAM, BIPARTISAN INFRASTRUCTURE LAW (BIL) \nSECTION 40552”  \n\n“THE ENERGY EFFICIENCY AND CONSERVATION BLOCK GRANT (EECBG) PROGRAM IS DESIGNED TO ASSIST STATES, LOCAL \nGOVERNMENTS, AND TRIBES IN IMPLEMENTING STRATEGIES TO REDUCE ENERGY USE, TO REDUCE FOSSIL FUEL EMISSIONS, \nAND TO IMPROVE ENERGY EFFICIENCY.”",
       "recipient": null,
@@ -33,12 +33,12 @@
         "base_exercised_options": null,
         "non_federal_funding": 0.0,
         "total_funding": 314150.0,
-        "total_account_outlay": 95757.07,
+        "total_account_outlay": 164603.07,
         "total_account_obligation": 314150.0,
         "account_outlays_by_defc": [
           {
             "code": "Z",
-            "amount": 95757.07
+            "amount": 164603.07
           }
         ],
         "account_obligations_by_defc": [
@@ -175,7 +175,7 @@
           "foreign_province": null,
           "foreign_postal_code": null
         },
-        "total_outlay": 95757.07,
+        "total_outlay": 164603.07,
         "funding_opportunity": {
           "number": "NOT APPLICABLE",
           "goals": "NOT APPLICABLE"
