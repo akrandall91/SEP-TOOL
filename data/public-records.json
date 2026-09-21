@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-14T18:42:55.048630+00:00",
-  "rawSnapshotDirectory": "data/raw/public-records/2026-09-14",
+  "generatedAt": "2026-09-21T18:46:58.637339+00:00",
+  "rawSnapshotDirectory": "data/raw/public-records/2026-09-21",
   "methodology": "Discovery only. Records do not change goal status or funding until an analyst approves a source-supported link.",
   "datasets": [
     {
@@ -8,11 +8,11 @@
       "name": "Official SEP and annual reports",
       "sourceUrl": "https://www.greensboro-nc.gov/departments/office-of-sustainability-and-resilience/strategic-energy-plan",
       "resolvedUrl": "https://www.greensboro-nc.gov/departments/office-of-sustainability-and-resilience/strategic-energy-plan",
-      "retrievedAt": "2026-09-14T18:42:55.048630+00:00",
-      "lastSuccessfulFetch": "2026-09-14T18:42:55.048630+00:00",
+      "retrievedAt": "2026-09-21T18:46:58.637339+00:00",
+      "lastSuccessfulFetch": "2026-09-21T18:46:58.637339+00:00",
       "freshnessState": "current",
       "accessMethod": "checked_in_rendered_browser_manifest",
-      "contentSha256": "ec6d1cc9886dded4aeec01e65fab46905865ce935a6a237379e67844b4d3faff",
+      "contentSha256": "829c5748170829ec4148a4fbd10b625fa74372f5e7b8e32308ea835413856148",
       "recordCount": 5,
       "downloadedCount": 4,
       "crossReferencedCount": 1,
@@ -74,11 +74,11 @@
       "name": "Capital Improvements Program",
       "sourceUrl": "https://www.greensboro-nc.gov/departments/budget-evaluation/capital-improvements-program-cip",
       "resolvedUrl": "https://www.greensboro-nc.gov/departments/budget-evaluation/capital-improvements-program-cip",
-      "retrievedAt": "2026-09-14T18:42:55.048630+00:00",
-      "lastSuccessfulFetch": "2026-09-14T18:42:55.048630+00:00",
+      "retrievedAt": "2026-09-21T18:46:58.637339+00:00",
+      "lastSuccessfulFetch": "2026-09-21T18:46:58.637339+00:00",
       "freshnessState": "current",
       "accessMethod": "checked_in_rendered_browser_manifest",
-      "contentSha256": "9531ec218618ff5f9f47f6cf6b4c1670b61c7feb793ebe3475396c3e6e796435",
+      "contentSha256": "3fa0d90e374d103b3bf8c7a7af430faed5a152f083f88641b1494adaebb8e774",
       "recordCount": 16,
       "downloadedCount": 0,
       "crossReferencedCount": 16,
@@ -205,11 +205,11 @@
       "name": "Adopted budgets",
       "sourceUrl": "https://www.greensboro-nc.gov/departments/budget-evaluation/learn-about-the-city-budget",
       "resolvedUrl": "https://www.greensboro-nc.gov/departments/budget-evaluation/learn-about-the-city-budget",
-      "retrievedAt": "2026-09-14T18:42:55.048630+00:00",
-      "lastSuccessfulFetch": "2026-09-14T18:42:55.048630+00:00",
+      "retrievedAt": "2026-09-21T18:46:58.637339+00:00",
+      "lastSuccessfulFetch": "2026-09-21T18:46:58.637339+00:00",
       "freshnessState": "current",
       "accessMethod": "checked_in_rendered_browser_manifest",
-      "contentSha256": "d2581bfe3a8e432a675a4a5fb2660a9298698b193a056115a857e732c156540b",
+      "contentSha256": "c66255a971ee886766bd35134e5746dfb56396c39b5202dc3ad36843867c89bd",
       "recordCount": 8,
       "downloadedCount": 0,
       "crossReferencedCount": 8,
@@ -280,11 +280,11 @@
       "name": "Engineering and Inspections contracts",
       "sourceUrl": "https://www.greensboro-nc.gov/departments/engineering-inspections/developers-contractors/available-contracts",
       "resolvedUrl": "https://www.greensboro-nc.gov/departments/engineering-inspections/developers-contractors/available-contracts",
-      "retrievedAt": "2026-09-14T18:42:55.048630+00:00",
-      "lastSuccessfulFetch": "2026-09-14T18:42:55.048630+00:00",
+      "retrievedAt": "2026-09-21T18:46:58.637339+00:00",
+      "lastSuccessfulFetch": "2026-09-21T18:46:58.637339+00:00",
       "freshnessState": "current",
       "accessMethod": "checked_in_rendered_browser_manifest",
-      "contentSha256": "09e46d6681f24feb3f761e5a17332dfb4e681b727e6d8f6a83f772fbbe0763e0",
+      "contentSha256": "81380c3dc93cd2f1d11069367a193fb96a62fcc027a598819e60a27b00895f65",
       "recordCount": 90,
       "downloadedCount": 0,
       "crossReferencedCount": 90,
@@ -929,11 +929,11 @@
       "name": "Water Resources contracts",
       "sourceUrl": "https://www.greensboro-nc.gov/departments/water-resources/available-contracts",
       "resolvedUrl": "https://www.greensboro-nc.gov/departments/water-resources/available-contracts",
-      "retrievedAt": "2026-09-14T18:42:55.048630+00:00",
-      "lastSuccessfulFetch": "2026-09-14T18:42:55.048630+00:00",
+      "retrievedAt": "2026-09-21T18:46:58.637339+00:00",
+      "lastSuccessfulFetch": "2026-09-21T18:46:58.637339+00:00",
       "freshnessState": "current",
       "accessMethod": "checked_in_rendered_browser_manifest",
-      "contentSha256": "d871b205850f9f93d79b0cc81f0efeab6addd2ac3e4d7bf840dc08bb4fa6ef4f",
+      "contentSha256": "22ea56b0bd47f5adeeddb6cc0210b98521c9cadd37148fd7402c11de894ee629",
       "recordCount": 93,
       "downloadedCount": 0,
       "crossReferencedCount": 93,
@@ -1599,11 +1599,11 @@
       "name": "Community Sustainability Council",
       "sourceUrl": "https://www.greensboro-nc.gov/departments/office-of-sustainability-and-resilience/community-sustainability-council-csc/-folder-1982",
       "resolvedUrl": "https://www.greensboro-nc.gov/departments/office-of-sustainability-and-resilience/community-sustainability-council-csc/-folder-1982",
-      "retrievedAt": "2026-09-14T18:42:55.048630+00:00",
-      "lastSuccessfulFetch": "2026-09-14T18:42:55.048630+00:00",
+      "retrievedAt": "2026-09-21T18:46:58.637339+00:00",
+      "lastSuccessfulFetch": "2026-09-21T18:46:58.637339+00:00",
       "freshnessState": "current",
       "accessMethod": "checked_in_rendered_browser_manifest",
-      "contentSha256": "836e640c5b33efd2776d900cba7015dcf76c194b43208de5a4457095a227910a",
+      "contentSha256": "6d13fb323b2caa18661ff91a7ddf7e87e30ccada040bbf7d86d4fcdd044314d8",
       "recordCount": 1,
       "downloadedCount": 0,
       "crossReferencedCount": 1,
@@ -1625,11 +1625,11 @@
       "name": "American Rescue Plan projects",
       "sourceUrl": "https://www.greensboro-nc.gov/government/city-council/american-rescue-plan",
       "resolvedUrl": "https://www.greensboro-nc.gov/government/city-council/american-rescue-plan",
-      "retrievedAt": "2026-09-14T18:42:55.048630+00:00",
-      "lastSuccessfulFetch": "2026-09-14T18:42:55.048630+00:00",
+      "retrievedAt": "2026-09-21T18:46:58.637339+00:00",
+      "lastSuccessfulFetch": "2026-09-21T18:46:58.637339+00:00",
       "freshnessState": "current",
       "accessMethod": "checked_in_rendered_browser_manifest",
-      "contentSha256": "eabb8e094ece2f223443c357c525ec67772851f0d6c96a54ba891f5d1d21be1e",
+      "contentSha256": "a8bbfcef7fed7cb9c1257ba813e89b9b71941f23dbac70a00212ab1860827ed3",
       "recordCount": 15,
       "downloadedCount": 0,
       "crossReferencedCount": 15,
@@ -1748,11 +1748,11 @@
       "id": "solar-storage-permits",
       "name": "Solar and battery-storage permit candidates",
       "sourceUrl": "https://gis.greensboro-nc.gov/arcgis/rest/services/EngineeringInspections/BuildingPermits_MS/MapServer/6",
-      "retrievedAt": "2026-09-14T18:42:55.048630+00:00",
-      "lastSuccessfulFetch": "2026-09-14T18:42:55.048630+00:00",
+      "retrievedAt": "2026-09-21T18:46:58.637339+00:00",
+      "lastSuccessfulFetch": "2026-09-21T18:46:58.637339+00:00",
       "freshnessState": "current",
       "recordGrain": "privacy_safe_aggregate",
-      "recordCount": 1436,
+      "recordCount": 1438,
       "aggregateRecordCount": 727,
       "records": [
         {
@@ -5729,6 +5729,12 @@
         },
         {
           "issuedYear": "2026",
+          "censusTract": "106.01",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "2026",
           "censusTract": "106.02",
           "finalCO": "Unknown",
           "candidatePermitCount": 1
@@ -5825,6 +5831,12 @@
         },
         {
           "issuedYear": "2026",
+          "censusTract": "127.03",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2026",
           "censusTract": "127.04",
           "finalCO": "Unknown",
           "candidatePermitCount": 1
@@ -5875,7 +5887,7 @@
           "issuedYear": "2026",
           "censusTract": "153.02",
           "finalCO": "Unknown",
-          "candidatePermitCount": 3
+          "candidatePermitCount": 4
         },
         {
           "issuedYear": "2026",
@@ -5887,7 +5899,7 @@
           "issuedYear": "2026",
           "censusTract": "154.02",
           "finalCO": "Unknown",
-          "candidatePermitCount": 1
+          "candidatePermitCount": 2
         },
         {
           "issuedYear": "2026",
@@ -5963,12 +5975,6 @@
         },
         {
           "issuedYear": "Unknown",
-          "censusTract": "106.01",
-          "finalCO": "Unknown",
-          "candidatePermitCount": 1
-        },
-        {
-          "issuedYear": "Unknown",
           "censusTract": "112.02",
           "finalCO": "Unknown",
           "candidatePermitCount": 1
@@ -5999,6 +6005,12 @@
         },
         {
           "issuedYear": "Unknown",
+          "censusTract": "125.09",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 1
+        },
+        {
+          "issuedYear": "Unknown",
           "censusTract": "126.10",
           "finalCO": "Unknown",
           "candidatePermitCount": 2
@@ -6020,12 +6032,6 @@
           "censusTract": "126.21",
           "finalCO": "Unknown",
           "candidatePermitCount": 1
-        },
-        {
-          "issuedYear": "Unknown",
-          "censusTract": "127.03",
-          "finalCO": "Unknown",
-          "candidatePermitCount": 2
         },
         {
           "issuedYear": "Unknown",
@@ -6053,15 +6059,9 @@
         },
         {
           "issuedYear": "Unknown",
-          "censusTract": "153.02",
-          "finalCO": "Unknown",
-          "candidatePermitCount": 1
-        },
-        {
-          "issuedYear": "Unknown",
           "censusTract": "154.02",
           "finalCO": "Unknown",
-          "candidatePermitCount": 3
+          "candidatePermitCount": 2
         },
         {
           "issuedYear": "Unknown",
@@ -6097,7 +6097,7 @@
           "issuedYear": "Unknown",
           "censusTract": "160.09",
           "finalCO": "Unknown",
-          "candidatePermitCount": 1
+          "candidatePermitCount": 2
         },
         {
           "issuedYear": "Unknown",
@@ -6144,8 +6144,8 @@
       "id": "ev-charging-permits",
       "name": "Electric-vehicle charging permit candidates",
       "sourceUrl": "https://gis.greensboro-nc.gov/arcgis/rest/services/EngineeringInspections/BuildingPermits_MS/MapServer/6",
-      "retrievedAt": "2026-09-14T18:42:55.048630+00:00",
-      "lastSuccessfulFetch": "2026-09-14T18:42:55.048630+00:00",
+      "retrievedAt": "2026-09-21T18:46:58.637339+00:00",
+      "lastSuccessfulFetch": "2026-09-21T18:46:58.637339+00:00",
       "freshnessState": "current",
       "recordGrain": "privacy_safe_aggregate",
       "recordCount": 23,
@@ -6303,8 +6303,8 @@
       "id": "hvac-efficiency-permits",
       "name": "HVAC and building-efficiency permit candidates",
       "sourceUrl": "https://gis.greensboro-nc.gov/arcgis/rest/services/EngineeringInspections/BuildingPermits_MS/MapServer/6",
-      "retrievedAt": "2026-09-14T18:42:55.048630+00:00",
-      "lastSuccessfulFetch": "2026-09-14T18:42:55.048630+00:00",
+      "retrievedAt": "2026-09-21T18:46:58.637339+00:00",
+      "lastSuccessfulFetch": "2026-09-21T18:46:58.637339+00:00",
       "freshnessState": "current",
       "recordGrain": "privacy_safe_aggregate",
       "recordCount": 490,
@@ -8232,6 +8232,12 @@
         },
         {
           "issuedYear": "2026",
+          "censusTract": "125.08",
+          "finalCO": "Unknown",
+          "candidatePermitCount": 2
+        },
+        {
+          "issuedYear": "2026",
           "censusTract": "125.11",
           "finalCO": "Y",
           "candidatePermitCount": 1
@@ -8257,7 +8263,7 @@
         {
           "issuedYear": "2026",
           "censusTract": "157.06",
-          "finalCO": "Unknown",
+          "finalCO": "Y",
           "candidatePermitCount": 1
         },
         {
@@ -8307,12 +8313,6 @@
           "censusTract": "107.02",
           "finalCO": "Unknown",
           "candidatePermitCount": 1
-        },
-        {
-          "issuedYear": "Unknown",
-          "censusTract": "125.08",
-          "finalCO": "Unknown",
-          "candidatePermitCount": 2
         },
         {
           "issuedYear": "Unknown",
@@ -8391,8 +8391,8 @@
       "id": "lighting-permits",
       "name": "LED and lighting-efficiency permit candidates",
       "sourceUrl": "https://gis.greensboro-nc.gov/arcgis/rest/services/EngineeringInspections/BuildingPermits_MS/MapServer/6",
-      "retrievedAt": "2026-09-14T18:42:55.048630+00:00",
-      "lastSuccessfulFetch": "2026-09-14T18:42:55.048630+00:00",
+      "retrievedAt": "2026-09-21T18:46:58.637339+00:00",
+      "lastSuccessfulFetch": "2026-09-21T18:46:58.637339+00:00",
       "freshnessState": "current",
       "recordGrain": "privacy_safe_aggregate",
       "recordCount": 1,
@@ -8429,8 +8429,8 @@
       "id": "water-equipment-permits",
       "name": "Water and wastewater energy-equipment permit candidates",
       "sourceUrl": "https://gis.greensboro-nc.gov/arcgis/rest/services/EngineeringInspections/BuildingPermits_MS/MapServer/6",
-      "retrievedAt": "2026-09-14T18:42:55.048630+00:00",
-      "lastSuccessfulFetch": "2026-09-14T18:42:55.048630+00:00",
+      "retrievedAt": "2026-09-21T18:46:58.637339+00:00",
+      "lastSuccessfulFetch": "2026-09-21T18:46:58.637339+00:00",
       "freshnessState": "current",
       "recordGrain": "privacy_safe_aggregate",
       "recordCount": 15,
@@ -8534,8 +8534,8 @@
       "id": "arcgis-service-inventory",
       "name": "SEP-relevant Greensboro GIS service inventory",
       "sourceUrl": "https://gis.greensboro-nc.gov/arcgis/rest/services",
-      "retrievedAt": "2026-09-14T18:42:55.048630+00:00",
-      "lastSuccessfulFetch": "2026-09-14T18:42:55.048630+00:00",
+      "retrievedAt": "2026-09-21T18:46:58.637339+00:00",
+      "lastSuccessfulFetch": "2026-09-21T18:46:58.637339+00:00",
       "freshnessState": "current",
       "recordGrain": "service_metadata",
       "recordCount": 31,
