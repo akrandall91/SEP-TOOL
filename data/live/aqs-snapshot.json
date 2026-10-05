@@ -1,40 +1,14 @@
 {
-  "hasData": true,
-  "latestReading": {
-    "date": "2026-06-30",
-    "siteName": "Mendenhall School",
-    "arithmeticMean": 0.036174,
-    "units": "Parts per million",
-    "aqi": null,
-    "monitorType": null
-  },
-  "readingCount": 4,
-  "series": [
-    {
-      "date": "2026-06-30",
-      "value": 0.036174
-    },
-    {
-      "date": "2026-06-30",
-      "value": 0.038263
-    },
-    {
-      "date": "2026-06-30",
-      "value": 0.038263
-    },
-    {
-      "date": "2026-06-30",
-      "value": 0.045167
-    }
-  ],
+  "hasData": false,
+  "note": "No AQS rows returned for the requested date range.",
   "source": "EPA Air Quality System (AQS) API \u2014 daily ozone, Guilford County NC",
-  "fetchedAt": "2026-09-28T19:28:58.579408+00:00",
+  "fetchedAt": "2026-10-05T20:31:08.141057+00:00",
   "status": "live",
   "citation": {
     "sourceType": "external",
     "publisher": "U.S. Environmental Protection Agency",
     "title": "AQS daily summary data \u2014 Ozone (44201), Guilford County, NC",
     "url": "https://aqs.epa.gov/aqsweb/documents/data_api.html",
-    "retrievedDate": "2026-09-28"
+    "retrievedDate": "2026-10-05"
   }
 }
