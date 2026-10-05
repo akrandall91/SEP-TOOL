@@ -1,6 +1,6 @@
 {
   "source": "Greensboro Legistar Web API (webapi.legistar.com/v1/greensboro)",
-  "fetchedAt": "2026-09-28T20:02:19.260254+00:00",
+  "fetchedAt": "2026-10-05T21:01:40.754934+00:00",
   "matters": {
     "sep_authorizing_resolution": {
       "matterId": 6283,
@@ -141,6 +141,6 @@
     "publisher": "City of Greensboro / Legistar (Granicus)",
     "title": "Legistar Web API — matters, matter history/votes",
     "url": "https://webapi.legistar.com/v1/greensboro",
-    "retrievedDate": "2026-09-28"
+    "retrievedDate": "2026-10-05"
   }
 }
