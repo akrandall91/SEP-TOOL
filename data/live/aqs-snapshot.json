@@ -2,13 +2,13 @@
   "hasData": false,
   "note": "No AQS rows returned for the requested date range.",
   "source": "EPA Air Quality System (AQS) API \u2014 daily ozone, Guilford County NC",
-  "fetchedAt": "2026-10-05T20:31:08.141057+00:00",
+  "fetchedAt": "2026-10-12T21:07:40.839833+00:00",
   "status": "live",
   "citation": {
     "sourceType": "external",
     "publisher": "U.S. Environmental Protection Agency",
     "title": "AQS daily summary data \u2014 Ozone (44201), Guilford County, NC",
     "url": "https://aqs.epa.gov/aqsweb/documents/data_api.html",
-    "retrievedDate": "2026-10-05"
+    "retrievedDate": "2026-10-12"
   }
 }
