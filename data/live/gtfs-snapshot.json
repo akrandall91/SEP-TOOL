@@ -1,6 +1,6 @@
 {
   "source": "GTA (Greensboro Transit Authority) GTFS + GTFS-Realtime, via trackmygta.com (GMV Syncromatics)",
-  "fetchedAt": "2026-10-13T13:01:58.455267+00:00",
+  "fetchedAt": "2026-10-14T10:43:01.980041+00:00",
   "targetRoute": {
     "shortName": "CMP",
     "longName": "CrossMax Purple"
@@ -34,28 +34,27 @@
     }
   },
   "liveVehiclePositions": {
-    "feedTimestampUtc": "2026-10-13T13:01:58+00:00",
-    "totalActiveVehicles": 32,
+    "feedTimestampUtc": "2026-10-14T10:43:01+00:00",
+    "totalActiveVehicles": 31,
     "activeVehiclesByRoute": {
-      "15": 2,
-      "5": 2,
-      "4": 1,
       "8": 2,
-      "9": 1,
-      "11": 3,
-      "CMP": 9,
+      "4": 2,
+      "15": 1,
+      "12": 2,
+      "11": 2,
       "14": 1,
-      "2": 1,
+      "CMP": 9,
+      "5": 2,
       "3": 1,
+      "2": 2,
+      "9": 1,
       "13": 2,
-      "7": 2,
       "6": 2,
-      "12": 1,
-      "HT": 1,
-      "Southtown": 1
+      "Southtown": 1,
+      "7": 1
     },
     "activeVehiclesOnTargetRoute": 9,
-    "activeServiceAlerts": 3
+    "activeServiceAlerts": 0
   },
   "comparisonNote": "The 2024 Progress Report describes CrossMax Purple as '10,000 riders/week, 15-minute service.' GTFS/GTFS-RT carry schedule and live-vehicle data only \u2014 no ridership figures exist in either feed, so the 10,000-riders/week claim cannot be checked here and is not restated as verified. The 15-minute-service claim is checked against the static schedule's own weekday departure times \u2014 see weekdayHeadway.headwayMinutes for the actual computed mean/median/distribution, which may show a non-uniform pattern rather than a flat 15-minute clock-face headway.",
   "citation": {
@@ -63,6 +62,6 @@
     "publisher": "Greensboro Transit Authority / GMV Syncromatics",
     "title": "GTA GTFS static feed and GTFS-Realtime vehicle positions/alerts feeds",
     "url": "https://trackmygta.com/gtfs",
-    "retrievedDate": "2026-10-13"
+    "retrievedDate": "2026-10-14"
   }
 }
