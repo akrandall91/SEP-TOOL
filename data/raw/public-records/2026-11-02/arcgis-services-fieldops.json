@@ -1,0 +1,14 @@
+{
+ "currentVersion": 10.91,
+ "folders": [],
+ "services": [
+  {
+   "name": "FieldOps/Resurfacing_MS",
+   "type": "MapServer"
+  },
+  {
+   "name": "FieldOps/Solid_Waste_MS",
+   "type": "MapServer"
+  }
+ ]
+}
