@@ -1,0 +1,10 @@
+{
+ "currentVersion": 11.5,
+ "folders": [],
+ "services": [
+  {
+   "name": "Budget/InvestmentsbyCCdistrict_MS",
+   "type": "MapServer"
+  }
+ ]
+}
