@@ -1,0 +1,22 @@
+{
+ "currentVersion": 11.5,
+ "folders": [],
+ "services": [
+  {
+   "name": "Utilities/Geometry",
+   "type": "GeometryServer"
+  },
+  {
+   "name": "Utilities/PrintingTools",
+   "type": "GPServer"
+  },
+  {
+   "name": "Utilities/RasterUtilities",
+   "type": "GPServer"
+  },
+  {
+   "name": "Utilities/Symbols",
+   "type": "SymbolServer"
+  }
+ ]
+}
